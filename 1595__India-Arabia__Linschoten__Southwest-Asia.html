@@ -6,7 +6,7 @@
 <script>(function(){try{var t=sessionStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='dark'?'dark':'light');}catch(e){document.documentElement.setAttribute('data-theme','light');}})();</script>
 <link rel="stylesheet" href="style.css">
 </head><body>
-<div class="masthead"><a class="site" href="index.html">The European Gaze: India through European Maps</a>
+<div class="masthead"><a class="site" href="index.html">The European Gaze on India</a>
 <span class="yrs">1519 – 1946</span>
 <a class="navlink" href="about.html">About</a>
 <button class="theme-toggle" id="themeBtn" aria-label="Toggle light or dark theme">Theme</button></div>
@@ -29,7 +29,10 @@
 <p>This is the gaze of the rival pilot: India seen as a coastline to be reached, traded with and contested. Knowledge here is explicitly strategic — a stolen advantage converted into a printed instrument of commerce and, soon, of empire.</p></div>
     <dl class="meta"><dt>Author</dt><dd>Linschoten, Jan Huygen van, 1563-1611; Paludanus, Bernard, 1550-1633</dd><dt>Date</dt><dd>1595</dd><dt>Type</dt><dd>Book Map</dd><dt>Publisher</dt><dd>Chez Evert Cloppenburgh</dd><dt>Place</dt><dd>Amsterdam</dd><dt>Dimensions</dt><dd>40 × 54 cm</dd><dt>Engraver</dt><dd>Henricus F. ab Langren</dd></dl>
   </div>
-</div></div>
-<footer>Images courtesy of various open archives, including the David Rumsey Map Collection. An open, non-commercial study collection.</footer>
+</div>
+<nav class="mapnav"><a class="prev" href="1595__ClassicalAsia__Ortelius__Alexandri-Magni-Expeditio.html"><span class="dir">← Previous</span><span class="nt">xxxiiii) Alexandri Magni Macedonis Expeditio</span></a><a class="next" href="1597__IndianOcean__Ortelius__Erythraei-Maris-Periplus.html"><span class="dir">Next →</span><span class="nt">xxxvi) Erythraei Sive Rubri Maris Periplus</span></a></nav>
+</div>
+<script>(function(){var p=document.querySelector('.mapnav .prev'),n=document.querySelector('.mapnav .next');document.addEventListener('keydown',function(e){var t=(e.target.tagName||'');if(t==='INPUT'||t==='TEXTAREA')return;if(e.key==='ArrowLeft'&&p)location.href=p.getAttribute('href');if(e.key==='ArrowRight'&&n)location.href=n.getAttribute('href');});})();</script>
+<footer>Images courtesy of the David Rumsey Map Collection and other open archives. An open, non-commercial study collection.</footer>
 <script>(function(){var b=document.getElementById('themeBtn');if(!b)return;function lbl(){var d=document.documentElement.getAttribute('data-theme')==='dark';b.textContent=d?'Light':'Dark';}lbl();b.addEventListener('click',function(){var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',next);try{sessionStorage.setItem('theme',next);}catch(e){}lbl();});})();</script>
 </body></html>
