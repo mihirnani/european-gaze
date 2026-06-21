@@ -7,18 +7,44 @@
         <title>The European Gaze on India · 1519–1946</title>
         <script>
             (function () {
+                var theme = "dark";
+
                 try {
-                    var t = sessionStorage.getItem("theme");
-                    document.documentElement.setAttribute(
-                        "data-theme",
-                        t === "dark" ? "dark" : "light",
+                    var saved = sessionStorage.getItem("theme");
+                    if (saved === "light" || saved === "dark") {
+                        theme = saved;
+                    }
+                } catch (e) {}
+
+                document.documentElement.setAttribute("data-theme", theme);
+
+                window.toggleTheme = function () {
+                    var current =
+                        document.documentElement.getAttribute("data-theme");
+                    var next = current === "dark" ? "light" : "dark";
+
+                    document.documentElement.setAttribute("data-theme", next);
+
+                    try {
+                        sessionStorage.setItem("theme", next);
+                    } catch (e) {}
+
+                    window.updateThemeButton();
+                };
+
+                window.updateThemeButton = function () {
+                    var button = document.getElementById("themeBtn");
+                    if (!button) return;
+
+                    var current =
+                        document.documentElement.getAttribute("data-theme");
+
+                    button.textContent = current === "dark" ? "Light" : "Dark";
+                    button.setAttribute(
+                        "aria-pressed",
+                        current === "dark" ? "true" : "false",
                     );
-                } catch (e) {
-                    document.documentElement.setAttribute(
-                        "data-theme",
-                        "light",
-                    );
-                }
+                };
             })();
         </script>
         <link rel="stylesheet" href="style.css" />
@@ -31,9 +57,11 @@
             <button
                 class="theme-toggle"
                 id="themeBtn"
+                type="button"
+                onclick="toggleTheme()"
                 aria-label="Toggle light or dark theme"
             >
-                Theme
+                Light
             </button>
         </div>
 
@@ -124,15 +152,7 @@
             archives. An open, non-commercial study collection.
         </footer>
         <script>
-            (function () {
-                try {
-                    const saved = sessionStorage.getItem("theme");
-                    document.documentElement.dataset.theme =
-                        saved === "light" ? "light" : "dark";
-                } catch {
-                    document.documentElement.dataset.theme = "dark";
-                }
-            })();
+            updateThemeButton();
         </script>
     </body>
 </html>
