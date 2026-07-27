@@ -1,0 +1,26 @@
+{
+  "id": "/european-gaze/",
+  "name": "The European Gaze on India",
+  "short_name": "European Gaze",
+  "description": "An open study collection of European maps of India, 1519–1946.",
+  "start_url": "/european-gaze/index.html",
+  "scope": "/european-gaze/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0d0d0f",
+  "theme_color": "#0d0d0f",
+  "icons": [
+    {
+      "src": "european-gaze-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "european-gaze-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
