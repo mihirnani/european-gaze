@@ -1,5 +1,7 @@
-/* The European Gaze on India — offline PWA service worker */
-const VERSION = "v1";
+/* The European Gaze on India — offline PWA service worker
+   v2: image-cache failures can never block an image that loaded from the network.
+*/
+const VERSION = "v2";
 const PREFIX = "european-gaze-";
 const APP_CACHE = `${PREFIX}app-${VERSION}`;
 const PAGE_CACHE = `${PREFIX}pages-${VERSION}`;
@@ -32,10 +34,12 @@ self.addEventListener("install", (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(APP_CACHE);
 
-    // Cache each file independently: one missing chapter must not prevent installation.
+    // A missing optional file must not prevent the service worker installing.
     await Promise.allSettled(APP_SHELL.map(async (url) => {
       const response = await fetch(new Request(url, { cache: "reload" }));
-      if (response.ok) await cache.put(url, response);
+      if (response.ok) {
+        await cache.put(url, response);
+      }
     }));
 
     await self.skipWaiting();
@@ -70,7 +74,7 @@ self.addEventListener("fetch", (event) => {
   }
 
   if (sameOrigin && request.destination === "image") {
-    event.respondWith(cacheFirstImage(request));
+    event.respondWith(imageResponse(request, event));
     return;
   }
 
@@ -97,38 +101,65 @@ async function networkFirstPage(request) {
 
   try {
     const response = await fetch(request, { cache: "no-store" });
-    if (response.ok) await cache.put(request, response.clone());
+    if (response.ok) {
+      try {
+        await cache.put(request, response.clone());
+      } catch (error) {
+        // A cache quota/write error must not prevent the page loading online.
+      }
+    }
     return response;
   } catch (error) {
-    const cached =
+    return (
       (await cache.match(request)) ||
       (await caches.match(request)) ||
-      (await caches.match("./offline.html"));
-
-    return cached;
+      (await caches.match("./offline.html"))
+    );
   }
 }
 
-async function cacheFirstImage(request) {
+async function imageResponse(request, event) {
   const cache = await caches.open(IMAGE_CACHE);
   const cached = await cache.match(request);
+
+  // Previously cached images remain available immediately, including offline.
   if (cached) return cached;
 
   try {
+    // Do not attempt to cache partial/range responses.
     const response = await fetch(request);
     const length = Number(response.headers.get("content-length") || 0);
-
-    if (
+    const cacheable =
       response.ok &&
-      (!length || length <= MAX_IMAGE_BYTES)
-    ) {
-      await cache.put(request, response.clone());
-      await trimCache(IMAGE_CACHE, MAX_IMAGE_ENTRIES);
+      response.status === 200 &&
+      !request.headers.has("range") &&
+      (!length || length <= MAX_IMAGE_BYTES);
+
+    if (cacheable) {
+      // Crucial: caching happens separately. A Cache API/quota failure on iOS
+      // cannot turn a successfully fetched image into a broken image.
+      event.waitUntil(cacheImageSafely(request, response.clone()));
     }
 
     return response;
+  } catch (networkError) {
+    return (
+      (await cache.match(request)) ||
+      new Response("", {
+        status: 504,
+        statusText: "Image unavailable offline"
+      })
+    );
+  }
+}
+
+async function cacheImageSafely(request, response) {
+  try {
+    const cache = await caches.open(IMAGE_CACHE);
+    await cache.put(request, response);
+    await trimCache(IMAGE_CACHE, MAX_IMAGE_ENTRIES);
   } catch (error) {
-    return new Response("", { status: 504, statusText: "Image unavailable offline" });
+    // Storage pressure, large responses and iOS Cache API failures are non-fatal.
   }
 }
 
@@ -139,7 +170,11 @@ async function staleWhileRevalidate(request, cacheName) {
   const network = fetch(request)
     .then(async (response) => {
       if (response.ok || response.type === "opaque") {
-        await cache.put(request, response.clone());
+        try {
+          await cache.put(request, response.clone());
+        } catch (error) {
+          // Serve the network response even if it cannot be cached.
+        }
       }
       return response;
     })
