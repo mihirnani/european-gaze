@@ -1,155 +1,122 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <meta name="color-scheme" content="light dark" />
-        <title>The European Gaze on India · 1519–1946</title>
-        <script>
-            (function () {
-                try {
-                    var saved = sessionStorage.getItem("theme");
-                    document.documentElement.setAttribute(
-                        "data-theme",
-                        saved === "light" ? "light" : "dark",
-                    );
-                } catch (e) {
-                    document.documentElement.setAttribute("data-theme", "dark");
-                }
-            })();
-        </script>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <div class="masthead">
-            <a class="site" href="index.html">The European Gaze on India</a>
-            <span class="yrs">1519 – 1946</span>
-            <a class="navlink" href="about.html">About</a>
-            <button
-                class="theme-toggle"
-                id="themeBtn"
-                aria-label="Toggle light or dark theme"
-            >
-                Theme
-            </button>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#0d0d0f">
+  <title>Baroque, Mughals and Companies — The European Gaze on India</title>
+  <script>
+(function(){
+  try{
+    var t=sessionStorage.getItem('theme');
+    document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');
+  }catch(e){
+    document.documentElement.setAttribute('data-theme','dark');
+  }
+})();
+</script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="european-gaze.webmanifest">
+  <link rel="apple-touch-icon" href="european-gaze-icon-180.png">
+</head>
+<body>
+<div class="masthead">
+  <a class="site" href="index.html">The European Gaze on India</a>
+  <span class="yrs">1519 – 1946</span>
+  <a class="navlink" href="about.html">About</a>
+  <button class="theme-toggle" id="themeBtn" type="button"
+          aria-label="Toggle light or dark theme" aria-pressed="true">Theme</button>
+</div>
 
-        <div class="wrap hero">
-            <p class="eyebrow">An Open Map Collection</p>
-            <h1>The European Gaze<br />on India</h1>
-            <div class="rule"></div>
-            <p class="lede measure">
-                Four centuries of foreign maps, 1519–1946 — and what they reveal
-                about the eye behind the pen. A map records not only a land but
-                who is looking, what they want, and what they cannot yet see.
-            </p>
-            <div class="rooms">
-                <a class="room-row" href="01_Antiquity-and-Renaissance.html"
-                    ><span class="no">01</span
-                    ><span
-                        ><span class="ttl">Antiquity and Renaissance</span
-                        ><span class="desc"
-                            >Coastline and rumour — India inherited from Ptolemy
-                            and revealed, piecemeal, by Portuguese pilots.</span
-                        ></span
-                    ><span class="enter">Enter →</span></a
-                ><a
-                    class="room-row"
-                    href="02_Baroque-Mughals-and-Companies.html"
-                    ><span class="no">02</span
-                    ><span
-                        ><span class="ttl">The 'Great Mogol'</span
-                        ><span class="desc"
-                            >The empire of the "Great Mogul", drawn from the
-                            outside by French savants and Dutch traders.</span
-                        ></span
-                    ><span class="enter">Enter →</span></a
-                ><a class="room-row" href="03_The-Survey-Turn.html"
-                    ><span class="no">03</span
-                    ><span
-                        ><span class="ttl">The Survey Turn</span
-                        ><span class="desc"
-                            >Rennell and the surveyors: India stops being
-                            reported and starts being measured — and
-                            possessed.</span
-                        ></span
-                    ><span class="enter">Enter →</span></a
-                ><a
-                    class="room-row"
-                    href="04_Home-Ground-Bombay-and-Deccan.html"
-                    ><span class="no">04</span
-                    ><span
-                        ><span class="ttl">Home Ground: Bombay and Deccan</span
-                        ><span class="desc"
-                            >The gaze tightens to a region — harbour, district
-                            and city, down to the street corner.</span
-                        ></span
-                    ><span class="enter">Enter →</span></a
-                ><a
-                    class="room-row"
-                    href="05_Administered-Empire-and-Victorian-Atlas.html"
-                    ><span class="no">05</span
-                    ><span
-                        ><span class="ttl"
-                            >Administered Empire and Victorian Atlas</span
-                        ><span class="desc"
-                            >Empire as analysis: India counted, classified and
-                            coloured for the high-Victorian atlas.</span
-                        ></span
-                    ><span class="enter">Enter →</span></a
-                ><a class="room-row" href="06_The-Sea-and-the-Route.html"
-                    ><span class="no">06</span
-                    ><span
-                        ><span class="ttl">The Sea and the Route</span
-                        ><span class="desc"
-                            >The maritime thread — the ocean as Europe&#x27;s
-                            original approach to India, charted and
-                            re-charted.</span
-                        ></span
-                    ><span class="enter">Enter →</span></a
-                ><a class="room-row" href="07_Last-Frontiers.html"
-                    ><span class="no">07</span
-                    ><span
-                        ><span class="ttl">Last Frontiers</span
-                        ><span class="desc"></span></span
-                    ><span class="enter">Enter →</span></a
-                >
-            </div>
-        </div>
-        <footer>
-            Images courtesy of the David Rumsey Map Collection and other open
-            archives. An open, non-commercial study collection.
-        </footer>
-        <script>
-            (function () {
-                var b = document.getElementById("themeBtn");
-                if (!b) return;
+<div class="wrap">
+  <p><a class="back" href="index.html">← All rooms</a></p>
+  <div class="chapter-head measure">
+    <p class="eyebrow">Room 02</p>
+    <h1>Baroque, Mughals and Companies</h1>
+    <p class="intro">By the mid-seventeenth century, India is no longer chiefly a coastline at the edge of classical geography. European mapmakers increasingly organise the subcontinent around the Mughal court, the trading companies and the sea routes that connect them. French geographers impose a restrained political order; Dutch, German and Italian publishers turn that order into an atlas commodity. The gaze remains external, but it has become dynastic, commercial and confident: India as an empire to describe, a market to enter and a route to control.</p>
+  </div>
 
-                function lbl() {
-                    var dark =
-                        document.documentElement.getAttribute("data-theme") ===
-                        "dark";
-                    b.textContent = dark ? "Light" : "Dark";
-                }
+  <div class="grid">
+    <a class="plate" href="1654__India__Sanson__India-Below-and-Beyond-the-Ganges.html">
+      <span class="mat"><img loading="lazy" src="img/1654__India__Sanson__India-Below-and-Beyond-the-Ganges.jpg" alt="India below and beyond the Ganges, or the Empire of the Great Mogul"></span>
+      <span class="cap"><span class="t">India below and beyond the Ganges, or the Empire of the Great Mogul</span><span class="d">1654</span></span>
+    </a>
+    <a class="plate" href="1682__India__DuVal__Empire-du-Mogol.html">
+      <span class="mat"><img loading="lazy" src="img/1682__India__DuVal__Empire-du-Mogol.jpg" alt="Empire du Mogol"></span>
+      <span class="cap"><span class="t">Empire du Mogol</span><span class="d">1682</span></span>
+    </a>
+    <a class="plate" href="1702__Persia-India__Sanson__Old-Persia-and-Old-India.html">
+      <span class="mat"><img loading="lazy" src="img/1702__Persia-India__Sanson__Old-Persia-and-Old-India.jpg" alt="Old Persia and Old India"></span>
+      <span class="cap"><span class="t">Old Persia and Old India</span><span class="d">1702</span></span>
+    </a>
+    <a class="plate" href="1703__SEAsia__Sanson__India-and-Southeast-Asia.html">
+      <span class="mat"><img loading="lazy" src="img/1703__SEAsia__Sanson__India-and-Southeast-Asia.jpg" alt="India and Southeast Asia"></span>
+      <span class="cap"><span class="t">India and Southeast Asia</span><span class="d">1703</span></span>
+    </a>
+    <a class="plate" href="1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html">
+      <span class="mat"><img loading="lazy" src="img/1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.jpg" alt="The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands"></span>
+      <span class="cap"><span class="t">The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands</span><span class="d">1708</span></span>
+    </a>
+    <a class="plate" href="1719__India__Chatelain__Genealogie-des-Empereurs-Mogols.html">
+      <span class="mat"><img loading="lazy" src="img/1719__India__Chatelain__Genealogie-des-Empereurs-Mogols.jpg" alt="Genealogy of the Mughal Emperors"></span>
+      <span class="cap"><span class="t">Genealogy of the Mughal Emperors</span><span class="d">1719</span></span>
+    </a>
+    <a class="plate" href="1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html">
+      <span class="mat"><img loading="lazy" src="img/1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.jpg" alt="Carte nouvelle des terres au sud du Grand Mogol"></span>
+      <span class="cap"><span class="t">Carte nouvelle des terres au sud du Grand Mogol</span><span class="d">1719</span></span>
+    </a>
+    <a class="plate" href="1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html">
+      <span class="mat"><img loading="lazy" src="img/1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.jpg" alt="Malabar, Coromandel and Ceylon"></span>
+      <span class="cap"><span class="t">Malabar, Coromandel and Ceylon</span><span class="d">1733</span></span>
+    </a>
+    <a class="plate" href="1752__India__dAnville__lInde-Composite.html">
+      <span class="mat"><img loading="lazy" src="img/1752__India__dAnville__lInde-Composite.jpg" alt="L’Inde — composite"></span>
+      <span class="cap"><span class="t">L’Inde — composite</span><span class="d">1752</span></span>
+    </a>
+    <a class="plate" href="1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html">
+      <span class="mat"><img loading="lazy" src="img/1752__SouthIndia__dAnville__Carte-de-lInde-Southern.jpg" alt="Carte de l’Inde — southern sheets"></span>
+      <span class="cap"><span class="t">Carte de l’Inde — southern sheets</span><span class="d">1752</span></span>
+    </a>
+    <a class="plate" href="1763__India__Dury__East-Indies.html">
+      <span class="mat"><img loading="lazy" src="img/1763__India__Dury__East-Indies.jpg" alt="East Indies"></span>
+      <span class="cap"><span class="t">East Indies</span><span class="d">1763</span></span>
+    </a>
+    <a class="plate" href="1779__SEAsia__Santini-Robert__Les-Indes-Orientales.html">
+      <span class="mat"><img loading="lazy" src="img/1779__SEAsia__Santini-Robert__Les-Indes-Orientales.jpg" alt="Les Indes Orientales"></span>
+      <span class="cap"><span class="t">Les Indes Orientales</span><span class="d">1779</span></span>
+    </a>
+  </div>
+</div>
 
-                lbl();
-
-                b.addEventListener("click", function () {
-                    var next =
-                        document.documentElement.getAttribute("data-theme") ===
-                        "dark"
-                            ? "light"
-                            : "dark";
-
-                    document.documentElement.setAttribute("data-theme", next);
-
-                    try {
-                        sessionStorage.setItem("theme", next);
-                    } catch (e) {}
-
-                    lbl();
-                });
-            })();
-        </script>
-    </body>
+<footer>
+  Images courtesy of the David Rumsey Map Collection and other open archives.
+  An open, non-commercial study collection.
+</footer>
+<script>
+(function(){
+  var b=document.getElementById('themeBtn');
+  if(!b)return;
+  function lbl(){
+    var d=document.documentElement.getAttribute('data-theme')==='dark';
+    b.textContent=d?'Light':'Dark';
+    b.setAttribute('aria-pressed',d?'true':'false');
+  }
+  lbl();
+  b.addEventListener('click',function(){
+    var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
+    document.documentElement.setAttribute('data-theme',next);
+    try{sessionStorage.setItem('theme',next);}catch(e){}
+    lbl();
+  });
+})();
+</script>
+<script>
+if('serviceWorker' in navigator){
+  window.addEventListener('load',function(){
+    navigator.serviceWorker.register('european-gaze-sw.js',{scope:'./'}).catch(function(){});
+  });
+}
+</script>
+</body>
 </html>
