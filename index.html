@@ -1,177 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <meta name="color-scheme" content="light dark" />
+<head>
+<meta charset="utf-8"/>
+<meta content="A curated digital exhibition of 66 European maps of India from 1519 to 1946, with a 1947 epilogue, arranged in seven thematic rooms." name="description"/><meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<meta content="light dark" name="color-scheme"/>
+<link href="european-gaze.webmanifest" rel="manifest"/>
+<link href="european-gaze-icon-180.png" rel="apple-touch-icon"/>
+<meta content="#0d0d0f" name="theme-color"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="European Gaze" name="apple-mobile-web-app-title"/>
+<title>The European Gaze on India · 1519–1946, with a 1947 epilogue</title>
 
-        <link rel="manifest" href="european-gaze.webmanifest" />
-        <link rel="apple-touch-icon" href="european-gaze-icon-180.png" />
-        <meta name="theme-color" content="#0d0d0f" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="European Gaze" />
-        <title>The European Gaze on India · 1519–1946</title>
-        <script>
-            (function () {
-                var theme = "dark";
-
-                try {
-                    var saved = sessionStorage.getItem("theme");
-                    if (saved === "light" || saved === "dark") {
-                        theme = saved;
-                    }
-                } catch (e) {}
-
-                document.documentElement.setAttribute("data-theme", theme);
-
-                window.toggleTheme = function () {
-                    var current =
-                        document.documentElement.getAttribute("data-theme");
-                    var next = current === "dark" ? "light" : "dark";
-
-                    document.documentElement.setAttribute("data-theme", next);
-
-                    try {
-                        sessionStorage.setItem("theme", next);
-                    } catch (e) {}
-
-                    window.updateThemeButton();
-                };
-
-                window.updateThemeButton = function () {
-                    var button = document.getElementById("themeBtn");
-                    if (!button) return;
-
-                    var current =
-                        document.documentElement.getAttribute("data-theme");
-
-                    button.textContent = current === "dark" ? "Light" : "Dark";
-                    button.setAttribute(
-                        "aria-pressed",
-                        current === "dark" ? "true" : "false",
-                    );
-                };
-            })();
-        </script>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <div class="masthead">
-            <a class="site" href="index.html">The European Gaze on India</a>
-            <span class="yrs">1519 – 1946</span>
-            <a class="navlink" href="about.html">About</a>
-            <button
-                class="theme-toggle"
-                id="themeBtn"
-                type="button"
-                onclick="toggleTheme()"
-                aria-label="Toggle light or dark theme"
-            >
+<script>(function(){
+  var theme='dark';
+  try { var saved=sessionStorage.getItem('theme'); if(saved==='light'||saved==='dark') theme=saved; } catch(e) {}
+  document.documentElement.setAttribute('data-theme',theme);
+})();</script><link href="style.css" rel="stylesheet"/>
+<link href="https://naniwadekar.com/european-gaze/index.html" rel="canonical"/><meta content="The European Gaze on India · 1519–1946, with a 1947 epilogue" property="og:title"/><meta content="A curated digital exhibition of 66 European maps of India from 1519 to 1946, with a 1947 epilogue, arranged in seven thematic rooms." property="og:description"/><meta content="website" property="og:type"/><meta content="https://naniwadekar.com/european-gaze/index.html" property="og:url"/></head>
+<body>
+<div class="masthead">
+<a class="site" href="index.html">The European Gaze on India</a>
+<span class="yrs">1519–1946 · 1947 epilogue</span>
+<a class="navlink" href="about.html">About</a>
+<button aria-label="Toggle light or dark theme" aria-pressed="true" class="theme-toggle" id="themeBtn" type="button">
                 Light
             </button>
-        </div>
-
-        <div class="wrap hero">
-            <p class="eyebrow">An Open Map Collection</p>
-            <h1>The European Gaze<br />on India</h1>
-            <div class="rule"></div>
-            <p class="lede measure">
-                Four centuries of foreign maps, 1519–1946 — and what they reveal
-                about the eye behind the pen. A map records not only a land but
-                who is looking, what they want, and what they cannot yet see.
-            </p>
-            <div class="rooms">
-                <a class="room-row" href="01_Antiquity-and-Renaissance.html"
-                    ><span class="no">01</span
-                    ><span
-                        ><span class="ttl">Antiquity and Renaissance</span
-                        ><span class="desc"
-                            >Coastline and rumour — India inherited from Ptolemy
-                            and revealed, piecemeal, by Portuguese pilots.</span
-                        ></span
-                    ><span class="enter">Enter →</span></a
-                ><a
-                    class="room-row"
-                    href="02_Baroque-Mughals-and-Companies.html"
-                    ><span class="no">02</span
-                    ><span
-                        ><span class="ttl">The 'Great Mogol'</span
-                        ><span class="desc"
-                            >The empire of the "Great Mogul", drawn from the
-                            outside by French savants and Dutch traders.</span
-                        ></span
-                    ><span class="enter">Enter →</span></a
-                ><a class="room-row" href="03_The-Survey-Turn.html"
-                    ><span class="no">03</span
-                    ><span
-                        ><span class="ttl">The Survey Turn</span
-                        ><span class="desc"
-                            >Rennell and the surveyors: India stops being
-                            reported and starts being measured — and
-                            possessed.</span
-                        ></span
-                    ><span class="enter">Enter →</span></a
-                ><a
-                    class="room-row"
-                    href="04_Home-Ground-Bombay-and-Deccan.html"
-                    ><span class="no">04</span
-                    ><span
-                        ><span class="ttl">Home Ground: Bombay and Deccan</span
-                        ><span class="desc"
-                            >The gaze tightens to a region — harbour, district
-                            and city, down to the street corner.</span
-                        ></span
-                    ><span class="enter">Enter →</span></a
-                ><a
-                    class="room-row"
-                    href="05_Administered-Empire-and-Victorian-Atlas.html"
-                    ><span class="no">05</span
-                    ><span
-                        ><span class="ttl"
-                            >Administered Empire and Victorian Atlas</span
-                        ><span class="desc"
-                            >Empire as analysis: India counted, classified and
-                            coloured for the high-Victorian atlas.</span
-                        ></span
-                    ><span class="enter">Enter →</span></a
-                ><a class="room-row" href="06_The-Sea-and-the-Route.html"
-                    ><span class="no">06</span
-                    ><span
-                        ><span class="ttl">The Sea and the Route</span
-                        ><span class="desc"
-                            >The maritime thread — the ocean as Europe&#x27;s
-                            original approach to India, charted and
-                            re-charted.</span
-                        ></span
-                    ><span class="enter">Enter →</span></a
-                ><a class="room-row" href="07_Last-Frontiers.html"
-                    ><span class="no">07</span
-                    ><span
-                        ><span class="ttl">Last Frontiers</span
-                        ><span class="desc"></span></span
-                    ><span class="enter">Enter →</span></a
-                >
-            </div>
-        </div>
-        <footer>
+</div>
+<div class="wrap hero">
+<p class="eyebrow">An Open Map Collection</p>
+<h1>The European Gaze<br/>on India</h1>
+<div class="rule"></div>
+<p class="lede measure">Sixty-six foreign maps, 1519–1946, with a 1947 epilogue — and what they reveal about the eye behind the pen. A map records not only a land but who is looking, what they want, and what they cannot yet see.</p>
+<div class="rooms">
+<a class="room-row" href="01_Antiquity-and-Renaissance.html"><span class="no">01</span><span><span class="ttl">Antiquity and Renaissance</span><span class="desc">Coastline and rumour — India inherited from Ptolemy and revealed, piecemeal, by Portuguese pilots.</span></span><span class="enter">Enter →</span></a><a class="room-row" href="02_Baroque-Mughals-and-Companies.html"><span class="no">02</span><span><span class="ttl">Baroque, Mughals and Companies</span><span class="desc">Mughal sovereignty, trading companies and the atlas market — India described, traded and published from outside.</span></span><span class="enter">Enter →</span></a><a class="room-row" href="03_The-Survey-Turn.html"><span class="no">03</span><span><span class="ttl">The Survey Turn</span><span class="desc">Rennell, Lambton and the surveyors: India stops being chiefly reported and starts being systematically measured.</span></span><span class="enter">Enter →</span></a><a class="room-row" href="04_Home-Ground-Bombay-and-Deccan.html"><span class="no">04</span><span><span class="ttl">Home Ground: Bombay and the Deccan</span><span class="desc">The gaze tightens to a region — harbour, district and city, down to the street and taluka.</span></span><span class="enter">Enter →</span></a><a class="room-row" href="05_Administered-Empire-and-Victorian-Atlas.html"><span class="no">05</span><span><span class="ttl">Administered Empire and Victorian Atlas</span><span class="desc">Empire as analysis: India counted, classified and coloured for government and the high-Victorian atlas.</span></span><span class="enter">Enter →</span></a><a class="room-row" href="06_The-Sea-and-the-Route.html"><span class="no">06</span><span><span class="ttl">The Sea and the Route</span><span class="desc">A maritime interlude — the ocean as Europe’s original and recurring approach to India.</span></span><span class="enter">Enter →</span></a><a class="room-row" href="07_Last-Frontiers.html"><span class="no">07</span><span><span class="ttl">Last Frontiers</span><span class="desc">Strategic margins and imperial endings — wartime publics, surviving enclaves, partition planning and a 1947 epilogue.</span></span><span class="enter">Enter →</span></a>
+</div>
+</div>
+<footer>
             Images courtesy of the David Rumsey Map Collection and other open
             archives. An open, non-commercial study collection.
         </footer>
-        <script>
-            updateThemeButton();
-        </script>
 
-        <script>
-            if ("serviceWorker" in navigator) {
-                window.addEventListener("load", function () {
-                    navigator.serviceWorker.register("european-gaze-sw.js", {
-                        scope: "./",
-                    }).catch(function (error) {
-                        console.error("Service worker registration failed:", error);
-                    });
-                });
-            }
-        </script>
-    </body>
+
+<script>(function(){
+  var b=document.getElementById('themeBtn');
+  if(!b) return;
+  function sync(){
+    var dark=document.documentElement.getAttribute('data-theme')==='dark';
+    b.textContent=dark?'Light':'Dark';
+    b.setAttribute('aria-pressed',String(dark));
+  }
+  b.addEventListener('click',function(){
+    var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
+    document.documentElement.setAttribute('data-theme',next);
+    try { sessionStorage.setItem('theme',next); } catch(e) {}
+    sync();
+  });
+  sync();
+})();</script><script>if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('european-gaze-sw.js', {scope:'./'}).catch(function(error){
+      console.error('Service worker registration failed:', error);
+    });
+  });
+}</script></body>
 </html>

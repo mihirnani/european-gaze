@@ -1,30 +1,21 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<meta content="Room 07: strategic frontiers, wartime mass media, Portuguese enclaves, partition planning and a 1947 epilogue." name="description"/><meta content="width=device-width,initial-scale=1.0" name="viewport"/>
 <meta content="light dark" name="color-scheme"/>
-
 <title>Last Frontiers — The European Gaze on India</title>
-<script>
-(function(){
-  try{
-    var t=sessionStorage.getItem('theme');
-    document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');
-  }catch(e){
-    document.documentElement.setAttribute('data-theme','dark');
-  }
-})();
-</script>
-<link href="style.css" rel="stylesheet"/>
 
-
-</head>
+<script>(function(){
+  var theme='dark';
+  try { var saved=sessionStorage.getItem('theme'); if(saved==='light'||saved==='dark') theme=saved; } catch(e) {}
+  document.documentElement.setAttribute('data-theme',theme);
+})();</script><link href="style.css" rel="stylesheet"/>
+<link href="https://naniwadekar.com/european-gaze/07_Last-Frontiers.html" rel="canonical"/><meta content="Last Frontiers — The European Gaze on India" property="og:title"/><meta content="Room 07: strategic frontiers, wartime mass media, Portuguese enclaves, partition planning and a 1947 epilogue." property="og:description"/><meta content="website" property="og:type"/><meta content="https://naniwadekar.com/european-gaze/07_Last-Frontiers.html" property="og:url"/><link href="european-gaze.webmanifest" rel="manifest"/><link href="european-gaze-icon-180.png" rel="apple-touch-icon"/><meta content="#0d0d0f" name="theme-color"/><meta content="yes" name="apple-mobile-web-app-capable"/><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/><meta content="European Gaze" name="apple-mobile-web-app-title"/></head>
 <body>
 <div class="masthead">
 <a class="site" href="index.html">The European Gaze on India</a>
-<span class="yrs">1519 – 1946</span>
+<span class="yrs">1519–1946 · 1947 epilogue</span>
 <a class="navlink" href="about.html">About</a>
 <button aria-label="Toggle light or dark theme" aria-pressed="true" class="theme-toggle" id="themeBtn" type="button">Theme</button>
 </div>
@@ -33,7 +24,7 @@
 <div class="chapter-head measure">
 <p class="eyebrow">Room 07</p>
 <h1>Last Frontiers</h1>
-<p class="intro">At the end of the collection the European gaze reaches its limits. The remaining maps look toward the strategic frontier, the wartime public and the hurried end of empire: Central Asia as margin, India compressed for a newspaper audience, Portuguese enclaves counted from Lisbon, and partition boundaries drawn before the states they would divide had come into being. The final 1947 panorama is an epilogue — the imperial line after it had become a lived catastrophe on both sides.</p>
+<p class="intro">At the end of the collection the European gaze reaches its limits. The remaining maps look toward the strategic frontier, the wartime public and the hurried end of empire: Central Asia as margin, India compressed for a newspaper audience, Portuguese enclaves counted from Lisbon, and alternative partition boundaries examined before the states they would divide had come into being. The 1947 panorama is an epilogue — the imperial boundary-making process after it had become a lived catastrophe on both sides.</p>
 </div>
 <div class="grid">
 <a class="plate" href="1922__CentralAsia-Tibet__Hedin__Central-Asia-and-Tibet.html">
@@ -62,24 +53,27 @@
   Images courtesy of the David Rumsey Map Collection and other open archives.
   An open, non-commercial study collection.
 </footer>
-<script>
-(function(){
+
+<script>(function(){
   var b=document.getElementById('themeBtn');
-  if(!b)return;
-  function lbl(){
-    var d=document.documentElement.getAttribute('data-theme')==='dark';
-    b.textContent=d?'Light':'Dark';
-    b.setAttribute('aria-pressed',d?'true':'false');
+  if(!b) return;
+  function sync(){
+    var dark=document.documentElement.getAttribute('data-theme')==='dark';
+    b.textContent=dark?'Light':'Dark';
+    b.setAttribute('aria-pressed',String(dark));
   }
-  lbl();
   b.addEventListener('click',function(){
     var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
     document.documentElement.setAttribute('data-theme',next);
-    try{sessionStorage.setItem('theme',next);}catch(e){}
-    lbl();
+    try { sessionStorage.setItem('theme',next); } catch(e) {}
+    sync();
   });
-})();
-</script>
-
-</body>
+  sync();
+})();</script><script>if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('european-gaze-sw.js', {scope:'./'}).catch(function(error){
+      console.error('Service worker registration failed:', error);
+    });
+  });
+}</script></body>
 </html>
