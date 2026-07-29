@@ -4,17 +4,17 @@
 <meta charset="utf-8"/><meta content="width=device-width,initial-scale=1.0" name="viewport"/><meta content="Pierre Du Val’s small-format map of the Mughal Empire. Derived from the Sanson tradition and made for a broad geographical audience, it compresses India into a portable political summary." name="description"/>
 <meta content="light dark" name="color-scheme"/>
 <title>Empire du Mogol (1682) — The European Gaze on India</title>
-<script>(function(){try{var t=sessionStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<script>(function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
 <link href="style.css" rel="stylesheet"/>
-</head><body>
+<link href="european-gaze.webmanifest" rel="manifest"/><link href="european-gaze-icon-180.png" rel="apple-touch-icon"/><meta content="#0d0d0f" name="theme-color"/><meta content="yes" name="apple-mobile-web-app-capable"/><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/><meta content="European Gaze" name="apple-mobile-web-app-title"/><link href="european-gaze-icon-192.png" rel="icon" sizes="192x192" type="image/png"/><link href="https://naniwadekar.com/european-gaze/1682__India__DuVal__Empire-du-Mogol.html" rel="canonical"/><meta content="Empire du Mogol (1682) — The European Gaze on India" property="og:title"/><meta content="Pierre Du Val’s small-format map of the Mughal Empire. Derived from the Sanson tradition and made for a broad geographical audience, it compresses India into a portable political summary." property="og:description"/><meta content="article" property="og:type"/><meta content="https://naniwadekar.com/european-gaze/1682__India__DuVal__Empire-du-Mogol.html" property="og:url"/><meta content="https://naniwadekar.com/european-gaze/img/display/1682__India__DuVal__Empire-du-Mogol.jpg" property="og:image"/></head><body>
 <div class="masthead"><a class="site" href="index.html">The European Gaze on India</a>
-<span class="yrs">1519 – 1946</span>
+<span class="yrs">1519–1946 · 1947 epilogue</span>
 <a class="navlink" href="about.html">About</a>
 <button aria-label="Toggle light or dark theme" aria-pressed="true" class="theme-toggle" id="themeBtn" type="button">Theme</button></div>
 <div class="wrap">
 <p><a class="back" href="02_Baroque-Mughals-and-Companies.html">← Baroque Mughals and Companies</a></p>
 <div class="detail">
-<div class="plateview"><a href="img/1682__India__DuVal__Empire-du-Mogol.jpg" rel="noopener" target="_blank"><img alt="Empire du Mogol" src="img/1682__India__DuVal__Empire-du-Mogol.jpg"/></a><span class="zoom">Click to enlarge</span></div>
+<div class="plateview" data-dzi="img/dzi/1682__India__DuVal__Empire-du-Mogol.dzi"><img alt="Empire du Mogol" src="img/display/1682__India__DuVal__Empire-du-Mogol.jpg" width="1800" height="1372"/></div>
 <div>
 <h1>Empire du Mogol</h1>
 <p class="byline">Du Val, Pierre, 1619-1683 · 1682</p>
@@ -32,7 +32,13 @@
 </div>
 <nav class="mapnav"><a class="prev" href="1654__India__Sanson__India-Below-and-Beyond-the-Ganges.html"><span class="dir">← Previous</span><span class="nt">India below and beyond the Ganges, or the Empire of the Great Mogul</span></a><a class="next" href="1702__Persia-India__Sanson__Old-Persia-and-Old-India.html"><span class="dir">Next →</span><span class="nt">Old Persia and Old India</span></a></nav>
 </div>
-<script>(function(){var p=document.querySelector('.mapnav .prev'),n=document.querySelector('.mapnav .next');document.addEventListener('keydown',function(e){var t=(e.target.tagName||'');if(t==='INPUT'||t==='TEXTAREA')return;if(e.key==='ArrowLeft'&&p)location.href=p.getAttribute('href');if(e.key==='ArrowRight'&&n)location.href=n.getAttribute('href');});})();</script>
+<script>(function(){var p=document.querySelector('.mapnav .prev'),n=document.querySelector('.mapnav .next');document.addEventListener('keydown',function(e){var active=document.activeElement;if(active && active!==document.body && active!==document.documentElement) return;if(e.key==='ArrowLeft'&&p)location.href=p.getAttribute('href');if(e.key==='ArrowRight'&&n)location.href=n.getAttribute('href');});})();</script>
 <footer>Images courtesy of the David Rumsey Map Collection and other open archives. An open, non-commercial study collection.</footer>
-<script>(function(){var b=document.getElementById('themeBtn');if(!b)return;function lbl(){var d=document.documentElement.getAttribute('data-theme')==='dark';b.textContent=d?'Light':'Dark';}lbl();b.addEventListener('click',function(){var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',next);try{sessionStorage.setItem('theme',next);}catch(e){}lbl();});})();</script>
-</body></html>
+<script>(function(){var b=document.getElementById('themeBtn');if(!b)return;function lbl(){var d=document.documentElement.getAttribute('data-theme')==='dark';b.textContent=d?'Light':'Dark';}lbl();b.addEventListener('click',function(){var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',next);try{localStorage.setItem('theme',next);}catch(e){}lbl();});})();</script>
+<script>if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('european-gaze-sw.js', {scope:'./'}).catch(function(error){
+      console.error('Service worker registration failed:', error);
+    });
+  });
+}</script><script src="js/openseadragon.min.js"></script><script src="js/plate-viewer.js"></script></body></html>

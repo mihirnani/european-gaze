@@ -8,10 +8,10 @@
 
 <script>(function(){
   var theme='dark';
-  try { var saved=sessionStorage.getItem('theme'); if(saved==='light'||saved==='dark') theme=saved; } catch(e) {}
+  try { var saved=localStorage.getItem('theme'); if(saved==='light'||saved==='dark') theme=saved; } catch(e) {}
   document.documentElement.setAttribute('data-theme',theme);
 })();</script><link href="style.css" rel="stylesheet"/>
-<link href="https://naniwadekar.com/european-gaze/07_Last-Frontiers.html" rel="canonical"/><meta content="Last Frontiers — The European Gaze on India" property="og:title"/><meta content="Room 07: strategic frontiers, wartime mass media, Portuguese enclaves, partition planning and a 1947 epilogue." property="og:description"/><meta content="website" property="og:type"/><meta content="https://naniwadekar.com/european-gaze/07_Last-Frontiers.html" property="og:url"/><link href="european-gaze.webmanifest" rel="manifest"/><link href="european-gaze-icon-180.png" rel="apple-touch-icon"/><meta content="#0d0d0f" name="theme-color"/><meta content="yes" name="apple-mobile-web-app-capable"/><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/><meta content="European Gaze" name="apple-mobile-web-app-title"/></head>
+<link href="https://naniwadekar.com/european-gaze/07_Last-Frontiers.html" rel="canonical"/><meta content="Last Frontiers — The European Gaze on India" property="og:title"/><meta content="Room 07: strategic frontiers, wartime mass media, Portuguese enclaves, partition planning and a 1947 epilogue." property="og:description"/><meta content="website" property="og:type"/><meta content="https://naniwadekar.com/european-gaze/07_Last-Frontiers.html" property="og:url"/><link href="european-gaze.webmanifest" rel="manifest"/><link href="european-gaze-icon-180.png" rel="apple-touch-icon"/><meta content="#0d0d0f" name="theme-color"/><meta content="yes" name="apple-mobile-web-app-capable"/><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/><meta content="European Gaze" name="apple-mobile-web-app-title"/><link href="european-gaze-icon-192.png" rel="icon" sizes="192x192" type="image/png"/><meta content="https://naniwadekar.com/european-gaze/img/display/1922__CentralAsia-Tibet__Hedin__Central-Asia-and-Tibet.jpg" property="og:image"/></head>
 <body>
 <div class="masthead">
 <a class="site" href="index.html">The European Gaze on India</a>
@@ -28,23 +28,23 @@
 </div>
 <div class="grid">
 <a class="plate" href="1922__CentralAsia-Tibet__Hedin__Central-Asia-and-Tibet.html">
-<span class="mat"><img alt="General Map of Central Asia and Tibet" loading="lazy" src="img/1922__CentralAsia-Tibet__Hedin__Central-Asia-and-Tibet.jpg"/></span>
+<span class="mat"><img alt="General Map of Central Asia and Tibet" loading="lazy" src="img/thumb/1922__CentralAsia-Tibet__Hedin__Central-Asia-and-Tibet.jpg" width="700" height="461"/></span>
 <span class="cap"><span class="t">General Map of Central Asia and Tibet</span><span class="d">1922</span></span>
 </a>
 <a class="plate" href="1942__India__Mercier__LInde-Newspaper-Map.html">
-<span class="mat"><img alt="L’Inde. Jac Mercier. Dessinateur" loading="lazy" src="img/1942__India__Mercier__LInde-Newspaper-Map.jpg"/></span>
+<span class="mat"><img alt="L’Inde. Jac Mercier. Dessinateur" loading="lazy" src="img/thumb/1942__India__Mercier__LInde-Newspaper-Map.jpg" width="700" height="513"/></span>
 <span class="cap"><span class="t">L’Inde. Jac Mercier. Dessinateur</span><span class="d">1942</span></span>
 </a>
 <a class="plate" href="1946__India__GSGS__Pakistan-Boundaries-Partition-Plan.html">
-<span class="mat"><img alt="India Showing Civil Divisions — Boundaries of Pakistan (Case A / Case B)" loading="lazy" src="img/1946__India__GSGS__Pakistan-Boundaries-Partition-Plan.jpeg"/></span>
+<span class="mat"><img alt="India Showing Civil Divisions — Boundaries of Pakistan (Case A / Case B)" loading="lazy" src="img/thumb/1946__India__GSGS__Pakistan-Boundaries-Partition-Plan.jpg" width="700" height="610"/></span>
 <span class="cap"><span class="t">India Showing Civil Divisions — Boundaries of Pakistan (Case A / Case B)</span><span class="d">1946</span></span>
 </a>
 <a class="plate" href="1946__Ministerio-das-Colonias__Goa-Daman-Diu.html">
-<span class="mat"><img alt="Carta demográfica do Estado da Índia — Distrito de Goa" loading="lazy" src="img/1946__Ministerio-das-Colonias__Goa-Daman-Diu.jpg"/></span>
+<span class="mat"><img alt="Carta demográfica do Estado da Índia — Distrito de Goa" loading="lazy" src="img/thumb/1946__Ministerio-das-Colonias__Goa-Daman-Diu.jpg" width="700" height="522"/></span>
 <span class="cap"><span class="t">Carta demográfica do Estado da Índia — Distrito de Goa</span><span class="d">1946</span></span>
 </a>
 <a class="plate" href="1947__Punjab__Home-Sphere__Punjab-Partition-Panorama.html">
-<span class="mat"><img alt="Where Pakistan and India Come Face to Face — the Punjab" loading="lazy" src="img/1947__Punjab__Home-Sphere__Punjab-Partition-Panorama.png"/></span>
+<span class="mat"><img alt="Where Pakistan and India Come Face to Face — the Punjab" loading="lazy" src="img/thumb/1947__Punjab__Home-Sphere__Punjab-Partition-Panorama.jpg" width="700" height="438"/></span>
 <span class="cap"><span class="t">Where Pakistan and India Come Face to Face — the Punjab</span><span class="d">1947 · Epilogue</span></span>
 </a>
 </div>
@@ -65,7 +65,7 @@
   b.addEventListener('click',function(){
     var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
     document.documentElement.setAttribute('data-theme',next);
-    try { sessionStorage.setItem('theme',next); } catch(e) {}
+    try { localStorage.setItem('theme',next); } catch(e) {}
     sync();
   });
   sync();

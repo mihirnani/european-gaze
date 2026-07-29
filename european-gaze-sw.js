@@ -1,7 +1,7 @@
 /* The European Gaze on India — offline PWA service worker
-   v2: image-cache failures can never block an image that loaded from the network.
+   v4: OpenSeadragon deep-zoom assets and .dzi descriptors.
 */
-const VERSION = "v2";
+const VERSION = "v4";
 const PREFIX = "european-gaze-";
 const APP_CACHE = `${PREFIX}app-${VERSION}`;
 const PAGE_CACHE = `${PREFIX}pages-${VERSION}`;
@@ -13,7 +13,10 @@ const APP_SHELL = [
   "./index.html",
   "./about.html",
   "./style.css",
+  "./js/openseadragon.min.js",
+  "./js/plate-viewer.js",
   "./offline.html",
+  "./404.html",
   "./european-gaze.webmanifest",
   "./european-gaze-icon-180.png",
   "./european-gaze-icon-192.png",
@@ -27,7 +30,7 @@ const APP_SHELL = [
   "./07_Last-Frontiers.html"
 ];
 
-const MAX_IMAGE_ENTRIES = 30;
+const MAX_IMAGE_ENTRIES = 400;
 const MAX_IMAGE_BYTES = 15 * 1024 * 1024;
 
 self.addEventListener("install", (event) => {
@@ -70,6 +73,11 @@ self.addEventListener("fetch", (event) => {
 
   if (request.mode === "navigate") {
     event.respondWith(networkFirstPage(request));
+    return;
+  }
+
+  if (sameOrigin && url.pathname.endsWith(".dzi")) {
+    event.respondWith(staleWhileRevalidate(request, PAGE_CACHE));
     return;
   }
 

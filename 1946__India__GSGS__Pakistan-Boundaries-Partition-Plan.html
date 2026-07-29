@@ -6,10 +6,10 @@
 
 <script>(function(){
   var theme='dark';
-  try { var saved=sessionStorage.getItem('theme'); if(saved==='light'||saved==='dark') theme=saved; } catch(e) {}
+  try { var saved=localStorage.getItem('theme'); if(saved==='light'||saved==='dark') theme=saved; } catch(e) {}
   document.documentElement.setAttribute('data-theme',theme);
 })();</script><link href="style.css" rel="stylesheet"/>
-<link href="https://naniwadekar.com/european-gaze/1946__India__GSGS__Pakistan-Boundaries-Partition-Plan.html" rel="canonical"/><meta content="India Showing Civil Divisions — Boundaries of Pakistan (Case A / Case B) (1946) — The European Gaze on India" property="og:title"/><meta content="A classified 1946 British staff map showing two provisional boundary schemes for a future Pakistan, not the final Radcliffe line." property="og:description"/><meta content="article" property="og:type"/><meta content="https://naniwadekar.com/european-gaze/1946__India__GSGS__Pakistan-Boundaries-Partition-Plan.html" property="og:url"/><meta content="https://naniwadekar.com/european-gaze/img/1946__India__GSGS__Pakistan-Boundaries-Partition-Plan.jpeg" property="og:image"/><link href="european-gaze.webmanifest" rel="manifest"/><link href="european-gaze-icon-180.png" rel="apple-touch-icon"/><meta content="#0d0d0f" name="theme-color"/><meta content="yes" name="apple-mobile-web-app-capable"/><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/><meta content="European Gaze" name="apple-mobile-web-app-title"/></head><body>
+<link href="https://naniwadekar.com/european-gaze/1946__India__GSGS__Pakistan-Boundaries-Partition-Plan.html" rel="canonical"/><meta content="India Showing Civil Divisions — Boundaries of Pakistan (Case A / Case B) (1946) — The European Gaze on India" property="og:title"/><meta content="A classified 1946 British staff map showing two provisional boundary schemes for a future Pakistan, not the final Radcliffe line." property="og:description"/><meta content="article" property="og:type"/><meta content="https://naniwadekar.com/european-gaze/1946__India__GSGS__Pakistan-Boundaries-Partition-Plan.html" property="og:url"/><meta content="https://naniwadekar.com/european-gaze/img/display/1946__India__GSGS__Pakistan-Boundaries-Partition-Plan.jpg" property="og:image"/><link href="european-gaze.webmanifest" rel="manifest"/><link href="european-gaze-icon-180.png" rel="apple-touch-icon"/><meta content="#0d0d0f" name="theme-color"/><meta content="yes" name="apple-mobile-web-app-capable"/><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/><meta content="European Gaze" name="apple-mobile-web-app-title"/><link href="european-gaze-icon-192.png" rel="icon" sizes="192x192" type="image/png"/></head><body>
 <div class="masthead"><a class="site" href="index.html">The European Gaze on India</a>
 <span class="yrs">1519–1946 · 1947 epilogue</span>
 <a class="navlink" href="about.html">About</a>
@@ -17,7 +17,7 @@
 <div class="wrap">
 <p><a class="back" href="07_Last-Frontiers.html">← Last Frontiers</a></p>
 <div class="detail">
-<div class="plateview"><a href="img/1946__India__GSGS__Pakistan-Boundaries-Partition-Plan.jpeg" rel="noopener" target="_blank"><img alt="India Showing Civil Divisions — Boundaries of Pakistan (Case A / Case B)" src="img/1946__India__GSGS__Pakistan-Boundaries-Partition-Plan.jpeg"/></a><span class="zoom">Click to enlarge</span></div>
+<div class="plateview" data-dzi="img/dzi/1946__India__GSGS__Pakistan-Boundaries-Partition-Plan.dzi"><img alt="India Showing Civil Divisions — Boundaries of Pakistan (Case A / Case B)" src="img/display/1946__India__GSGS__Pakistan-Boundaries-Partition-Plan.jpg" width="1280" height="1116"/></div>
 <div>
 <h1>India Showing Civil Divisions — Boundaries of Pakistan (Case A / Case B)</h1>
 <p class="byline">Great Britain. War Office. General Staff, Geographical Section (G.S.G.S.) · 1946</p>
@@ -58,7 +58,7 @@
   b.addEventListener('click',function(){
     var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
     document.documentElement.setAttribute('data-theme',next);
-    try { sessionStorage.setItem('theme',next); } catch(e) {}
+    try { localStorage.setItem('theme',next); } catch(e) {}
     sync();
   });
   sync();
@@ -68,4 +68,4 @@
       console.error('Service worker registration failed:', error);
     });
   });
-}</script></body></html>
+}</script><script src="js/openseadragon.min.js"></script><script src="js/plate-viewer.js"></script></body></html>
