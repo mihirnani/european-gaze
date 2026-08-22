@@ -354,3 +354,6 @@ footer{border-top:1px solid var(--line); margin-top:5rem; padding:2.5rem clamp(1
 /* ---- deep-zoom plate viewer ---- */
 .plateview .osd-box{width:100%; max-height:78vh; background:var(--mat); touch-action:none}
 .plateview .osd-box:focus{outline:1px solid var(--accent)}
+
+/* on small screens the wrapped masthead is tall; let it scroll away rather than cover the page */
+@media (max-width:520px){ .masthead{position:static} }
