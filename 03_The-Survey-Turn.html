@@ -5,8 +5,12 @@
 <title>The Survey Turn – The European Gaze on India</title>
 
 <script>(function(){
-  var theme='dark';
-  try { var saved=localStorage.getItem('theme'); if(saved==='light'||saved==='dark') theme=saved; } catch(e) {}
+  var theme='light';
+  try {
+    var saved=localStorage.getItem('root-theme');
+    if(saved==='light'||saved==='dark') theme=saved;
+    else if(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches) theme='dark';
+  } catch(e) {}
   document.documentElement.setAttribute('data-theme',theme);
 })();</script><link href="style.css" rel="stylesheet"/>
 <link href="https://naniwadekar.com/european-gaze/03_The-Survey-Turn.html" rel="canonical"/><meta content="The Survey Turn – The European Gaze on India" property="og:title"/><meta name="twitter:card" content="summary_large_image"><meta property="og:site_name" content="Curiosities"><meta content="Room 03: the transition from compiled geography to triangulation, territorial survey and the measured colonial state." property="og:description"/><meta content="website" property="og:type"/><meta content="https://naniwadekar.com/european-gaze/03_The-Survey-Turn.html" property="og:url"/><link href="european-gaze.webmanifest" rel="manifest"/><link href="european-gaze-icon-180.png" rel="apple-touch-icon"/><meta content="#ece3d1" media="(prefers-color-scheme: light)" name="theme-color"/><meta content="#0d0d0f" media="(prefers-color-scheme: dark)" name="theme-color"/><meta content="yes" name="apple-mobile-web-app-capable"/><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/><meta content="European Gaze" name="apple-mobile-web-app-title"/><link href="european-gaze-icon-192.png" rel="icon" sizes="192x192" type="image/png"/><meta content="https://naniwadekar.com/european-gaze/img/display/1782__India__Rennell__Hindoostan-2-Sheet.jpg" property="og:image"/></head><body>
@@ -37,7 +41,7 @@
   b.addEventListener('click',function(){
     var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
     document.documentElement.setAttribute('data-theme',next);
-    try { localStorage.setItem('theme',next); } catch(e) {}
+    try { localStorage.setItem('root-theme',next); } catch(e) {}
     sync();
   });
   sync();
