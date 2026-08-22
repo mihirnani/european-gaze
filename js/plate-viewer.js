@@ -1,4 +1,4 @@
-/* The European Gaze on India — deep-zoom plate viewer.
+/* The European Gaze on India – deep-zoom plate viewer.
    Progressive enhancement: replaces the static plate image with an
    OpenSeadragon viewer when tiles are available; falls back silently. */
 (function () {
