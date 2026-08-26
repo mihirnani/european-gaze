@@ -1,7 +1,7 @@
 /* The European Gaze on India – offline PWA service worker
    v19: reading guide and places index; v5: revised text and navigation; v4: OpenSeadragon deep-zoom assets and .dzi descriptors.
 */
-const VERSION = "v21";
+const VERSION = "v24";
 const PREFIX = "european-gaze-";
 const APP_CACHE = `${PREFIX}app-${VERSION}`;
 const PAGE_CACHE = `${PREFIX}pages-${VERSION}`;
@@ -25,7 +25,7 @@ const APP_SHELL = [
   "./european-gaze-icon-192.png",
   "./european-gaze-icon-512.png",
   "./01_Antiquity-and-Renaissance.html",
-  "./02_Baroque-Mughals-and-Companies.html",
+  "./02_The-Great-Mogul-and-the-Companies.html",
   "./03_The-Survey-Turn.html",
   "./04_Home-Ground-Bombay-and-Deccan.html",
   "./05_Administered-Empire-and-Victorian-Atlas.html",
