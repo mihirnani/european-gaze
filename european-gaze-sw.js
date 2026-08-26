@@ -1,7 +1,7 @@
 /* The European Gaze on India – offline PWA service worker
-   v5: revised text and navigation; v4: OpenSeadragon deep-zoom assets and .dzi descriptors.
+   v19: reading guide and places index; v5: revised text and navigation; v4: OpenSeadragon deep-zoom assets and .dzi descriptors.
 */
-const VERSION = "v18";
+const VERSION = "v19";
 const PREFIX = "european-gaze-";
 const APP_CACHE = `${PREFIX}app-${VERSION}`;
 const PAGE_CACHE = `${PREFIX}pages-${VERSION}`;
@@ -12,6 +12,9 @@ const APP_SHELL = [
   "./",
   "./index.html",
   "./about.html",
+  "./reading.html",
+  "./places.html",
+  "./js/places.js",
   "./style.css",
   "./js/openseadragon.min.js",
   "./js/plate-viewer.js",

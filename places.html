@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1.0" name="viewport"/><meta content="A places index for The European Gaze on India: the Deccan’s cities, forts, rivers and coasts, their older spellings, and the sheets in the collection on which each appears." name="description"/>
+<meta content="light dark" name="color-scheme"/>
+<link href="european-gaze.webmanifest" rel="manifest"/>
+<link href="european-gaze-icon-180.png" rel="apple-touch-icon"/>
+<meta content="#ece3d1" media="(prefers-color-scheme: light)" name="theme-color"/><meta content="#0d0d0f" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="European Gaze" name="apple-mobile-web-app-title"/>
+<title>Places – The European Gaze on India</title>
+
+<script>(function(){
+  var theme='light';
+  try {
+    var saved=localStorage.getItem('root-theme');
+    if(saved==='light'||saved==='dark') theme=saved;
+    else if(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches) theme='dark';
+  } catch(e) {}
+  document.documentElement.setAttribute('data-theme',theme);
+})();</script><link href="style.css" rel="stylesheet"/>
+<link href="https://naniwadekar.com/european-gaze/places.html" rel="canonical"/><meta content="Places – The European Gaze on India" property="og:title"/><meta name="twitter:card" content="summary_large_image"><meta property="og:site_name" content="Curiosities"><meta content="A places index for The European Gaze on India: the Deccan’s cities, forts, rivers and coasts, their older spellings, and the sheets in the collection on which each appears." property="og:description"/><meta content="website" property="og:type"/><meta content="https://naniwadekar.com/european-gaze/places.html" property="og:url"/><link href="european-gaze-icon-192.png" rel="icon" sizes="192x192" type="image/png"/><meta content="https://naniwadekar.com/european-gaze/img/display/1827__Deccan__Vandermaelen__Bejapoor-Bijapur.jpg" property="og:image"/></head><body>
+<div class="masthead"><a class="site" href="index.html">The European Gaze on India</a>
+<span class="yrs">1519–1946 · 1947 epilogue</span>
+<a class="navlink home" href="https://naniwadekar.com/">Curiosities</a>
+<a class="navlink" href="https://naniwadekar.com/deccan/">Deccan</a>
+<a class="navlink" href="https://naniwadekar.com/basalt-and-laterite/" target="_blank" rel="noopener">Basalt</a>
+<a class="navlink" href="reading.html">Reading</a>
+<a class="navlink" href="places.html">Places</a>
+<a class="navlink" href="about.html">About</a>
+<button aria-label="Toggle light or dark theme" aria-pressed="true" class="theme-toggle" id="themeBtn" type="button">Theme</button></div>
+<div class="wrap">
+<p><a class="back" href="index.html">← All rooms</a></p>
+<div class="chapter-head measure">
+<p class="eyebrow">Index</p>
+<h1>Places</h1>
+</div>
+<div class="brief measure">The Deccan’s cities, forts, rivers and coasts, with their older spellings, and the sheets in the collection on which each is found.</div>
+<div class="prose">
+<p>Each entry gives the name as the collection uses it, the modern name, the spellings met on European sheets, the entries in the <a href="https://naniwadekar.com/deccan/">Deccan collection</a> that belong to the place, and the maps, by year and room. The map list is drawn from three sources, and each link says which. <strong>Linked from the Deccan collection</strong>: the Deccan entry for that place names the sheet among its related maps. <strong>Named in the notes</strong>: the sheet’s own page here – its title, brief, commentary or caption – names the place, in one of the spellings listed. <strong>Within the sheet’s region</strong>: only the sheet’s region tag (Bombay, Malabar, the Deccan) puts the place inside its frame.</p>
+<p>The index records what the notes say, not what the plates show. A sheet of the whole peninsula carries Bijapur whether or not the commentary mentions it, and the plates have not been read name by name for this list; a place with no maps under it is a place the notes have not yet reached. Corrections are welcome: a name seen on a plate, a spelling not listed, a sheet that belongs under a place. For the spellings and how to read them, see <a href="reading.html">How to read one of these</a>.</p>
+</div>
+<p class="places-count" id="placesCount"></p>
+<nav class="letters" id="letters" aria-label="Alphabetical index"></nav>
+<div class="places" id="places"><noscript><p>The index is rendered from <a href="js/places.js">js/places.js</a>, which this browser has not run.</p></noscript></div>
+</div>
+<footer>Images from the holding collections credited on each page, chiefly the David Rumsey Map Collection. An open, non-commercial study collection. Part of <a href="https://naniwadekar.com/">Curiosities</a>.</footer>
+
+<script src="js/places.js"></script>
+<script>(function(){
+  var data=window.GAZE_PLACES; if(!data) return;
+  var ROOMS={'01':'Antiquity and Renaissance','02':'Baroque, Mughals and Companies','03':'The Survey Turn',
+    '04':'Home Ground: Bombay and the Deccan','05':'Administered Empire and Victorian Atlas',
+    '06':'The Sea and the Route','07':'Last Frontiers'};
+  var SRC={deccan:'linked from the Deccan collection',notes:'named in the notes',region:'within the sheet’s region'};
+  var DECCAN='https://naniwadekar.com/deccan/#';
+  function E(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+  function sortName(p){return p.name.replace(/^The /,'');}
+  var root=document.getElementById('places'), html='', letters=[], last='';
+  var nLinks=0, sheets={};
+  data.forEach(function(p){
+    var L=sortName(p).charAt(0).toUpperCase();
+    if(L!==last){ html+='<h2 class="letter" id="letter-'+L+'">'+L+'</h2>'; letters.push(L); last=L; }
+    html+='<section class="place" id="'+E(p.id)+'">';
+    html+='<h3>'+E(p.name)+' <span class="modern">'+E(p.modern)+'</span></h3>';
+    var vs=p.variants.filter(function(v){return v!==p.name;});
+    if(vs.length) html+='<p class="variants"><span class="lbl">Spellings</span> '+vs.map(E).join(', ')+'</p>';
+    if(p.deccan.length){
+      html+='<p class="deccan"><span class="lbl">In the Deccan collection</span> '+p.deccan.map(function(d){
+        return '<a href="'+DECCAN+E(d.id)+'">'+E(d.title)+' ('+E(d.date)+')</a>';}).join(' · ')+'</p>';
+    }
+    if(p.maps.length){
+      html+='<ul class="sheets">';
+      p.maps.forEach(function(m){
+        nLinks++; sheets[m.file]=1;
+        html+='<li><span class="yr">'+E(m.year)+'</span><a href="'+E(m.file)+'">'+E(m.title)+'</a>'+
+          '<span class="room">Room '+E(m.room)+' · '+E(ROOMS[m.room]||'')+'</span>'+
+          '<span class="src">'+m.sources.map(function(s){return SRC[s]||s;}).join(' · ')+'</span></li>';
+      });
+      html+='</ul>';
+    } else {
+      html+='<p class="none">No sheet in the collection names this place in its notes.</p>';
+    }
+    html+='</section>';
+  });
+  root.innerHTML=html;
+  document.getElementById('letters').innerHTML=letters.map(function(L){return '<a href="#letter-'+L+'">'+L+'</a>';}).join('');
+  var n=Object.keys(sheets).length;
+  document.getElementById('placesCount').textContent=data.length+' places · '+nLinks+' place–map links · '+n+' of the collection’s 68 sheets';
+  if(location.hash){ var t=document.getElementById(location.hash.slice(1)); if(t) t.scrollIntoView(); }
+})();</script>
+<script>(function(){
+  var b=document.getElementById('themeBtn');
+  if(!b) return;
+  function sync(){
+    var dark=document.documentElement.getAttribute('data-theme')==='dark';
+    b.textContent=dark?'Light':'Dark';
+    b.setAttribute('aria-pressed',String(dark));
+  }
+  b.addEventListener('click',function(){
+    var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
+    document.documentElement.setAttribute('data-theme',next);
+    try { localStorage.setItem('root-theme',next); } catch(e) {}
+    sync();
+  });
+  sync();
+})();</script><script>if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('european-gaze-sw.js', {scope:'./'}).catch(function(error){
+      console.error('Service worker registration failed:', error);
+    });
+  });
+}</script></body></html>

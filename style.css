@@ -78,6 +78,9 @@ a:hover{color:var(--link-hover)}
 .room-row .desc{display:block; font-size:.95rem; color:var(--muted); max-width:46em; margin-top:.25rem}
 .room-row .enter{font-size:.7rem; letter-spacing:.22em; text-transform:uppercase; color:var(--accent); white-space:nowrap}
 
+/* foyer aside, under the room list */
+.hero .aside{margin:1.6rem .4rem 0; font-size:.95rem; color:var(--muted); max-width:46em}
+
 /* ---- chapter page ---- */
 .chapter-head h1{font-family:'Cormorant Garamond',serif; font-weight:500; font-size:clamp(2rem,5vw,3.4rem);
   line-height:1.05; margin:.1em 0 .6em; color:var(--paper)}
@@ -357,3 +360,26 @@ footer{border-top:1px solid var(--line); margin-top:5rem; padding:2.5rem clamp(1
 
 /* on small screens the wrapped masthead is tall; let it scroll away rather than cover the page */
 @media (max-width:520px){ .masthead{position:static} }
+
+/* ---- places index ---- */
+.places-count{font-size:.72rem; letter-spacing:.2em; text-transform:uppercase; color:var(--muted); margin:2.4rem 0 .6rem}
+.letters{display:flex; flex-wrap:wrap; gap:.15rem .55rem; border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+  padding:.7rem 0; margin:0 0 1rem}
+.letters a{font-family:'Cormorant Garamond',serif; font-size:1.15rem; color:var(--accent); padding:0 .15rem}
+.places .letter{font-family:'Cormorant Garamond',serif; font-weight:500; font-size:2rem; color:var(--accent);
+  margin:2.4rem 0 .4rem; line-height:1}
+.place{border-top:1px solid var(--line); padding:1.2rem 0 1.4rem; max-width:52em}
+.place h3{font-family:'Cormorant Garamond',serif; font-weight:500; font-size:1.55rem; line-height:1.1; margin:0 0 .35rem; color:var(--paper)}
+.place h3 .modern{display:inline-block; margin-left:.6rem; font-family:'Spectral',serif; font-style:italic; font-weight:400;
+  font-size:.92rem; color:var(--muted)}
+.place .lbl{font-size:.66rem; letter-spacing:.18em; text-transform:uppercase; color:var(--muted); margin-right:.5rem}
+.place .variants, .place .deccan, .place .none{font-size:.95rem; color:var(--paper-dim); margin:.25rem 0}
+.place .none{font-style:italic; color:var(--muted)}
+.place .sheets{list-style:none; margin:.8rem 0 0; padding:0}
+.place .sheets li{display:grid; grid-template-columns:3.4rem 1fr; gap:.1rem 1rem; align-items:baseline;
+  padding:.45rem 0; border-top:1px dotted var(--line)}
+.place .sheets .yr{font-family:'Cormorant Garamond',serif; font-size:1.15rem; color:var(--accent); grid-row:1 / span 2}
+.place .sheets a{font-family:'Cormorant Garamond',serif; font-size:1.2rem; line-height:1.15}
+.place .sheets .room, .place .sheets .src{grid-column:2; font-size:.68rem; letter-spacing:.16em; text-transform:uppercase; color:var(--muted)}
+.place .sheets .src{color:var(--accent)}
+@media (max-width:520px){ .place h3 .modern{display:block; margin-left:0} }
