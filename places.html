@@ -37,8 +37,8 @@
 </div>
 <div class="brief measure">The Deccan’s cities, forts, rivers and coasts, with their older spellings, and the sheets in the collection on which each is found.</div>
 <div class="prose">
-<p>Each entry gives the name as the collection uses it, the modern name, the spellings met on European sheets, the entries in the <a href="https://naniwadekar.com/deccan/">Deccan collection</a> that belong to the place, and the maps, by year and room. The map list is drawn from three sources, and each link says which. <strong>Linked from the Deccan collection</strong>: the Deccan entry for that place names the sheet among its related maps. <strong>Named in the notes</strong>: the sheet’s own page here – its title, brief, commentary or caption – names the place, in one of the spellings listed. <strong>Within the sheet’s region</strong>: only the sheet’s region tag (Bombay, Malabar, the Deccan) puts the place inside its frame.</p>
-<p>The index records what the notes say, not what the plates show. A sheet of the whole peninsula carries Bijapur whether or not the commentary mentions it, and the plates have not been read name by name for this list; a place with no maps under it is a place the notes have not yet reached. Corrections are welcome: a name seen on a plate, a spelling not listed, a sheet that belongs under a place. For the spellings and how to read them, see <a href="reading.html">How to read one of these</a>.</p>
+<p>Each entry gives the name as the collection uses it, the modern name, the spellings met on European sheets, the entries in the <a href="https://naniwadekar.com/deccan/">Deccan collection</a> that belong to the place, and the maps, by year and room. The map list is drawn from four sources, and each link says which. <strong>Linked from the Deccan collection</strong>: the Deccan entry for that place names the sheet among its related maps. <strong>Named in the notes</strong>: the sheet’s own page here – its title, brief, commentary or caption – names the place, in one of the spellings listed. <strong>Within the sheet’s region</strong>: only the sheet’s region tag (Bombay, Malabar, the Deccan) puts the place inside its frame. <strong>Seen on the sheet</strong>: the place was found on the plate itself, named in one of the spellings listed, or drawn and labelled, or – for a region – the subject of the sheet.</p>
+<p>The index began as a record of what the notes say, not what the plates show. On 26 August 2026 every link that rested on the notes or the region tag alone was checked against its plate: those that held were kept and now also say <em>seen on the sheet</em>; ten, where the commentary had mentioned a place in passing, were removed. On the same twenty-nine sheets the places plainly legible at the plate’s own size were added under that label. What remains unchecked is the links taken from the Deccan collection’s own curation, which were not read against the plates, and the thirty-nine sheets no notes-derived link led to. A place with no maps under it is a place neither the notes nor that pass has reached. Corrections are welcome: a name seen on a plate, a spelling not listed, a sheet that belongs under a place. For the spellings and how to read them, see <a href="reading.html">How to read one of these</a>.</p>
 </div>
 <p class="places-count" id="placesCount"></p>
 <nav class="letters" id="letters" aria-label="Alphabetical index"></nav>
@@ -52,7 +52,7 @@
   var ROOMS={'01':'Antiquity and Renaissance','02':'Baroque, Mughals and Companies','03':'The Survey Turn',
     '04':'Home Ground: Bombay and the Deccan','05':'Administered Empire and Victorian Atlas',
     '06':'The Sea and the Route','07':'Last Frontiers'};
-  var SRC={deccan:'linked from the Deccan collection',notes:'named in the notes',region:'within the sheet’s region'};
+  var SRC={deccan:'linked from the Deccan collection',notes:'named in the notes',region:'within the sheet’s region',plate:'seen on the sheet'};
   var DECCAN='https://naniwadekar.com/deccan/#';
   function E(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
   function sortName(p){return p.name.replace(/^The /,'');}
@@ -79,7 +79,7 @@
       });
       html+='</ul>';
     } else {
-      html+='<p class="none">No sheet in the collection names this place in its notes.</p>';
+      html+='<p class="none">No sheet in the collection has yet been found to carry this place.</p>';
     }
     html+='</section>';
   });

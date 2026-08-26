@@ -4,8 +4,11 @@
    collection at https://naniwadekar.com/deccan/#id) and maps. Each map link carries `sources`:
    'deccan'  – the Deccan collection's related_maps field names this sheet for an entry at this place (see `via`);
    'notes'   – the sheet's own page text names the place (the spelling found is in `matched`);
-   'region'  – only the sheet's filename region tag (Bombay, Malabar, Deccan) puts the place within its frame.
-   Built by a script (site-notes/build_places.py) from the page texts and the Deccan entries; the plates themselves were not read.
+   'region'  – only the sheet's filename region tag (Bombay, Malabar, Deccan) puts the place within its frame;
+   'plate'   – the place was seen on the plate itself (the spelling read there is in `matched`).
+   Built by a script (site-notes/build_places.py) from the page texts and the Deccan entries. On 2026-08-26 every
+   notes- and region-only link was checked against the plate (kept ones carry 'plate' as well; the rest were removed)
+   and places plainly seen on those 29 sheets were added with 'plate' alone. Deccan-sourced links are unchecked.
    Generated 2026-08-26. */
 window.GAZE_PLACES = [
  {
@@ -87,6 +90,20 @@ window.GAZE_PLACES = [
     "matched": []
    },
    {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Amednagur"
+    ]
+   },
+   {
     "file": "1827__Deccan__Vandermaelen__Guzerate-Chandeish-Aurungabad.html",
     "title": "Guzerate, Chandeish et Aurungabad – Asie 93",
     "year": 1827,
@@ -100,6 +117,48 @@ window.GAZE_PLACES = [
      "chand-bibi-1595"
     ],
     "matched": []
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Ahmednuggur"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Ahmednuggur"
+    ]
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Ahmadnagar"
+    ]
    }
   ]
  },
@@ -162,6 +221,48 @@ window.GAZE_PLACES = [
      "carnatic-wars-arcot-1751"
     ],
     "matched": []
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Arcot"
+    ]
+   },
+   {
+    "file": "1848__Deccan__Morse__Southern-India.html",
+    "title": "Southern India",
+    "year": 1848,
+    "date": "1848",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Arcot"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Arcot"
+    ]
    }
   ]
  },
@@ -185,6 +286,90 @@ window.GAZE_PLACES = [
   ],
   "maps": [
    {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Aureng Abad"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Aureng Abat"
+    ]
+   },
+   {
+    "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
+    "title": "A Map of Hindoostan or the Mogul Empire",
+    "year": 1788,
+    "date": "1788",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Aurungabad"
+    ]
+   },
+   {
+    "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin",
+    "year": 1792,
+    "date": "1792 (issued 1793)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Aurungabad"
+    ]
+   },
+   {
+    "file": "1800__India__Faden__India-Peninsula.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
+    "year": 1800,
+    "date": "1792",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Aurungabad"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Aurungabad"
+    ]
+   },
+   {
     "file": "1827__Deccan__Vandermaelen__Guzerate-Chandeish-Aurungabad.html",
     "title": "Guzerate, Chandeish et Aurungabad – Asie 93",
     "year": 1827,
@@ -200,6 +385,48 @@ window.GAZE_PLACES = [
     "matched": [
      "Aurangabad",
      "Aurungabad"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Aurungabad"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Aurungabad"
+    ]
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Aurangabad"
     ]
    }
   ]
@@ -221,7 +448,64 @@ window.GAZE_PLACES = [
     "date": "1594–1664"
    }
   ],
-  "maps": []
+  "maps": [
+   {
+    "file": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
+    "title": "Triangulation across the Indian Peninsula",
+    "year": 1808,
+    "date": "1808 (London reprint 1811)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bangalore"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bangalore"
+    ]
+   },
+   {
+    "file": "1848__Deccan__Morse__Southern-India.html",
+    "title": "Southern India",
+    "year": 1848,
+    "date": "1848",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Banglore"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bangalore"
+    ]
+   }
+  ]
  },
  {
   "id": "bassein",
@@ -248,6 +532,48 @@ window.GAZE_PLACES = [
    }
   ],
   "maps": [
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Baseim"
+    ]
+   },
+   {
+    "file": "1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean.html",
+    "title": "A chart of the East Indian Ocean",
+    "year": 1728,
+    "date": "1728",
+    "room": "06",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bassein"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bacaim"
+    ]
+   },
    {
     "file": "1764__Bombay__Bellin__Plan-de-Bombay.html",
     "title": "Plan de Bombay",
@@ -290,6 +616,48 @@ window.GAZE_PLACES = [
      "treaty-of-bassein-1802"
     ],
     "matched": []
+   },
+   {
+    "file": "1827__Deccan__Vandermaelen__Guzerate-Chandeish-Aurungabad.html",
+    "title": "Guzerate, Chandeish et Aurungabad – Asie 93",
+    "year": 1827,
+    "date": "1827",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bassein"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bassein"
+    ]
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bassein"
+    ]
    }
   ]
  },
@@ -304,7 +672,36 @@ window.GAZE_PLACES = [
    "Belgam"
   ],
   "deccan": [],
-  "maps": []
+  "maps": [
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Belgaum"
+    ]
+   },
+   {
+    "file": "1859__Deccan__Josenhans-Basel__Sud-Mahratta.html",
+    "title": "Süd Mahratta (South Maratha)",
+    "year": 1859,
+    "date": "1859",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Belgam"
+    ]
+   }
+  ]
  },
  {
   "id": "bellary",
@@ -317,7 +714,64 @@ window.GAZE_PLACES = [
    "Ballary"
   ],
   "deccan": [],
-  "maps": []
+  "maps": [
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Ballari"
+    ]
+   },
+   {
+    "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
+    "title": "Carte de l’Inde – southern sheets",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Ballari"
+    ]
+   },
+   {
+    "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin",
+    "year": 1792,
+    "date": "1792 (issued 1793)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bellary"
+    ]
+   },
+   {
+    "file": "1800__India__Faden__India-Peninsula.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
+    "year": 1800,
+    "date": "1792",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bellary"
+    ]
+   }
+  ]
  },
  {
   "id": "bhima",
@@ -400,6 +854,104 @@ window.GAZE_PLACES = [
      "bahmani-successor-sultanates"
     ],
     "matched": []
+   },
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bider"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Beder"
+    ]
+   },
+   {
+    "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin",
+    "year": 1792,
+    "date": "1792 (issued 1793)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Beder"
+    ]
+   },
+   {
+    "file": "1800__India__Faden__India-Peninsula.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
+    "year": 1800,
+    "date": "1792",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Beder"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Beder"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Beder"
+    ]
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bidar"
+    ]
    }
   ]
  },
@@ -458,12 +1010,139 @@ window.GAZE_PLACES = [
     "date": "1706",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
      "Bijapur",
      "Visiapour"
+    ]
+   },
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Visapour"
+    ]
+   },
+   {
+    "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
+    "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+    "year": 1719,
+    "date": "1719",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Visapour"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Visapour"
+    ]
+   },
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Visiapur"
+    ]
+   },
+   {
+    "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
+    "title": "Carte de l’Inde – southern sheets",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Visiapur"
+    ]
+   },
+   {
+    "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
+    "title": "A Map of Hindoostan or the Mogul Empire",
+    "year": 1788,
+    "date": "1788",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Visiapour"
+    ]
+   },
+   {
+    "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin",
+    "year": 1792,
+    "date": "1792 (issued 1793)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bijapoor"
+    ]
+   },
+   {
+    "file": "1800__India__Faden__India-Peninsula.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
+    "year": 1800,
+    "date": "1792",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bijapoor"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bijapour"
     ]
    },
    {
@@ -487,13 +1166,41 @@ window.GAZE_PLACES = [
     ]
    },
    {
-    "file": "1827__Deccan__Vandermaelen__Guzerate-Chandeish-Aurungabad.html",
-    "title": "Guzerate, Chandeish et Aurungabad – Asie 93",
-    "year": 1827,
-    "date": "1827",
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Beejapoor"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
     "room": "04",
     "sources": [
-     "notes"
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Beejapoor"
+    ]
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -523,6 +1230,48 @@ window.GAZE_PLACES = [
   ],
   "maps": [
    {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bumbay"
+    ]
+   },
+   {
+    "file": "1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean.html",
+    "title": "A chart of the East Indian Ocean",
+    "year": 1728,
+    "date": "1728",
+    "room": "06",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bumbay"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bombaim"
+    ]
+   },
+   {
     "file": "1764__Bombay__Bellin__Plan-de-Bombay.html",
     "title": "Plan de Bombay",
     "year": 1764,
@@ -530,7 +1279,8 @@ window.GAZE_PLACES = [
     "room": "04",
     "sources": [
      "notes",
-     "region"
+     "region",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -545,7 +1295,36 @@ window.GAZE_PLACES = [
     "room": "04",
     "sources": [
      "notes",
-     "region"
+     "region",
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bombay"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bombay"
+    ]
+   },
+   {
+    "file": "1827__Deccan__Vandermaelen__Guzerate-Chandeish-Aurungabad.html",
+    "title": "Guzerate, Chandeish et Aurungabad – Asie 93",
+    "year": 1827,
+    "date": "1827",
+    "room": "04",
+    "sources": [
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -559,7 +1338,8 @@ window.GAZE_PLACES = [
     "date": "c.1851",
     "room": "05",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -591,7 +1371,8 @@ window.GAZE_PLACES = [
     "room": "04",
     "sources": [
      "notes",
-     "region"
+     "region",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -606,7 +1387,8 @@ window.GAZE_PLACES = [
     "room": "04",
     "sources": [
      "notes",
-     "region"
+     "region",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -620,7 +1402,8 @@ window.GAZE_PLACES = [
     "date": "1893",
     "room": "04",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -642,7 +1425,36 @@ window.GAZE_PLACES = [
    "Brampur"
   ],
   "deccan": [],
-  "maps": []
+  "maps": [
+   {
+    "file": "1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda.html",
+    "title": "The Kingdoms of Golconda, Tenasserim, Pegu and Arakan",
+    "year": 1706,
+    "date": "1706",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Brampore"
+    ]
+   },
+   {
+    "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
+    "title": "A Map of Hindoostan or the Mogul Empire",
+    "year": 1788,
+    "date": "1788",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Burhanpoor"
+    ]
+   }
+  ]
  },
  {
   "id": "calicut",
@@ -696,6 +1508,132 @@ window.GAZE_PLACES = [
      "Calicut",
      "Calecut"
     ]
+   },
+   {
+    "file": "1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda.html",
+    "title": "The Kingdoms of Golconda, Tenasserim, Pegu and Arakan",
+    "year": 1706,
+    "date": "1706",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Calicut"
+    ]
+   },
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Calicut"
+    ]
+   },
+   {
+    "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
+    "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+    "year": 1719,
+    "date": "1719",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Calicut"
+    ]
+   },
+   {
+    "file": "1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean.html",
+    "title": "A chart of the East Indian Ocean",
+    "year": 1728,
+    "date": "1728",
+    "room": "06",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Callecut"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Calicut"
+    ]
+   },
+   {
+    "file": "1809__Malabar__Arrowsmith__Province-of-Malabar-Composite.html",
+    "title": "Map of the Province of Malabar",
+    "year": 1809,
+    "date": "1809",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Calicut"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Calicut"
+    ]
+   },
+   {
+    "file": "1848__Deccan__Morse__Southern-India.html",
+    "title": "Southern India",
+    "year": 1848,
+    "date": "1848",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Calicut"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Calicut"
+    ]
    }
   ]
  },
@@ -714,13 +1652,98 @@ window.GAZE_PLACES = [
   "deccan": [],
   "maps": [
    {
+    "file": "1599__SouthIndia__Ruscelli-Rosaccio__Calecut-Nuova-Tavola.html",
+    "title": "Calecut Nuova Tavola",
+    "year": 1599,
+    "date": "1599",
+    "room": "01",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "C. Comeri"
+    ]
+   },
+   {
+    "file": "1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda.html",
+    "title": "The Kingdoms of Golconda, Tenasserim, Pegu and Arakan",
+    "year": 1706,
+    "date": "1706",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "C. Commoryn"
+    ]
+   },
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cap de Comorin"
+    ]
+   },
+   {
+    "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
+    "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+    "year": 1719,
+    "date": "1719",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "C. Comorin"
+    ]
+   },
+   {
+    "file": "1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean.html",
+    "title": "A chart of the East Indian Ocean",
+    "year": 1728,
+    "date": "1728",
+    "room": "06",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "C. Comorin"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cap. Comorin"
+    ]
+   },
+   {
     "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
     "title": "A Map of the Peninsula of India to Cape Comorin",
     "year": 1792,
     "date": "1792 (issued 1793)",
     "room": "03",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -735,11 +1758,54 @@ window.GAZE_PLACES = [
     "date": "1792",
     "room": "03",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
      "Cape Comorin",
+     "Comorin"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cape Comorin"
+    ]
+   },
+   {
+    "file": "1848__Deccan__Morse__Southern-India.html",
+    "title": "Southern India",
+    "year": 1848,
+    "date": "1848",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cape Comorin"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
      "Comorin"
     ]
    }
@@ -759,13 +1825,112 @@ window.GAZE_PLACES = [
   "deccan": [],
   "maps": [
    {
+    "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
+    "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+    "year": 1719,
+    "date": "1719",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Carnate"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Carnate"
+    ]
+   },
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Carnate"
+    ]
+   },
+   {
+    "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
+    "title": "Carte de l’Inde – southern sheets",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Carnate"
+    ]
+   },
+   {
+    "file": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
+    "title": "Triangulation across the Indian Peninsula",
+    "year": 1808,
+    "date": "1808 (London reprint 1811)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Karnatic"
+    ]
+   },
+   {
     "file": "1820__India__Carey-Lavoisne__India.html",
     "title": "Geographical, Historical, and Statistical Map of India",
     "year": 1820,
     "date": "1820",
     "room": "03",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Carnatic"
+    ]
+   },
+   {
+    "file": "1848__Deccan__Morse__Southern-India.html",
+    "title": "Southern India",
+    "year": 1848,
+    "date": "1848",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Carnatic"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -790,13 +1955,56 @@ window.GAZE_PLACES = [
   "deccan": [],
   "maps": [
    {
+    "file": "1597__IndianOcean__Ortelius__Erythraei-Maris-Periplus.html",
+    "title": "The Periplus of the Erythraean Sea",
+    "year": 1597,
+    "date": "1597",
+    "room": "01",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Taprobana"
+    ]
+   },
+   {
+    "file": "1599__SouthIndia__Ruscelli-Rosaccio__Calecut-Nuova-Tavola.html",
+    "title": "Calecut Nuova Tavola",
+    "year": 1599,
+    "date": "1599",
+    "room": "01",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Ceilam"
+    ]
+   },
+   {
+    "file": "1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda.html",
+    "title": "The Kingdoms of Golconda, Tenasserim, Pegu and Arakan",
+    "year": 1706,
+    "date": "1706",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Ceylon"
+    ]
+   },
+   {
     "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
     "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
     "year": 1708,
     "date": "1708",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -810,11 +2018,26 @@ window.GAZE_PLACES = [
     "date": "1733",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
      "Ceylon"
+    ]
+   },
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Ceilan"
     ]
    },
    {
@@ -824,7 +2047,8 @@ window.GAZE_PLACES = [
     "date": "1752",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -832,13 +2056,83 @@ window.GAZE_PLACES = [
     ]
    },
    {
-    "file": "1911__Deccan__Murray-Handbook__Hampi-Ruins-of-Vijayanagar.html",
-    "title": "Hampi: Ruins of Vijayanagar",
-    "year": 1911,
-    "date": "1911",
+    "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
+    "title": "A Map of Hindoostan or the Mogul Empire",
+    "year": 1788,
+    "date": "1788",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Ceylon"
+    ]
+   },
+   {
+    "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin",
+    "year": 1792,
+    "date": "1792 (issued 1793)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Ceylon"
+    ]
+   },
+   {
+    "file": "1800__India__Faden__India-Peninsula.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
+    "year": 1800,
+    "date": "1792",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Ceylon"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Ceylon"
+    ]
+   },
+   {
+    "file": "1848__Deccan__Morse__Southern-India.html",
+    "title": "Southern India",
+    "year": 1848,
+    "date": "1848",
     "room": "04",
     "sources": [
-     "notes"
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Ceylon"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -859,7 +2153,134 @@ window.GAZE_PLACES = [
    "Revdanda"
   ],
   "deccan": [],
-  "maps": []
+  "maps": [
+   {
+    "file": "1599__SouthIndia__Ruscelli-Rosaccio__Calecut-Nuova-Tavola.html",
+    "title": "Calecut Nuova Tavola",
+    "year": 1599,
+    "date": "1599",
+    "room": "01",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Chaul"
+    ]
+   },
+   {
+    "file": "1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda.html",
+    "title": "The Kingdoms of Golconda, Tenasserim, Pegu and Arakan",
+    "year": 1706,
+    "date": "1706",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Chaul"
+    ]
+   },
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Choul"
+    ]
+   },
+   {
+    "file": "1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean.html",
+    "title": "A chart of the East Indian Ocean",
+    "year": 1728,
+    "date": "1728",
+    "room": "06",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Choul"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Chaul"
+    ]
+   },
+   {
+    "file": "1764__Bombay__Bellin__Plan-de-Bombay.html",
+    "title": "Plan de Bombay",
+    "year": 1764,
+    "date": "1764",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Chaul"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Choul"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Choul"
+    ]
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Chaul"
+    ]
+   }
+  ]
  },
  {
   "id": "cochin",
@@ -874,13 +2295,154 @@ window.GAZE_PLACES = [
   "deccan": [],
   "maps": [
    {
+    "file": "1599__SouthIndia__Ruscelli-Rosaccio__Calecut-Nuova-Tavola.html",
+    "title": "Calecut Nuova Tavola",
+    "year": 1599,
+    "date": "1599",
+    "room": "01",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cochin"
+    ]
+   },
+   {
+    "file": "1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda.html",
+    "title": "The Kingdoms of Golconda, Tenasserim, Pegu and Arakan",
+    "year": 1706,
+    "date": "1706",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cochin"
+    ]
+   },
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cochin"
+    ]
+   },
+   {
+    "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
+    "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+    "year": 1719,
+    "date": "1719",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cochin"
+    ]
+   },
+   {
     "file": "1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean.html",
     "title": "A chart of the East Indian Ocean",
     "year": 1728,
     "date": "1728",
     "room": "06",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cochin"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cochin"
+    ]
+   },
+   {
+    "file": "1809__Malabar__Arrowsmith__Province-of-Malabar-Composite.html",
+    "title": "Map of the Province of Malabar",
+    "year": 1809,
+    "date": "1809",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cochin"
+    ]
+   },
+   {
+    "file": "1809__Malabar__Arrowsmith__Province-of-Malabar-Sheet-1.html",
+    "title": "Map of the Province of Malabar – Sheet 1",
+    "year": 1809,
+    "date": "1809",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cochin"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cochin"
+    ]
+   },
+   {
+    "file": "1848__Deccan__Morse__Southern-India.html",
+    "title": "Southern India",
+    "year": 1848,
+    "date": "1848",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cochin"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -908,11 +2470,26 @@ window.GAZE_PLACES = [
     "date": "1706",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
      "Coromandel"
+    ]
+   },
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cormanel"
     ]
    },
    {
@@ -922,7 +2499,8 @@ window.GAZE_PLACES = [
     "date": "1719",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -936,7 +2514,8 @@ window.GAZE_PLACES = [
     "date": "1733",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -944,13 +2523,97 @@ window.GAZE_PLACES = [
     ]
    },
    {
-    "file": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
-    "title": "Triangulation across the Indian Peninsula",
-    "year": 1808,
-    "date": "1808 (London reprint 1811)",
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Coromandel"
+    ]
+   },
+   {
+    "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
+    "title": "Carte de l’Inde – southern sheets",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Coromandel"
+    ]
+   },
+   {
+    "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
+    "title": "A Map of Hindoostan or the Mogul Empire",
+    "year": 1788,
+    "date": "1788",
     "room": "03",
     "sources": [
-     "notes"
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Coromandel"
+    ]
+   },
+   {
+    "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin",
+    "year": 1792,
+    "date": "1792 (issued 1793)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Coromandel Coast"
+    ]
+   },
+   {
+    "file": "1800__India__Faden__India-Peninsula.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
+    "year": 1800,
+    "date": "1792",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Coromandel Coast"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Coromandel"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -970,7 +2633,64 @@ window.GAZE_PLACES = [
    "Cudapah"
   ],
   "deccan": [],
-  "maps": []
+  "maps": [
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cadapa"
+    ]
+   },
+   {
+    "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
+    "title": "Carte de l’Inde – southern sheets",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cadapa"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cuddapa"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cuddapah"
+    ]
+   }
+  ]
  },
  {
   "id": "daman",
@@ -986,13 +2706,98 @@ window.GAZE_PLACES = [
   "deccan": [],
   "maps": [
    {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Damon"
+    ]
+   },
+   {
+    "file": "1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean.html",
+    "title": "A chart of the East Indian Ocean",
+    "year": 1728,
+    "date": "1728",
+    "room": "06",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Damon"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Daman"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Daman"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Damaun"
+    ]
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Daman"
+    ]
+   },
+   {
     "file": "1946__Ministerio-das-Colonias__Goa-Daman-Diu.html",
     "title": "Carta demográfica do Estado da Índia – Goa, Damão and Diu",
     "year": 1946,
     "date": "1946",
     "room": "07",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -1057,6 +2862,76 @@ window.GAZE_PLACES = [
     "matched": []
    },
    {
+    "file": "1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda.html",
+    "title": "The Kingdoms of Golconda, Tenasserim, Pegu and Arakan",
+    "year": 1706,
+    "date": "1706",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Doltabad"
+    ]
+   },
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Douli Abad"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Dultabat"
+    ]
+   },
+   {
+    "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
+    "title": "A Map of Hindoostan or the Mogul Empire",
+    "year": 1788,
+    "date": "1788",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Dowlatabad"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Dowlatabad"
+    ]
+   },
+   {
     "file": "1827__Deccan__Vandermaelen__Guzerate-Chandeish-Aurungabad.html",
     "title": "Guzerate, Chandeish et Aurungabad – Asie 93",
     "year": 1827,
@@ -1069,6 +2944,34 @@ window.GAZE_PLACES = [
      "tughluq-daulatabad-1327"
     ],
     "matched": []
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Dowlutabad"
+    ]
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Daulatabad"
+    ]
    }
   ]
  },
@@ -1093,6 +2996,20 @@ window.GAZE_PLACES = [
   ],
   "maps": [
    {
+    "file": "1599__SouthIndia__Ruscelli-Rosaccio__Calecut-Nuova-Tavola.html",
+    "title": "Calecut Nuova Tavola",
+    "year": 1599,
+    "date": "1599",
+    "room": "01",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Dacan"
+    ]
+   },
+   {
     "file": "1654__India__Sanson__India-Below-and-Beyond-the-Ganges.html",
     "title": "India below and beyond the Ganges, or the Empire of the Great Mogul",
     "year": 1654,
@@ -1114,11 +3031,54 @@ window.GAZE_PLACES = [
     "room": "02",
     "sources": [
      "notes",
-     "region"
+     "region",
+     "plate"
     ],
     "via": [],
     "matched": [
      "Deccan",
+     "Decan"
+    ]
+   },
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Decan"
+    ]
+   },
+   {
+    "file": "1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean.html",
+    "title": "A chart of the East Indian Ocean",
+    "year": 1728,
+    "date": "1728",
+    "room": "06",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Decam"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
      "Decan"
     ]
    },
@@ -1130,7 +3090,8 @@ window.GAZE_PLACES = [
     "room": "04",
     "sources": [
      "notes",
-     "region"
+     "region",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -1156,28 +3117,14 @@ window.GAZE_PLACES = [
     ]
    },
    {
-    "file": "1848__Deccan__Morse__Southern-India.html",
-    "title": "Southern India",
-    "year": 1848,
-    "date": "1848",
-    "room": "04",
-    "sources": [
-     "notes",
-     "region"
-    ],
-    "via": [],
-    "matched": [
-     "Deccan"
-    ]
-   },
-   {
     "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
     "title": "India III: Bombay",
     "year": 1856,
     "date": "",
     "room": "04",
     "sources": [
-     "region"
+     "region",
+     "plate"
     ],
     "via": [],
     "matched": []
@@ -1189,7 +3136,8 @@ window.GAZE_PLACES = [
     "date": "1859",
     "room": "04",
     "sources": [
-     "region"
+     "region",
+     "plate"
     ],
     "via": [],
     "matched": []
@@ -1201,25 +3149,11 @@ window.GAZE_PLACES = [
     "date": "1893",
     "room": "04",
     "sources": [
-     "region"
+     "region",
+     "plate"
     ],
     "via": [],
     "matched": []
-   },
-   {
-    "file": "1911__Deccan__Murray-Handbook__Hampi-Ruins-of-Vijayanagar.html",
-    "title": "Hampi: Ruins of Vijayanagar",
-    "year": 1911,
-    "date": "1911",
-    "room": "04",
-    "sources": [
-     "notes",
-     "region"
-    ],
-    "via": [],
-    "matched": [
-     "Deccan"
-    ]
    }
   ]
  },
@@ -1234,7 +3168,64 @@ window.GAZE_PLACES = [
    "Darwar"
   ],
   "deccan": [],
-  "maps": []
+  "maps": [
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Darwar"
+    ]
+   },
+   {
+    "file": "1827__Deccan__Vandermaelen__Bejapoor-Bijapur.html",
+    "title": "Bejapoor – Asie 102",
+    "year": 1827,
+    "date": "1827",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Darwar"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Darwar"
+    ]
+   },
+   {
+    "file": "1859__Deccan__Josenhans-Basel__Sud-Mahratta.html",
+    "title": "Süd Mahratta (South Maratha)",
+    "year": 1859,
+    "date": "1859",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Dharwar"
+    ]
+   }
+  ]
  },
  {
   "id": "diu",
@@ -1248,13 +3239,56 @@ window.GAZE_PLACES = [
   "deccan": [],
   "maps": [
    {
+    "file": "1599__SouthIndia__Ruscelli-Rosaccio__Calecut-Nuova-Tavola.html",
+    "title": "Calecut Nuova Tavola",
+    "year": 1599,
+    "date": "1599",
+    "room": "01",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Diu"
+    ]
+   },
+   {
+    "file": "1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda.html",
+    "title": "The Kingdoms of Golconda, Tenasserim, Pegu and Arakan",
+    "year": 1706,
+    "date": "1706",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Diu"
+    ]
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Diu"
+    ]
+   },
+   {
     "file": "1946__Ministerio-das-Colonias__Goa-Daman-Diu.html",
     "title": "Carta demográfica do Estado da Índia – Goa, Damão and Diu",
     "year": 1946,
     "date": "1946",
     "room": "07",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -1289,6 +3323,34 @@ window.GAZE_PLACES = [
    }
   ],
   "maps": [
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Berar"
+    ]
+   },
+   {
+    "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
+    "title": "A Map of Hindoostan or the Mogul Empire",
+    "year": 1788,
+    "date": "1788",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Berar"
+    ]
+   },
    {
     "file": "1827__Deccan__Vandermaelen__Guzerate-Chandeish-Aurungabad.html",
     "title": "Guzerate, Chandeish et Aurungabad – Asie 93",
@@ -1348,7 +3410,22 @@ window.GAZE_PLACES = [
    "Verul"
   ],
   "deccan": [],
-  "maps": []
+  "maps": [
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Ellora"
+    ]
+   }
+  ]
  },
  {
   "id": "goa",
@@ -1403,13 +3480,98 @@ window.GAZE_PLACES = [
     ]
    },
    {
+    "file": "1599__SouthIndia__Ruscelli-Rosaccio__Calecut-Nuova-Tavola.html",
+    "title": "Calecut Nuova Tavola",
+    "year": 1599,
+    "date": "1599",
+    "room": "01",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Goa"
+    ]
+   },
+   {
+    "file": "1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda.html",
+    "title": "The Kingdoms of Golconda, Tenasserim, Pegu and Arakan",
+    "year": 1706,
+    "date": "1706",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Goa"
+    ]
+   },
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Goa"
+    ]
+   },
+   {
+    "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
+    "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+    "year": 1719,
+    "date": "1719",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Goa"
+    ]
+   },
+   {
+    "file": "1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean.html",
+    "title": "A chart of the East Indian Ocean",
+    "year": 1728,
+    "date": "1728",
+    "room": "06",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Goa"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Goa"
+    ]
+   },
+   {
     "file": "1752__India__dAnville__lInde-Composite.html",
     "title": "Carte de l’Inde",
     "year": 1752,
     "date": "1752",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -1423,7 +3585,78 @@ window.GAZE_PLACES = [
     "date": "1752",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Goa"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Goa"
+    ]
+   },
+   {
+    "file": "1827__Deccan__Vandermaelen__Bejapoor-Bijapur.html",
+    "title": "Bejapoor – Asie 102",
+    "year": 1827,
+    "date": "1827",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Goa"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Goa"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Goa"
+    ]
+   },
+   {
+    "file": "1859__Deccan__Josenhans-Basel__Sud-Mahratta.html",
+    "title": "Süd Mahratta (South Maratha)",
+    "year": 1859,
+    "date": "1859",
+    "room": "04",
+    "sources": [
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -1437,7 +3670,8 @@ window.GAZE_PLACES = [
     "date": "1946",
     "room": "07",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -1458,7 +3692,78 @@ window.GAZE_PLACES = [
    "Godavery"
   ],
   "deccan": [],
-  "maps": []
+  "maps": [
+   {
+    "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
+    "title": "A Map of Hindoostan or the Mogul Empire",
+    "year": 1788,
+    "date": "1788",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Godavery River"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Godavery R."
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "R. Godavery"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Godavery R."
+    ]
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "R. Godavari"
+    ]
+   }
+  ]
  },
  {
   "id": "golconda",
@@ -1542,6 +3847,132 @@ window.GAZE_PLACES = [
     ]
    },
    {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Golconde"
+    ]
+   },
+   {
+    "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
+    "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+    "year": 1719,
+    "date": "1719",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Golconde"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Golconda"
+    ]
+   },
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Golkonda"
+    ]
+   },
+   {
+    "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
+    "title": "Carte de l’Inde – southern sheets",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Golkonda"
+    ]
+   },
+   {
+    "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
+    "title": "A Map of Hindoostan or the Mogul Empire",
+    "year": 1788,
+    "date": "1788",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Golconda"
+    ]
+   },
+   {
+    "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin",
+    "year": 1792,
+    "date": "1792 (issued 1793)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Golconda"
+    ]
+   },
+   {
+    "file": "1800__India__Faden__India-Peninsula.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
+    "year": 1800,
+    "date": "1792",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Golconda"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Golconda"
+    ]
+   },
+   {
     "file": "1827__Deccan__Vandermaelen__Bejapoor-Bijapur.html",
     "title": "Bejapoor – Asie 102",
     "year": 1827,
@@ -1554,6 +3985,34 @@ window.GAZE_PLACES = [
      "bijapur-golconda-fall-1687"
     ],
     "matched": []
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Golconda"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Golkondah"
+    ]
    }
   ]
  },
@@ -1574,13 +4033,84 @@ window.GAZE_PLACES = [
   "deccan": [],
   "maps": [
    {
+    "file": "1599__SouthIndia__Ruscelli-Rosaccio__Calecut-Nuova-Tavola.html",
+    "title": "Calecut Nuova Tavola",
+    "year": 1599,
+    "date": "1599",
+    "room": "01",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Guzurat"
+    ]
+   },
+   {
+    "file": "1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda.html",
+    "title": "The Kingdoms of Golconda, Tenasserim, Pegu and Arakan",
+    "year": 1706,
+    "date": "1706",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Guzaratæ"
+    ]
+   },
+   {
+    "file": "1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean.html",
+    "title": "A chart of the East Indian Ocean",
+    "year": 1728,
+    "date": "1728",
+    "room": "06",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Guzarat"
+    ]
+   },
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Guzarat"
+    ]
+   },
+   {
+    "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
+    "title": "A Map of Hindoostan or the Mogul Empire",
+    "year": 1788,
+    "date": "1788",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Guzerat"
+    ]
+   },
+   {
     "file": "1827__Deccan__Vandermaelen__Guzerate-Chandeish-Aurungabad.html",
     "title": "Guzerate, Chandeish et Aurungabad – Asie 93",
     "year": 1827,
     "date": "1827",
     "room": "04",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -1631,6 +4161,62 @@ window.GAZE_PLACES = [
   ],
   "maps": [
    {
+    "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
+    "title": "A Map of Hindoostan or the Mogul Empire",
+    "year": 1788,
+    "date": "1788",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Calberga"
+    ]
+   },
+   {
+    "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin",
+    "year": 1792,
+    "date": "1792 (issued 1793)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Calberga"
+    ]
+   },
+   {
+    "file": "1800__India__Faden__India-Peninsula.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
+    "year": 1800,
+    "date": "1792",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Calberga"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Calberga"
+    ]
+   },
+   {
     "file": "1827__Deccan__Vandermaelen__Bejapoor-Bijapur.html",
     "title": "Bejapoor – Asie 102",
     "year": 1827,
@@ -1644,6 +4230,48 @@ window.GAZE_PLACES = [
      "dakhni-sufi-shrines"
     ],
     "matched": []
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Culburga"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Kulburga"
+    ]
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Kulbarga"
+    ]
    }
   ]
  },
@@ -1721,6 +4349,34 @@ window.GAZE_PLACES = [
     ]
    },
    {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Heiderabat"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Badnagar"
+    ]
+   },
+   {
     "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
     "title": "Carte de l’Inde – southern sheets",
     "year": 1752,
@@ -1763,6 +4419,20 @@ window.GAZE_PLACES = [
     "matched": []
    },
    {
+    "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin",
+    "year": 1792,
+    "date": "1792 (issued 1793)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Hyderabad"
+    ]
+   },
+   {
     "file": "1800__India__Faden__India-Peninsula.html",
     "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
     "year": 1800,
@@ -1777,6 +4447,20 @@ window.GAZE_PLACES = [
     "matched": []
    },
    {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Hyderabad"
+    ]
+   },
+   {
     "file": "1827__Deccan__Vandermaelen__Bejapoor-Bijapur.html",
     "title": "Bejapoor – Asie 102",
     "year": 1827,
@@ -1789,6 +4473,20 @@ window.GAZE_PLACES = [
      "hyderabad-residency"
     ],
     "matched": []
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Hydrabad"
+    ]
    },
    {
     "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
@@ -1873,6 +4571,34 @@ window.GAZE_PLACES = [
     "matched": []
    },
    {
+    "file": "1827__Deccan__Vandermaelen__Bejapoor-Bijapur.html",
+    "title": "Bejapoor – Asie 102",
+    "year": 1827,
+    "date": "1827",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Kolapoor"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Kolapoor"
+    ]
+   },
+   {
     "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
     "title": "India III: Bombay",
     "year": 1856,
@@ -1899,6 +4625,20 @@ window.GAZE_PLACES = [
      "jagirdars-and-saranjams"
     ],
     "matched": []
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Kolhapur"
+    ]
    }
   ]
  },
@@ -1916,18 +4656,61 @@ window.GAZE_PLACES = [
   "deccan": [],
   "maps": [
    {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cuncan"
+    ]
+   },
+   {
     "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
     "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
     "year": 1719,
     "date": "1719",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
      "Konkan",
      "Cucan"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Cuncan"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Concan"
     ]
    }
   ]
@@ -1953,11 +4736,152 @@ window.GAZE_PLACES = [
     "date": "1706",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
      "Krishna"
+    ]
+   },
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Krishna R."
+    ]
+   },
+   {
+    "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
+    "title": "Carte de l’Inde – southern sheets",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Krishna R."
+    ]
+   },
+   {
+    "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
+    "title": "A Map of Hindoostan or the Mogul Empire",
+    "year": 1788,
+    "date": "1788",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Kistnah R."
+    ]
+   },
+   {
+    "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin",
+    "year": 1792,
+    "date": "1792 (issued 1793)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Kistna R."
+    ]
+   },
+   {
+    "file": "1800__India__Faden__India-Peninsula.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
+    "year": 1800,
+    "date": "1792",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Kistna R."
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Krishna R."
+    ]
+   },
+   {
+    "file": "1827__Deccan__Vandermaelen__Bejapoor-Bijapur.html",
+    "title": "Bejapoor – Asie 102",
+    "year": 1827,
+    "date": "1827",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Kistnah R."
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "R. Kistnah"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "R. Kistna"
+    ]
+   },
+   {
+    "file": "1859__Deccan__Josenhans-Basel__Sud-Mahratta.html",
+    "title": "Süd Mahratta (South Maratha)",
+    "year": 1859,
+    "date": "1859",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Krischna"
     ]
    }
   ]
@@ -1974,7 +4898,36 @@ window.GAZE_PLACES = [
    "Curnool"
   ],
   "deccan": [],
-  "maps": []
+  "maps": [
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Kurnoul"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Kurnool"
+    ]
+   }
+  ]
  },
  {
   "id": "madras",
@@ -2039,6 +4992,76 @@ window.GAZE_PLACES = [
      "company-factories"
     ],
     "matched": []
+   },
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Madraspatan"
+    ]
+   },
+   {
+    "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
+    "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+    "year": 1719,
+    "date": "1719",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Madras patnam"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Madraspatan"
+    ]
+   },
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Madras ou Fort St George"
+    ]
+   },
+   {
+    "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
+    "title": "Carte de l’Inde – southern sheets",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Madras ou Fort St George"
+    ]
    },
    {
     "file": "1763__India__Dury__East-Indies.html",
@@ -2131,13 +5154,13 @@ window.GAZE_PLACES = [
     "matched": []
    },
    {
-    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
-    "title": "Southern India, including the Presidencies of Bombay and Madras",
-    "year": 1851,
-    "date": "c.1851",
-    "room": "05",
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
     "sources": [
-     "notes"
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -2145,13 +5168,28 @@ window.GAZE_PLACES = [
     ]
    },
    {
-    "file": "1911__Deccan__Murray-Handbook__Hampi-Ruins-of-Vijayanagar.html",
-    "title": "Hampi: Ruins of Vijayanagar",
-    "year": 1911,
-    "date": "1911",
+    "file": "1848__Deccan__Morse__Southern-India.html",
+    "title": "Southern India",
+    "year": 1848,
+    "date": "1848",
     "room": "04",
     "sources": [
-     "notes"
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Madras"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -2227,17 +5265,102 @@ window.GAZE_PLACES = [
     "matched": []
    },
    {
+    "file": "1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda.html",
+    "title": "The Kingdoms of Golconda, Tenasserim, Pegu and Arakan",
+    "year": 1706,
+    "date": "1706",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Madure"
+    ]
+   },
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Madure"
+    ]
+   },
+   {
     "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
     "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
     "year": 1719,
     "date": "1719",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
      "Madurai",
+     "Madura"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Madure"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Madura"
+    ]
+   },
+   {
+    "file": "1848__Deccan__Morse__Southern-India.html",
+    "title": "Southern India",
+    "year": 1848,
+    "date": "1848",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Madura"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
      "Madura"
     ]
    }
@@ -2254,27 +5377,13 @@ window.GAZE_PLACES = [
   "deccan": [],
   "maps": [
    {
-    "file": "1597__IndianOcean__Ortelius__Erythraei-Maris-Periplus.html",
-    "title": "The Periplus of the Erythraean Sea",
-    "year": 1597,
-    "date": "1597",
-    "room": "01",
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
     "sources": [
-     "notes"
-    ],
-    "via": [],
-    "matched": [
-     "Malabar"
-    ]
-   },
-   {
-    "file": "1599__SouthIndia__Ruscelli-Rosaccio__Calecut-Nuova-Tavola.html",
-    "title": "Calecut Nuova Tavola",
-    "year": 1599,
-    "date": "1599",
-    "room": "01",
-    "sources": [
-     "notes"
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -2288,7 +5397,8 @@ window.GAZE_PLACES = [
     "date": "1719",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -2302,7 +5412,8 @@ window.GAZE_PLACES = [
     "date": "1728",
     "room": "06",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -2316,11 +5427,82 @@ window.GAZE_PLACES = [
     "date": "1733",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
      "Malabar"
+    ]
+   },
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Malabar"
+    ]
+   },
+   {
+    "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
+    "title": "Carte de l’Inde – southern sheets",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Malabar"
+    ]
+   },
+   {
+    "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
+    "title": "A Map of Hindoostan or the Mogul Empire",
+    "year": 1788,
+    "date": "1788",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Malabar"
+    ]
+   },
+   {
+    "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin",
+    "year": 1792,
+    "date": "1792 (issued 1793)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Malabar Coast"
+    ]
+   },
+   {
+    "file": "1800__India__Faden__India-Peninsula.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
+    "year": 1800,
+    "date": "1792",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Malabar Coast"
     ]
    },
    {
@@ -2330,7 +5512,8 @@ window.GAZE_PLACES = [
     "date": "1808 (London reprint 1811)",
     "room": "03",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -2345,7 +5528,8 @@ window.GAZE_PLACES = [
     "room": "03",
     "sources": [
      "notes",
-     "region"
+     "region",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -2360,7 +5544,36 @@ window.GAZE_PLACES = [
     "room": "03",
     "sources": [
      "notes",
-     "region"
+     "region",
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Malabar"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Malabar"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -2401,6 +5614,62 @@ window.GAZE_PLACES = [
   ],
   "maps": [
    {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Mangalor"
+    ]
+   },
+   {
+    "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
+    "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+    "year": 1719,
+    "date": "1719",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Mangalor"
+    ]
+   },
+   {
+    "file": "1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean.html",
+    "title": "A chart of the East Indian Ocean",
+    "year": 1728,
+    "date": "1728",
+    "room": "06",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Mangalor"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Mangeloor"
+    ]
+   },
+   {
     "file": "1782__India__Rennell__Hindoostan-2-Sheet.html",
     "title": "Rennell’s Hindoostan",
     "year": 1782,
@@ -2435,7 +5704,36 @@ window.GAZE_PLACES = [
     "date": "1808 (London reprint 1811)",
     "room": "03",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Mangalore"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Mangalore"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -2466,11 +5764,96 @@ window.GAZE_PLACES = [
     "date": "1706",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
      "Masulipatnam"
+    ]
+   },
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Masulipatam"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Masulapatan"
+    ]
+   },
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Masuli-patnam"
+    ]
+   },
+   {
+    "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
+    "title": "Carte de l’Inde – southern sheets",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Masuli-patnam"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Masulipatam"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Masulipatam"
     ]
    }
   ]
@@ -2500,13 +5883,56 @@ window.GAZE_PLACES = [
   ],
   "maps": [
    {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Maissour"
+    ]
+   },
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Maissur"
+    ]
+   },
+   {
+    "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
+    "title": "Carte de l’Inde – southern sheets",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Maissur"
+    ]
+   },
+   {
     "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
     "title": "A Map of Hindoostan or the Mogul Empire",
     "year": 1788,
     "date": "1788",
     "room": "03",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -2520,7 +5946,8 @@ window.GAZE_PLACES = [
     "date": "1792 (issued 1793)",
     "room": "03",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -2559,13 +5986,56 @@ window.GAZE_PLACES = [
     "matched": []
    },
    {
+    "file": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
+    "title": "Triangulation across the Indian Peninsula",
+    "year": 1808,
+    "date": "1808 (London reprint 1811)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Mysoor"
+    ]
+   },
+   {
     "file": "1809__Malabar__Arrowsmith__Province-of-Malabar-Composite.html",
     "title": "Map of the Province of Malabar",
     "year": 1809,
     "date": "1809",
     "room": "03",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Mysore"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Mysore"
+    ]
+   },
+   {
+    "file": "1848__Deccan__Morse__Southern-India.html",
+    "title": "Southern India",
+    "year": 1848,
+    "date": "1848",
+    "room": "04",
+    "sources": [
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -2788,6 +6258,20 @@ window.GAZE_PLACES = [
     "matched": []
    },
    {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Poonah"
+    ]
+   },
+   {
     "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
     "title": "India III: Bombay",
     "year": 1856,
@@ -2802,6 +6286,20 @@ window.GAZE_PLACES = [
      "phule-satyashodhak"
     ],
     "matched": []
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Poona"
+    ]
    },
    {
     "file": "1901__India__Cram-Murray-Aaron__Historical-Map-of-British-India.html",
@@ -2844,6 +6342,62 @@ window.GAZE_PLACES = [
   ],
   "maps": [
    {
+    "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
+    "title": "A Map of Hindoostan or the Mogul Empire",
+    "year": 1788,
+    "date": "1788",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Rachore"
+    ]
+   },
+   {
+    "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin",
+    "year": 1792,
+    "date": "1792 (issued 1793)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Rachore"
+    ]
+   },
+   {
+    "file": "1800__India__Faden__India-Peninsula.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
+    "year": 1800,
+    "date": "1792",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Rachore"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Racore"
+    ]
+   },
+   {
     "file": "1827__Deccan__Vandermaelen__Bejapoor-Bijapur.html",
     "title": "Bejapoor – Asie 102",
     "year": 1827,
@@ -2856,6 +6410,34 @@ window.GAZE_PLACES = [
      "raichur-doab-frontier"
     ],
     "matched": []
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Raichoor"
+    ]
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Raichur"
+    ]
    }
   ]
  },
@@ -2908,6 +6490,20 @@ window.GAZE_PLACES = [
   ],
   "maps": [
    {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Sattara"
+    ]
+   },
+   {
     "file": "1827__Deccan__Vandermaelen__Bejapoor-Bijapur.html",
     "title": "Bejapoor – Asie 102",
     "year": 1827,
@@ -2936,6 +6532,20 @@ window.GAZE_PLACES = [
     "matched": []
    },
    {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Satara"
+    ]
+   },
+   {
     "file": "1859__Deccan__Josenhans-Basel__Sud-Mahratta.html",
     "title": "Süd Mahratta (South Maratha)",
     "year": 1859,
@@ -2949,6 +6559,20 @@ window.GAZE_PLACES = [
      "satara-lapse-1848"
     ],
     "matched": []
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Satara"
+    ]
    }
   ]
  },
@@ -2997,6 +6621,34 @@ window.GAZE_PLACES = [
    }
   ],
   "maps": [
+   {
+    "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
+    "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+    "year": 1719,
+    "date": "1719",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Siranga patnam"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Chirangapatnam"
+    ]
+   },
    {
     "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
     "title": "A Map of Hindoostan or the Mogul Empire",
@@ -3062,6 +6714,76 @@ window.GAZE_PLACES = [
      "seringapatam-1799"
     ],
     "matched": []
+   },
+   {
+    "file": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
+    "title": "Triangulation across the Indian Peninsula",
+    "year": 1808,
+    "date": "1808 (London reprint 1811)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Seringapatam"
+    ]
+   },
+   {
+    "file": "1809__Malabar__Arrowsmith__Province-of-Malabar-Composite.html",
+    "title": "Map of the Province of Malabar",
+    "year": 1809,
+    "date": "1809",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Seringapatam"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Seringapatam"
+    ]
+   },
+   {
+    "file": "1848__Deccan__Morse__Southern-India.html",
+    "title": "Southern India",
+    "year": 1848,
+    "date": "1848",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Seringapatam"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Seringapatam"
+    ]
    }
   ]
  },
@@ -3077,7 +6799,134 @@ window.GAZE_PLACES = [
    "Solapoor"
   ],
   "deccan": [],
-  "maps": []
+  "maps": [
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Solapour"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Soulapour"
+    ]
+   },
+   {
+    "file": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.html",
+    "title": "A Map of Hindoostan or the Mogul Empire",
+    "year": 1788,
+    "date": "1788",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Sollapour"
+    ]
+   },
+   {
+    "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin",
+    "year": 1792,
+    "date": "1792 (issued 1793)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Sholapoor"
+    ]
+   },
+   {
+    "file": "1800__India__Faden__India-Peninsula.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
+    "year": 1800,
+    "date": "1792",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Sholapoor"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Shelapore"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Solapoor"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Sholapoor"
+    ]
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Sholapur"
+    ]
+   }
+  ]
  },
  {
   "id": "surat",
@@ -3111,6 +6960,76 @@ window.GAZE_PLACES = [
      "shaista-khan-surat"
     ],
     "matched": []
+   },
+   {
+    "file": "1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda.html",
+    "title": "The Kingdoms of Golconda, Tenasserim, Pegu and Arakan",
+    "year": 1706,
+    "date": "1706",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Suratte"
+    ]
+   },
+   {
+    "file": "1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean.html",
+    "title": "A chart of the East Indian Ocean",
+    "year": 1728,
+    "date": "1728",
+    "room": "06",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Surrat"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Surat"
+    ]
+   },
+   {
+    "file": "1827__Deccan__Vandermaelen__Guzerate-Chandeish-Aurungabad.html",
+    "title": "Guzerate, Chandeish et Aurungabad – Asie 93",
+    "year": 1827,
+    "date": "1827",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Soorut"
+    ]
+   },
+   {
+    "file": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar.html",
+    "title": "Section X: Bombay and Berar",
+    "year": 1893,
+    "date": "1893",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Surat"
+    ]
    }
   ]
  },
@@ -3126,7 +7045,92 @@ window.GAZE_PLACES = [
    "Tanjaour"
   ],
   "deccan": [],
-  "maps": []
+  "maps": [
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Taniaor"
+    ]
+   },
+   {
+    "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
+    "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+    "year": 1719,
+    "date": "1719",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Taniaor"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Tanschaur"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Tanjore"
+    ]
+   },
+   {
+    "file": "1848__Deccan__Morse__Southern-India.html",
+    "title": "Southern India",
+    "year": 1848,
+    "date": "1848",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Tanjore"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Tanjore"
+    ]
+   }
+  ]
  },
  {
   "id": "tapti",
@@ -3140,22 +7144,7 @@ window.GAZE_PLACES = [
    "Tuptee"
   ],
   "deccan": [],
-  "maps": [
-   {
-    "file": "1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda.html",
-    "title": "The Kingdoms of Golconda, Tenasserim, Pegu and Arakan",
-    "year": 1706,
-    "date": "1706",
-    "room": "02",
-    "sources": [
-     "notes"
-    ],
-    "via": [],
-    "matched": [
-     "Tapti"
-    ]
-   }
-  ]
+  "maps": []
  },
  {
   "id": "trichinopoly",
@@ -3169,7 +7158,64 @@ window.GAZE_PLACES = [
    "Tritchinopoly"
   ],
   "deccan": [],
-  "maps": []
+  "maps": [
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Tricharapali"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Trichinopoly"
+    ]
+   },
+   {
+    "file": "1848__Deccan__Morse__Southern-India.html",
+    "title": "Southern India",
+    "year": 1848,
+    "date": "1848",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Trichinopoly"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Trichinopoly"
+    ]
+   }
+  ]
  },
  {
   "id": "tungabhadra",
@@ -3183,7 +7229,92 @@ window.GAZE_PLACES = [
    "Tungabadra"
   ],
   "deccan": [],
-  "maps": []
+  "maps": [
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Tungabadra R."
+    ]
+   },
+   {
+    "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
+    "title": "Carte de l’Inde – southern sheets",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Tungabadra R."
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Tungabadra R."
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Toongabudra R."
+    ]
+   },
+   {
+    "file": "1859__Deccan__Josenhans-Basel__Sud-Mahratta.html",
+    "title": "Süd Mahratta (South Maratha)",
+    "year": 1859,
+    "date": "1859",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Tungabhadra"
+    ]
+   },
+   {
+    "file": "1911__Deccan__Murray-Handbook__Hampi-Ruins-of-Vijayanagar.html",
+    "title": "Hampi: Ruins of Vijayanagar",
+    "year": 1911,
+    "date": "1911",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Tungabhadra"
+    ]
+   }
+  ]
  },
  {
   "id": "vellore",
@@ -3196,7 +7327,78 @@ window.GAZE_PLACES = [
    "Vellour"
   ],
   "deccan": [],
-  "maps": []
+  "maps": [
+   {
+    "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
+    "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+    "year": 1719,
+    "date": "1719",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Vellur"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Vellour"
+    ]
+   },
+   {
+    "file": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
+    "title": "Triangulation across the Indian Peninsula",
+    "year": 1808,
+    "date": "1808 (London reprint 1811)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Vellore"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Vellore"
+    ]
+   },
+   {
+    "file": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.html",
+    "title": "Southern India, including the Presidencies of Bombay and Madras",
+    "year": 1851,
+    "date": "c.1851",
+    "room": "05",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Vellore"
+    ]
+   }
+  ]
  },
  {
   "id": "vijayanagara",
@@ -3342,7 +7544,8 @@ window.GAZE_PLACES = [
     "date": "1706",
     "room": "02",
     "sources": [
-     "notes"
+     "notes",
+     "plate"
     ],
     "via": [],
     "matched": [
@@ -3350,6 +7553,104 @@ window.GAZE_PLACES = [
      "Bisnagar",
      "Bisnagariæ",
      "Narsinga"
+    ]
+   },
+   {
+    "file": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.html",
+    "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+    "year": 1708,
+    "date": "1708",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bisnagar"
+    ]
+   },
+   {
+    "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
+    "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+    "year": 1719,
+    "date": "1719",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bisnagar"
+    ]
+   },
+   {
+    "file": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.html",
+    "title": "Malabar, Coromandel and Ceylon",
+    "year": 1733,
+    "date": "1733",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bisnagar"
+    ]
+   },
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bisnagar"
+    ]
+   },
+   {
+    "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
+    "title": "Carte de l’Inde – southern sheets",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bisnagar"
+    ]
+   },
+   {
+    "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin",
+    "year": 1792,
+    "date": "1792 (issued 1793)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bisnagur"
+    ]
+   },
+   {
+    "file": "1800__India__Faden__India-Peninsula.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
+    "year": 1800,
+    "date": "1792",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Bisnagur"
     ]
    },
    {
@@ -3411,6 +7712,90 @@ window.GAZE_PLACES = [
      "papadu-revolt"
     ],
     "matched": []
+   },
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Orangal"
+    ]
+   },
+   {
+    "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
+    "title": "Carte de l’Inde – southern sheets",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Orangal"
+    ]
+   },
+   {
+    "file": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin",
+    "year": 1792,
+    "date": "1792 (issued 1793)",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Warangol"
+    ]
+   },
+   {
+    "file": "1800__India__Faden__India-Peninsula.html",
+    "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
+    "year": 1800,
+    "date": "1792",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Warangol"
+    ]
+   },
+   {
+    "file": "1820__India__Carey-Lavoisne__India.html",
+    "title": "Geographical, Historical, and Statistical Map of India",
+    "year": 1820,
+    "date": "1820",
+    "room": "03",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Warangole"
+    ]
+   },
+   {
+    "file": "1856__Deccan__SDUK-Walker__India-III-Bombay.html",
+    "title": "India III: Bombay",
+    "year": 1856,
+    "date": "",
+    "room": "04",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Warungul"
+    ]
    }
   ]
  },
@@ -3436,17 +7821,45 @@ window.GAZE_PLACES = [
   ],
   "maps": [
    {
-    "file": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
-    "title": "Triangulation across the Indian Peninsula",
-    "year": 1808,
-    "date": "1808 (London reprint 1811)",
-    "room": "03",
+    "file": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.html",
+    "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+    "year": 1719,
+    "date": "1719",
+    "room": "02",
     "sources": [
-     "notes"
+     "plate"
     ],
     "via": [],
     "matched": [
-     "Ghats"
+     "Gatte"
+    ]
+   },
+   {
+    "file": "1752__India__dAnville__lInde-Composite.html",
+    "title": "Carte de l’Inde",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Gattes"
+    ]
+   },
+   {
+    "file": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern.html",
+    "title": "Carte de l’Inde – southern sheets",
+    "year": 1752,
+    "date": "1752",
+    "room": "02",
+    "sources": [
+     "plate"
+    ],
+    "via": [],
+    "matched": [
+     "Gattes"
     ]
    },
    {
