@@ -1,0 +1,136 @@
+/* rooms.js – the seven rooms, their intros, and the maps hung in each, in hanging order.
+   Keep this first line and the closing semicolon. */
+window.GAZE_ROOMS = [
+ {
+  "n": 1,
+  "file": "01_Antiquity-and-Renaissance.html",
+  "title": "Antiquity and Renaissance",
+  "intro": "India enters European cartography as a coastline and a rumour. Portuguese pilots chart the shore they have sailed, while scholars still bend the unseen interior to fit Ptolemy – a geographer fifteen centuries dead. The gaze is maritime at the edges and inherited in the middle: what Europe knows, it knows from the deck of a ship; what it does not, it fills with classical authority and ornament.",
+  "description": "Room 01: early European maps of India shaped by Ptolemy, Renaissance publishing and Portuguese maritime knowledge.",
+  "maps": [
+   "1525__India__Ptolemy-Grueninger__Tabula-Moderna-Indiae",
+   "1570__India__Ortelius__Indiae-Orientalis",
+   "1587__Asia__Urbano-Monte__Tavola-Settima",
+   "1595__ClassicalAsia__Ortelius__Alexandri-Magni-Expeditio",
+   "1595__India-Arabia__Linschoten__Southwest-Asia",
+   "1597__IndianOcean__Ortelius__Erythraei-Maris-Periplus",
+   "1599__SouthIndia__Ruscelli-Rosaccio__Calecut-Nuova-Tavola",
+   "1600__India__Quad__India-Orientalis",
+   "1623__India__Mercator-Hondius__India-Orientalis"
+  ]
+ },
+ {
+  "n": 2,
+  "file": "02_The-Great-Mogul-and-the-Companies.html",
+  "title": "The Great Mogul and the Companies",
+  "intro": "By the mid-seventeenth century, India is no longer chiefly a coastline at the edge of classical geography. European mapmakers increasingly organise the subcontinent around the Mughal court, the trading companies and the sea routes that connect them. French geographers impose a restrained political order; Dutch, German and Italian publishers turn that order into an atlas commodity. The gaze remains external, but it has become dynastic, commercial and confident: India as an empire to describe, a market to enter and a route to control.",
+  "description": "Room 02: India represented through Mughal sovereignty, trading companies, scholarly geography and the European atlas market.",
+  "maps": [
+   "1654__India__Sanson__India-Below-and-Beyond-the-Ganges",
+   "1682__India__DuVal__Empire-du-Mogol",
+   "1702__Persia-India__Sanson__Old-Persia-and-Old-India",
+   "1703__SEAsia__Sanson__India-and-Southeast-Asia",
+   "1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda",
+   "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives",
+   "1719__India__Chatelain__Genealogie-des-Empereurs-Mogols",
+   "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres",
+   "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon",
+   "1752__India__dAnville__lInde-Composite",
+   "1752__SouthIndia__dAnville__Carte-de-lInde-Southern",
+   "1763__India__Dury__East-Indies",
+   "1779__SEAsia__Santini-Robert__Les-Indes-Orientales"
+  ]
+ },
+ {
+  "n": 3,
+  "file": "03_The-Survey-Turn.html",
+  "title": "The Survey Turn",
+  "intro": "After Plassey the gaze changes hands and character. With Rennell and the surveyors, India stops being chiefly a thing reported and becomes a thing measured – drawn from within the country by chains, instruments and calculated networks in the service of a Company that means to govern. The finished maps present European scientific authority, but the work also depended on extensive Indian labour, local knowledge and subordinate survey establishments. Decoration retreats; the grid advances. To map becomes a means of possession.",
+  "description": "Room 03: the transition from compiled geography to triangulation, territorial survey and the measured colonial state.",
+  "maps": [
+   "1782__India__Rennell__Hindoostan-2-Sheet",
+   "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia",
+   "1788__India__Schraembl-after-Rennell__Neueste-Karte-von-Hindostan",
+   "1789__India__Akerman__Mappa-Geogr-Indiae-Orients",
+   "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin",
+   "1800__India__Faden__India-Peninsula",
+   "1800__SouthIndia__Wilkinson__Southern-Province-of-Hindoostan",
+   "1809__Malabar__Arrowsmith__Province-of-Malabar-Composite",
+   "1809__Malabar__Arrowsmith__Province-of-Malabar-Sheet-1",
+   "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches",
+   "1820__India__Carey-Lavoisne__India",
+   "1825__India__Vivien-de-St-Martin__Carte-Generale-des-Indes",
+   "1827__India__Hall__Hindoostan",
+   "1831__India__John-Walker__Newly-Constructed-Map-of-India",
+   "1922__India__Survey-of-India__GTS-Index"
+  ]
+ },
+ {
+  "n": 4,
+  "file": "04_Home-Ground-Bombay-and-Deccan.html",
+  "title": "Home Ground: Bombay and the Deccan",
+  "intro": "The gaze tightens from a subcontinent to a region. Harbour plans, district sheets and mission maps render the Bombay Presidency and the Deccan at working scale – the colonial eye no longer surveying an empire in the abstract but administering a particular ground, street by street and taluka by taluka. It is also the collection’s most deliberately situated room: the foreign archive viewed from the collector’s own home ground.",
+  "description": "Room 04: maps of Bombay and the Deccan at the scales of harbour, district, city and colonial administration.",
+  "maps": [
+   "1764__Bombay__Bellin__Plan-de-Bombay",
+   "1810__Bombay__dApres-de-Mannevillette__Plan-du-Port-de-Bombay",
+   "1827__Deccan__Vandermaelen__Bejapoor-Bijapur",
+   "1827__Deccan__Vandermaelen__Guzerate-Chandeish-Aurungabad",
+   "1848__Deccan__Morse__Southern-India",
+   "1856__Deccan__SDUK-Walker__India-III-Bombay",
+   "1859__Deccan__Josenhans-Basel__Sud-Mahratta",
+   "1893__Bombay__Bartholomew__Bombay-City-Plan",
+   "1893__Bombay__Bartholomew__Bombay-and-Environs",
+   "1893__Deccan__Bartholomew__Section-X-Bombay-Berar",
+   "1911__Deccan__Murray-Handbook__Hampi-Ruins-of-Vijayanagar"
+  ]
+ },
+ {
+  "n": 5,
+  "file": "05_Administered-Empire-and-Victorian-Atlas.html",
+  "title": "Administered Empire and Victorian Atlas",
+  "intro": "At the height of empire the gaze turns analytic. India is no longer merely outlined but dissected – into presidencies and districts, densities of population, lines of rail and telegraph. The thematic maps of high-Victorian cartography render the subcontinent as an object of administration and knowledge: something to be counted, coloured and managed.",
+  "description": "Room 05: Victorian maps that classified India by province, population, infrastructure, physical geography and imperial history.",
+  "maps": [
+   "1846__Punjab-Kashmir__John-Walker__Northern-Punjab-and-Kashmir",
+   "1851__India__Tallis-Martin__Overland-Route-to-India",
+   "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras",
+   "1856__Punjab__SDUK-Walker__India-XI",
+   "1857__India__Mitchell__Hindoostan",
+   "1858__India__Abington__Panoramic-View-of-India",
+   "1866__SEAsia__Klun-Lange__Sudost-Asien",
+   "1883__India__Letts__India-11",
+   "1893__India__Bartholomew__Density-of-Population",
+   "1893__India__Bartholomew__Land-Surface-Features",
+   "1901__India__Cram-Murray-Aaron__Historical-Map-of-British-India"
+  ]
+ },
+ {
+  "n": 6,
+  "file": "06_The-Sea-and-the-Route.html",
+  "title": "The Sea and the Route",
+  "intro": "Beneath the territorial story runs a maritime one that spans the whole period. This short interlude traces the monsoon routes and sea-lanes by which Europe first approached India and repeatedly returned to it – the ocean not merely as an early stage in the story, but as the continuing commercial and strategic frame through which the subcontinent was seen.",
+  "description": "A maritime interlude tracing the sea routes, navigation and oceanic frame through which Europe repeatedly approached India.",
+  "maps": [
+   "1519__IndianOcean__Hollanda-Reinel__Folio-3-recto-North-Indian-ocean",
+   "1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean",
+   "1728__IndianOcean__Halley-Senex__Sea-chart-of-the-whole-world",
+   "1853__IndianOcean__Imray__Chart-of-the-Indian-Ocean"
+  ],
+  "eyebrow": "Maritime Interlude 06"
+ },
+ {
+  "n": 7,
+  "file": "07_Last-Frontiers.html",
+  "title": "Last Frontiers",
+  "intro": "At the end of the collection the European gaze reaches its limits. The remaining maps look toward the strategic frontier, the wartime public and the hurried end of empire: Central Asia as margin, India compressed for a newspaper audience, Portuguese enclaves counted from Lisbon, and alternative partition boundaries examined before the states they would divide had come into being. The 1947 panorama is an epilogue – the imperial boundary-making process after it had become a lived catastrophe on both sides.",
+  "description": "Room 07: strategic frontiers, wartime mass media, Portuguese enclaves, partition planning and a 1947 epilogue.",
+  "maps": [
+   "1922__CentralAsia-Tibet__Hedin__Central-Asia-and-Tibet",
+   "1942__India__Mercier__LInde-Newspaper-Map",
+   "1946__India__GSGS__Pakistan-Boundaries-Partition-Plan",
+   "1946__Ministerio-das-Colonias__Goa-Daman-Diu",
+   "1947__Punjab__Home-Sphere__Punjab-Partition-Panorama"
+  ]
+ }
+];

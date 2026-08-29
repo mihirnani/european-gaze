@@ -1,0 +1,5480 @@
+/* maps.js – one record per map; edit the JSON between the brackets and run build.py.
+   Keep this first line and the closing semicolon: the browser loads this file as a script. */
+window.GAZE_MAPS = [
+ {
+  "id": "1519__IndianOcean__Hollanda-Reinel__Folio-3-recto-North-Indian-ocean",
+  "year": 1519,
+  "approx": false,
+  "region": "IndianOcean",
+  "maker": "Hollanda Reinel",
+  "date_label": "1519",
+  "title": "Northern Indian Ocean with Arabia and India",
+  "short": "Northern Indian Ocean with Arabia and India",
+  "byline": "Holanda, António de; Reinel, Pedro; Reinel, Jorge; Homem, Lopo · 1519",
+  "brief": "A leaf from the <em>Miller Atlas</em>, the most sumptuous surviving monument of Portuguese royal cartography. Painted on vellum in 1519, it places Arabia, the Persian Gulf and India within a navigated Indian Ocean while filling less securely known spaces with inherited geography, heraldry and imperial display.",
+  "image": {
+   "src": "img/display/1519__IndianOcean__Hollanda-Reinel__Folio-3-recto-North-Indian-ocean.jpg",
+   "alt": "Northern Indian Ocean with Arabia and India",
+   "width": 1800,
+   "height": 1248,
+   "dzi": "img/dzi/1519__IndianOcean__Hollanda-Reinel__Folio-3-recto-North-Indian-ocean.dzi"
+  },
+  "thumb": {
+   "alt": "Northern Indian Ocean with Arabia and India",
+   "width": 700,
+   "height": 485
+  },
+  "room": 6,
+  "deccan": [
+   {
+    "id": "horse-trade-origins",
+    "label": "Horses before the Portuguese (14th–15th century)"
+   },
+   {
+    "id": "abdur-razzaq-1443",
+    "label": "Abdur Razzaq at Vijayanagara (1442–1444)"
+   },
+   {
+    "id": "calicut-1498",
+    "label": "The Portuguese at Calicut (20 May 1498)"
+   },
+   {
+    "id": "arab-horse-trade",
+    "label": "The horse trade (16th century)"
+   },
+   {
+    "id": "portuguese-goa-1510",
+    "label": "Albuquerque takes Goa (25 November 1510)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The object</p>\n<p>This is folio 3 recto of the <em>Miller Atlas</em>, made for the court of Manuel I of Portugal by the cartographers Lopo Homem, Pedro Reinel and Jorge Reinel, with illumination by António de Holanda. The original, a vellum manuscript of 1519, is held by the Bibliothèque nationale de France; the image shown is from M. Moleiro’s modern facsimile.</p>\n<p class=\"subhead\">A navigated ocean</p>\n<p>The sheet runs from the Red Sea and Gulf of Aden across Arabia and the Persian Gulf to India, the Ganges delta and the Nicobar Islands. Rhumb lines, compass geometry and ships place the sea at the centre. India is approached along routes Portuguese pilots had recently made regular.</p>\n<p class=\"subhead\">Observation and inheritance</p>\n<p>The map joins different levels of knowledge without concealing the join. Coastlines and sea passages actually travelled by Portuguese fleets are treated with relative confidence. Elsewhere the cartographers rely on older authorities, reported geography and pictorial convention. Gold, banners, towns and rulers turn knowledge into a statement of royal reach.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Manuel I’s court saw India from the deck of a ship. On this leaf the subcontinent has a usable coast and almost no interior, and the banners painted over the land declare whose ships those are. Possession, at this date, is a claim on sea lanes rather than on territory.</p>",
+  "meta": [
+   [
+    "Author",
+    "Holanda, António de; Reinel, Pedro; Reinel, Jorge; Homem, Lopo"
+   ],
+   [
+    "Date",
+    "1519"
+   ],
+   [
+    "Edition",
+    "1519 manuscript; image from a modern facsimile"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Facsimile publisher",
+    "M. Moleiro Editor"
+   ],
+   [
+    "Place",
+    "Barcelona"
+   ],
+   [
+    "Dimensions",
+    "41 × 59 cm"
+   ],
+   [
+    "Repository",
+    "Bibliothèque nationale de France"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 16914.005"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~377142~90143279%3AFolio-3-Recto%2C-Northern-Indian-Ocea\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1525__India__Ptolemy-Grueninger__Tabula-Moderna-Indiae",
+  "year": 1525,
+  "approx": false,
+  "region": "India",
+  "maker": "Ptolemy Grueninger",
+  "date_label": "1525",
+  "title": "Tab. Moderna Indiae",
+  "short": "Tab. Moderna Indiae",
+  "byline": "Lorenz Fries, after Martin Waldseemüller; printed by Johann Grüninger · 1525",
+  "brief": "A ‘modern’ map of India from the Strasbourg Ptolemy of 1525. Bound within an edition of an ancient geographical text, it shows Renaissance cartography correcting Ptolemy with newer reports while continuing to organise the world through Ptolemaic categories.",
+  "image": {
+   "src": "img/display/1525__India__Ptolemy-Grueninger__Tabula-Moderna-Indiae.jpg",
+   "alt": "Tab. Moderna Indiae",
+   "width": 1800,
+   "height": 1273,
+   "dzi": "img/dzi/1525__India__Ptolemy-Grueninger__Tabula-Moderna-Indiae.dzi"
+  },
+  "thumb": {
+   "alt": "Tab. Moderna Indiae",
+   "width": 700,
+   "height": 495
+  },
+  "room": 1,
+  "deccan": [
+   {
+    "id": "madurai-southern-conquest",
+    "label": "Madurai and the southern conquest (c. 1335–1378)"
+   },
+   {
+    "id": "founding-of-vijayanagara-1336",
+    "label": "The founding of Vijayanagara (c. 1336–1346)"
+   },
+   {
+    "id": "deva-raya-ii",
+    "label": "Deva Raya II (r. 1424–1446)"
+   },
+   {
+    "id": "move-to-bidar-1430",
+    "label": "The move to Bidar (c. 1425–1432)"
+   },
+   {
+    "id": "bahmani-successor-sultanates",
+    "label": "The Bahmani break-up (c. 1490–1518)"
+   },
+   {
+    "id": "vijayanagara-city",
+    "label": "Vijayanagara, the city (c. 1500)"
+   },
+   {
+    "id": "krishnadevaraya",
+    "label": "Krishnadevaraya (r. 1509–1529)"
+   },
+   {
+    "id": "domingos-paes",
+    "label": "Domingos Paes describes Vijayanagara (c. 1520–1522)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The edition</p>\n<p>The sheet belongs to the 1525 Strasbourg edition of Ptolemy’s <em>Geographia</em>, printed by Johann Grüninger with Willibald Pirckheimer’s new translation. The map is Lorenz Fries’s reduced woodcut after Martin Waldseemüller’s <em>Tabula Moderna Indiae</em> of 1513. Its label, <em>Tabula Moderna Indiae</em>, identifies it as one of the supplementary ‘modern’ maps placed beside the ancient Ptolemaic corpus.</p>\n<p class=\"subhead\">Why ‘modern’ mattered</p>\n<p>Renaissance editions of Ptolemy commonly separated maps reconstructed from the classical coordinates from newer tables incorporating medieval travel, Portuguese navigation and contemporary compilation. The map therefore belongs to two times at once: it is presented under Ptolemy’s authority, but its purpose is to show what sixteenth-century Europe believed it had learned since antiquity.</p>\n<p class=\"subhead\">A corrected but inherited India</p>\n<p>The subcontinent and the regions beyond the Ganges are recognisably reorganised by post-classical information, yet the conceptual frame remains Ptolemaic. India is still understood through large inherited divisions and through an atlas whose intellectual centre is a second-century Alexandrian geographer. New coastlines enter an old book.</p>\n<p class=\"subhead\">The gaze</p>\n<p>The word ‘modern’ on the plate is the important one. Fries’s corrected sheet sits a few leaves from Ptolemy’s own India, the <em>Decima Asiae tabula</em>, and the reader of the atlas was invited to compare the two. That ancient sheet is not in this collection; a Venetian printing of it from 1511 can be seen in <a href=\"https://purl.stanford.edu/gc032qn0253\" target=\"_blank\" rel=\"noopener noreferrer\">Stanford’s copy</a>, and Wikimedia Commons gathers <a href=\"https://commons.wikimedia.org/wiki/Category:Ptolemy%27s_10th_Asian_Map\" target=\"_blank\" rel=\"noopener noreferrer\">versions from other editions</a>. Sixteenth-century Europe received its new coastlines through exactly this kind of supplement, and the supplement borrowed the ancient book’s prestige.</p>\n<p class=\"subhead\">Reading the Latin</p>\n<p>The sheet carries its geography in two registers. The large capitals are Ptolemy’s: <em>India intra Gangem</em> and <em>India extra Gangem</em>, India this side of the Ganges and India beyond it, the second-century division of the subcontinent that the ‘modern’ map keeps even as it redraws the coasts; <em>Sinus Gangeticus</em>, the Bay of Bengal; <em>Sinus Magnus</em>, the Great Gulf beyond it; <em>Sinus Persicus</em>; <em>Carmania</em> and <em>Indus fl(uvius)</em>; <em>Arabie pars</em> and <em>Africe pars</em>, ‘part of Arabia’, ‘part of Africa’, where the neighbouring sheets take over; <em>Equinoctialis</em>, the equator; and, along the foot, a bar of <em>Miliaria Germanica</em>, German miles of fifteen to the degree. The small Gothic hand is the new information: Calicut, Cananor, Cambaia (Cambay), Malaqua (Malacca), Taprobana – which here, as on most maps of the decade, has drifted east and grown to the size of Sumatra.</p>\n<p>Six framed legends do the talking. Beside a crowned king with a sceptre: <em>Hic dominatur Rex Narsinge, omnium regum Indie potentissimus, cuius imperium armis ferentia extenditur plusquam 3000 miliaria. Rex habet 200 uxores que eo mortuo cremantur</em> – ‘Here rules the King of Narsinga, the most powerful of all the kings of India, whose empire is carried by arms more than three thousand miles. The king has two hundred wives, who are burned when he dies.’ Narsinga is Vijayanagara, called after the Saluva king Narasimha by the Portuguese who reached its coast; the sheet was cut in the reign of Krishnadevaraya, and the ‘most powerful king in India’ is a fair report of what Lisbon heard.</p>\n<p>Under a scene of harvest: <em>In istis montibus nascitur piper in magna copia, et a pigmeis, quibus cum gruibus bellum est, plantatur</em> – ‘In these mountains pepper grows in great abundance, and it is planted by pygmies, who are at war with the cranes.’ The pepper is Malabar’s and is true; the pygmies and their war with the cranes are Homer and Pliny, a classical story that a map ‘corrected from modern reports’ still places in the Western Ghats. On the far side of the Ganges: <em>Hic sunt galli et galline magne, non habentes plumas seu pennas sed lanam sicut oves, ova optima edentes</em> – ‘Here are cocks and hens of great size, having no feathers or plumes but wool like sheep, laying excellent eggs’: the woolly hens of Marco Polo’s China, set down here in India beyond the Ganges. On a mountain crowned by a seated figure: <em>In istis montibus reperiuntur adamantes, smaragdi et alii lapides preciosi</em> – ‘In these mountains are found diamonds, emeralds and other precious stones.’ Below the equator, beside another enthroned king: <em>Lamai regnum. In regno Lamai sunt argenti minere, aurum, sericum, que ad Malacham transportantur</em> – ‘The kingdom of Lamai. In the kingdom of Lamai there are silver mines, gold and silk, which are carried to Malacca’ (Lamai is most likely Lamuri in northern Sumatra, though the identification is not certain). And by the island <em>Timonia</em>, Timor: <em>Hic nascitur rubeum et candidum sandalum</em> – ‘Here grows red and white sandalwood’, which is exactly right.</p>\n<p class=\"subhead\">The pictures</p>\n<p>Three woodcut vignettes carry the sheet’s judgements. The King of Narsinga sits enthroned in the European manner, crowned and sceptred, bare-legged: a Christian iconography of kingship lent to a Hindu ruler about whom Europe knew almost nothing beyond his wealth and his armies. Beneath the pepper harvest, a woman kneels in flames with her hands joined in prayer while a horned devil embraces her – the burning of the widow that the king’s legend promises, drawn as a soul carried off by the demon who presides over the rite. It is among the earliest printed pictures of sati, inherited with the rest of the sheet from Waldseemüller’s 1513 original, and the moral is not left to the reader. The mountain of precious stones is crowned by a small enthroned figure, the wealth and the sovereign in one image. Together the three say what the sixteenth-century gaze wanted to know about India: who rules, what it yields, and what in its customs a Christian should shudder at. The pepper and the sandalwood are the reasons the ships came; the pygmies and the woolly hens are what the old book still insisted was there.</p>",
+  "meta": [
+   [
+    "Full title",
+    "Tab. Moderna Indiae"
+   ],
+   [
+    "Author",
+    "Ptolemy, Claudius; D'Angelo, Jacopo; Regiomontanus, Joannes; Pirckheimer, Willibald; Grueninger, Johann"
+   ],
+   [
+    "Date",
+    "1525"
+   ],
+   [
+    "Edition",
+    "Modern map in the 1525 Strasbourg Ptolemy"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "Johann Grüninger"
+   ],
+   [
+    "Place",
+    "Strasbourg"
+   ],
+   [
+    "Dimensions",
+    "27 × 41 cm"
+   ],
+   [
+    "Engraver",
+    "Lorenz Fries (woodcut, after Waldseemüller)"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 10891.124"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/view/all/who/Grueninger%2C%2BJohann/D%27Angelo%2C%2BJacopo/?os=100\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1570__India__Ortelius__Indiae-Orientalis",
+  "year": 1570,
+  "approx": false,
+  "region": "India",
+  "maker": "Ortelius",
+  "date_label": "1570",
+  "title": "Indiae Orientalis",
+  "short": "Indiae Orientalis",
+  "byline": "Ortelius, Abraham, 1527-1598 · 1570",
+  "brief": "Ortelius’s <em>Indiae Orientalis, Insularumque Adiacientium Typus</em>, published in the first edition of the <em>Theatrum Orbis Terrarum</em>. India forms the western threshold of a vast East Indies shaped by the spice trade, compilation and speculative geography.",
+  "image": {
+   "src": "img/display/1570__India__Ortelius__Indiae-Orientalis.jpg",
+   "alt": "Indiae Orientalis",
+   "width": 1800,
+   "height": 1247,
+   "dzi": "img/dzi/1570__India__Ortelius__Indiae-Orientalis.dzi"
+  },
+  "thumb": {
+   "alt": "Indiae Orientalis",
+   "width": 700,
+   "height": 485
+  },
+  "room": 1,
+  "deccan": [
+   {
+    "id": "vijayanagara-city",
+    "label": "Vijayanagara, the city (c. 1500)"
+   },
+   {
+    "id": "golconda-diamonds",
+    "label": "Golconda and its diamonds (1518–1590)"
+   },
+   {
+    "id": "talikota-1565",
+    "label": "Talikota, 1565 (January 1565)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The first modern atlas</p>\n<p>Abraham Ortelius issued the <em>Theatrum Orbis Terrarum</em> at Antwerp in 1570, bringing maps by different makers into a uniform format and naming his sources in a scholarly catalogue. This plate, attributed to the engraver Frans Hogenberg, was the atlas’s image of the East Indies.</p>\n<p class=\"subhead\">A commercial region, not a nation</p>\n<p>The map’s subject is wider than India. It extends across China, Japan, Southeast Asia and the archipelago, treating the ‘East Indies’ as a connected field of islands, sea routes and trading regions. India sits at its western entrance. The enlarged and distorted islands of the spice world indicate where European attention was concentrated, not where measurement was most secure.</p>\n<p class=\"subhead\">Compilation and conjecture</p>\n<p>Ortelius synthesised existing printed maps and navigational reports rather than surveying the region. Familiar coastlines coexist with uncertain forms and with the speculative southern land labelled <em>Beach</em>. Ships, sea creatures and elaborate cartouches belong to the visual economy of the atlas, but the sheet’s deeper achievement is standardisation: one persuasive image made repeatable across Europe.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Reconciliation was what Ortelius sold. The oversized spice islands show where purchasers’ interest lay; India, at the left edge, is the door by which they entered. A reader in Antwerp could hold the whole trading East on one sheet, and the sheet, copied across Europe, became the region’s accepted shape.</p>",
+  "meta": [
+   [
+    "Author",
+    "Ortelius, Abraham, 1527-1598"
+   ],
+   [
+    "Date",
+    "1570"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "Gielis Coppens van Diest"
+   ],
+   [
+    "Place",
+    "Antwerp"
+   ],
+   [
+    "Dimensions",
+    "36 × 51 cm"
+   ],
+   [
+    "Scale",
+    "1:22,000,000"
+   ],
+   [
+    "Engraver",
+    "Attributed to Frans Hogenberg"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 10000.105"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~275318~90048447%3A-48--Indiae-Orientalis-\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1587__Asia__Urbano-Monte__Tavola-Settima",
+  "year": 1587,
+  "approx": false,
+  "region": "Asia",
+  "maker": "Urbano Monte",
+  "date_label": "1587",
+  "title": "Urbano Monte’s Seventh Table",
+  "short": "Urbano Monte’s Seventh Table",
+  "byline": "Monte (Monti), Urbano, 1544-1613 · 1587",
+  "brief": "One sheet from Urbano Monte’s sixty-sheet manuscript planisphere of 1587. India and its neighbours appear as a fragment of an immense circular world centred on the North Pole – a cosmographic experiment intended to be assembled and viewed as a single wall map.",
+  "image": {
+   "src": "img/display/1587__Asia__Urbano-Monte__Tavola-Settima.jpg",
+   "alt": "Tavola Setima, Che Ha Sua Superiore La Tavola Seconda. Libro Terzo",
+   "width": 1800,
+   "height": 1333,
+   "dzi": "img/dzi/1587__Asia__Urbano-Monte__Tavola-Settima.dzi"
+  },
+  "thumb": {
+   "alt": "Tavola Setima, Che Ha Sua Superiore La Tavola Seconda. Libro Terzo",
+   "width": 700,
+   "height": 519
+  },
+  "room": 1,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">A sheet of a world</p>\n<p>This is table seven of Urbano Monte’s manuscript atlas, one of sixty sheets designed to join into a circular planisphere about ten feet across. The individual leaf is therefore intentionally incomplete: its skewed borders and radiating meridians make sense only within the assembled circular earth.</p>\n<p class=\"subhead\">The polar experiment</p>\n<p>Monte projected the inhabited world outward from the North Pole. On this Asian sheet, familiar forms are rotated and stretched by the geometry of the whole. The projection serves the whole: it makes the entire world simultaneously available to the viewer.</p>\n<p class=\"subhead\">A manuscript encyclopaedia</p>\n<p>The geography draws on Gastaldi, Mercator and other printed authorities, but Monte rewrote it by hand and surrounded it with rulers, peoples, animals, ships and annotations. The result is a private cosmographic synthesis: geography presented as universal knowledge.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Seen from Monte’s pole, India is a wedge of a circle, its familiar outline pulled askew by meridians that converge far to the north. The sheet was made for a wall, to be looked at rather than sailed by. Monte wanted the earth whole and at once, and India’s distortion is the price of that wish.</p>",
+  "meta": [
+   [
+    "Full title",
+    "Tavola Setima, che ha sua superiore la Tavola Seconda. Libro Terzo"
+   ],
+   [
+    "Author",
+    "Monte (Monti), Urbano, 1544-1613"
+   ],
+   [
+    "Date",
+    "1587"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "Manuscript, unpublished"
+   ],
+   [
+    "Place",
+    "Milan"
+   ],
+   [
+    "Dimensions",
+    "40 × 51 cm"
+   ],
+   [
+    "Scale",
+    "Not uniform"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 10130.009"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~303564~90074183%3ATavola-Setima%2C-Che-Ha-Sua-Superiore?sort=Pub_Date%2Cseries_No\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1595__ClassicalAsia__Ortelius__Alexandri-Magni-Expeditio",
+  "year": 1595,
+  "approx": false,
+  "region": "ClassicalAsia",
+  "maker": "Ortelius",
+  "date_label": "1595",
+  "title": "Alexander the Great’s Expedition",
+  "short": "Alexander the Great’s Expedition",
+  "byline": "Ortelius, Abraham, 1527-1598; Vrients, Jan Baptista · 1595",
+  "brief": "Ortelius’s map of Alexander the Great’s campaigns, drawn for the <em>Parergon</em>, his atlas of the ancient world. India appears as the eastern limit of a classical expedition: a sixteenth-century map of how antiquity had imagined and traversed Asia.",
+  "image": {
+   "src": "img/display/1595__ClassicalAsia__Ortelius__Alexandri-Magni-Expeditio.jpg",
+   "alt": "xxxiiii) Alexandri Magni Macedonis Expeditio",
+   "width": 1800,
+   "height": 1500,
+   "dzi": "img/dzi/1595__ClassicalAsia__Ortelius__Alexandri-Magni-Expeditio.dzi"
+  },
+  "thumb": {
+   "alt": "xxxiiii) Alexandri Magni Macedonis Expeditio",
+   "width": 700,
+   "height": 583
+  },
+  "room": 1,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">The plate and the impression</p>\n<p>The plate is dated 1595 and belongs to Ortelius’s <em>Parergon</em>, the historical supplement to the <em>Theatrum</em>. The archive copy represented here was issued in the Italian <em>Theatro del Mondo</em> published by Jan Baptista Vrients after Ortelius’s death. The engraving is attributed to Jan Wierix.</p>\n<p class=\"subhead\">Mapping a campaign</p>\n<p>The map reconstructs Alexander’s movement from the Mediterranean world through Persia and Central Asia toward the Hydaspes and Indus. Its place-names, peoples and routes are derived from classical authors. The inset of the oracle of Ammon further announces the map’s historical character.</p>\n<p class=\"subhead\">Humanist cartography</p>\n<p>Unlike many maps in the <em>Theatrum</em>, which Ortelius reduced from modern authorities, the <em>Parergon</em> expressed his own antiquarian scholarship. Textual criticism became cartography: ancient narratives reconciled and converted into a spatial argument.</p>\n<p class=\"subhead\">The gaze</p>\n<p>For Ortelius the Indus was where a story ended. The sheet follows Alexander eastward and stops where his army stopped, so India appears only as the bank on which a Macedonian campaign turned back. Renaissance readers had met the subcontinent in the ancient historians before any Portuguese report reached them, and this map gives that reading coordinates.</p>",
+  "meta": [
+   [
+    "Full title",
+    "Alexandri Magni Macedonis Expeditio"
+   ],
+   [
+    "Author",
+    "Ortelius, Abraham, 1527-1598; Vrients, Jan Baptista"
+   ],
+   [
+    "Date",
+    "1595"
+   ],
+   [
+    "Edition",
+    "Plate dated 1595; archive impression issued in a later Vrients atlas"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "Jan Baptista Vrients"
+   ],
+   [
+    "Place",
+    "Antwerp"
+   ],
+   [
+    "Dimensions",
+    "36 × 46 cm"
+   ],
+   [
+    "Scale",
+    "1:14,000,000"
+   ],
+   [
+    "Engraver",
+    "Wierix, Jan (attributed)"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 10001.419"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~275883~90048671%3A-xxxiiii--Alexandri-Magni-Macedonis\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ],
+  "ld": {
+   "contributor": {
+    "@type": "Person",
+    "name": "Wierix, Jan"
+   }
+  }
+ },
+ {
+  "id": "1595__India-Arabia__Linschoten__Southwest-Asia",
+  "year": 1595,
+  "approx": false,
+  "region": "India-Arabia",
+  "maker": "Linschoten",
+  "date_label": "1596",
+  "title": "South-west Asia: Arabia, the Red Sea and India",
+  "short": "South-west Asia: Arabia, the Red Sea and India",
+  "byline": "Linschoten, Jan Huygen van, 1563-1611; Paludanus, Bernard, 1550-1633 · 1596",
+  "brief": "Linschoten’s chart of the coasts from the Red Sea and Arabia to Bengal. Based on Portuguese navigational knowledge and first issued with the <em>Itinerario</em>, it transformed guarded route information into a printed commodity available to Portugal’s northern European competitors.",
+  "image": {
+   "src": "img/display/1595__India-Arabia__Linschoten__Southwest-Asia.jpg",
+   "alt": "Deliniantur in hac tabula, orae maritimae Abexiae, freti Mecani al. Maris Rubri, Arabiae",
+   "width": 1800,
+   "height": 1322,
+   "dzi": "img/dzi/1595__India-Arabia__Linschoten__Southwest-Asia.dzi"
+  },
+  "thumb": {
+   "alt": "Deliniantur in hac tabula, orae maritimae Abexiae, freti Mecani al. Maris Rubri, Arabiae",
+   "width": 700,
+   "height": 514
+  },
+  "room": 1,
+  "deccan": [
+   {
+    "id": "portuguese-goa-1510",
+    "label": "Albuquerque takes Goa (25 November 1510)"
+   },
+   {
+    "id": "ibrahim-adil-shah-ii",
+    "label": "Ibrahim Adil Shah II and the Kitab-i-Nauras (r. 1580–1627)"
+   },
+   {
+    "id": "maratha-navy-sindhudurg",
+    "label": "The Maratha navy (1664–1667)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The object and its editions</p>\n<p>Jan Huygen van Linschoten assembled the geographical and sailing intelligence he had encountered while serving in Portuguese Goa. Engraved by Henricus van Langren for the <em>Itinerario</em> of 1596, the chart was reprinted for decades; the impression shown is from the French edition published at Amsterdam in 1638.</p>\n<p class=\"subhead\">From the Red Sea to Bengal</p>\n<p>The sheet follows the maritime approaches to India rather than the political shape of the subcontinent. Arabia, the Persian Gulf and the Indian coastline are organised as a chain of routes, anchorages and coastal knowledge. Henricus van Langren’s engraving turns working intelligence into a map that can circulate.</p>\n<p class=\"subhead\">Breaking a monopoly of information</p>\n<p>Portuguese sailing directions were valuable because they condensed experience of monsoon winds, hazards and ports. Linschoten’s publication redistributed that operational knowledge. Dutch and English expansion followed.</p>\n<p class=\"subhead\">The gaze</p>\n<p>A Dutchman who had served in Portuguese Goa put Portugal’s sailing knowledge on sale in Amsterdam. The chart repeats what Portuguese pilots already carried; its novelty lies in who could now buy it. Dutch and English ships soon used the same approaches, and the Indian coast became a shared European resource rather than one crown’s secret.</p>",
+  "meta": [
+   [
+    "Full title",
+    "Deliniantur in hac tabula, orae maritimae Abexiae, freti Mecani al. Maris Rubri, Arabiae"
+   ],
+   [
+    "Author",
+    "Linschoten, Jan Huygen van, 1563-1611; Paludanus, Bernard, 1550-1633"
+   ],
+   [
+    "Date",
+    "1596"
+   ],
+   [
+    "Edition",
+    "Plate first issued in the 1596 <em>Itinerario</em>; this impression from the 1638 French edition"
+   ],
+   [
+    "Type",
+    "Book Map"
+   ],
+   [
+    "Publisher",
+    "Chez Evert Cloppenburgh"
+   ],
+   [
+    "Place",
+    "Amsterdam"
+   ],
+   [
+    "Dimensions",
+    "40 × 54 cm"
+   ],
+   [
+    "Engraver",
+    "Henricus van Langren"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 12236.011"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~294916~90065749%3ASouthwest-Asia--Definiantur-in-hac-\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ],
+  "ld": {
+   "temporalCoverage": "1596",
+   "datePublished": "1596"
+  }
+ },
+ {
+  "id": "1597__IndianOcean__Ortelius__Erythraei-Maris-Periplus",
+  "year": 1597,
+  "approx": false,
+  "region": "IndianOcean",
+  "maker": "Ortelius",
+  "date_label": "1597",
+  "title": "The Periplus of the Erythraean Sea",
+  "short": "The Periplus of the Erythraean Sea",
+  "byline": "Ortelius, Abraham, 1527-1598; Vrients, Jan Baptista · 1597",
+  "brief": "Ortelius’s reconstruction of the ancient maritime world described by the <em>Periplus of the Erythraean Sea</em>. The Indian coast is mapped as the eastern reach of a Greco-Roman trading system, while an inset of Ulysses joins historical geography to classical myth.",
+  "image": {
+   "src": "img/display/1597__IndianOcean__Ortelius__Erythraei-Maris-Periplus.jpg",
+   "alt": "xxxvi) Erythraei Sive Rubri Maris Periplus",
+   "width": 1800,
+   "height": 1500,
+   "dzi": "img/dzi/1597__IndianOcean__Ortelius__Erythraei-Maris-Periplus.dzi"
+  },
+  "thumb": {
+   "alt": "xxxvi) Erythraei Sive Rubri Maris Periplus",
+   "width": 700,
+   "height": 583
+  },
+  "room": 1,
+  "deccan": [
+   {
+    "id": "horse-trade-origins",
+    "label": "Horses before the Portuguese (14th–15th century)"
+   },
+   {
+    "id": "arab-horse-trade",
+    "label": "The horse trade (16th century)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">A map made from an ancient text</p>\n<p>This 1597 plate belongs to Ortelius’s <em>Parergon</em>. Its title identifies the Erythraean – or Red – Sea in the broad ancient sense, encompassing the Red Sea, Arabian Sea and Indian Ocean. Ortelius drew the map from classical authorities rather than from contemporary navigation.</p>\n<p class=\"subhead\">Ports of the classical trading world</p>\n<p>The sheet gives spatial form to the emporia, coasts and routes associated with ancient commerce between the Mediterranean, Arabia, East Africa and India. The Indian subcontinent appears as a sequence of ports at the end of a maritime network described in Greek and Roman texts.</p>\n<p class=\"subhead\">History, myth and geography</p>\n<p>The inset tracing the wanderings of Ulysses makes the map’s intellectual world explicit. Ortelius’s ancient geography did not enforce the modern distinction between commercial record, historical reconstruction and literary memory. All were parts of the classical archive he sought to visualise.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Ulysses in the inset sets the tone. The Indian ports on this plate were reached, in Ortelius’s mind, by the same antiquity that produced the wanderer, and a Portuguese captain on the Malabar coast was therefore a latecomer to an old route. Classical scholarship supplied Europe with a prior claim on the ocean.</p>",
+  "meta": [
+   [
+    "Full title",
+    "Erythraei sive Rubri Maris Periplus"
+   ],
+   [
+    "Author",
+    "Ortelius, Abraham, 1527-1598; Vrients, Jan Baptista"
+   ],
+   [
+    "Date",
+    "1597"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "Jan Baptista Vrients"
+   ],
+   [
+    "Place",
+    "Antwerp"
+   ],
+   [
+    "Dimensions",
+    "36 × 47 cm"
+   ],
+   [
+    "Scale",
+    "1:25,000,000"
+   ],
+   [
+    "Engraver",
+    "Wierix, Jan (attributed)"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 10001.424"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~275888~90048666%3A-xxxvi--Erythraei-Sive-Rubri-Maris-\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ],
+  "ld": {
+   "contributor": {
+    "@type": "Person",
+    "name": "Wierix, Jan"
+   }
+  }
+ },
+ {
+  "id": "1599__SouthIndia__Ruscelli-Rosaccio__Calecut-Nuova-Tavola",
+  "year": 1599,
+  "approx": false,
+  "region": "SouthIndia",
+  "maker": "Ruscelli Rosaccio",
+  "date_label": "1599",
+  "title": "Calecut Nuova Tavola",
+  "short": "Calecut Nuova Tavola",
+  "byline": "Ptolemy, Claudius; Ruscelli, Girolamo; Rosaccio, Giuseppe · 1599",
+  "brief": "A ‘new table’ of Calicut and the south-western Indian coast from the 1599 Venetian edition of Ruscelli’s Ptolemy, revised by Giuseppe Rosaccio. Contemporary maritime knowledge is inserted directly into the inherited architecture of the <em>Geographia</em>.",
+  "image": {
+   "src": "img/display/1599__SouthIndia__Ruscelli-Rosaccio__Calecut-Nuova-Tavola.jpg",
+   "alt": "Calecut Nuova Tavola",
+   "width": 1800,
+   "height": 1164,
+   "dzi": "img/dzi/1599__SouthIndia__Ruscelli-Rosaccio__Calecut-Nuova-Tavola.dzi"
+  },
+  "thumb": {
+   "alt": "Calecut Nuova Tavola",
+   "width": 700,
+   "height": 453
+  },
+  "room": 1,
+  "deccan": [
+   {
+    "id": "madurai-southern-conquest",
+    "label": "Madurai and the southern conquest (c. 1335–1378)"
+   },
+   {
+    "id": "abdur-razzaq-1443",
+    "label": "Abdur Razzaq at Vijayanagara (1442–1444)"
+   },
+   {
+    "id": "calicut-1498",
+    "label": "The Portuguese at Calicut (20 May 1498)"
+   },
+   {
+    "id": "nayakas",
+    "label": "The nayakas (c. 1529–1565 and after)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The edition</p>\n<p><em>Calecut Nuova Tavola</em> appears in the 1599 Venetian edition of Ptolemy translated and expanded by Girolamo Ruscelli, with revisions by Giuseppe Rosaccio. It is a copperplate map in a book that deliberately paired classical geography with ‘new’ regional tables.</p>\n<p class=\"subhead\">Calicut as the organising place</p>\n<p>The title gives Calicut exceptional prominence. A century after Vasco da Gama’s arrival, the Malabar port still condensed Europe’s image of the south-western coast: pepper, maritime exchange and the first Portuguese route into the Indian Ocean trading system.</p>\n<p class=\"subhead\">Correction within continuity</p>\n<p>The map updates coastal geography using post-Ptolemaic information while keeping Ptolemy’s book as its frame, in the manner of the Strasbourg <em>Tabula Moderna Indiae</em> of 1525: a new sheet bound into an ancient work.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Calicut in the title does most of the work. A Venetian reader of 1599 knew the name from a century of pepper and Portuguese news, and the map offers the coast that name stood for and little more. The subcontinent shrinks to its most talked-about shore.</p>",
+  "meta": [
+   [
+    "Author",
+    "Ptolemy, Claudius; Ruscelli, Girolamo; Rosaccio, Giuseppe"
+   ],
+   [
+    "Date",
+    "1599"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "Appresso gli heredi di Melchior Sessa"
+   ],
+   [
+    "Place",
+    "Venetia"
+   ],
+   [
+    "Dimensions",
+    "19 × 25 cm"
+   ],
+   [
+    "Scale",
+    "1:12,000,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 11299.064"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~286212~90058730%3ACalecut-Nuova-Tavola\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1600__India__Quad__India-Orientalis",
+  "year": 1600,
+  "approx": false,
+  "region": "India",
+  "maker": "Quad",
+  "date_label": "1600",
+  "title": "India orientalis",
+  "short": "India orientalis",
+  "byline": "Quad, Matthias, 1557-1613 · 1600",
+  "brief": "Matthias Quad’s compact <em>India Orientalis</em> from the German-language <em>Geographisch Handtbuch</em>. A reduced derivative of larger atlas maps, it shows the established image of the East Indies moving into a cheaper, portable market.",
+  "image": {
+   "src": "img/display/1600__India__Quad__India-Orientalis.jpg",
+   "alt": "India orientalis",
+   "width": 1800,
+   "height": 1274,
+   "dzi": "img/dzi/1600__India__Quad__India-Orientalis.dzi"
+  },
+  "thumb": {
+   "alt": "India orientalis",
+   "width": 700,
+   "height": 495
+  },
+  "room": 1,
+  "deccan": [
+   {
+    "id": "akbar-ahmadnagar-1600",
+    "label": "Akbar takes Ahmadnagar (August 1600)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">A smaller atlas</p>\n<p>Quad worked at Cologne and produced maps at a size and price below the great folio atlases of Ortelius and Mercator. His <em>Geographisch Handtbuch</em> of 1600 presented geography in German and in a format suited to readers who could not acquire an elaborate Antwerp atlas.</p>\n<p class=\"subhead\">Derivative geography</p>\n<p>The map’s East Indies descend from established late-sixteenth-century models, compressed into a smaller plate. Reduction required selection: coastlines, principal names and decorative cues preserved while detail was sacrificed.</p>\n<p class=\"subhead\">Circulation as historical evidence</p>\n<p>Copies and derivatives reveal how cartographic images became authoritative. A geography first assembled for expensive international atlases could be republished in Cologne, translated into a vernacular setting and carried by a much broader readership.</p>\n<p class=\"subhead\">The gaze</p>\n<p>A Cologne reader of modest means could now own the Indies in German. Quad’s plate adds nothing to the geography and removes a good deal, yet that loss is the evidence: the outline had become familiar enough to survive shrinking. Repetition at this price fixed Europe’s picture of India as firmly as any correction.</p>",
+  "meta": [
+   [
+    "Author",
+    "Quad, Matthias, 1557-1613"
+   ],
+   [
+    "Date",
+    "1600"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "Johann Bussemacher"
+   ],
+   [
+    "Place",
+    "Cologne"
+   ],
+   [
+    "Dimensions",
+    "19 × 26 cm"
+   ],
+   [
+    "Scale",
+    "1:30,000,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 9690.018"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~277459~90050573%3A5--India-orientalis--1600-\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1623__India__Mercator-Hondius__India-Orientalis",
+  "year": 1623,
+  "approx": false,
+  "region": "India",
+  "maker": "Mercator Hondius",
+  "date_label": "1623",
+  "title": "India Orientalis",
+  "short": "India Orientalis",
+  "byline": "Mercator, Gerhard, 1512-1594; Hondius, Jodocus, 1563-1612; Hondius, Hendrik, 1597-1651 · 1623",
+  "brief": "The <em>India Orientalis</em> plate in the 1623 Mercator–Hondius atlas. Its geography largely consolidates late-sixteenth-century models, but its Amsterdam publication situates India within the mature Dutch atlas trade and the commercial world of the VOC.",
+  "image": {
+   "src": "img/display/1623__India__Mercator-Hondius__India-Orientalis.jpg",
+   "alt": "India Orientalis",
+   "width": 1800,
+   "height": 1225,
+   "dzi": "img/dzi/1623__India__Mercator-Hondius__India-Orientalis.dzi"
+  },
+  "thumb": {
+   "alt": "India Orientalis",
+   "width": 700,
+   "height": 476
+  },
+  "room": 1,
+  "deccan": [
+   {
+    "id": "hyderabad-founded-1591",
+    "label": "Hyderabad founded (1591)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">An atlas lineage</p>\n<p>Gerard Mercator’s plates passed after his death to Jodocus Hondius and then into the publishing enterprise of Henricus Hondius. The 1623 Latin atlas was the first edition to place Henricus’s name on the title page. This map belongs to that inherited and continually reissued corpus.</p>\n<p class=\"subhead\">Established rather than newly surveyed</p>\n<p>The plate extends from India through mainland Southeast Asia toward China. Its authority comes from the Mercator–Hondius house and from repeated publication. Decorative cartouches and carefully engraved coastlines give coherence to information accumulated over earlier decades.</p>\n<p class=\"subhead\">Amsterdam and Asian commerce</p>\n<p>By 1623 Amsterdam had become a principal centre of European map publishing, while the Dutch East India Company had established an extensive Asian commercial network. Its market and its confidence belong to the same commercial environment.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Henricus Hondius put his name on the title page in 1623 and changed little on this plate. That was the point: the house sold continuity. A Company merchant and a stay-at-home scholar bought the same India, decades old in its sources, and its age read as reliability.</p>",
+  "meta": [
+   [
+    "Author",
+    "Mercator, Gerhard, 1512-1594; Hondius, Jodocus, 1563-1612; Hondius, Hendrik, 1597-1651"
+   ],
+   [
+    "Date",
+    "1623"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "Henricus Hondius"
+   ],
+   [
+    "Place",
+    "Amsterdam"
+   ],
+   [
+    "Dimensions",
+    "35 × 48 cm"
+   ],
+   [
+    "Scale",
+    "1:12,000,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 10534.347"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~329266~90128240%3AIndia-Orientalis\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1654__India__Sanson__India-Below-and-Beyond-the-Ganges",
+  "year": 1654,
+  "approx": false,
+  "region": "India",
+  "maker": "Sanson",
+  "date_label": "1654",
+  "title": "India below and beyond the Ganges, or the Empire of the Great Mogul",
+  "short": "India below and beyond the Ganges, or the Empire of the Great Mogul",
+  "byline": "Sanson, Nicolas, 1600-1667; Sanson, Guillaume (1633-1703) · 1654",
+  "brief": "Nicolas Sanson’s map of India ‘below and beyond the Ganges, or the Empire of the Great Mogul’. Classical regional language remains in the title, but Mughal sovereignty supplies the contemporary political frame.",
+  "image": {
+   "src": "img/display/1654__India__Sanson__India-Below-and-Beyond-the-Ganges.jpg",
+   "alt": "India below and beyond the Ganges, or the Empire of the Great Mogul",
+   "width": 1800,
+   "height": 1185,
+   "dzi": "img/dzi/1654__India__Sanson__India-Below-and-Beyond-the-Ganges.dzi"
+  },
+  "thumb": {
+   "alt": "India below and beyond the Ganges, or the Empire of the Great Mogul",
+   "width": 700,
+   "height": 461
+  },
+  "room": 2,
+  "deccan": [
+   {
+    "id": "company-factories",
+    "label": "Masulipatnam, Madras, Bombay (1611–1668)"
+   },
+   {
+    "id": "deccan-famine-1630",
+    "label": "The Deccan famine of 1630–32 (1630–1632)"
+   },
+   {
+    "id": "fall-of-ahmadnagar-1636",
+    "label": "The end of Ahmadnagar (1636)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The French school</p>\n<p>Nicolas Sanson, geographer to the French crown, helped establish the restrained style associated with seventeenth-century French cartography. Compared with many Dutch atlas sheets, the emphasis falls less on pictorial abundance and more on hierarchy, names and political division.</p>\n<p class=\"subhead\">Two organising systems</p>\n<p>The title preserves the Ptolemaic distinction between India on this side and beyond the Ganges. At the same time, it identifies the region with the Empire of the Great Mogul. Ancient spatial vocabulary and contemporary dynastic power occupy the same frame.</p>\n<p class=\"subhead\">A political India seen from Paris</p>\n<p>The Mughal Empire gives European readers a single intelligible centre around which the subcontinent can be organised. Yet the map remains a work of distant compilation. It translates a complex and internally differentiated political landscape into the categories of European court geography.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Sanson worked for a king, and he drew India for one. The Great Mogul stands in the title as a fellow monarch whose realm can be listed beside the other monarchies of the world, bounded and named like theirs. The sea route that organised earlier sheets drops out of view; what remains is a state.</p>",
+  "meta": [
+   [
+    "Author",
+    "Sanson, Nicolas, 1600-1667; Sanson, Guillaume (1633-1703)"
+   ],
+   [
+    "Date",
+    "1654"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "Nicolas Sanson, au Cloître Saint-Nicolas du Louvre"
+   ],
+   [
+    "Place",
+    "Paris"
+   ],
+   [
+    "Dimensions",
+    "35 × 55 cm"
+   ],
+   [
+    "Scale",
+    "1:8,800,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 9741.121"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/view/all/who/Cloistre%2Bde%2BS%2BNicolas%2Bdu%2BLouvre/Sanson%2C%2BGuillaume%2B%281633-1703%29/when/1654?sort=pub_list_no_initialsort%2Cseries_no%2Cseries_no%2Cseries_no\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1682__India__DuVal__Empire-du-Mogol",
+  "year": 1682,
+  "approx": false,
+  "region": "India",
+  "maker": "DuVal",
+  "date_label": "1682",
+  "title": "Empire du Mogol",
+  "short": "Empire du Mogol",
+  "byline": "Du Val, Pierre, 1619-1683 · 1682",
+  "brief": "Pierre Du Val’s small-format map of the Mughal Empire. Derived from the Sanson tradition and made for a broad geographical audience, it compresses India into a portable political summary.",
+  "image": {
+   "src": "img/display/1682__India__DuVal__Empire-du-Mogol.jpg",
+   "alt": "Empire du Mogol",
+   "width": 1800,
+   "height": 1372,
+   "dzi": "img/dzi/1682__India__DuVal__Empire-du-Mogol.dzi"
+  },
+  "thumb": {
+   "alt": "Empire du Mogol",
+   "width": 700,
+   "height": 534
+  },
+  "room": 2,
+  "deccan": [
+   {
+    "id": "akbar-ahmadnagar-1600",
+    "label": "Akbar takes Ahmadnagar (August 1600)"
+   },
+   {
+    "id": "fall-of-ahmadnagar-1636",
+    "label": "The end of Ahmadnagar (1636)"
+   },
+   {
+    "id": "shaista-khan-surat",
+    "label": "Shaista Khan and Surat (1663–1664)"
+   },
+   {
+    "id": "madanna-akkanna",
+    "label": "Madanna and Akkanna at Golconda (c. 1674–1686)"
+   },
+   {
+    "id": "bijapur-golconda-fall-1687",
+    "label": "Aurangzeb takes Bijapur and Golconda (1686–1687)"
+   },
+   {
+    "id": "aurangzeb-dies-1707",
+    "label": "Aurangzeb dies at Ahmadnagar (3 March 1707)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">A map in miniature</p>\n<p>Pierre Du Val, Sanson’s nephew and pupil, produced compact geographical works that circulated through repeated editions. At approximately one to thirty-one million, this sheet cannot offer detailed local geography. Its purpose is synoptic: the Mughal realm in summary.</p>\n<p class=\"subhead\">The Sanson inheritance</p>\n<p>The map carries forward the French school’s preference for clear political organisation and limited ornament. It is a smaller derivative within a recognised cartographic lineage.</p>\n<p class=\"subhead\">The Great Mogul as shorthand</p>\n<p>By the late seventeenth century, ‘Empire du Mogol’ had become a standard European label through which the subcontinent could be introduced in general geography. The name supplied coherence even though Mughal authority varied across regions, and the map’s boundaries are not surveyed borders.</p>\n<p class=\"subhead\">The gaze</p>\n<p>At one to thirty-one million, a province is a word and a frontier a line. Du Val’s India can be read in a minute, which is what his buyers wanted, and the Mughal name supplies the coherence the scale removes. The uncle assembled the political picture; the nephew made it pocketable.</p>",
+  "meta": [
+   [
+    "Author",
+    "Du Val, Pierre, 1619-1683"
+   ],
+   [
+    "Date",
+    "1682"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "Pierre Du Val; Nicolas Langlois"
+   ],
+   [
+    "Place",
+    "Paris"
+   ],
+   [
+    "Dimensions",
+    "11 × 13 cm"
+   ],
+   [
+    "Scale",
+    "1:31,000,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 12503.235"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/view/all/what/Atlas%2BMap/when/1682?os=100&amp;sort=pub_list_no_initialsort%2Cpub_list_no_initialsort%2Cpub_date%2Cpub_date\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1702__Persia-India__Sanson__Old-Persia-and-Old-India",
+  "year": 1702,
+  "approx": false,
+  "region": "Persia-India",
+  "maker": "Sanson",
+  "date_label": "1702",
+  "title": "Old Persia and Old India",
+  "short": "Old Persia and Old India",
+  "byline": "Sanson, Nicolas, 1600-1667; Sanson, Guillaume (1633-1703) · 1702",
+  "brief": "A paired sheet of ancient Persia and <em>India Vetus</em> from the Sanson family’s atlas of ancient and modern geography. India is reconstructed through classical regions, peoples and rivers and placed beside Persia as an object of learned comparison.",
+  "image": {
+   "src": "img/display/1702__Persia-India__Sanson__Old-Persia-and-Old-India.jpg",
+   "alt": "Old Persia and Old India",
+   "width": 1800,
+   "height": 1169,
+   "dzi": "img/dzi/1702__Persia-India__Sanson__Old-Persia-and-Old-India.dzi"
+  },
+  "thumb": {
+   "alt": "Old Persia and Old India",
+   "width": 700,
+   "height": 454
+  },
+  "room": 2,
+  "deccan": [
+   {
+    "id": "jinji-1690-1698",
+    "label": "The siege of Jinji (1690–1698)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">Ancient and modern geography</p>\n<p>The Sanson atlas deliberately placed classical geography beside contemporary maps. This sheet contains two ancient worlds on one page: the Persian and Parthian empires at left and ‘Old India’ at right. It belongs to a Sanson atlas assembled at Paris around 1697–1705.</p>\n<p class=\"subhead\">Reconstructing India from texts</p>\n<p><em>India Vetus</em> uses the names and divisions of Greek and Roman geography rather than those of the early eighteenth century. Rivers, regions and peoples are arranged as scholarly evidence. The map is consequently historical even though it is drawn with the conventions of contemporary French cartography.</p>\n<p class=\"subhead\">Comparison as method</p>\n<p>The same house mapped India twice – as the Mughal empire of the present and as the India of Strabo and Ptolemy. To know a country was to set the ancient account beside the modern one.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Persia and India share the page as neighbours in the ancient record. This is the version of the subcontinent in which a Paris reader checked the ancients against the present, river by river and people by people. Knowing India, around 1700, still began with knowing what the Greeks had said about it.</p>",
+  "meta": [
+   [
+    "Author",
+    "Sanson, Nicolas, 1600-1667; Sanson, Guillaume (1633-1703)"
+   ],
+   [
+    "Date",
+    "1702"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "Nicolas Sanson, au Cloître Saint-Nicolas du Louvre"
+   ],
+   [
+    "Place",
+    "Paris"
+   ],
+   [
+    "Dimensions",
+    "21 × 54 cm"
+   ],
+   [
+    "Scale",
+    "1:16,200,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 9741.153"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~280907~90053745%3AOld-Persia-and-Old-India-\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1703__SEAsia__Sanson__India-and-Southeast-Asia",
+  "year": 1703,
+  "approx": false,
+  "region": "SEAsia",
+  "maker": "Sanson",
+  "date_label": "1703",
+  "title": "India and Southeast Asia",
+  "short": "India and Southeast Asia",
+  "byline": "Sanson, Nicolas, 1600-1667; Sanson, Guillaume (1633-1703) · 1703",
+  "brief": "Sanson’s map of southern India ‘in two peninsulas’, one on either side of the Ganges. A disciplined French engraving retains the ancient conceptual division between India within and beyond the Ganges.",
+  "image": {
+   "src": "img/display/1703__SEAsia__Sanson__India-and-Southeast-Asia.jpg",
+   "alt": "India and Southeast Asia",
+   "width": 1800,
+   "height": 1183,
+   "dzi": "img/dzi/1703__SEAsia__Sanson__India-and-Southeast-Asia.dzi"
+  },
+  "thumb": {
+   "alt": "India and Southeast Asia",
+   "width": 700,
+   "height": 460
+  },
+  "room": 2,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">The full title as argument</p>\n<p><em>Partie Méridionale de l’Inde en deux presqu’îles, l’une deçà et l’autre delà le Gange</em> names its organising scheme explicitly. The Indian peninsula and mainland Southeast Asia are treated as the two peninsulas of a larger India.</p>\n<p class=\"subhead\">An ancient division in modern form</p>\n<p>The distinction is the Ptolemaic one already carried in the title of Sanson’s 1654 map, here engraved in the restrained style of the French school and populated with early-modern place knowledge.</p>\n<p class=\"subhead\">Coasts and interiors</p>\n<p>Maritime edges, ports and major political names receive the clearest treatment. Inland information is thinner and more uneven. Clarity here measures the engraver’s discipline more than the state of knowledge inland.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Two peninsulas, one India: the title makes mainland Southeast Asia a second India rather than a region of its own. The category outlived the evidence that might have dissolved it, and the clean engraving gave it another generation of credit.</p>",
+  "meta": [
+   [
+    "Author",
+    "Sanson, Nicolas, 1600-1667; Sanson, Guillaume (1633-1703)"
+   ],
+   [
+    "Date",
+    "1703"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "Nicolas Sanson, au Cloître Saint-Nicolas du Louvre"
+   ],
+   [
+    "Place",
+    "Paris"
+   ],
+   [
+    "Dimensions",
+    "39 × 54 cm"
+   ],
+   [
+    "Scale",
+    "1:9,300,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 9741.122"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/view/all/who/Sanson%2C%2BNicolas%2C%2B1600-1667/Sanson%2C%2BGuillaume%2B%281633-1703%29/where/Bangladesh?cic=RUMSEY~8~1&amp;os=0&amp;pgs=50&amp;sort=World_Area%2CType%2CDate%2CSubject\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda",
+  "year": 1706,
+  "approx": false,
+  "region": "Deccan",
+  "maker": "Van der Aa Methold",
+  "date_label": "1706",
+  "title": "The Kingdoms of Golconda, Tenasserim, Pegu and Arakan",
+  "short": "The Kingdoms of Golconda, Tenasserim, Pegu and Arakan",
+  "byline": "Pieter van der Aa, after William Methold · Leiden, 1706",
+  "brief": "A small Dutch map of the Bay of Bengal and its shores, from Golconda and the Deccan on the west to Siam on the east, engraved by Pieter van der Aa to accompany his Dutch translation of William Methold’s <em>Relations of the Kingdome of Golchonda</em>. The map is dated 1706; the knowledge on it is from the 1620s.",
+  "image": {
+   "src": "img/display/1706__Deccan__Van-der-Aa-Methold__Koninkryken-van-Golconda.jpg",
+   "alt": "De Koninkryken van Golconda, Tanassari, Pegu en Aracam, aan de Golf van Bengale",
+   "width": 1276,
+   "height": 865
+  },
+  "thumb": {
+   "alt": "De Koninkryken van Golconda, Tanassari, Pegu en Aracam",
+   "width": 700,
+   "height": 475
+  },
+  "room": 2,
+  "deccan": [
+   {
+    "id": "golconda-diamonds",
+    "label": "Golconda and its diamonds (1518–1590)"
+   },
+   {
+    "id": "hyderabad-founded-1591",
+    "label": "Hyderabad founded (1591)"
+   },
+   {
+    "id": "company-factories",
+    "label": "Masulipatnam, Madras, Bombay (1611–1668)"
+   },
+   {
+    "id": "madanna-akkanna",
+    "label": "Madanna and Akkanna at Golconda (c. 1674–1686)"
+   },
+   {
+    "id": "bijapur-golconda-fall-1687",
+    "label": "Aurangzeb takes Bijapur and Golconda (1686–1687)"
+   },
+   {
+    "id": "papadu-revolt",
+    "label": "Papadu (c. 1695–1710)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">A publisher’s India</p><p>Pieter van der Aa of Leiden was the most industrious map publisher of his generation, and the least original. Between 1706 and 1708 he issued the <em>Naaukeurige versameling der gedenk-waardigste zee en land-reysen</em>, a collection of voyages in twenty-eight volumes in which each narrative, old or new, received a small engraved map in a uniform style. This sheet, numbered ‘Pag. 1’ in its corner, opened the volume containing Methold. The signature ‘William Methold’ at the lower right is not a cartographer’s credit but a label: the map belongs to his text.</p><p class=\"subhead\">Methold at Masulipatnam</p><p>William Methold was an East India Company factor on the Coromandel coast from 1618 to 1622, based at Masulipatnam, the Qutb Shahi port through which the Company bought the painted cottons it sold in the spice islands. His <em>Relations of the Kingdome of Golchonda, and other neighbouring nations within the Gulfe of Bengala</em> was printed in the fourth edition of Samuel Purchas’s <em>Purchas his Pilgrimage</em> in 1626 and is the earliest detailed English description of the Golconda state: the sultan Muhammad Qutb Shah, the fortress and the new city of Hyderabad, the diamond mines of the Krishna valley, the coinage, the caste order of the coast and the administration of the port. The map follows the text’s horizon. ‘Golcondæ Regn.’ is given its coast from Masulipatnam to Bellum Cunda; the mines appear; and the remaining kingdoms of the title – Tenasserim, Pegu and Arakan – are the other shores of the same gulf, visited by the same Company ships.</p><p class=\"subhead\">What the plate knows</p><p>The interior is a century behind the date. ‘Bisnagariæ Regn.’ still fills the south, with Bisnagar and Narsinga as its cities, although Vijayanagara had been sacked in 1565 and the Aravidu line had retreated to Chandragiri before Methold wrote. ‘Decan’ and ‘Visiapour’ stand for Bijapur; ‘Magni Mogolis Imperium’ stops at the Tapti. And by 1706 Golconda itself had been a Mughal province for nineteen years. None of this is an error so much as a method: van der Aa drew what the voyages said, and the voyages were old. The vignette at the centre, a palanquin and a river boat under a palm, is the same stock scene of eastern travel that decorated his other plates.</p><p class=\"subhead\">The gaze</p><p>The collection’s argument is that a map records who is looking. Here two eyes are superimposed. Methold’s was a factor’s: he looked at Golconda as a market, noted what sold, what was taxed and who governed the port, and his notice of the mines is among the fullest of the early European notices of Golconda’s diamonds – Garcia da Orta, Cesare Federici and Ralph Fitch had written of the Deccan’s diamonds before him. Van der Aa’s was a bookseller’s: he looked at Methold as a property to be packaged, and gave it a map whose purpose was uniformity with the other twenty-seven volumes rather than accuracy about the Deccan. The sheet is the Dutch book trade’s view of the English Company’s view of the Qutb Shahi state – and a reminder that, in Europe, what was known about the Deccan in 1706 was often what had been known in 1620.</p>",
+  "meta": [
+   [
+    "Author",
+    "Pieter van der Aa (publisher and engraver); after William Methold’s account of c. 1622"
+   ],
+   [
+    "Date",
+    "1706"
+   ],
+   [
+    "Type",
+    "Regional map from a printed collection of voyages"
+   ],
+   [
+    "Publisher",
+    "Pieter van der Aa"
+   ],
+   [
+    "Place",
+    "Leiden"
+   ],
+   [
+    "Title",
+    "<em>De Koninkryken van Golconda, Tanassari, Pegu en Aracam, aan de Golf van Bengale</em>"
+   ],
+   [
+    "Series",
+    "<em>Naaukeurige versameling der gedenk-waardigste zee en land-reysen na Oost en West-Indiën</em>, 1706–1708"
+   ],
+   [
+    "Dimensions",
+    "approximately 15 × 23 cm (plate; not measured)"
+   ],
+   [
+    "Longitude",
+    "from the Ferro meridian, 85°–125°"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://commons.wikimedia.org/wiki/File:Golconda_map_1706_(_a_dutch_golconda_map).jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Wikimedia Commons</a> (public domain)"
+   ],
+   [
+    "Text illustrated",
+    "William Methold, <em>Relations of the Kingdome of Golchonda</em>, in Samuel Purchas, <em>Purchas his Pilgrimage</em>, 4th ed. (London, 1626); Dutch translation in van der Aa’s collection"
+   ]
+  ]
+ },
+ {
+  "id": "1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives",
+  "year": 1708,
+  "approx": false,
+  "region": "BayOfBengal",
+  "maker": "Jaillot Mortier",
+  "date_label": "1708",
+  "title": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+  "short": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+  "byline": "Pierre Mortier · 1700, issued 1708",
+  "brief": "A large sea chart of the islands and waters around India – Ceylon, the Maldives and the Andamans – first issued by Pierre Mortier at Amsterdam in 1700 and bound again into his 1708 edition of Jaillot’s atlas. A French-titled chart, Dutch-engraved, on claimed Portuguese authority.",
+  "image": {
+   "src": "img/display/1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.jpg",
+   "alt": "Carte Particuliere d'une Partie d'Asie ou sont les Isles d'Andemaon, Ceylan, les Maldives",
+   "width": 1800,
+   "height": 1141,
+   "dzi": "img/dzi/1708__BayOfBengal__Jaillot-Mortier__Andaman-Ceylon-Maldives.dzi"
+  },
+  "thumb": {
+   "alt": "The Bay of Bengal, Ceylon, the Maldives and the Andaman Islands",
+   "width": 700,
+   "height": 444
+  },
+  "room": 2,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">A transnational atlas object</p>\n<p>Pierre Mortier first issued this chart in 1700 in his <em>Suite du Neptune François</em>, claiming the charts of Portuguese pilots as his source, and bound it again into his 1708 Amsterdam edition of Jaillot’s <em>Atlas Nouveau</em>. The sheet belongs to no single nation.</p>\n<p class=\"subhead\">The maritime region</p>\n<p>The sheet foregrounds the islands and waters through which traffic moved: Ceylon, the Maldives, the Andamans and the surrounding seas. At this scale, maritime geography becomes a region in its own right.</p>\n<p class=\"subhead\">Authority through enlargement</p>\n<p>Mortier’s large-format atlases turned borrowed source maps into imposing commercial plates. Scale, engraving and presentation amplify authority even where the underlying geography remains derivative. The map is an artefact of publishing competition as much as of geographical observation.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Ceylon, the Maldives and the Andamans hold the centre and the subcontinent is pushed to the margin. For a Dutch publisher selling to French buyers on Portuguese information, the valuable India was the one ships had to thread through, and Mortier enlarged it to match its price.</p>",
+  "meta": [
+   [
+    "Full title",
+    "Carte particulière d’une partie d’Asie où sont les isles d’Andemaon, Ceylan, les Maldives"
+   ],
+   [
+    "Author",
+    "Pierre Mortier (publisher); bound in Jaillot’s <em>Atlas Nouveau</em>"
+   ],
+   [
+    "Date",
+    "1708"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "Pierre Mortier"
+   ],
+   [
+    "Place",
+    "Amsterdam"
+   ],
+   [
+    "Dimensions",
+    "60 × 95 cm"
+   ],
+   [
+    "Scale",
+    "1:7,000,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 12178.203"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/view/all/who/Jaillot%2C%2BAlexis%2BHubert%2C%2B1632%3F-1712/when/1708?sort=World_Area\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1719__India__Chatelain__Genealogie-des-Empereurs-Mogols",
+  "year": 1719,
+  "approx": false,
+  "region": "India",
+  "maker": "Chatelain",
+  "date_label": "1719",
+  "title": "Genealogy of the Mughal Emperors",
+  "short": "Genealogy of the Mughal Emperors",
+  "byline": "Henri Chatelain; text associated with Nicolas Gueudeville · 1719",
+  "brief": "A composite page from Chatelain’s <em>Atlas Historique</em>: two maps, a genealogy of the Mughal emperors and scenes of courtly and social life. Geography, dynasty, chronology and spectacle are assembled into a single encyclopaedic view of India.",
+  "image": {
+   "src": "img/display/1719__India__Chatelain__Genealogie-des-Empereurs-Mogols.jpg",
+   "alt": "Genealogie des Empereurs Mogols",
+   "width": 1800,
+   "height": 1343,
+   "dzi": "img/dzi/1719__India__Chatelain__Genealogie-des-Empereurs-Mogols.dzi"
+  },
+  "thumb": {
+   "alt": "Genealogy of the Mughal Emperors",
+   "width": 700,
+   "height": 522
+  },
+  "room": 2,
+  "deccan": [
+   {
+    "id": "aurangzeb-dies-1707",
+    "label": "Aurangzeb dies at Ahmadnagar (3 March 1707)"
+   },
+   {
+    "id": "shahu-and-the-sanads-1719",
+    "label": "Shahu, Balaji Vishwanath and the sanads of 1719 (1719)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">More than a map</p>\n<p>The sheet centres a genealogy of the Mughal emperors from Timur to the early eighteenth century. It also includes maps of the Mughal Empire and Kashmir, descriptive text and three scenes below: an elephant combat, the ruler weighed against gold and a cremation ceremony.</p>\n<p class=\"subhead\">The historical atlas</p>\n<p>Henri Chatelain’s <em>Atlas Historique</em>, with text associated with Nicolas Gueudeville, sought to join geography to chronology, genealogy, politics and customs. A place could not be understood by outline alone; the atlas surrounded the map with the information expected of universal history.</p>\n<p class=\"subhead\">Translation into European forms</p>\n<p>The Mughal succession is presented as a genealogical tree familiar from European dynastic history. That device makes the empire intelligible to the intended reader but also recasts it within a European representational convention. The accompanying vignettes alternate between information and spectacle.</p>\n<p class=\"subhead\">The gaze</p>\n<p>The family tree sits at the centre of the page, and that placement tells the reader what matters. Chatelain’s India is first a dynasty, then a territory, then a set of customs to be looked at – the elephant combat and the weighing of the emperor supply the page’s entertainment. Everything the Mughals were is fitted to the format of a European princely house.</p>",
+  "meta": [
+   [
+    "Full title",
+    "Généalogie des Empereurs Mogols"
+   ],
+   [
+    "Author",
+    "Chatelain, Henri, 1684–1743; Gueudeville, Nicolas"
+   ],
+   [
+    "Date",
+    "1719"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "L’Honoré &amp; Châtelain; Frères Châtelain"
+   ],
+   [
+    "Place",
+    "Amsterdam; Amsterdam"
+   ],
+   [
+    "Dimensions",
+    "45 × 52 cm"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 13272.538"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/view/all/what/Historical/Historical%2BAtlas/Atlas%2BMap/where/India?sort=Pub_Date%2CPub_List_No\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres",
+  "year": 1719,
+  "approx": false,
+  "region": "SouthIndia",
+  "maker": "Chatelain",
+  "date_label": "1719",
+  "title": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+  "short": "Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+  "byline": "Henri Chatelain; text associated with Nicolas Gueudeville · 1719",
+  "brief": "Chatelain’s map of Konkan, Canara, Malabar, Madurai and Coromandel, accompanied by descriptive remarks and a table of principal towns and Dutch trading posts. The southern coast is read simultaneously as geography and commercial inventory.",
+  "image": {
+   "src": "img/display/1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.jpg",
+   "alt": "Tome V. No. 49. Pag. 129. Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura",
+   "width": 1800,
+   "height": 1346,
+   "dzi": "img/dzi/1719__SouthIndia__Chatelain__Carte-Nouvelle-des-Terres.dzi"
+  },
+  "thumb": {
+   "alt": "Carte nouvelle des terres au sud du Grand Mogol",
+   "width": 700,
+   "height": 524
+  },
+  "room": 2,
+  "deccan": [
+   {
+    "id": "tarabai",
+    "label": "Tarabai (1675–1761)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The complete sheet</p>\n<p>The full title extends beyond the map itself: it promises remarks, a table of principal towns and an account of the trading posts held by the Dutch. The object is therefore designed as a combined map and reference page.</p>\n<p class=\"subhead\">The coast of the companies</p>\n<p>Konkan, Canara, Malabar, Madurai and Coromandel are the coasts along which European companies maintained ports, factories and alliances. The table converts that shoreline into an inventory of establishments. Political and cultural regions are reorganised around points of commercial access.</p>\n<p class=\"subhead\">Information as comparison</p>\n<p>The reader can move between map, remarks and table, comparing settlements and company presence. This is characteristic of the <em>Atlas Historique</em>: geography expanded into an encyclopaedic apparatus that makes distant places available for systematic consultation.</p>\n<p class=\"subhead\">The gaze</p>\n<p>The table of Dutch posts is the sheet’s real index. A reader consults the coast by establishment – which company holds what, and where – and the kingdoms of the interior appear as the hinterland of those points. Chatelain’s southern India is arranged the way a factor would arrange it.</p>",
+  "meta": [
+   [
+    "Full title",
+    "Tome V. No. 49. Pag. 129. Carte nouvelle des terres de Cucan, de Canara, de Malabar, de Madura"
+   ],
+   [
+    "Author",
+    "Chatelain, Henri, 1684–1743; Gueudeville, Nicolas"
+   ],
+   [
+    "Date",
+    "1719"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "L’Honoré &amp; Châtelain; Frères Châtelain"
+   ],
+   [
+    "Place",
+    "Amsterdam; Amsterdam"
+   ],
+   [
+    "Dimensions",
+    "45 × 51 cm"
+   ],
+   [
+    "Scale",
+    "1:2,217,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 13272.552"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~321053~90090113%3ATome-V--No--49--Pag--129--Carte-nou?sort=SortID%2CPub_Date%2CPub_List_No%2CSeries_No\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean",
+  "year": 1728,
+  "approx": false,
+  "region": "IndianOcean",
+  "maker": "Halley Senex",
+  "date_label": "1728",
+  "title": "A chart of the East Indian Ocean",
+  "short": "A chart of the East Indian Ocean",
+  "byline": "Halley, Edmond, 1656-1742; Senex, John, -1740; Cutler, Nathaniel · 1728",
+  "brief": "<p>A nautical chart of the western approaches to India – from Cape Guardafui on the Horn of Africa across the Arabian Sea to Cochin on the Malabar coast – from the 1728 <em>Atlas Maritimus &amp; Commercialis</em>, the most ambitious English atlas of trade and navigation yet published for a general readership. The sea-road to India drawn for the merchant captain.</p>",
+  "image": {
+   "src": "img/display/1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean.jpg",
+   "alt": "A chart of the East Indian Ocean",
+   "width": 1800,
+   "height": 1317,
+   "dzi": "img/dzi/1728__IndianOcean__Halley-Senex__Chart-of-the-East-Indian-Ocean.dzi"
+  },
+  "thumb": {
+   "alt": "A chart of the East Indian Ocean",
+   "width": 700,
+   "height": 512
+  },
+  "room": 6,
+  "deccan": [
+   {
+    "id": "kanhoji-angre",
+    "label": "Kanhoji Angre (c. 1669–1729)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The object</p>\n<p>From the <em>Atlas Maritimus &amp; Commercialis</em> (London, 1728), the consortium sea-atlas conventionally associated with Nathaniel Cutler and Edmond Halley but largely the work of John Senex and John Harris. The chart covers the Arabian Sea between the Horn of Africa and the south-west Indian coast – rhumb lines, soundings, shoals and graticule – at about 1:6,000,000.</p>\n<p class=\"subhead\">The Arabian Sea as fairway</p>\n<p>Its frame is the navigator's: precisely the stretch of ocean and coast a ship crossed to reach the Malabar pepper ports. Cape Guardafui to Cochin is a sailing problem made visible – the monsoon-driven passage that had carried trade between Arabia and India since antiquity, here rendered as a modern commercial chart.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Cochin is the only Indian place this chart needs. Everything else on the sheet – Guardafui, the soundings, the rhumbs across the Arabian Sea – exists to bring a merchant captain to that one pepper port, and the atlas promised its general reader exactly this kind of usable route. India here is a landfall.</p>",
+  "meta": [
+   [
+    "Full title",
+    "<em>A chart of the East Indian Ocean from Cape Guardefoy to Cochin on the coast of Malabar</em>"
+   ],
+   [
+    "Author",
+    "Edmond Halley; John Senex; Nathaniel Cutler"
+   ],
+   [
+    "Date",
+    "1728"
+   ],
+   [
+    "Type",
+    "Nautical chart; atlas map"
+   ],
+   [
+    "Publisher",
+    "James and John Knapton and the atlas consortium"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "approximately 51 × 61 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:6,000,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 14577.046"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/view/all/where/India/Indian%2BOcean/\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1728__IndianOcean__Halley-Senex__Sea-chart-of-the-whole-world",
+  "year": 1728,
+  "approx": false,
+  "region": "IndianOcean",
+  "maker": "Halley Senex",
+  "date_label": "1728",
+  "title": "A correct sea chart of the whole world",
+  "short": "A correct sea chart of the whole world",
+  "byline": "Halley, Edmond, 1656-1742; Senex, John, -1740; Cutler, Nathaniel · 1728",
+  "brief": "<p>A world sea-chart on Mercator's projection from the <em>Atlas Maritimus &amp; Commercialis</em> of 1728 – the most ambitious English atlas of trade and navigation yet published for a general readership. It frames the whole globe, India included, as a single navigable surface, and carries the borrowed imprimatur of Edmond Halley.</p>",
+  "image": {
+   "src": "img/display/1728__IndianOcean__Halley-Senex__Sea-chart-of-the-whole-world.jpg",
+   "alt": "A correct sea chart of the whole world",
+   "width": 1800,
+   "height": 1424,
+   "dzi": "img/dzi/1728__IndianOcean__Halley-Senex__Sea-chart-of-the-whole-world.dzi"
+  },
+  "thumb": {
+   "alt": "A correct sea chart of the whole world",
+   "width": 700,
+   "height": 554
+  },
+  "room": 6,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">The object</p>\n<p>From the <em>Atlas Maritimus &amp; Commercialis</em> (London, 1728), a consortium work whose descriptive text owes much to Daniel Defoe, whose sailing directions were by Nathaniel Cutler, and whose charts were largely the work of John Senex and John Harris. This world chart spans plates 1–2 (joined), drawn \"according to Wright's, commonly called Mercator's, projection.\"</p>\n<p class=\"subhead\">The navigator's projection – and Halley's name</p>\n<p>Mercator's projection, mathematically justified by Edward Wright, renders a constant compass bearing as a straight line – the projection a sailor needs. The atlas promoted it, alongside Henry Wilson's patented \"globular projection\" used for other sheets, as a practical aid to navigation, and Edmond Halley lent the enterprise his authority with a prefatory note (in fact commending Wilson’s projection). His name became so attached that the atlas is often catalogued under it, though his hand in the charts themselves was slight.</p>\n<p class=\"subhead\">The gaze</p>\n<p>On a Mercator sheet every coast is equal, and India is one of them. The projection that straightens a compass bearing also flattens any difference between Bengal and Brazil: both are shores on a grid the sailor can steer by, part of the \"coasts, ports, harbours and noted rivers\" the atlas exists to serve. Halley’s name lent that grid scientific warrant, which is why the atlas is still catalogued under it.</p>",
+  "meta": [
+   [
+    "Author",
+    "Halley, Edmond, 1656-1742; Senex, John, -1740; Cutler, Nathaniel"
+   ],
+   [
+    "Date",
+    "1728"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "James and John Knapton (Firm)"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "59 × 70 cm"
+   ],
+   [
+    "Scale",
+    "1:40,000,000"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~374147~90140765%3AComposite--A-correct-sea-chart-of-t\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon",
+  "year": 1733,
+  "approx": false,
+  "region": "SouthIndia",
+  "maker": "Homann Heirs",
+  "date_label": "1733",
+  "title": "Malabar, Coromandel and Ceylon",
+  "short": "Malabar, Coromandel and Ceylon",
+  "byline": "Homann Heirs, after Johann Baptist Homann · 1733",
+  "brief": "<p>A coloured atlas map of the southern peninsula and Ceylon, organised around the celebrated Malabar and Coromandel coasts. Geographic compilation, commercial interest and elaborate ornament are combined into a saleable image of maritime South India for the European atlas market.</p>",
+  "image": {
+   "src": "img/display/1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.jpg",
+   "alt": "Homann map of the Malabar and Coromandel coasts and Ceylon",
+   "width": 1590,
+   "height": 1800,
+   "dzi": "img/dzi/1733__SouthIndia__Homann-Heirs__Malabar-Coromandel-Ceylon.dzi"
+  },
+  "thumb": {
+   "alt": "Malabar, Coromandel and Ceylon",
+   "width": 618,
+   "height": 700
+  },
+  "room": 2,
+  "deccan": [
+   {
+    "id": "jinji-1690-1698",
+    "label": "The siege of Jinji (1690–1698)"
+   },
+   {
+    "id": "carnatic-wars-arcot-1751",
+    "label": "The Carnatic wars (1746–1763)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The object</p>\n<p>The sheet is dated 1733 and belongs to the Nuremberg publishing tradition associated with Johann Baptist Homann and continued by his heirs after his death. Its Latin title – <em>Peninsula Indiae citra Gangem … Malabar &amp; Coromandel … Ceylon</em> – announces the peninsula through the two coasts best known to European trade, with Ceylon set alongside it. The Rumsey copy is a coloured engraving measuring approximately 55 by 48 centimetres, at about 1:3,000,000.</p>\n<p class=\"subhead\">Two commercial coasts</p>\n<p>The map’s conceptual axis is maritime. “Malabar” and “Coromandel” are the trading fronts by which European companies encountered the peninsula: pepper and ports on the west, textiles and settlements on the east. Inland kingdoms, rivers and towns fill the space between them, but the shape of knowledge remains strongest where ships, merchants and printed sources had travelled.</p>\n<p class=\"subhead\">Ornament as atlas argument</p>\n<p>Colour separates territories and an elaborate title cartouche converts the map into a visual commodity. The ornament tells the purchaser how to see the sheet: distant places made abundant, picturesque and available for learned inspection. The figures and emblems belong to European conventions of representing Asia rather than to neutral ethnographic description.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Homann’s heirs sold the peninsula as a picture. The cartouche, the colour and the two famous coast-names promise the reader abundance, and the interior is filled rather than left honest. Set beside d’Anville’s austere sheet of nineteen years later, this is what the atlas market wanted before criticism became a selling point.</p>",
+  "meta": [
+   [
+    "Author",
+    "Homann Heirs, after Johann Baptist Homann"
+   ],
+   [
+    "Date",
+    "1733"
+   ],
+   [
+    "Type",
+    "Atlas map; coloured engraving"
+   ],
+   [
+    "Place",
+    "Nuremberg"
+   ],
+   [
+    "Dimensions",
+    "48 × 55 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:3,000,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 9753.097"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~281676~90054511%3APeninsula-Indiae-----Malabar-%26-Coro?sort=Date%2CDate\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1752__India__dAnville__lInde-Composite",
+  "year": 1752,
+  "approx": false,
+  "region": "India",
+  "maker": "dAnville",
+  "date_label": "1752",
+  "title": "Carte de l’Inde",
+  "short": "Carte de l’Inde",
+  "byline": "Jean-Baptiste Bourguignon d’Anville · 1752",
+  "brief": "<p>Jean-Baptiste Bourguignon d'Anville's <em>Carte de l'Inde</em>, drawn for the French Compagnie des Indes in 1752, is the most rigorous map of the subcontinent produced before the British surveys: cartography as critical scholarship rather than decoration.</p>",
+  "image": {
+   "src": "img/display/1752__India__dAnville__lInde-Composite.jpg",
+   "alt": "Composite: l'Inde",
+   "width": 1800,
+   "height": 1544,
+   "dzi": "img/dzi/1752__India__dAnville__lInde-Composite.dzi"
+  },
+  "thumb": {
+   "alt": "L’Inde – composite",
+   "width": 700,
+   "height": 601
+  },
+  "room": 2,
+  "deccan": [
+   {
+    "id": "bajirao-i",
+    "label": "Bajirao I (1700–1740)"
+   },
+   {
+    "id": "udgir-1760",
+    "label": "Udgir, 1760 (3 February 1760)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The object</p>\n<p>D’Anville (1697–1782), the foremost French geographer of his century and later <em>premier géographe du roi</em>, compiled the map in Paris for the Compagnie des Indes. Guillaume Delahaye engraved it, with an ornamental cartouche designed by Gravelot and cut by Jean-Baptiste Delafosse. The map was engraved on four sheets, here joined as a composite, at a scale of roughly 1:3,100,000.</p>\n<p class=\"subhead\">Method – compilation as criticism</p>\n<p>D'Anville never set foot in India. He weighed every available source – itineraries, route-distances, missionary accounts, astronomical fixes – against the others rather than copying any. Inheriting the empirical emphasis of the Delisles, he is often regarded as the first scientific cartographer, and the map is among the purest examples of that approach.</p>\n<p class=\"subhead\">The honesty of the blank</p>\n<p>The map's most radical feature is what it omits. Southern India and the coasts, well served by observation, are rendered in fine detail; the northern interior, poorly known, is left conspicuously sparse, its names thinning to bare paper. Where predecessors had invented, d'Anville left emptiness – treating an honest gap as more truthful than a decorative guess. Insets enlarge the strategically vital environs of Goa and the approaches to the Hughli River.</p>\n<p class=\"subhead\">Significance</p>\n<p>The map became a major European reference for India at mid-century and was copied extensively. Its authority lies in disciplined comparison of reports and observations. It marks the high point of the subcontinent drawn from outside by critical compilation, immediately before Company surveyors began constructing a denser territorial framework from operations on the ground.</p>",
+  "meta": [
+   [
+    "Full title",
+    "Carte de l’Inde (composite of the separately issued sheets)"
+   ],
+   [
+    "Author",
+    "Jean-Baptiste Bourguignon d’Anville, 1697–1782"
+   ],
+   [
+    "Date",
+    "1752"
+   ],
+   [
+    "Type",
+    "Composite Map"
+   ],
+   [
+    "Publisher",
+    "J. B. B. d’Anville"
+   ],
+   [
+    "Place",
+    "Paris"
+   ],
+   [
+    "Dimensions",
+    "88 × 104 cm"
+   ],
+   [
+    "Scale",
+    "1:3,100,000"
+   ],
+   [
+    "Engraver",
+    "Delafosse, Jean Baptiste, 1721-1775; Delahaye, Guillaume, 1725-1802; Gravelot, Hubert Francois, 1699-1773"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 2603.022"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/maps57.html\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1752__SouthIndia__dAnville__Carte-de-lInde-Southern",
+  "year": 1752,
+  "approx": false,
+  "region": "SouthIndia",
+  "maker": "dAnville",
+  "date_label": "1752",
+  "title": "Carte de l’Inde – southern sheets",
+  "short": "Carte de l’Inde – southern sheets",
+  "byline": "Jean-Baptiste Bourguignon d’Anville · 1752",
+  "brief": "<p>The lower pair of sheets from d’Anville’s four-sheet <em>Carte de l’Inde</em> isolates the part of the map where his evidence was richest: the peninsula, Ceylon, the Bay of Bengal and the commercial approaches to Goa and the Ganges. Shown separately, it reveals the uneven geography of information on which the celebrated composite depended.</p>",
+  "image": {
+   "src": "img/display/1752__SouthIndia__dAnville__Carte-de-lInde-Southern.jpg",
+   "alt": "Southern sheets of d’Anville’s Carte de l’Inde",
+   "width": 1800,
+   "height": 869,
+   "dzi": "img/dzi/1752__SouthIndia__dAnville__Carte-de-lInde-Southern.dzi"
+  },
+  "thumb": {
+   "alt": "Carte de l’Inde – southern sheets",
+   "width": 700,
+   "height": 338
+  },
+  "room": 2,
+  "deccan": [
+   {
+    "id": "carnatic-wars-arcot-1751",
+    "label": "The Carnatic wars (1746–1763)"
+   },
+   {
+    "id": "bussy-hyderabad",
+    "label": "Bussy and the French at Hyderabad (1751–1758, Circars to 1766)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">A component, not a second map</p>\n<p>This object is the southern half of d’Anville’s larger <em>Carte de l’Inde</em>, engraved on two sheets and mounted as one in the Rumsey copy. It is best read beside the joined composite. Its value here is scale: the component sheet permits closer attention to the peninsula and to the inset plans embedded in the larger work.</p>\n<p class=\"subhead\">Where information gathers</p>\n<p>D’Anville’s critical method produces an uneven surface. Coastal South India is comparatively dense with towns, routes and political names because navigators, merchants, missionaries and company servants had generated repeated reports. The insets of the environs of Goa, the entrance to the Ganges and the environs of Achem (Aceh) concentrate attention on places where commerce, navigation and European strategic interest produced more exact information. Soundings in the Ganges delta make the connection between geographic scholarship and maritime use explicit.</p>\n<p class=\"subhead\">Where evidence was thickest</p>\n<p>The full composite is best for seeing d’Anville’s famous restraint – detail thinning into blank where evidence failed. The southern sheets show the converse: how much could be assembled where routes of observation were thickest. Accuracy pooled wherever merchants, missionaries and pilots sent reports to Paris.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Goa, the Ganges mouth and Aceh get insets because the Compagnie des Indes cared about them. Read on its own, the southern half shows the pattern the full composite hides in its blanks: d’Anville’s precision is a map of French access, densest where the company’s ships and correspondents went. The honesty of the empty north depended on the fullness of this coast.</p>",
+  "meta": [
+   [
+    "Author",
+    "Jean-Baptiste Bourguignon d’Anville"
+   ],
+   [
+    "Date",
+    "1752"
+   ],
+   [
+    "Type",
+    "Atlas map; southern two sheets of a four-sheet map"
+   ],
+   [
+    "Publisher",
+    "J.B.B. d’Anville"
+   ],
+   [
+    "Place",
+    "Paris"
+   ],
+   [
+    "Dimensions",
+    "50 × 104 cm"
+   ],
+   [
+    "Scale",
+    "1:3,100,000"
+   ],
+   [
+    "Engraver",
+    "Guillaume Delahaye"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 2603.021"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/maps58.html\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1763__India__Dury__East-Indies",
+  "year": 1763,
+  "approx": false,
+  "region": "India",
+  "maker": "Dury",
+  "date_label": "1763",
+  "title": "East Indies",
+  "short": "East Indies",
+  "byline": "Andrew Dury · 1763",
+  "brief": "A pocket-atlas map of the East Indies by Andrew Dury, issued in London in 1763. Small, inexpensive and largely derivative, it appeared at the close of the Seven Years’ War, when British power in India was moving decisively from commerce toward territorial government.",
+  "image": {
+   "src": "img/display/1763__India__Dury__East-Indies.jpg",
+   "alt": "East Indies",
+   "width": 1537,
+   "height": 1800,
+   "dzi": "img/dzi/1763__India__Dury__East-Indies.dzi"
+  },
+  "thumb": {
+   "alt": "East Indies",
+   "width": 598,
+   "height": 700
+  },
+  "room": 2,
+  "deccan": [
+   {
+    "id": "carnatic-wars-arcot-1751",
+    "label": "The Carnatic wars (1746–1763)"
+   },
+   {
+    "id": "bussy-hyderabad",
+    "label": "Bussy and the French at Hyderabad (1751–1758, Circars to 1766)"
+   },
+   {
+    "id": "udgir-1760",
+    "label": "Udgir, 1760 (3 February 1760)"
+   },
+   {
+    "id": "panipat-1761",
+    "label": "Panipat, 1761 (14 January 1761)"
+   },
+   {
+    "id": "madhavrao-i",
+    "label": "Madhavrao I (1761–1772)"
+   },
+   {
+    "id": "first-anglo-mysore-1769",
+    "label": "The first Anglo-Mysore war (1767–1769)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The pocket atlas</p>\n<p>Dury’s <em>New General and Universal Atlas</em> contained forty-five small maps intended for convenient consultation. This plate, engraved by Thomas Kitchin, compresses the East Indies into a sheet only about thirteen by eleven centimetres.</p>\n<p class=\"subhead\">A derivative map at a consequential date</p>\n<p>The geography is conventional, following the French outline of the peninsula. Its date is nevertheless significant. The Treaty of Paris ended the Seven Years’ War in 1763, while the East India Company had already gained a decisive position in Bengal after Plassey. The map shows the print culture in which Britons were learning to picture India as theirs.</p>\n<p class=\"subhead\">Bilingual and portable</p>\n<p>French titles accompanying the English atlas reinforce the international circulation of cartographic models. Geographic authority moved readily between Paris, Amsterdam, Venice and London even as the states and companies represented on the maps competed violently.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Thirteen by eleven centimetres, French outline, English atlas, the year of the Treaty of Paris. Kitchin’s tiny plate carries no news of Plassey, and that silence is the interest: the map trade went on reducing the old French India for British pockets while the Company was acquiring the real one.</p>",
+  "meta": [
+   [
+    "Author",
+    "Andrew Dury"
+   ],
+   [
+    "Date",
+    "1763"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "Dury, Sayer, &amp; Bowles."
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "13 × 11 cm"
+   ],
+   [
+    "Scale",
+    "1:26,000,000"
+   ],
+   [
+    "Engraver",
+    "Thomas Kitchin"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 3004.008"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~285652~90058167%3AEast-Indies-\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1764__Bombay__Bellin__Plan-de-Bombay",
+  "year": 1764,
+  "approx": false,
+  "region": "Bombay",
+  "maker": "Bellin",
+  "date_label": "1764",
+  "title": "Plan de Bombay",
+  "short": "Plan de Bombay",
+  "byline": "Bellin, Jacques Nicolas, 1703-1772 · 1764",
+  "brief": "Jacques-Nicolas Bellin’s nautical plan of Bombay from the <em>Petit Atlas Maritime</em>. Soundings, islands, settlements and anchorage replace the subcontinental overview: a strategically valuable harbour examined at the scale of ships.",
+  "image": {
+   "src": "img/display/1764__Bombay__Bellin__Plan-de-Bombay.jpg",
+   "alt": "Plan de Bombay",
+   "width": 1562,
+   "height": 1800,
+   "dzi": "img/dzi/1764__Bombay__Bellin__Plan-de-Bombay.dzi"
+  },
+  "thumb": {
+   "alt": "Plan de Bombay",
+   "width": 608,
+   "height": 700
+  },
+  "room": 4,
+  "deccan": [
+   {
+    "id": "company-factories",
+    "label": "Masulipatnam, Madras, Bombay (1611–1668)"
+   },
+   {
+    "id": "kanhoji-angre",
+    "label": "Kanhoji Angre (c. 1669–1729)"
+   },
+   {
+    "id": "bassein-1739",
+    "label": "Bassein, 1739 (February–May 1739)"
+   },
+   {
+    "id": "wadgaon-salbai",
+    "label": "Wadgaon and Salbai (1779–1782)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The chart</p>\n<p>Bellin was engineer and hydrographer to the French naval establishment. His 1764 <em>Petit Atlas Maritime</em> gathered hundreds of coastal charts and harbour plans. This plate, engraved by J. Arrivet, shows Bombay with pictorial relief, settlements and depth soundings.</p>\n<p class=\"subhead\">A harbour rather than a country</p>\n<p>The navigational problem determines what is included. Water depth, approach and anchorage matter more than inland political geography. Bombay is represented as an island harbour to be entered and used.</p>\n<p class=\"subhead\">Knowledge of a rival possession</p>\n<p>Bombay was British, but a French maritime atlas had every reason to record it. Hydrographic knowledge crossed political boundaries because rival navies and merchants needed to understand the same ports. The map belongs to a European archive of strategic observation rather than to a single imperial administration.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Bombay enters this collection by its soundings. Bellin measured a British harbour for French captains, and what he recorded – depths, islands, the anchorage – is exactly what a rival would want to know. The first close look at the city is a look at its water.</p>",
+  "meta": [
+   [
+    "Author",
+    "Bellin, Jacques Nicolas, 1703-1772"
+   ],
+   [
+    "Date",
+    "1764"
+   ],
+   [
+    "Type",
+    "Chart Map"
+   ],
+   [
+    "Publisher",
+    "J.N. Bellin"
+   ],
+   [
+    "Place",
+    "Paris"
+   ],
+   [
+    "Dimensions",
+    "22 × 17 cm"
+   ],
+   [
+    "Scale",
+    "1:227,858"
+   ],
+   [
+    "Engraver",
+    "J. Arrivet"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 6903.240"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~233148~5509570%3APlan-de-Bombay\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1779__SEAsia__Santini-Robert__Les-Indes-Orientales",
+  "year": 1779,
+  "approx": false,
+  "region": "SEAsia",
+  "maker": "Santini Robert",
+  "date_label": "1779",
+  "title": "Les Indes Orientales",
+  "short": "Les Indes Orientales",
+  "byline": "Paolo Santini, after Robert de Vaugondy · 1779",
+  "brief": "Paolo Santini’s Venetian re-engraving of a Robert de Vaugondy map of the East Indies. The plate, dated 1779 and later issued by Remondini, exemplifies the European circulation of French geographical authority immediately before survey maps transformed the representation of British India.",
+  "image": {
+   "src": "img/display/1779__SEAsia__Santini-Robert__Les-Indes-Orientales.jpg",
+   "alt": "36. Les Indes Orientales",
+   "width": 1800,
+   "height": 1143,
+   "dzi": "img/dzi/1779__SEAsia__Santini-Robert__Les-Indes-Orientales.dzi"
+  },
+  "thumb": {
+   "alt": "Les Indes Orientales",
+   "width": 700,
+   "height": 444
+  },
+  "room": 2,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">The object and its issue</p>\n<p>The plate is dated 1779 and credits Santini and ‘Robert’, referring to the Robert de Vaugondy cartographic lineage. It was incorporated into the Remondini atlases at Venice and reissued after that date.</p>\n<p class=\"subhead\">Re-engraving as publication</p>\n<p>The French model was recut for an Italian publishing market. Cartographic authority circulated through copying, translation, new engraving and altered commercial presentation.</p>\n<p class=\"subhead\">A settled atlas image</p>\n<p>The East Indies appear within the mature mid-eighteenth-century French geographical tradition. Its forms are clear and authoritative, but much of the content remains inherited and compiled. The sheet stands close to the chronological threshold at which Rennell and later surveyors would claim a different basis of authority: measurement from within.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Remondini found buyers in Venice for Vaugondy’s India. That is the measure of the shared repertoire: a Paris outline recut in Italy sold as geography, not as French geography, three years before Rennell’s first <em>Hindoostan</em> began to replace it. The sheet stands at the edge of the period when compilation could still pass for the whole.</p>",
+  "meta": [
+   [
+    "Full title",
+    "36. Les Indes Orientales"
+   ],
+   [
+    "Author",
+    "Santini, Paolo; Robert"
+   ],
+   [
+    "Date",
+    "1779"
+   ],
+   [
+    "Edition",
+    "Plate dated 1779; represented in the later Remondini atlas tradition"
+   ],
+   [
+    "Type",
+    "Atlas Map"
+   ],
+   [
+    "Publisher",
+    "Remondini"
+   ],
+   [
+    "Place",
+    "Venice"
+   ],
+   [
+    "Dimensions",
+    "49 × 60 cm"
+   ],
+   [
+    "Scale",
+    "1:8,500,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 12039.117"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/view/all/who/Santini%2C%2BPaolo/what/Atlas%2BMap?os=50&amp;sort=Pub_Date\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1782__India__Rennell__Hindoostan-2-Sheet",
+  "year": 1782,
+  "approx": false,
+  "region": "India",
+  "maker": "Rennell",
+  "date_label": "1782",
+  "title": "Rennell’s Hindoostan",
+  "short": "Rennell’s Hindoostan",
+  "byline": "Rennell, James, 1742–1830 · 1782",
+  "brief": "James Rennell’s two-sheet <em>Hindoostan</em>, dated 1782: a landmark synthesis of Bengal survey, route measurement, astronomical observation and compiled intelligence. It marks the transition from European maps made chiefly from reports to a geography increasingly grounded in Company survey.",
+  "image": {
+   "src": "img/display/1782__India__Rennell__Hindoostan-2-Sheet.jpg",
+   "alt": "Hindoostan by J. Rennell F.R.S.",
+   "width": 1731,
+   "height": 1800,
+   "dzi": "img/dzi/1782__India__Rennell__Hindoostan-2-Sheet.dzi"
+  },
+  "thumb": {
+   "alt": "Composite: (Sheets 1 and 2) Hindoostan by J. Rennell F.R.S. 1782",
+   "width": 673,
+   "height": 700
+  },
+  "room": 3,
+  "deccan": [
+   {
+    "id": "maratha-confederacy",
+    "label": "Holkar, Scindia, Gaekwad, Bhonsle (1728–1761)"
+   },
+   {
+    "id": "panipat-1761",
+    "label": "Panipat, 1761 (14 January 1761)"
+   },
+   {
+    "id": "madhavrao-i",
+    "label": "Madhavrao I (1761–1772)"
+   },
+   {
+    "id": "first-anglo-mysore-1769",
+    "label": "The first Anglo-Mysore war (1767–1769)"
+   },
+   {
+    "id": "wadgaon-salbai",
+    "label": "Wadgaon and Salbai (1779–1782)"
+   },
+   {
+    "id": "pollilur-1780",
+    "label": "Pollilur, 1780 (10 September 1780)"
+   },
+   {
+    "id": "tipu-accession-mangalore-1784",
+    "label": "Tipu Sultan and the Treaty of Mangalore (1782–1784)"
+   },
+   {
+    "id": "lambton-gts-1802",
+    "label": "Lambton and the Great Trigonometrical Survey (10 April 1802)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">A general map built from unequal knowledge</p><p>Rennell served as Surveyor-General of Bengal from 1767 to 1777, directing extensive route and district surveys in the territories then controlled by the East India Company. This general map carried that measured knowledge beyond Bengal by combining it with itineraries, astronomical positions, earlier maps and information supplied by travellers and Indian informants. Its authority comes from joining new field measurement to the best intelligence available elsewhere.</p><p class=\"subhead\">The object and its issues</p><p>The plate is dated 1782 and was engraved on two sheets. This impression was issued with Rennell’s 1783 <em>Memoir of a Map of Hindoostan</em>; map, memoir and later editions developed together as Rennell revised his account of the subcontinent.</p><p class=\"subhead\">Survey, administration and display</p><p>Roads, rivers, political divisions and measured positions turn a varied landscape into a connected territorial field. The cartouche makes the political setting explicit: Britannia receives the products and knowledge of India. Measurement appears as enlightened scholarship, but it also makes routes, jurisdictions and resources available to a government whose territorial power was expanding.</p><p class=\"subhead\">The gaze</p><p>Britannia in the cartouche receives India’s knowledge, and the map shows the mechanism. Ten years of Bengal surveying supply the measured core; around it, itineraries and informants fill the rest, and the general map presents both as one field. Whoever walked the roads or reported the distances is absorbed into a single English name.</p>",
+  "meta": [
+   [
+    "Full title",
+    "Hindoostan by J. Rennell F.R.S."
+   ],
+   [
+    "Author",
+    "Rennell, James, 1742–1830"
+   ],
+   [
+    "Date",
+    "1782"
+   ],
+   [
+    "Edition",
+    "<em>Memoir of a Map of Hindoostan</em>, 1783"
+   ],
+   [
+    "Type",
+    "Composite map, two sheets"
+   ],
+   [
+    "Publisher",
+    "James Rennell"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "82 × 78 cm"
+   ],
+   [
+    "Scale",
+    "1:4,600,000"
+   ],
+   [
+    "Engraver",
+    "J. Phillips (map); W. Harrison (lettering)"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 16230.010"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~367861~90135143%3AHindoostan-by-J--Rennell-F-R-S--178\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia",
+  "year": 1788,
+  "approx": false,
+  "region": "India",
+  "maker": "Rennell",
+  "date_label": "1788",
+  "title": "A Map of Hindoostan or the Mogul Empire",
+  "short": "A Map of Hindoostan or the Mogul Empire",
+  "byline": "Rennell, James, 1742–1830 · 1788",
+  "brief": "Rennell’s expanded four-sheet <em>Map of Hindoostan or the Mogul Empire</em>, issued with the 1788 edition of his <em>Memoir</em>. The larger format converts accumulated route surveys and political intelligence into a more detailed general map of the subcontinent.",
+  "image": {
+   "src": "img/display/1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.jpg",
+   "alt": "A Map of Hindoostan or the Mogul Empire",
+   "width": 1800,
+   "height": 1537,
+   "dzi": "img/dzi/1788__India__Rennell__Hindoostan-Mogul-Empire-SurveyOfIndia.dzi"
+  },
+  "thumb": {
+   "alt": "Hindoostan Mogul Empire SurveyOfIndia",
+   "width": 700,
+   "height": 598
+  },
+  "room": 3,
+  "deccan": [
+   {
+    "id": "maratha-confederacy",
+    "label": "Holkar, Scindia, Gaekwad, Bhonsle (1728–1761)"
+   },
+   {
+    "id": "nana-phadnavis",
+    "label": "Nana Phadnavis (1742–1800)"
+   },
+   {
+    "id": "tipu-embassies",
+    "label": "Tipu’s embassies (1786–1798)"
+   },
+   {
+    "id": "seringapatam-1792",
+    "label": "The Treaty of Seringapatam (18 March 1792)"
+   },
+   {
+    "id": "mahadji-scindia-kharda-1795",
+    "label": "Mahadji Scindia and Kharda (1794–1795)"
+   },
+   {
+    "id": "subsidiary-alliance-1798",
+    "label": "The subsidiary alliance (1 September 1798)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The enlarged Hindoostan</p><p>This is the four-sheet map accompanying the 1788 edition of Rennell’s <em>Memoir of a Map of Hindoostan; or, the Mogul Empire</em>. At roughly 1:2,980,000, it is substantially larger and more detailed than the two-sheet map dated 1782. Roads, river systems, provinces and named settlements are spread across a surface designed to be read both as geography and as an index to the accompanying written argument.</p><p class=\"subhead\">Revision as method</p><p>Rennell revised the map with every edition as new routes, positions and reports came in. The four-sheet form makes that process visible: survey knowledge is cumulative, assembled from measurements of uneven quality and continually reconciled into a general picture.</p><p class=\"subhead\">The Mughal name after Mughal power</p><p>The title retains ‘the Mogul Empire’ even though effective sovereignty had fragmented among the Company, Maratha powers, Mysore, the successor states and numerous principalities. The inherited political label offered European readers a familiar frame, while the map itself increasingly registered the new territorial order created by eighteenth-century war and Company expansion.</p><p class=\"subhead\">The gaze</p><p>Between 1782 and 1788 the map grew by two sheets and the empire in its title lost more ground. Rennell kept ‘the Mogul Empire’ while drawing a country the Mughals no longer ruled, and the four-sheet format let every new route report be fitted into the old frame. Revision was continuous; the name was not.</p>",
+  "meta": [
+   [
+    "Author",
+    "Rennell, James, 1742–1830"
+   ],
+   [
+    "Date",
+    "1788"
+   ],
+   [
+    "Published in",
+    "<em>Memoir of a Map of Hindoostan; or, the Mogul Empire</em>"
+   ],
+   [
+    "Type",
+    "Composite map, four sheets"
+   ],
+   [
+    "Publisher",
+    "James Rennell"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "104 × 125 cm"
+   ],
+   [
+    "Scale",
+    "1:2,980,000"
+   ],
+   [
+    "Engraver",
+    "I. Phillips and T. Harmar (map); W. Harrison (lettering)"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 16229.038"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~367851~90135130%3AComposite---Sheets-1-4--A-Map-of-Hi\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1788__India__Schraembl-after-Rennell__Neueste-Karte-von-Hindostan",
+  "year": 1788,
+  "approx": false,
+  "region": "India",
+  "maker": "Schraembl after Rennell",
+  "date_label": "1788",
+  "title": "Neueste Karte von Hindostan und Bengalen",
+  "short": "Neueste Karte von Hindostan und Bengalen",
+  "byline": "Schrämbl, Franz Anton; after James Rennell · 1788",
+  "brief": "Franz Anton Schrämbl’s large German-language re-engraving of Rennell’s <em>Hindoostan</em>. Dated 1788 and published in an atlas completed in 1800, it demonstrates how rapidly British survey geography became European cartographic authority.",
+  "image": {
+   "src": "img/display/1788__India__Schraembl-after-Rennell__Neueste-Karte-von-Hindostan.jpg",
+   "alt": "Neueste Karte von Hindostan und Bengalen",
+   "width": 1800,
+   "height": 1291,
+   "dzi": "img/dzi/1788__India__Schraembl-after-Rennell__Neueste-Karte-von-Hindostan.dzi"
+  },
+  "thumb": {
+   "alt": "Composite Map: 99-100B. Neueste Karte von Hindostan Bengalen",
+   "width": 700,
+   "height": 502
+  },
+  "room": 3,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">Rennell translated into Vienna</p><p>Franz Anton Schrämbl issued this four-sheet map for his <em>Allgemeiner Grosser Atlas</em>, the first major commercial atlas produced in Austria. Its title advertises roads, passes and the detailed division of British possessions in the East Indies, and expressly names ‘Jakob Rennell’ as its authority.</p><p class=\"subhead\">Plate date and atlas date</p><p>The map bears the date 1788, while Schrämbl’s immense atlas was completed and published as a whole in 1800. The project appeared in parts over many years. The plate therefore records both the rapid reception of Rennell and the slower manufacture of a monumental atlas.</p><p class=\"subhead\">Copying as circulation</p><p>Re-engraving translated British Company knowledge into German, enlarged it for a Central European audience and detached it from the institutional setting in which the surveys were made. What began as strategically privileged information became a commodity in the international atlas market.</p><p class=\"subhead\">The gaze</p><p>‘Jakob Rennell’ on a Vienna title page is the whole story. An Austrian publisher put a Company surveyor’s name forward as a guarantee, and his customers accepted British roads, passes and possessions as the current state of geography. The survey’s authority travelled faster than the atlas that carried it.</p>",
+  "meta": [
+   [
+    "Author",
+    "Schrämbl, Franz Anton; after James Rennell"
+   ],
+   [
+    "Date",
+    "1788"
+   ],
+   [
+    "Edition",
+    "Atlas issued 1800"
+   ],
+   [
+    "Type",
+    "Composite atlas map"
+   ],
+   [
+    "Publisher",
+    "Joseph Philipp Schalbacher"
+   ],
+   [
+    "Place",
+    "Vienna"
+   ],
+   [
+    "Dimensions",
+    "120 × 142 cm"
+   ],
+   [
+    "Scale",
+    "1:2,600,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 12498.158"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~303982~90074343%3AComposite-Map--99-100B--Neueste-Kar\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1789__India__Akerman__Mappa-Geogr-Indiae-Orients",
+  "year": 1789,
+  "approx": false,
+  "region": "India",
+  "maker": "Akerman",
+  "date_label": "1789",
+  "title": "Mappa geogr. Indiæ Orientalis",
+  "short": "Mappa geogr. Indiæ Orientalis",
+  "byline": "Åkerman, Anders, 1721/23–1778 · 1789 edition",
+  "brief": "A small hand-coloured map of the East Indies from Anders Åkerman’s Swedish <em>Atlas juvenilis</em>. Published posthumously in the 1789 second edition, it reduces contemporary geography to a schoolroom image for young readers in Uppsala.",
+  "image": {
+   "src": "img/display/1789__India__Akerman__Mappa-Geogr-Indiae-Orients.jpg",
+   "alt": "Mappa geogr. Indiæ Orientalis",
+   "width": 1800,
+   "height": 1529,
+   "dzi": "img/dzi/1789__India__Akerman__Mappa-Geogr-Indiae-Orients.dzi"
+  },
+  "thumb": {
+   "alt": "Mappa geogr. Indiæ Orients eller geogr. charta öfver Ostindien",
+   "width": 700,
+   "height": 595
+  },
+  "room": 3,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">An atlas ‘for the service of youth’</p><p>Åkerman, an engraver and globe-maker associated with the Royal Society of Sciences at Uppsala, designed the <em>Atlas juvenilis</em> as a methodical geographical course. This map belongs to the expanded second edition issued after his death. Its compact format, selective labelling and accompanying annotated text were intended for instruction rather than specialist reference.</p><p class=\"subhead\">Reduction and authority</p><p>At a scale of roughly 1:50,000,000, India and the wider East Indies must be simplified drastically. Its significance lies in what it assumes. A standard European outline and nomenclature can now be compressed without explanation because the larger cartographic consensus already exists behind it.</p><p class=\"subhead\">The gaze</p><p>Uppsala schoolboys learned India at one to fifty million. Nothing on the sheet needed defending, because Åkerman could rely on an outline his pupils’ teachers already accepted, and the annotated text did the rest. The subcontinent arrives in Sweden as a settled fact to be memorised.</p>",
+  "meta": [
+   [
+    "Author",
+    "Åkerman, Anders, 1721/23–1778"
+   ],
+   [
+    "Date",
+    "1789"
+   ],
+   [
+    "Type",
+    "School-atlas map"
+   ],
+   [
+    "Publisher",
+    "Royal Society of Sciences in Uppsala"
+   ],
+   [
+    "Place",
+    "Uppsala"
+   ],
+   [
+    "Dimensions",
+    "14 × 17 cm"
+   ],
+   [
+    "Scale",
+    "1:50,000,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 14538.030"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~370251~90137619%3AMappa-geogr--Indi-Orients-eller-ge\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin",
+  "year": 1792,
+  "approx": false,
+  "region": "SouthIndia",
+  "maker": "Faden",
+  "date_label": "1792",
+  "title": "A Map of the Peninsula of India to Cape Comorin",
+  "short": "A Map of the Peninsula of India to Cape Comorin",
+  "byline": "William Faden · map dated 1792, published 1793",
+  "brief": "William Faden’s large two-sheet map of peninsular India, dated 1792 and printed in 1793. Issued at the close of the Third Anglo-Mysore War, it gathers recent British surveys into a detailed geography of the south.",
+  "image": {
+   "src": "img/display/1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.jpg",
+   "alt": "A Map of the Peninsula of India to Cape Comorin",
+   "width": 1563,
+   "height": 1800,
+   "dzi": "img/dzi/1792__SouthIndia__Faden__Peninsula-of-India-to-Cape-Comorin.dzi"
+  },
+  "thumb": {
+   "alt": "Composite Map: A map of the Peninsula of India from the 19th degree north latitude to Cape Comorin",
+   "width": 608,
+   "height": 700
+  },
+  "room": 3,
+  "deccan": [
+   {
+    "id": "haidar-ali-rises",
+    "label": "Haidar Ali (c. 1720–1782)"
+   },
+   {
+    "id": "srirangapatna",
+    "label": "Srirangapatna (1610–1799)"
+   },
+   {
+    "id": "mysore-rockets",
+    "label": "The Mysore rocket (1780–1799)"
+   },
+   {
+    "id": "pollilur-1780",
+    "label": "Pollilur, 1780 (10 September 1780)"
+   },
+   {
+    "id": "tipu-accession-mangalore-1784",
+    "label": "Tipu Sultan and the Treaty of Mangalore (1782–1784)"
+   },
+   {
+    "id": "tipu-reforms",
+    "label": "Tipu’s state (1784–1799)"
+   },
+   {
+    "id": "seringapatam-1792",
+    "label": "The Treaty of Seringapatam (18 March 1792)"
+   },
+   {
+    "id": "seringapatam-1799",
+    "label": "Seringapatam, 1799 (4 May 1799)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">Date, publication and object</p><p>The title carries the Roman date 1792; Faden’s imprint states 1 May 1793. The map was engraved by R. Baker on two sheets and depicts the peninsula from 19° north to Cape Comorin at a scale large enough to show roads, settlements, rivers, relief and extensive explanatory notes.</p><p class=\"subhead\">A contested peninsula</p><p>The map appeared as the Third Anglo-Mysore War ended. Recent campaigns had generated surveys and route intelligence across southern India, while the resulting settlement altered Company influence over Mysore and its neighbours. It is not a campaign map, but its density and timing belong to the war that had just remade the south.</p><p class=\"subhead\">From general outline to operational ground</p><p>Earlier maps made the peninsula one component of ‘India’ or the ‘East Indies’. Faden enlarges it into a working territorial field. Roads and named interior places matter alongside coasts; explanatory notes preserve the provenance and uncertainty of particular observations.</p><p class=\"subhead\">The gaze</p><p>Mysore had just been beaten, and Faden had the surveys to show for it. The sheet’s notes record who measured what and how far to trust it, which is new; so is the assumption that a reader in London might want the roads of the interior. Southern India appears here as ground the Company expects to move across.</p>",
+  "meta": [
+   [
+    "Author",
+    "Faden, William, 1749–1836"
+   ],
+   [
+    "Date",
+    "1792 (issued 1793)"
+   ],
+   [
+    "Type",
+    "Composite map, two sheets"
+   ],
+   [
+    "Publisher",
+    "William Faden"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "98 × 80 cm"
+   ],
+   [
+    "Scale",
+    "1:1,330,000"
+   ],
+   [
+    "Engraver",
+    "R. Baker"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 14383.047"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~346027~90113460%3AComposite-Map--A-map-of-the-Peninsu\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ],
+  "ld": {
+   "temporalCoverage": "1792 (issued 1793)"
+  }
+ },
+ {
+  "id": "1800__India__Faden__India-Peninsula",
+  "year": 1800,
+  "approx": false,
+  "region": "India",
+  "maker": "Faden",
+  "date_label": "1800",
+  "title": "A Map of the Peninsula of India to Cape Comorin, third edition",
+  "short": "A Map of the Peninsula of India to Cape Comorin, third edition",
+  "byline": "William Faden · third edition, 1800",
+  "brief": "The 1800 third edition of Faden’s two-sheet map of peninsular India. The same survey geography first issued during the Mysore wars is revised and absorbed into Faden’s <em>General Atlas</em> after the fall of Seringapatam.",
+  "image": {
+   "src": "img/display/1800__India__Faden__India-Peninsula.jpg",
+   "alt": "A Map of the Peninsula of India to Cape Comorin",
+   "width": 1472,
+   "height": 1800,
+   "dzi": "img/dzi/1800__India__Faden__India-Peninsula.dzi"
+  },
+  "thumb": {
+   "alt": "Composite: India peninsula",
+   "width": 573,
+   "height": 700
+  },
+  "room": 3,
+  "deccan": [
+   {
+    "id": "subsidiary-alliance-1798",
+    "label": "The subsidiary alliance (1 September 1798)"
+   },
+   {
+    "id": "seringapatam-1799",
+    "label": "Seringapatam, 1799 (4 May 1799)"
+   },
+   {
+    "id": "mysore-restored-1799",
+    "label": "Mysore restored (30 June 1799)"
+   },
+   {
+    "id": "treaty-of-bassein-1802",
+    "label": "Poona and the Treaty of Bassein (25 October – 31 December 1802)"
+   },
+   {
+    "id": "assaye-1803",
+    "label": "Assaye, 1803 (23 September 1803)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">A third edition, not a different map</p><p>The full title retains the original date MDCCXCII but the imprint identifies this as the third edition, printed on 10 May 1800. Benjamin Baker revised the two sheets. It is a later state of the map shown in the 1792–93 issue.</p><p class=\"subhead\">After Seringapatam</p><p>Between the first issue and this edition, the Fourth Anglo-Mysore War ended with the fall of Seringapatam in 1799 and a major redistribution of territory. The map’s continued publication shows how survey geography born amid conflict settled rapidly into standard atlas knowledge.</p><p class=\"subhead\">The gaze</p><p>Nothing on the sheet announces the fall of Seringapatam. The date in the title is still MDCCXCII, and only the imprint records that Baker reworked the plates after the war. Survey knowledge produced in a campaign is passed on here in the quietest possible form, as a revised edition inside a general atlas.</p>",
+  "meta": [
+   [
+    "Author",
+    "Faden, William, 1749–1836"
+   ],
+   [
+    "Date",
+    "1792"
+   ],
+   [
+    "Edition",
+    "Third edition, 1800"
+   ],
+   [
+    "Type",
+    "Composite atlas map, two sheets"
+   ],
+   [
+    "Publisher",
+    "William Faden"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "100 × 82 cm"
+   ],
+   [
+    "Scale",
+    "1:1,330,000"
+   ],
+   [
+    "Engraver",
+    "Benjamin Baker"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 2104.048"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~24852~970006%3AComposite--India-peninsula-\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ],
+  "ld": {
+   "temporalCoverage": "1792",
+   "datePublished": "1792"
+  }
+ },
+ {
+  "id": "1800__SouthIndia__Wilkinson__Southern-Province-of-Hindoostan",
+  "year": 1800,
+  "approx": false,
+  "region": "SouthIndia",
+  "maker": "Wilkinson",
+  "date_label": "1800",
+  "title": "A New and Accurate Map of the Southern Province of Hindoostan",
+  "short": "A New and Accurate Map of the Southern Province of Hindoostan",
+  "byline": "Wilkinson, Robert · plate dated 1800; atlas issue 1808",
+  "brief": "Robert Wilkinson’s compact atlas map of southern India, dated 1800 and present here in an 1808 issue of his <em>General Atlas</em>. It packages recent British survey geography for a general atlas-buying public.",
+  "image": {
+   "src": "img/display/1800__SouthIndia__Wilkinson__Southern-Province-of-Hindoostan.jpg",
+   "alt": "A New and Accurate Map of the Southern Province of Hindoostan",
+   "width": 1498,
+   "height": 1800,
+   "dzi": "img/dzi/1800__SouthIndia__Wilkinson__Southern-Province-of-Hindoostan.dzi"
+  },
+  "thumb": {
+   "alt": "A New and Accurate Map of the Southern Province of Hindoostan",
+   "width": 582,
+   "height": 700
+  },
+  "room": 3,
+  "deccan": [
+   {
+    "id": "haidar-ali-rises",
+    "label": "Haidar Ali (c. 1720–1782)"
+   },
+   {
+    "id": "srirangapatna",
+    "label": "Srirangapatna (1610–1799)"
+   },
+   {
+    "id": "tipus-tiger",
+    "label": "Tipu’s Tiger (c. 1793)"
+   },
+   {
+    "id": "seringapatam-1799",
+    "label": "Seringapatam, 1799 (4 May 1799)"
+   },
+   {
+    "id": "colin-mackenzie",
+    "label": "Colin Mackenzie’s collection (1799–1821)"
+   },
+   {
+    "id": "mysore-restored-1799",
+    "label": "Mysore restored (30 June 1799)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">Plate date and atlas state</p><p>The map is dated 1800, while the catalogue record belongs to an 1808 issue of Wilkinson’s <em>General Atlas</em>. The atlas circulated in several closely related editions, and the survival of the earlier plate date within a later volume is typical of commercial map publishing.</p><p class=\"subhead\">Survey knowledge in compact form</p><p>Unlike Faden’s expansive two-sheet work, Wilkinson condenses the southern peninsula into a single hand-coloured atlas plate. The claim to be ‘new and accurate’ signals the new expectation created by survey: even a general atlas must present itself as current, measured and authoritative.</p><p class=\"subhead\">The gaze</p><p>Where Faden needed two sheets, Wilkinson needs one plate, and the reduction does its own work. At this size the south reads as a finished region; the routes and divisions that a campaign map displayed as working material are here simply the shape of the country. The phrase ‘new and accurate’ is the plate’s one acknowledgement of the survey behind it.</p>",
+  "meta": [
+   [
+    "Author",
+    "Wilkinson, Robert"
+   ],
+   [
+    "Date",
+    "1800"
+   ],
+   [
+    "Edition",
+    "Atlas issue of 1808"
+   ],
+   [
+    "Type",
+    "Atlas map"
+   ],
+   [
+    "Publisher",
+    "Robert Wilkinson"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "30 × 24 cm"
+   ],
+   [
+    "Scale",
+    "1:4,600,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 1202.044"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~241626~5512680%3AA-New-and-Accurate-Map-of-the-South\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1809__Malabar__Arrowsmith__Province-of-Malabar-Composite",
+  "year": 1809,
+  "approx": false,
+  "region": "Malabar",
+  "maker": "Arrowsmith",
+  "date_label": "1809",
+  "title": "Map of the Province of Malabar",
+  "short": "Map of the Province of Malabar",
+  "byline": "Arrowsmith, Aaron, 1750–1823 · 1809",
+  "brief": "Aaron Arrowsmith’s joined three-sheet <em>Map of the Province of Malabar</em>, compiled from recent surveys of a newly conquered and contested region. It is cartography made directly for military and civil administration.",
+  "image": {
+   "src": "img/display/1809__Malabar__Arrowsmith__Province-of-Malabar-Composite.jpg",
+   "alt": "Map of the Province of Malabar",
+   "width": 1200,
+   "height": 1800,
+   "dzi": "img/dzi/1809__Malabar__Arrowsmith__Province-of-Malabar-Composite.dzi"
+  },
+  "thumb": {
+   "alt": "Composite: (Sheets 1-3) Map of the Province of Malabar, Drawn from Various Surveys By A. Arrowsmith",
+   "width": 467,
+   "height": 700
+  },
+  "room": 3,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">A separately issued map</p><p>Arrowsmith published this large, separately issued map in 1809 rather than as an ordinary atlas plate. The three sheets bring together recent military and regional surveys of the Company’s Malabar province, covering much of northern present-day Kerala at a density previously unavailable in print.</p><p class=\"subhead\">Conquest, resistance and survey</p><p>The province had been assembled after the Anglo-Mysore wars and remained a site of resistance to Company rule. Roads, settlements, rivers, passes and administrative divisions therefore had immediate practical value. The map served the army and civil service and later supplied material for Arrowsmith’s general map of India.</p><p class=\"subhead\">Compilation and hidden labour</p><p>‘Drawn from various surveys’ is both a claim of authority and an admission of collective production. The finished sheet carries Arrowsmith’s name, but its information was generated by officers, survey parties, guides, local officials and informants working across the region.</p><p class=\"subhead\">The gaze</p><p>Separate issue is itself a signal. A map of one province, at this scale and sold on its own, had a particular buyer in mind: the officer or collector who needed the passes and taluks of Malabar rather than a view of India. Its generality is that of the survey grid, which renders roads, rivers and divisions in the same notation whatever the administration intends to do with them.</p>",
+  "meta": [
+   [
+    "Author",
+    "Arrowsmith, Aaron, 1750–1823"
+   ],
+   [
+    "Date",
+    "1809"
+   ],
+   [
+    "Type",
+    "Composite map, three sheets"
+   ],
+   [
+    "Publisher",
+    "Aaron Arrowsmith"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "99 × 67 cm"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 15782.004"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~355353~90122256%3AComposite---Sheets-1-3--Map-of-the-\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1809__Malabar__Arrowsmith__Province-of-Malabar-Sheet-1",
+  "year": 1809,
+  "approx": false,
+  "region": "Malabar",
+  "maker": "Arrowsmith",
+  "date_label": "1809",
+  "title": "Map of the Province of Malabar – Sheet 1",
+  "short": "Map of the Province of Malabar – Sheet 1",
+  "byline": "Arrowsmith, Aaron, 1750–1823 · 1809",
+  "brief": "The northern sheet of Arrowsmith’s three-sheet <em>Map of the Province of Malabar</em>. Seen separately, it reveals the practical sheet structure and portable case-map form of a survey intended for use by officers and administrators.",
+  "image": {
+   "src": "img/display/1809__Malabar__Arrowsmith__Province-of-Malabar-Sheet-1.jpg",
+   "alt": "Map of the Province of Malabar – Sheet 1",
+   "width": 1800,
+   "height": 930,
+   "dzi": "img/dzi/1809__Malabar__Arrowsmith__Province-of-Malabar-Sheet-1.dzi"
+  },
+  "thumb": {
+   "alt": "Sheet 1) Map of the Province of Malabar, Drawn from Various Surveys By A. Arrowsmith",
+   "width": 700,
+   "height": 362
+  },
+  "room": 3,
+  "deccan": [
+   {
+    "id": "colin-mackenzie",
+    "label": "Colin Mackenzie’s collection (1799–1821)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">One part of a larger instrument</p><p>This is Sheet 1 of the 1809 Malabar map. The complete province was divided into three sections so that a large-scale regional survey could be printed, mounted and folded for practical use.</p><p class=\"subhead\">The significance of the sheet</p><p>The composite view restores the province as a whole; the individual sheet restores the material object. Its edges, folds and partial geography remind us that maps used in offices and in the field were handled one section at a time. Administrative vision depended on such physical compromises.</p><p class=\"subhead\">The gaze</p><p>A folded sheet in a case is the form in which most of this survey was actually consulted. The northern third of the province, its edges cut by the sheet line rather than by any feature of the country, is what an officer would have had open on the table; the whole map existed largely as an idea. The survey’s working unit was the part, sized for the case and the desk.</p>",
+  "meta": [
+   [
+    "Author",
+    "Arrowsmith, Aaron, 1750–1823"
+   ],
+   [
+    "Date",
+    "1809"
+   ],
+   [
+    "Edition",
+    "Sheet 1 of a three-sheet map"
+   ],
+   [
+    "Type",
+    "Case-map sheet"
+   ],
+   [
+    "Publisher",
+    "A. Arrowsmith, Hydrographer to H.R.H. the Prince of Wales"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "33 × 67 cm"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 15782.001"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~355350~90122257%3A-Sheet-1--Map-of-the-Province-of-Ma\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1810__Bombay__dApres-de-Mannevillette__Plan-du-Port-de-Bombay",
+  "year": 1810,
+  "approx": false,
+  "region": "Bombay",
+  "maker": "dApres de Mannevillette",
+  "date_label": "1810",
+  "title": "Plan du Port de Bombay",
+  "short": "Plan du Port de Bombay",
+  "byline": "d’Après de Mannevillette, Jean-Baptiste; Dépôt Général de la Marine · 1810 issue",
+  "brief": "A French naval plan of Bombay harbour in the 1810 issue of the <em>Neptune Oriental</em>. Soundings, bearings and anchorages turn Bombay into a navigational problem for officers approaching a strategically important British port.",
+  "image": {
+   "src": "img/display/1810__Bombay__dApres-de-Mannevillette__Plan-du-Port-de-Bombay.jpg",
+   "alt": "Plan du Port de Bombay",
+   "width": 1421,
+   "height": 1800,
+   "dzi": "img/dzi/1810__Bombay__dApres-de-Mannevillette__Plan-du-Port-de-Bombay.dzi"
+  },
+  "thumb": {
+   "alt": "Plan du Port de Bombay",
+   "width": 553,
+   "height": 700
+  },
+  "room": 4,
+  "deccan": [
+   {
+    "id": "bassein-1739",
+    "label": "Bassein, 1739 (February–May 1739)"
+   },
+   {
+    "id": "treaty-of-bassein-1802",
+    "label": "Poona and the Treaty of Bassein (25 October – 31 December 1802)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">A posthumously maintained chart</p><p>Jean-Baptiste d’Après de Mannevillette’s <em>Neptune Oriental</em> first appeared in 1745 and was enlarged in 1775. After his death, the French naval hydrographic office continued to update and reissue its charts. The impression shown is the Dépôt Général de la Marine’s issue of 1810, not a chart newly drawn in that year.</p><p class=\"subhead\">The harbour as measured water</p><p>The plan is organised by the needs of navigation: soundings, shoals, channels, anchorages, coastal forms and explanatory remarks. Bombay’s urban and territorial significance is secondary to the safe movement of a ship through its approaches.</p><p class=\"subhead\">The gaze</p><p>A French naval office kept a plan of a British port in print through the Napoleonic wars, which says something about how hydrographic knowledge moved. Soundings taken by one navy served whichever ship next entered the approaches, and the Dépôt evidently thought Bombay worth reissuing in 1810. Of the city itself the plan records only what a pilot needs: the shape of the shore and the depth of water before it.</p>",
+  "meta": [
+   [
+    "Author",
+    "d’Après de Mannevillette, Jean-Baptiste-Nicolas-Denis, 1707–1780; Dépôt Général de la Marine"
+   ],
+   [
+    "Date",
+    "1810"
+   ],
+   [
+    "Published in",
+    "<em>Neptune Oriental</em>"
+   ],
+   [
+    "Type",
+    "Nautical chart"
+   ],
+   [
+    "Publisher",
+    "Dépôt Général de la Marine"
+   ],
+   [
+    "Place",
+    "Paris"
+   ],
+   [
+    "Dimensions",
+    "44 × 33 cm"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 13102.041"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~312719~90081863%3APlan-du-Port-de-Bombay\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1820__India__Carey-Lavoisne__India",
+  "year": 1820,
+  "approx": false,
+  "region": "India",
+  "maker": "Carey Lavoisne",
+  "date_label": "1820",
+  "title": "Geographical, Historical, and Statistical Map of India",
+  "short": "Geographical, Historical, and Statistical Map of India",
+  "byline": "Carey, Mathew; Lavoisne, C. V.; after J. Aspin · 1820",
+  "brief": "An American historical-atlas plate that surrounds a map of India with chronology, statistics and lists of battles and sieges. Surveyed geography becomes a pedagogical framework for narrating conquest to readers in Philadelphia.",
+  "image": {
+   "src": "img/display/1820__India__Carey-Lavoisne__India.jpg",
+   "alt": "Geographical, Historical, and Statistical Map of India",
+   "width": 1800,
+   "height": 1274,
+   "dzi": "img/dzi/1820__India__Carey-Lavoisne__India.dzi"
+  },
+  "thumb": {
+   "alt": "India",
+   "width": 700,
+   "height": 495
+  },
+  "room": 3,
+  "deccan": [
+   {
+    "id": "pindaris-third-war-1817",
+    "label": "The Pindaris and the third Anglo-Maratha war (1817–1818)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">A map inside a historical system</p><p>This plate appeared in the first American edition of Lavoisne’s <em>Genealogical, Historical, Chronological, and Geographical Atlas</em>, published by M. Carey &amp; Son in 1820 after the London edition of 1817. The map was drawn after J. Aspin and engraved by Kneass; T. H. Palmer printed the volume.</p><p class=\"subhead\">Geography, chronology and war</p><p>The central map is only one component. Tables and prose arrange Indian history into rulers, dates, battles, sieges and statistical facts, while small flags key episodes of warfare to particular places. The form promises that territory and history can be comprehended together on a single page.</p><p class=\"subhead\">Across the Atlantic</p><p>This is British imperial history repackaged for an American educational market. The subcontinent becomes one panel in a universal chronology, and conquest is converted from lived violence into ordered information.</p><p class=\"subhead\">The gaze</p><p>Philadelphia had no stake in the Carnatic, and that is the point. A reader there met British expansion in India as a closed subject, its battles already sorted by date and its provinces already coloured, while the Company was still extending its frontiers. The plate offers as settled history a process that was still under way.</p>",
+  "meta": [
+   [
+    "Author",
+    "Carey, Mathew; Lavoisne, C. V.; after J. Aspin"
+   ],
+   [
+    "Date",
+    "1820"
+   ],
+   [
+    "Type",
+    "Historical-atlas map"
+   ],
+   [
+    "Publisher",
+    "M. Carey &amp; Son"
+   ],
+   [
+    "Printer",
+    "T. H. Palmer"
+   ],
+   [
+    "Place",
+    "Philadelphia"
+   ],
+   [
+    "Dimensions",
+    "43 × 53 cm"
+   ],
+   [
+    "Scale",
+    "1:10,000,000"
+   ],
+   [
+    "Engraver",
+    "Kneass"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 1642.065"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~35483~1200402%3AIndia-\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1825__India__Vivien-de-St-Martin__Carte-Generale-des-Indes",
+  "year": 1825,
+  "approx": false,
+  "region": "India",
+  "maker": "Vivien de St Martin",
+  "date_label": "1825",
+  "title": "Carte Générale des Indes",
+  "short": "Carte Générale des Indes",
+  "byline": "Vivien de Saint-Martin, Louis · map dated 1825; atlas 1827",
+  "brief": "Louis Vivien de Saint-Martin’s two-sheet <em>Carte Générale des Indes</em>, dated 1825 and published in his 1827 <em>Atlas Universel</em>. Modern survey detail remains framed by the inherited division of the Indies within and beyond the Ganges.",
+  "image": {
+   "src": "img/display/1825__India__Vivien-de-St-Martin__Carte-Generale-des-Indes.jpg",
+   "alt": "Carte Générale des Indes",
+   "width": 1800,
+   "height": 1458,
+   "dzi": "img/dzi/1825__India__Vivien-de-St-Martin__Carte-Generale-des-Indes.dzi"
+  },
+  "thumb": {
+   "alt": "Composite: Carte Generale des Indies",
+   "width": 700,
+   "height": 567
+  },
+  "room": 3,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">Two sheets, one learned geography</p><p>The map was engraved by Giraldon-Bovinet in two sheets, each dated 1825, and appeared in Vivien’s <em>Atlas Universel</em> of 1827. The composite extends from the Indian subcontinent through Burma, the Malay Peninsula and the kingdoms of Annam, combining hachured relief and outline colour at about 1:9,500,000.</p><p class=\"subhead\">Old categories, new information</p><p>The full title retains ‘the Indies on this side and beyond the Ganges’ and describes Hindoustan as the former Mughal Empire. These inherited categories coexist with a substantially updated geography, and the map demonstrates how a conceptual frame can survive while the detail within it changes.</p><p class=\"subhead\">A parallel French tradition</p><p>British survey dominated the production of new territorial knowledge in India, but it did not monopolise its interpretation. Vivien reorganised available information within a French academic atlas intended to serve both ancient and modern history.</p><p class=\"subhead\">The gaze</p><p>Paris in 1825 could still draw India at the scale of the whole Indies and find the result natural. The composite runs on past Burma to Annam because the category demanded it, and the British measurements inside the subcontinent sit within a frame that a reader of Ptolemy would recognise. An atlas meant to serve ancient history as well as modern had reasons to keep it.</p>",
+  "meta": [
+   [
+    "Author",
+    "Vivien de Saint-Martin, Louis, 1802–1897"
+   ],
+   [
+    "Date",
+    "1825"
+   ],
+   [
+    "Edition",
+    "Atlas issued 1827"
+   ],
+   [
+    "Type",
+    "Composite atlas map, two sheets"
+   ],
+   [
+    "Publisher",
+    "Ménard et Desenne"
+   ],
+   [
+    "Place",
+    "Paris"
+   ],
+   [
+    "Dimensions",
+    "46 × 58 cm"
+   ],
+   [
+    "Scale",
+    "1:9,500,000"
+   ],
+   [
+    "Engraver",
+    "Giraldon-Bovinet"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List Nos. 5017.047–048"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~38061~1211078%3ACarte-Generale-des-Indies-\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1827__Deccan__Vandermaelen__Bejapoor-Bijapur",
+  "year": 1827,
+  "approx": false,
+  "region": "Deccan",
+  "maker": "Vandermaelen",
+  "date_label": "1827",
+  "title": "Bejapoor – Asie 102",
+  "short": "Bejapoor – Asie 102",
+  "byline": "Vandermaelen, Philippe; text by A. Delavault · 1827",
+  "brief": "The Bijapur sheet from Philippe Vandermaelen’s <em>Atlas Universel</em>, the first world atlas constructed throughout at one uniform scale. The Deccan appears as one lithographed tile in a globe-wide system.",
+  "image": {
+   "src": "img/display/1827__Deccan__Vandermaelen__Bejapoor-Bijapur.jpg",
+   "alt": "Bejapoor – Asie 102",
+   "width": 1800,
+   "height": 1231,
+   "dzi": "img/dzi/1827__Deccan__Vandermaelen__Bejapoor-Bijapur.dzi"
+  },
+  "thumb": {
+   "alt": "Bejapoor. Asie 102",
+   "width": 700,
+   "height": 479
+  },
+  "room": 4,
+  "deccan": [
+   {
+    "id": "gulbarga",
+    "label": "Gulbarga (1347–c. 1430)"
+   },
+   {
+    "id": "raichur-doab-frontier",
+    "label": "The Raichur doab (c. 1350–1565)"
+   },
+   {
+    "id": "bijapur-adil-shahis",
+    "label": "Bijapur under the Adil Shahis (1490–1558)"
+   },
+   {
+    "id": "dakhni-sufi-shrines",
+    "label": "Dakhni (c. 1400–1700)"
+   },
+   {
+    "id": "ibrahim-adil-shah-ii",
+    "label": "Ibrahim Adil Shah II and the Kitab-i-Nauras (r. 1580–1627)"
+   },
+   {
+    "id": "tukaram-varkari",
+    "label": "Tukaram and the Varkari tradition (c. 1608–1650)"
+   },
+   {
+    "id": "gol-gumbaz",
+    "label": "Gol Gumbaz (1656)"
+   },
+   {
+    "id": "bijapur-golconda-fall-1687",
+    "label": "Aurangzeb takes Bijapur and Golconda (1686–1687)"
+   },
+   {
+    "id": "satara-and-pune",
+    "label": "Chhatrapati and Peshwa (1708–1749)"
+   },
+   {
+    "id": "hyderabad-residency",
+    "label": "The Hyderabad Residency (1803–1820s)"
+   },
+   {
+    "id": "pindaris-third-war-1817",
+    "label": "The Pindaris and the third Anglo-Maratha war (1817–1818)"
+   },
+   {
+    "id": "deccan-commission",
+    "label": "The Deccan Commission (1818–1826)"
+   },
+   {
+    "id": "peshwa-surrender-1818",
+    "label": "The Peshwa surrenders (3 June 1818)"
+   },
+   {
+    "id": "pune-colonial",
+    "label": "Pune under the Company (1818–1830s)"
+   },
+   {
+    "id": "satara-raj-1818",
+    "label": "The Satara raj (1818–1848)"
+   },
+   {
+    "id": "elphinstone-report-1819",
+    "label": "Elphinstone’s Report (25 October 1819)"
+   },
+   {
+    "id": "elphinstone-to-inam",
+    "label": "The inheritance of grants (1831)"
+   },
+   {
+    "id": "deccan-as-the-company-saw-it",
+    "label": "Coda: the Deccan as the Company saw it (1827–1893)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">A universal scale</p><p>Vandermaelen’s six-part <em>Atlas Universel</em> mapped the entire world at the common scale of 1:1,641,836. Its sheets could theoretically be assembled into a globe almost eight metres in diameter. This plate, Asia no. 102, covers the Bijapur region and was lithographed by Henri Ode; a geographical note by A. Delavault continues across adjoining sheets.</p><p class=\"subhead\">The grid determines the region</p><p>The boundaries of the sheet are produced by the atlas grid rather than by any kingdom, province or natural region. Bijapur is therefore encountered as a segment of a continuous mathematical surface, designed to join seamlessly to neighbouring segments.</p><p class=\"subhead\">Lithography and systematic geography</p><p>The atlas was also among the earliest monumental cartographic projects produced by lithography. The method supported an ambitious programme of standardised reproduction: different places, however unequal the underlying information, could be issued in an identical visual and dimensional system.</p><p class=\"subhead\">The gaze</p><p>Uniform scale is a promise about evidence that the evidence could not always keep. Bijapur at 1:1,641,836 occupies as much paper as any sheet of Europe and is drawn in the same conventions, whatever the quality of the sources behind it. Delavault’s note running across the sheet edge is the one place where the tile admits that it belongs to a text as well as a grid.</p>",
+  "meta": [
+   [
+    "Author",
+    "Vandermaelen, Philippe, 1795–1869; Delavault, A."
+   ],
+   [
+    "Date",
+    "1827"
+   ],
+   [
+    "Type",
+    "Lithographed atlas map"
+   ],
+   [
+    "Publisher",
+    "Ph. Vandermaelen"
+   ],
+   [
+    "Place",
+    "Brussels"
+   ],
+   [
+    "Dimensions",
+    "47 × 56 cm"
+   ],
+   [
+    "Scale",
+    "1:1,641,836"
+   ],
+   [
+    "Engraver",
+    "Henri Ode"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 2212.134"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~25168~990058%3ABejapoor--Asie-102-\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1827__Deccan__Vandermaelen__Guzerate-Chandeish-Aurungabad",
+  "year": 1827,
+  "approx": false,
+  "region": "Deccan",
+  "maker": "Vandermaelen",
+  "date_label": "1827",
+  "title": "Guzerate, Chandeish et Aurungabad – Asie 93",
+  "short": "Guzerate, Chandeish et Aurungabad – Asie 93",
+  "byline": "Vandermaelen, Philippe · 1827",
+  "brief": "Vandermaelen’s uniform-scale sheet covering Gujarat, Khandesh and Aurangabad. Its irregular edges show the Deccan subordinated to a global grid rather than framed as an autonomous historical region.",
+  "image": {
+   "src": "img/display/1827__Deccan__Vandermaelen__Guzerate-Chandeish-Aurungabad.jpg",
+   "alt": "Guzerate, Chandeish et Aurungabad – Asie 93",
+   "width": 1800,
+   "height": 1231,
+   "dzi": "img/dzi/1827__Deccan__Vandermaelen__Guzerate-Chandeish-Aurungabad.dzi"
+  },
+  "thumb": {
+   "alt": "Guzerate, Chandeish et Aurungabad. Asie 93",
+   "width": 700,
+   "height": 479
+  },
+  "room": 4,
+  "deccan": [
+   {
+    "id": "tughluq-daulatabad-1327",
+    "label": "Tughluq moves the capital to Daulatabad (1327 · Prologue)"
+   },
+   {
+    "id": "ahmadnagar-nizam-shahis",
+    "label": "Ahmadnagar (1490–1565)"
+   },
+   {
+    "id": "chand-bibi-1595",
+    "label": "Chand Bibi and the siege of Ahmadnagar (1595–1600)"
+   },
+   {
+    "id": "malik-ambar",
+    "label": "Malik Ambar (c. 1548–1626)"
+   },
+   {
+    "id": "deccan-famine-1630",
+    "label": "The Deccan famine of 1630–32 (1630–1632)"
+   },
+   {
+    "id": "nizam-ul-mulk-1724",
+    "label": "Nizam-ul-Mulk establishes the Asaf Jahi state (11 October 1724)"
+   },
+   {
+    "id": "palkhed-1728",
+    "label": "Palkhed, 1728 (28 February 1728)"
+   },
+   {
+    "id": "mahadji-scindia-kharda-1795",
+    "label": "Mahadji Scindia and Kharda (1794–1795)"
+   },
+   {
+    "id": "assaye-1803",
+    "label": "Assaye, 1803 (23 September 1803)"
+   },
+   {
+    "id": "deccan-commission",
+    "label": "The Deccan Commission (1818–1826)"
+   },
+   {
+    "id": "berar-assignment-1853",
+    "label": "The Berar assignment (21 May 1853)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">A neighbouring tile</p><p>Asia no. 93 belongs to the same uniform-scale <em>Atlas Universel</em> as the Bijapur sheet. Lithographed by Henri Ode, it covers Gujarat, Khandesh and the Aurangabad country at 1:1,641,836, with relief represented pictorially and longitude measured from Paris.</p><p class=\"subhead\">Irregular shape, regular system</p><p>The plate’s unusual outline is generated by the projection and the requirement that it meet adjoining sheets. The region is clipped and angled so that the atlas can maintain a single globe-wide geometry.</p><p class=\"subhead\">The gaze</p><p>The adjoining Bijapur sheet shows what the uniform scale offers; this one shows what it costs at the edges. Gujarat, Khandesh and Aurangabad share the plate only because the grid happened to fall across them, and the oblique outline leaves the reader to supply any sense of the region from elsewhere. Longitude reckoned from Paris is a further reminder of where the system’s centre lies.</p>",
+  "meta": [
+   [
+    "Author",
+    "Vandermaelen, Philippe, 1795–1869"
+   ],
+   [
+    "Date",
+    "1827"
+   ],
+   [
+    "Type",
+    "Lithographed atlas map"
+   ],
+   [
+    "Publisher",
+    "Ph. Vandermaelen"
+   ],
+   [
+    "Place",
+    "Brussels"
+   ],
+   [
+    "Dimensions",
+    "47 × 59 cm"
+   ],
+   [
+    "Scale",
+    "1:1,641,836"
+   ],
+   [
+    "Engraver",
+    "Henri Ode"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 2212.125"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~25159~990049%3AGuzerate%2C-Chandeish-et-Aurungabad--\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1827__India__Hall__Hindoostan",
+  "year": 1827,
+  "approx": false,
+  "region": "India",
+  "maker": "Hall",
+  "date_label": "1827",
+  "title": "Hindoostan",
+  "short": "Hindoostan",
+  "byline": "Hall, Sidney · plate dated 1827; atlas 1830",
+  "brief": "Sidney Hall’s engraved <em>Hindoostan</em>, dated 1827 and issued in his 1830 <em>New General Atlas</em>. It presents post-Rennell geography as polished commercial reference for the British atlas reader.",
+  "image": {
+   "src": "img/display/1827__India__Hall__Hindoostan.jpg",
+   "alt": "Hindoostan",
+   "width": 1512,
+   "height": 1800,
+   "dzi": "img/dzi/1827__India__Hall__Hindoostan.dzi"
+  },
+  "thumb": {
+   "alt": "Hindoostan",
+   "width": 588,
+   "height": 700
+  },
+  "room": 3,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">A plate issued before its title page</p><p>Hall’s map bears the date 1 November 1827, while the first edition of the atlas is dated 1830. The maps were produced and apparently issued in parts before the completed volumes received their title page. Outline colour and hachured relief give the sheet the clarity and restraint associated with early nineteenth-century British commercial engraving.</p><p class=\"subhead\">Survey assumed rather than displayed</p><p>Unlike Rennell’s maps, Hall’s plate does not foreground the process of measurement. It inherits a cartographic framework already transformed by decades of route surveys and compilation. The labour of survey has receded into the apparently self-evident accuracy of the atlas.</p><p class=\"subhead\">A divided political landscape</p><p>In 1827 the subcontinent remained a complex field of Company territories, princely states and neighbouring powers. What is settled is the cartographic confidence with which that political variety is bounded and named.</p><p class=\"subhead\">The gaze</p><p>Hall’s plate is quiet about its sources, and the quiet is what separates it from Rennell. A purchaser of the <em>New General Atlas</em> received the subcontinent with its boundaries drawn and its relief hachured, and had no reason to ask who had walked the routes. By 1827 a commercial engraver could treat post-survey India as settled stock, issued in parts and bound up when the title page was ready.</p>",
+  "meta": [
+   [
+    "Author",
+    "Hall, Sidney"
+   ],
+   [
+    "Date",
+    "1827"
+   ],
+   [
+    "Edition",
+    "Atlas issued 1830"
+   ],
+   [
+    "Type",
+    "Atlas map"
+   ],
+   [
+    "Publisher",
+    "Longman, Rees, Orme, Brown &amp; Green"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "52 × 41 cm"
+   ],
+   [
+    "Scale",
+    "1:7,000,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 4224.028"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~21805~670038%3AHindoostan-\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1831__India__John-Walker__Newly-Constructed-Map-of-India",
+  "year": 1831,
+  "approx": false,
+  "region": "India",
+  "maker": "John Walker",
+  "date_label": "1831",
+  "title": "Newly Constructed and Extended Map of India",
+  "short": "Newly Constructed and Extended Map of India",
+  "byline": "John Walker · first published 1825; this issue 1831",
+  "brief": "John Walker’s enormous two-sheet India map, compiled from the latest surveys and published principally for army officers. The title makes explicit the connection between general cartography, route intelligence and military government.",
+  "image": {
+   "src": "img/display/1831__India__John-Walker__Newly-Constructed-Map-of-India.jpg",
+   "alt": "This Newly Constructed and Extended Map of India",
+   "width": 1756,
+   "height": 1800,
+   "dzi": "img/dzi/1831__India__John-Walker__Newly-Constructed-Map-of-India.dzi"
+  },
+  "thumb": {
+   "alt": "Composite: (North and South) This Newly Constructed Map of India From The Latest Surveys of the best Authorities",
+   "width": 683,
+   "height": 700
+  },
+  "room": 3,
+  "deccan": [
+   {
+    "id": "nagar-revolt-1831",
+    "label": "The Nagar revolt and the Mysore Commission (1830–1831)"
+   },
+   {
+    "id": "elphinstone-to-inam",
+    "label": "The inheritance of grants (1831)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">A map for officers</p><p>Published by Parbury, Allen &amp; Co. and dedicated to Major-General Sir John Malcolm, the map announces that it was made principally for the use of officers of the army in India. At more than one and a half metres square, it brings together a growing body of Company route surveys and regional mapping at approximately 1:2,217,600.</p><p class=\"subhead\">Construction from ‘the best authorities’</p><p>The title’s language is precise: the map is newly constructed from surveys rather than itself being one continuous survey. Walker reconciled sources of different dates and quality into a general surface. The inset of the Burmese Empire, ‘compiled chiefly from native information’, briefly exposes one source of knowledge usually hidden by the finished map.</p><p class=\"subhead\">From survey office to garrison</p><p>Roads, passes, settlements and political divisions are arranged for practical consultation. The map joins scientific compilation to institutional use: information gathered through many surveys is delivered in a form suitable for planning movement, deployment and administration.</p><p class=\"subhead\">The gaze</p><p>Walker names his reader on the title. Dedicated to Malcolm and addressed to the officers of the army in India, the sheet states what most atlases leave to inference, and the Burmese inset, ‘compiled chiefly from native information’, shows what became of sources the compiler could not present as survey. The main map folds such admissions away; the inset keeps one of them in view.</p>",
+  "meta": [
+   [
+    "Full title",
+    "This Newly Constructed and Extended Map of India … is respectfully inscribed to Major-General Sir John Malcolm"
+   ],
+   [
+    "Author",
+    "Walker, John"
+   ],
+   [
+    "Date",
+    "1831"
+   ],
+   [
+    "Type",
+    "Composite case map, two sheets"
+   ],
+   [
+    "Publisher",
+    "Parbury, Allen &amp; Co."
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "156 × 153 cm"
+   ],
+   [
+    "Scale",
+    "1:2,217,600"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 15888.004"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~357985~90125035%3AComposite---North-and-South--This-N\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1846__Punjab-Kashmir__John-Walker__Northern-Punjab-and-Kashmir",
+  "year": 1846,
+  "approx": false,
+  "region": "Punjab-Kashmir",
+  "maker": "John Walker",
+  "date_label": "1846",
+  "title": "Northern Punjab, Kashmir, Ladak and Little Tibet",
+  "short": "Northern Punjab, Kashmir, Ladak and Little Tibet",
+  "byline": "Walker, John; after surveys by Vigne, Wade, Anderson and Durand · 1846",
+  "brief": "John Walker’s large frontier map of northern Punjab, Kashmir, Ladak and Little Tibet, published for the East India Company in March 1846. Survey and travel intelligence are assembled at the moment British power was reshaping the north-western frontier.",
+  "image": {
+   "src": "img/display/1846__Punjab-Kashmir__John-Walker__Northern-Punjab-and-Kashmir.jpg",
+   "alt": "Northern Punjab, Kashmir, Ladak and Little Tibet",
+   "width": 1258,
+   "height": 1800,
+   "dzi": "img/dzi/1846__Punjab-Kashmir__John-Walker__Northern-Punjab-and-Kashmir.dzi"
+  },
+  "thumb": {
+   "alt": "Map of the Northern Part of the Punjab and of Kashmir",
+   "width": 490,
+   "height": 700
+  },
+  "room": 5,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">A composite frontier geography</p><p>Walker compiled the map from the surveys and travels of G. T. Vigne, Captain C. Wade and Lieutenants J. Anderson and H. M. Durand. J. &amp; C. Walker engraved it as a large folding case map. Its coverage stretches from the Punjab plains through the Vale of Kashmir and the mountain routes toward Ladak and ‘Little Tibet’.</p><p class=\"subhead\">Published in a political hinge year</p><p>The map was issued on 30 March 1846, after the First Anglo-Sikh War and the treaties that transformed the political position of Kashmir and the Punjab. The East India Company required improved knowledge of roads, passes, forts and terrain while deciding how power and administration would operate across the region.</p><p class=\"subhead\">Uneven information at the frontier</p><p>The map joins measured routes, travellers’ observations and fragmentary intelligence. Density decreases toward the high mountain margins, but the sheet’s single engraved surface can make radically unequal kinds of evidence appear equally secure.</p><p class=\"subhead\">The gaze</p><p>The four named authorities were travellers and officers of different kinds, and the sheet folds their differing methods into one engraved line. Published that March, after the treaties, it gave the Company a picture of Kashmir at the moment the territory’s future was being settled, and the picture thins out precisely where the mountains rise.</p>",
+  "meta": [
+   [
+    "Author",
+    "Walker, John"
+   ],
+   [
+    "Date",
+    "30 March 1846"
+   ],
+   [
+    "Type",
+    "Case map"
+   ],
+   [
+    "Publisher",
+    "John Walker, Geographer to the East India Company"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "98 × 68 cm"
+   ],
+   [
+    "Scale",
+    "1:850,000"
+   ],
+   [
+    "Engraver",
+    "J. &amp; C. Walker"
+   ],
+   [
+    "Sources used",
+    "G. T. Vigne; C. Wade; J. Anderson; H. M. Durand"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 13305.002"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~318389~90087285%3AMap-of-the-Northern-Part-of-the-Pun\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ],
+  "ld": {
+   "temporalCoverage": "30 March 1846"
+  }
+ },
+ {
+  "id": "1848__Deccan__Morse__Southern-India",
+  "year": 1848,
+  "approx": false,
+  "region": "Deccan",
+  "maker": "Morse",
+  "date_label": "1848",
+  "title": "Southern India",
+  "short": "Southern India",
+  "byline": "Morse, Sidney E., 1794–1871 · 1848",
+  "brief": "A map of southern India from Sidney E. Morse’s <em>Cerographic Missionary Atlas</em>, distributed to subscribers of the <em>New York Observer</em>. Geography is reorganised for an American Protestant public as a field of missionary action.",
+  "image": {
+   "src": "img/display/1848__Deccan__Morse__Southern-India.jpg",
+   "alt": "Southern India",
+   "width": 1800,
+   "height": 1703,
+   "dzi": "img/dzi/1848__Deccan__Morse__Southern-India.dzi"
+  },
+  "thumb": {
+   "alt": "Southern India",
+   "width": 700,
+   "height": 663
+  },
+  "room": 4,
+  "deccan": [
+   {
+    "id": "nagar-revolt-1831",
+    "label": "The Nagar revolt and the Mysore Commission (1830–1831)"
+   },
+   {
+    "id": "pringle-wingate-survey-1835",
+    "label": "The Bombay revenue survey (1835–1847)"
+   },
+   {
+    "id": "satara-lapse-1848",
+    "label": "The annexation of Satara (1848)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">A missionary atlas</p><p>Morse published the <em>Cerographic Missionary Atlas</em> in New York in 1848 and distributed it free to subscribers of the <em>New York Observer</em>. The atlas used cerography, a wax-engraving process associated with inexpensive and rapid map production, to show regions in which Protestant missionary activity was occurring.</p><p class=\"subhead\">A different institutional purpose</p><p>The base geography resembles contemporary general maps: regions, settlements, rivers and hachured mountains. Its selection and publication context, however, direct the reader toward mission fields rather than military routes or colonial districts. The intended user is a supporter, reader or organiser of missionary work in the United States.</p><p class=\"subhead\">The gaze</p><p>A free supplement to a newspaper is an unusual place to find the Deccan. Cerography made the map cheap enough to give away, and the <em>Observer</em>’s subscribers received southern India as a field to be supported from a distance rather than as a possession. The hachured mountains and district names come from the same compilations that served the Company; what changed was the reader’s reason for looking.</p>",
+  "meta": [
+   [
+    "Author",
+    "Morse, Sidney E., 1794–1871"
+   ],
+   [
+    "Date",
+    "1848"
+   ],
+   [
+    "Published in",
+    "<em>The Cerographic Missionary Atlas</em>"
+   ],
+   [
+    "Type",
+    "Missionary-atlas map"
+   ],
+   [
+    "Publisher",
+    "Sidney E. Morse &amp; Co."
+   ],
+   [
+    "Place",
+    "New York"
+   ],
+   [
+    "Dimensions",
+    "24 × 27 cm"
+   ],
+   [
+    "Scale",
+    "1:7,500,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 4685.012"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~265351~5525266%3ASouthern-India\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1851__India__Tallis-Martin__Overland-Route-to-India",
+  "year": 1851,
+  "approx": false,
+  "region": "India",
+  "maker": "Tallis Martin",
+  "date_label": "1851",
+  "title": "The Overland Route to India",
+  "short": "The Overland Route to India",
+  "byline": "Martin, R. Montgomery; Tallis, John &amp; Frederick · c.1851",
+  "brief": "An illustrated double map tracing the principal routes between Europe and India before the Suez Canal. India is not the centre of the sheet but the destination at the end of an imperial communications system.",
+  "image": {
+   "src": "img/display/1851__India__Tallis-Martin__Overland-Route-to-India.jpg",
+   "alt": "The Overland Route to India",
+   "width": 1326,
+   "height": 1800,
+   "dzi": "img/dzi/1851__India__Tallis-Martin__Overland-Route-to-India.dzi"
+  },
+  "thumb": {
+   "alt": "Overland Route To India",
+   "width": 516,
+   "height": 700
+  },
+  "room": 5,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">The atlas object</p><p>The plate appeared in the Tallis <em>Illustrated Atlas</em>, edited by R. Montgomery Martin. John Rapkin drew and engraved the cartographic framework, while H. Warren supplied the pictorial embellishments. Two connected panels carry the route from Europe through the Mediterranean and Egypt to the Red Sea, Arabian Sea and India.</p><p class=\"subhead\">Before Suez</p><p>The celebrated “overland route” did not mean a continuous land journey. Passengers and mail travelled by sea to Egypt, crossed between Alexandria and Suez by river, road and later railway, and then re-embarked for India. The map turns that sequence of transfers into a single legible line.</p><p class=\"subhead\">A geography of connection</p><p>The sheet belongs to a nineteenth-century shift from mapping possessions alone to mapping the systems that bound them together: steamship passages, mail schedules, ports and transfer points. Distance is represented as something technology and organisation can overcome.</p><p class=\"subhead\">The gaze</p><p>Warren’s vignettes, as much as Rapkin’s line, tell the reader what the sheet is for: the journey is the subject and India its last stop. Everything between Europe and the Indian coast is drawn as a series of transfers to be endured or admired, and the subcontinent is allotted the space a destination needs and no more.</p>",
+  "meta": [
+   [
+    "Author",
+    "R. Montgomery Martin; John and Frederick Tallis; John Rapkin"
+   ],
+   [
+    "Date",
+    "c.1851"
+   ],
+   [
+    "Type",
+    "Illustrated atlas map"
+   ],
+   [
+    "Publisher",
+    "J. & F. Tallis"
+   ],
+   [
+    "Place",
+    "London, Edinburgh, Dublin and New York"
+   ],
+   [
+    "Dimensions",
+    "34 × 25 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:24,000,000"
+   ],
+   [
+    "Illustrator",
+    "H. Warren"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 10095.031"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~296010~90067512%3AOverland-Route-To-India-\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ],
+  "ld": {
+   "temporalCoverage": "c.1851"
+  },
+  "title_date": "c.1851"
+ },
+ {
+  "id": "1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras",
+  "year": 1851,
+  "approx": false,
+  "region": "SouthIndia",
+  "maker": "Tallis Martin",
+  "date_label": "1851",
+  "title": "Southern India, including the Presidencies of Bombay and Madras",
+  "short": "Southern India, including the Presidencies of Bombay and Madras",
+  "byline": "Martin, R. Montgomery; Tallis, John &amp; Frederick · c.1851",
+  "brief": "A decorative map of southern India organised around the Presidencies of Bombay and Madras and surrounded by picturesque vignettes. Administrative geography and visual spectacle occupy the same sheet.",
+  "image": {
+   "src": "img/display/1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.jpg",
+   "alt": "Southern India, including the Presidencies of Bombay and Madras",
+   "width": 1436,
+   "height": 1800,
+   "dzi": "img/dzi/1851__SouthIndia__Tallis-Martin__Southern-India-Bombay-and-Madras.dzi"
+  },
+  "thumb": {
+   "alt": "Southern India Including The Presidencies Of Bombay &amp; Madras",
+   "width": 559,
+   "height": 700
+  },
+  "room": 5,
+  "deccan": [
+   {
+    "id": "mysore-rendition-question",
+    "label": "The Mysore question (1867, rendition 1881)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The atlas object</p><p>Published in the Tallis <em>Illustrated Atlas</em>, the plate combines John Rapkin’s map with vignettes drawn by A. H. Wray and engraved by J. H. Kernot. The cartography is enclosed within the elaborate architectural and pictorial border characteristic of the series.</p><p class=\"subhead\">Presidencies and pictures</p><p>The title names British administrative units rather than older kingdoms or broad classical regions. Around that political map, views and emblems turn southern India into an illustrated possession for the atlas reader. The East India Company’s insignia makes the institutional frame explicit.</p><p class=\"subhead\">A popular imperial object</p><p>The plate translated administrative knowledge into a handsome commercial product: sufficiently informative to instruct, sufficiently ornamental to display. The viewer is invited to understand the presidencies and enjoy their visual difference at once.</p><p class=\"subhead\">The gaze</p><p>Wray’s vignettes and the Company’s arms frame the same map, and the pairing is the sheet’s argument. The presidencies are named in the title as the proper units of the south; the pictures around them supply the south’s look. A reader could take in both without noticing that one was a fact of administration and the other a choice of the engraver.</p>",
+  "meta": [
+   [
+    "Author",
+    "R. Montgomery Martin; John and Frederick Tallis; John Rapkin"
+   ],
+   [
+    "Date",
+    "c.1851"
+   ],
+   [
+    "Type",
+    "Illustrated atlas map"
+   ],
+   [
+    "Publisher",
+    "J. & F. Tallis"
+   ],
+   [
+    "Place",
+    "London, Edinburgh, Dublin and New York"
+   ],
+   [
+    "Dimensions",
+    "33 × 23 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:9,000,000"
+   ],
+   [
+    "Engraver",
+    "J. H. Kernot"
+   ],
+   [
+    "Illustrator",
+    "A. H. Wray"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 10095.034"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~296013~90067509%3ASouthern-India-Including-The-Presid\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ],
+  "ld": {
+   "temporalCoverage": "c.1851"
+  },
+  "title_date": "c.1851"
+ },
+ {
+  "id": "1853__IndianOcean__Imray__Chart-of-the-Indian-Ocean",
+  "year": 1853,
+  "approx": false,
+  "region": "IndianOcean",
+  "maker": "Imray",
+  "date_label": "1853",
+  "title": "Chart of the Indian Ocean",
+  "short": "Chart of the Indian Ocean",
+  "byline": "James Imray · 1853",
+  "brief": "A large commercial “blueback” chart spanning the Indian Ocean from Africa toward Southeast Asia and Australasia. It is a working navigational surface assembled from the surveys of several states and hydrographic traditions.",
+  "image": {
+   "src": "img/display/1853__IndianOcean__Imray__Chart-of-the-Indian-Ocean.jpg",
+   "alt": "Chart of the Indian Ocean",
+   "width": 1800,
+   "height": 949,
+   "dzi": "img/dzi/1853__IndianOcean__Imray__Chart-of-the-Indian-Ocean.dzi"
+  },
+  "thumb": {
+   "alt": "Chart Of The Indian Ocean",
+   "width": 700,
+   "height": 369
+  },
+  "room": 6,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">A working chart</p><p>James Imray published charts for merchant shipping rather than for the atlas cabinet. Backed with blue manila paper for strength, sheets of this kind were handled, folded, marked and corrected aboard ship. Soundings, reefs, banks, anchorages, routes and compass information take precedence over territorial detail.</p><p class=\"subhead\">Survey knowledge pooled</p><p>The chart advertises compilation from approved authorities, including East India Company and British, French and Dutch hydrographic work. Rival imperial surveys become shared navigational infrastructure once absorbed into a commercial chart for mariners.</p><p class=\"subhead\">The ocean made operational</p><p>Earlier charts in the collection imagine or claim the route to India. Here the ocean is densely worked: hazards fixed, approaches described and long passages converted into practical choices. India is one coast within a connected maritime system extending from the Cape to East Asia and Australia.</p><p class=\"subhead\">The gaze</p><p>Imray’s chart was meant to be worn out. The blue backing, the folding and the corrections made aboard ship set it apart from every framed or bound map in this collection, and the soundings of rival navies lose their nationality once a master needs them to clear a bank. India occupies a single stretch of coast on a sheet whose real subject is the passage.</p>",
+  "meta": [
+   [
+    "Author",
+    "James Imray"
+   ],
+   [
+    "Date",
+    "1853"
+   ],
+   [
+    "Type",
+    "Commercial navigation chart (“blueback”)"
+   ],
+   [
+    "Publisher",
+    "James Imray"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "99 × 188 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:11,000,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 16957.000"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~377396~90143621%3AChart-Of-The-Indian-Ocean%2C-Showing-\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1856__Deccan__SDUK-Walker__India-III-Bombay",
+  "year": 1856,
+  "approx": false,
+  "region": "Deccan",
+  "maker": "SDUK Walker",
+  "date_label": "1856",
+  "title": "India III: Bombay",
+  "short": "India III: Bombay",
+  "byline": "Walker, John; Society for the Diffusion of Useful Knowledge · revised issue, 1856",
+  "brief": "The Bombay sheet from the revised <em>Atlas of India</em> associated with the Society for the Diffusion of Useful Knowledge. A presidency-scale map designed to make accurate imperial geography inexpensive and teachable.",
+  "image": {
+   "src": "img/display/1856__Deccan__SDUK-Walker__India-III-Bombay.jpg",
+   "alt": "India III: Bombay",
+   "width": 1800,
+   "height": 1434,
+   "dzi": "img/dzi/1856__Deccan__SDUK-Walker__India-III-Bombay.dzi"
+  },
+  "thumb": {
+   "alt": "India III Bombay",
+   "width": 700,
+   "height": 558
+  },
+  "room": 4,
+  "deccan": [
+   {
+    "id": "hyderabad-residency",
+    "label": "The Hyderabad Residency (1803–1820s)"
+   },
+   {
+    "id": "pune-colonial",
+    "label": "Pune under the Company (1818–1830s)"
+   },
+   {
+    "id": "jagirdars-and-saranjams",
+    "label": "Jagirs and saranjams under the Company (1830s–1860s)"
+   },
+   {
+    "id": "pringle-wingate-survey-1835",
+    "label": "The Bombay revenue survey (1835–1847)"
+   },
+   {
+    "id": "phule-satyashodhak",
+    "label": "Jotirao Phule (1848–1873)"
+   },
+   {
+    "id": "inam-commission-1852",
+    "label": "The Inam Commission (1852–1863)"
+   },
+   {
+    "id": "railway-bhor-ghat",
+    "label": "The railway climbs the ghats (1853–1863)"
+   },
+   {
+    "id": "cotton-boom-1861",
+    "label": "The cotton boom and bust (1861–1865)"
+   },
+   {
+    "id": "bombay-hereditary-offices-act-1874",
+    "label": "The Watan Act (1874, in force 5 February 1875)"
+   },
+   {
+    "id": "deccan-riots-1875",
+    "label": "The Deccan Riots (May–June 1875)"
+   },
+   {
+    "id": "deccan-as-the-company-saw-it",
+    "label": "Coda: the Deccan as the Company saw it (1827–1893)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The revised atlas</p><p>The Society for the Diffusion of Useful Knowledge had issued regional maps of India as part of its programme of inexpensive education. John Walker revised the series, and J. & C. Walker engraved the sheets sold by Edward Stanford in the 1856 atlas. The date therefore identifies this revised issue, not necessarily the first appearance of every underlying plate.</p><p class=\"subhead\">A presidency at regional scale</p><p>The map isolates Bombay as one numbered component of a larger sheet system. Administrative boundaries, settlements, routes and hachured relief present the presidency without the ornament of the Tallis maps or the scale of a military case map.</p><p class=\"subhead\">Useful knowledge and empire</p><p>The SDUK’s educational mission was liberal and public-minded, but the knowledge it diffused was also the geography of British rule. Breaking India into numbered regional sheets naturalised the presidency and province as the basic units through which the country was to be known.</p><p class=\"subhead\">The gaze</p><p>The number in the title, III, is the most telling thing on the sheet. Bombay was to be learned as one of a set, in the order the atlas fixed, by readers who would never need a road through the Ghats. Stanford’s cheap issue, the Society’s name and the Walkers’ engraving together made the presidency a unit of schoolroom geography.</p>",
+  "meta": [
+   [
+    "Author",
+    "John Walker"
+   ],
+   [
+    "Edition",
+    "Revised <em>Atlas of India</em>, 1856"
+   ],
+   [
+    "Type",
+    "Regional atlas map"
+   ],
+   [
+    "Publisher",
+    "Edward Stanford"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "27 × 36 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:2,200,000"
+   ],
+   [
+    "Engraver",
+    "J. & C. Walker"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 11298.007"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~292722~90063965%3AIndia-III-Bombay\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ],
+   [
+    "Issued by",
+    "Society for the Diffusion of Useful Knowledge"
+   ]
+  ],
+  "ld": {
+   "temporalCoverage": null,
+   "datePublished": null
+  }
+ },
+ {
+  "id": "1856__Punjab__SDUK-Walker__India-XI",
+  "year": 1856,
+  "approx": false,
+  "region": "Punjab",
+  "maker": "SDUK Walker",
+  "date_label": "1856",
+  "title": "India XI: Punjab, Lahore and Ladakh",
+  "short": "India XI: Punjab, Lahore and Ladakh",
+  "byline": "Walker, John; Society for the Diffusion of Useful Knowledge · revised issue, 1856",
+  "brief": "A regional sheet covering Punjab, Lahore and Ladakh from the revised SDUK <em>Atlas of India</em>. The north-west appears as one numbered, standardised unit within a public educational series.",
+  "image": {
+   "src": "img/display/1856__Punjab__SDUK-Walker__India-XI.jpg",
+   "alt": "India XI: Punjab, Lahore and Ladakh",
+   "width": 1800,
+   "height": 1432,
+   "dzi": "img/dzi/1856__Punjab__SDUK-Walker__India-XI.dzi"
+  },
+  "thumb": {
+   "alt": "India XI",
+   "width": 700,
+   "height": 557
+  },
+  "room": 5,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">The revised sheet</p><p>John Walker revised the Society for the Diffusion of Useful Knowledge’s Indian atlas, with J. & C. Walker engraving the maps and Edward Stanford issuing the 1856 volume. As with the Bombay sheet, 1856 dates the revised atlas rather than the underlying plate.</p><p class=\"subhead\">The north-west in uniform format</p><p>The sheet brings Punjab, Lahore and Ladakh into a uniform regional format, with boundaries, routes, settlements and hachured relief. A recently transformed political frontier is presented without drama as ordinary reference geography.</p><p class=\"subhead\">Education after expansion</p><p>The Punjab had been annexed in 1849. The map need not have been created as a direct response to annexation to reveal the larger process: territorial change is rapidly absorbed into revised atlases, classifications and schoolroom knowledge.</p><p class=\"subhead\">The gaze</p><p>Seven years separate the annexation of the Punjab from this plate, and the plate shows how little time a conquest needed to become a lesson. Sheet XI treats Lahore and Ladakh in the same conventions as Bombay on sheet III, with no change of register for territory annexed within the previous decade. The Walkers engraved both, and the engraving is the same.</p>",
+  "meta": [
+   [
+    "Author",
+    "John Walker"
+   ],
+   [
+    "Edition",
+    "Revised <em>Atlas of India</em>, 1856"
+   ],
+   [
+    "Type",
+    "Regional atlas map"
+   ],
+   [
+    "Publisher",
+    "Edward Stanford"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "27 × 35 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:2,200,000"
+   ],
+   [
+    "Engraver",
+    "J. & C. Walker"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 11298.015"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/view/all/who/Walker%2C%2BJohn/\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ],
+   [
+    "Issued by",
+    "Society for the Diffusion of Useful Knowledge"
+   ]
+  ],
+  "ld": {
+   "temporalCoverage": null,
+   "datePublished": null
+  }
+ },
+ {
+  "id": "1857__India__Mitchell__Hindoostan",
+  "year": 1857,
+  "approx": false,
+  "region": "India",
+  "maker": "Mitchell",
+  "date_label": "1857",
+  "title": "Hindoostan",
+  "short": "Hindoostan",
+  "byline": "Mitchell, Samuel Augustus · atlas issue, 1857",
+  "brief": "An American commercial atlas map of India distinguished by its political classification of British territory, other British possessions and nominally independent states. Its 1857 publication coincided with the uprising but was not necessarily produced in response to it.",
+  "image": {
+   "src": "img/display/1857__India__Mitchell__Hindoostan.jpg",
+   "alt": "Hindoostan",
+   "width": 1490,
+   "height": 1800,
+   "dzi": "img/dzi/1857__India__Mitchell__Hindoostan.dzi"
+  },
+  "thumb": {
+   "alt": "Hindoostan",
+   "width": 580,
+   "height": 700
+  },
+  "room": 5,
+  "deccan": [
+   {
+    "id": "1857-in-the-deccan",
+    "label": "1857 in the Deccan (1857–1858)"
+   },
+   {
+    "id": "crown-proclamation-1858",
+    "label": "The Crown takes over (1 November 1858)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The atlas object</p><p>Samuel Augustus Mitchell’s map appeared in the 1857 Philadelphia issue of the <em>New Universal Atlas</em>, published by Charles DeSilver. The plate was entered for copyright in 1856 – a warning against reading every feature as a commentary composed after the events of 1857.</p><p class=\"subhead\">Territory by political status</p><p>Colour and legend sort the subcontinent according to legal and political relationship with British power. The distinction between direct territory, possessions and independent states turns a complex landscape of sovereignty into a compact imperial classification.</p><p class=\"subhead\">India for an American reader</p><p>The map was made for a commercial atlas in Philadelphia. Its categories show how thoroughly British imperial geography had become the international default through which India was explained even outside Britain.</p><p class=\"subhead\">The gaze</p><p>Copyrighted in 1856, the plate fixes the atlas image of India that the uprising interrupted. Mitchell’s three-way legend – direct territory, other possessions, independent states – is the classification an American household owned on the eve of 1857, and nothing in it anticipates trouble.</p>",
+  "meta": [
+   [
+    "Author",
+    "Samuel Augustus Mitchell"
+   ],
+   [
+    "Edition",
+    "<em>New Universal Atlas</em>, 1857 issue (copyright 1856)"
+   ],
+   [
+    "Type",
+    "Commercial atlas map"
+   ],
+   [
+    "Publisher",
+    "Charles DeSilver"
+   ],
+   [
+    "Place",
+    "Philadelphia"
+   ],
+   [
+    "Dimensions",
+    "39 × 32 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:9,500,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 2514.075"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~252839~5518657%3AHindoostan\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ],
+  "ld": {
+   "version": "New Universal Atlas, 1857; 1856",
+   "temporalCoverage": null,
+   "datePublished": null
+  }
+ },
+ {
+  "id": "1858__India__Abington__Panoramic-View-of-India",
+  "year": 1858,
+  "approx": false,
+  "region": "India",
+  "maker": "Abington",
+  "date_label": "1858",
+  "title": "Abington’s Panoramic View of India",
+  "short": "Abington’s Panoramic View of India",
+  "byline": "Abington, G. · c.1857–58",
+  "brief": "A colour-printed bird’s-eye panorama made for a British public following the 1857 uprising. It marks leading centres of insurrection and converts a continental crisis into an immediately readable pictorial scene.",
+  "image": {
+   "src": "img/display/1858__India__Abington__Panoramic-View-of-India.jpg",
+   "alt": "Abington’s Panoramic View of India",
+   "width": 1256,
+   "height": 1800,
+   "dzi": "img/dzi/1858__India__Abington__Panoramic-View-of-India.dzi"
+  },
+  "thumb": {
+   "alt": "Abington’s Panoramic View of India",
+   "width": 488,
+   "height": 700
+  },
+  "room": 5,
+  "deccan": [
+   {
+    "id": "crown-proclamation-1858",
+    "label": "The Crown takes over (1 November 1858)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">Date and object</p><p>The panorama was advertised in August 1857 and announced as “now ready” that September; it went through at least five editions, and surviving examples are variously dated 1857 and 1858.</p><p class=\"subhead\">News geography</p><p>Unlike a conventional plan, the image tilts the subcontinent into pictorial depth. Cities, routes and conflict sites can be taken in together. The format belongs as much to illustrated news and wall display as to formal cartography.</p><p class=\"subhead\">The uprising as spectacle</p><p>Marking the “leading seats of insurrection” gives the sheet an urgent topical function. It helps a distant metropolitan audience organise unfamiliar names and reports, but it also packages violence and political crisis as a consumable panorama.</p><p class=\"subhead\">The gaze</p><p>At least five editions in 1857 and 1858 measure the appetite. The panorama sold because the names in the newspapers needed somewhere to go, and a tilted, coloured India let a household place them without learning a map. The geography underneath is borrowed from the surveys; the urgency is the sheet’s own.</p>",
+  "meta": [
+   [
+    "Date",
+    "c.1857–58"
+   ],
+   [
+    "Edition",
+    "First advertised August 1857; at least five editions followed"
+   ],
+   [
+    "Type",
+    "Colour-printed panoramic view"
+   ],
+   [
+    "Publisher",
+    "G. Abington (with W. Cornish), 4 Shoe Lane, London"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Dimensions",
+    "56 × 38 cm"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 16781.000"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/view/all/where/Bangladesh/\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ],
+   [
+    "Further reading",
+    "<a href=\"https://bostonraremaps.com/inventory/abingtons-panoramic-view-map-of-india-ca-1857/\" target=\"_blank\" rel=\"noopener noreferrer\">Boston Rare Maps</a>"
+   ]
+  ],
+  "ld": {
+   "temporalCoverage": "c.1857–58",
+   "datePublished": "1857"
+  },
+  "title_date": "c.1857–58"
+ },
+ {
+  "id": "1859__Deccan__Josenhans-Basel__Sud-Mahratta",
+  "year": 1859,
+  "approx": false,
+  "region": "Deccan",
+  "maker": "Josenhans Basel",
+  "date_label": "1859",
+  "title": "Süd Mahratta (South Maratha)",
+  "short": "Süd Mahratta (South Maratha)",
+  "byline": "Josenhans, J.; Basel Mission · 1859",
+  "brief": "A detailed German-language map of the South Maratha country from the Basel Mission’s atlas. Compiled from missionary reporting, it represents a field of religious work rather than a presidency, battlefield or commercial route.",
+  "image": {
+   "src": "img/display/1859__Deccan__Josenhans-Basel__Sud-Mahratta.jpg",
+   "alt": "Süd Mahratta (South Maratha)",
+   "width": 1800,
+   "height": 1027,
+   "dzi": "img/dzi/1859__Deccan__Josenhans-Basel__Sud-Mahratta.dzi"
+  },
+  "thumb": {
+   "alt": "Sued Mahrata. (South Maratha, India",
+   "width": 700,
+   "height": 400
+  },
+  "room": 4,
+  "deccan": [
+   {
+    "id": "satara-raj-1818",
+    "label": "The Satara raj (1818–1848)"
+   },
+   {
+    "id": "jagirdars-and-saranjams",
+    "label": "Jagirs and saranjams under the Company (1830s–1860s)"
+   },
+   {
+    "id": "satara-lapse-1848",
+    "label": "The annexation of Satara (1848)"
+   },
+   {
+    "id": "1857-in-the-deccan",
+    "label": "1857 in the Deccan (1857–1858)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The mission atlas</p><p>Inspector J. Josenhans compiled the <em>Atlas der Evangelischen Missions-Gesellschaft zu Basel</em> from reports supplied by missionaries. This second-edition sheet was engraved in Basel and published in 1859 at a substantially larger scale than general maps of India.</p><p class=\"subhead\">A locally defined field</p><p>The map’s extent follows the Mission’s operational geography. Settlements, routes and local divisions matter because they organise travel, stations and prospective congregations. Its regional focus is closer to the ground than the worldwide missionary atlas represented elsewhere in the collection.</p><p class=\"subhead\">Knowledge through presence</p><p>Missionaries generated geographic information through long residence and movement, and their map converted the country into a field of intervention, selecting what was useful to an institution seeking durable religious presence.</p><p class=\"subhead\">The gaze</p><p>The Basel Mission governed nothing, and its map is the larger-scale for it. Stations, the roads between them and the villages within reach mattered to a mission in a way they did not to an atlas publisher, so the South Maratha country is drawn at a density the general maps did not attempt. Reports from missionaries in residence made that possible; the same reports decided what was worth drawing.</p>",
+  "meta": [
+   [
+    "Author",
+    "J. Josenhans"
+   ],
+   [
+    "Date",
+    "1859"
+   ],
+   [
+    "Type",
+    "Mission atlas map"
+   ],
+   [
+    "Publisher",
+    "Evangelische Missions-Gesellschaft zu Basel"
+   ],
+   [
+    "Place",
+    "Basel"
+   ],
+   [
+    "Dimensions",
+    "25 × 46 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:750,000"
+   ],
+   [
+    "Engraver",
+    "Rudolf Gross; E. Kaufmann"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 9032.011"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/view/all/what/Religious%2BAtlas/Atlas%2BMap/where/India?sort=pub_list_no_initialsort%2Cpub_list_no_initialsort\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ],
+   [
+    "Issued by",
+    "Evangelical Missionary Society of Basel"
+   ]
+  ]
+ },
+ {
+  "id": "1866__SEAsia__Klun-Lange__Sudost-Asien",
+  "year": 1866,
+  "approx": false,
+  "region": "SEAsia",
+  "maker": "Klun Lange",
+  "date_label": "1866",
+  "title": "Südost-Asien",
+  "short": "Südost-Asien",
+  "byline": "Klun, V. F.; Lange, Henry · c.1866",
+  "brief": "A map of Southeast Asia and India’s eastern setting from an atlas designed for commercial and technical education. Geography is organised around products, communications and the requirements of trade.",
+  "image": {
+   "src": "img/display/1866__SEAsia__Klun-Lange__Sudost-Asien.jpg",
+   "alt": "Südost-Asien",
+   "width": 1800,
+   "height": 1189,
+   "dzi": "img/dzi/1866__SEAsia__Klun-Lange__Sudost-Asien.dzi"
+  },
+  "thumb": {
+   "alt": "Südost-Asien",
+   "width": 700,
+   "height": 462
+  },
+  "room": 5,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">A commercial-school atlas</p><p>V. F. Klun, a professor of geography and statistics, and Henry Lange prepared the atlas for commercial schools, merchants and industrial readers. The Brockhaus cartographic establishment engraved the sheet for publication by E. Ernst.</p><p class=\"subhead\">Products and connections</p><p>The map’s subject is trade as much as territory. It belongs to an atlas concerned with exports, industry, communications and commercial comparison. India appears within a broader Asian economic system rather than as the sole centre of attention.</p><p class=\"subhead\">A continental European view</p><p>The sheet shows German-speaking educational and commercial institutions treating distant regions, as British official cartography did, as systems of resources and exchange to be studied methodically.</p><p class=\"subhead\">The gaze</p><p>The intended reader was a pupil being trained for trade, and the sheet teaches accordingly. India is one entry in a syllabus of Asian markets, set beside its eastern neighbours as a source of goods and a stage on the routes between them. Nothing on the sheet asks to be admired; it asks to be learned.</p>",
+  "meta": [
+   [
+    "Author",
+    "V. F. Klun; Henry Lange"
+   ],
+   [
+    "Date",
+    "c.1866"
+   ],
+   [
+    "Type",
+    "Industrial and commercial atlas map"
+   ],
+   [
+    "Publisher",
+    "E. Ernst, Zurich"
+   ],
+   [
+    "Place",
+    "Zurich"
+   ],
+   [
+    "Dimensions",
+    "25 × 36 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:28,800,000"
+   ],
+   [
+    "Engraver",
+    "C. W. Vollrath"
+   ],
+   [
+    "Prepared at",
+    "F. A. Brockhaus"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 14742.007"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~380726~90146631%3ASudost-Asien-?sort=Pub_List_No_InitialSort\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ],
+  "ld": {
+   "temporalCoverage": "c.1866"
+  },
+  "title_date": "c.1866"
+ },
+ {
+  "id": "1883__India__Letts__India-11",
+  "year": 1883,
+  "approx": false,
+  "region": "India",
+  "maker": "Letts",
+  "date_label": "1883",
+  "title": "India No. 11: Statistical and General Map",
+  "short": "India No. 11: Statistical and General Map",
+  "byline": "Letts, Son &amp; Co. · 1883",
+  "brief": "Sheet 11 of the twelve-sheet general map of India in <em>Letts’s Popular Atlas</em>, combining political geography with railways, telegraphs, roads and selected economic features. India is represented as an interconnected working system.",
+  "image": {
+   "src": "img/display/1883__India__Letts__India-11.jpg",
+   "alt": "India No. 11: Statistical and General Map",
+   "width": 1800,
+   "height": 1608,
+   "dzi": "img/dzi/1883__India__Letts__India-11.dzi"
+  },
+  "thumb": {
+   "alt": "India 11",
+   "width": 700,
+   "height": 625
+  },
+  "room": 5,
+  "deccan": [
+   {
+    "id": "railway-bhor-ghat",
+    "label": "The railway climbs the ghats (1853–1863)"
+   },
+   {
+    "id": "salar-jang-hyderabad",
+    "label": "Salar Jang remakes Hyderabad (1853–1875, ministry to 1883)"
+   },
+   {
+    "id": "mysore-rendition-question",
+    "label": "The Mysore question (1867, rendition 1881)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The popular atlas sheet</p><p>Published by Letts, Son & Co. in 1883, the sheet is one of twelve that together form the general map of India in the firm’s <em>Popular Atlas</em>, at thirty-five miles to the inch. Its crowded content was a selling point: one sheet promised political reference, transport information and statistical or economic detail together.</p><p class=\"subhead\">Infrastructure as geography</p><p>Rail and telegraph lines, roads, ports, lighthouses and selected products or land uses make the imperial network visible. The map is concerned less with a single thematic argument than with the accumulated apparatus through which the subcontinent functioned.</p><p class=\"subhead\">The colony as system</p><p>By the late nineteenth century an atlas reader expected communications and productive capacity alongside borders and principal towns. The country is visualised as an economy joined by engineered lines.</p><p class=\"subhead\">The gaze</p><p>Sheet 11 makes sense only joined to its eleven companions, and the rails and wires that run off its edges are the joins. The buyer of a popular atlas was expected to assemble India for himself, sheet by sheet, along lines that engineers had already laid; the country arrives pre-connected, and the reader’s task is simply to follow the connections.</p>",
+  "meta": [
+   [
+    "Author",
+    "Letts, Son & Co."
+   ],
+   [
+    "Date",
+    "1883"
+   ],
+   [
+    "Type",
+    "Statistical and general atlas map"
+   ],
+   [
+    "Publisher",
+    "Letts, Son & Co."
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Scale",
+    "approximately 1:2,217,600"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 5371.092"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~31443~1150399%3AIndia-11-\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1893__Bombay__Bartholomew__Bombay-City-Plan",
+  "year": 1893,
+  "approx": false,
+  "region": "Bombay",
+  "maker": "Bartholomew",
+  "date_label": "1893",
+  "title": "Bombay: City Plan",
+  "short": "Bombay: City Plan",
+  "byline": "Bartholomew, John George · 1893",
+  "brief": "A detailed city plan from <em>Constable’s Hand Atlas of India</em>, showing Bombay at street and block scale. Civic buildings, police stations, parks and transport infrastructure make the administered city visible.",
+  "image": {
+   "src": "img/display/1893__Bombay__Bartholomew__Bombay-City-Plan.jpg",
+   "alt": "Bombay. Plate 40",
+   "width": 1187,
+   "height": 1800,
+   "dzi": "img/dzi/1893__Bombay__Bartholomew__Bombay-City-Plan.dzi"
+  },
+  "thumb": {
+   "alt": "Bombay. Plate 40",
+   "width": 462,
+   "height": 700
+  },
+  "room": 4,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">The city plate</p><p>Plate 40, at approximately 1:28,700, is the closest-scale object in the Bombay room and pairs with the map of the city’s wider environs that follows it.</p><p class=\"subhead\">Civic information</p><p>The plan identifies streets, blocks, parks, post and police facilities, public buildings and harbour-side infrastructure. Such detail is useful to the visitor, resident and administrator alike; the same sheet can orient movement and display institutions of government.</p><p class=\"subhead\">From island to city</p><p>Earlier maps in the room approach Bombay as anchorage or harbour. By 1893 the subject is a dense urban fabric whose internal divisions can be fixed and indexed. The map records the transformation of an island port into an imperial metropolis.</p><p class=\"subhead\">The gaze</p><p>Police stations are marked with the same care as parks. On a plan of this kind the two belong together: both are fixtures of a city governed by provision and by supervision, and the visitor who used the sheet to find a garden was also being shown where order was kept.</p>",
+  "meta": [
+   [
+    "Full title",
+    "Bombay. Plate 40"
+   ],
+   [
+    "Author",
+    "John George Bartholomew"
+   ],
+   [
+    "Date",
+    "1893"
+   ],
+   [
+    "Published in",
+    "<em>Constable’s Hand Atlas of India</em>"
+   ],
+   [
+    "Plate",
+    "40"
+   ],
+   [
+    "Type",
+    "City plan"
+   ],
+   [
+    "Publisher",
+    "Archibald Constable & Co."
+   ],
+   [
+    "Place",
+    "Westminster"
+   ],
+   [
+    "Dimensions",
+    "22 × 17 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:28,700"
+   ],
+   [
+    "Prepared at",
+    "Edinburgh Geographical Institute"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 11794.045"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~312796~90081969%3ABombay--Plate-40?sort=Pub_Date%2CPub_List_No%2CSeries_No\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1893__Bombay__Bartholomew__Bombay-and-Environs",
+  "year": 1893,
+  "approx": false,
+  "region": "Bombay",
+  "maker": "Bartholomew",
+  "date_label": "1893",
+  "title": "Bombay and Environs",
+  "short": "Bombay and Environs",
+  "byline": "Bartholomew, John George · 1893",
+  "brief": "A map of Bombay and its wider setting from <em>Constable’s Hand Atlas of India</em>. The port city is shown together with its harbour, communications and surrounding terrain, using layer colour to organise elevation.",
+  "image": {
+   "src": "img/display/1893__Bombay__Bartholomew__Bombay-and-Environs.jpg",
+   "alt": "Bombay and Environs. Plate 39",
+   "width": 1800,
+   "height": 1174,
+   "dzi": "img/dzi/1893__Bombay__Bartholomew__Bombay-and-Environs.dzi"
+  },
+  "thumb": {
+   "alt": "Bombay and environs. Plate 39",
+   "width": 700,
+   "height": 457
+  },
+  "room": 4,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">The atlas plate</p><p>Plate 39 was prepared at the Edinburgh Geographical Institute under John George Bartholomew for <em>Constable’s Hand Atlas of India</em> (1893). The atlas drew upon official and other surveys but translated them into compact, commercially published reference plates.</p><p class=\"subhead\">City and hinterland</p><p>At approximately 1:340,000, the map links Bombay to the country around it. Roads, railways, settlements, coast and relief show the metropolis as the hub of a regional transport and harbour system.</p><p class=\"subhead\">Layer-coloured relief</p><p>Elevation tinting makes physical setting analytically visible. The method belongs to Bartholomew’s modern cartographic style: colour is a coded means of distinguishing height and terrain.</p><p class=\"subhead\">The gaze</p><p>Seen at this scale the city is small and its harbour large. What the plate chiefly records is the water and the tinted ground that enclose Bombay – the approaches a ship must take, the terrain a railway must cross – so the metropolis of the preceding plate shrinks to a point from which lines radiate.</p>",
+  "meta": [
+   [
+    "Full title",
+    "Bombay and Environs. Plate 39"
+   ],
+   [
+    "Author",
+    "John George Bartholomew"
+   ],
+   [
+    "Date",
+    "1893"
+   ],
+   [
+    "Published in",
+    "<em>Constable’s Hand Atlas of India</em>"
+   ],
+   [
+    "Plate",
+    "39"
+   ],
+   [
+    "Type",
+    "Regional atlas map"
+   ],
+   [
+    "Publisher",
+    "Archibald Constable & Co."
+   ],
+   [
+    "Place",
+    "Westminster"
+   ],
+   [
+    "Dimensions",
+    "17 × 22 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:340,000"
+   ],
+   [
+    "Prepared at",
+    "Edinburgh Geographical Institute"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 11794.044"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/view/all/where/India/Bombay%2B%28Mumbai%2C%2BIndia%29/when/1893?sort=author%2Cpub_list_no\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1893__Deccan__Bartholomew__Section-X-Bombay-Berar",
+  "year": 1893,
+  "approx": false,
+  "region": "Deccan",
+  "maker": "Bartholomew",
+  "date_label": "1893",
+  "title": "Section X: Bombay and Berar",
+  "short": "Section X: Bombay and Berar",
+  "byline": "Bartholomew, John George · 1893",
+  "brief": "The western-India regional sheet from <em>Constable’s Hand Atlas of India</em>, covering Bombay and Berar and including small inset material. Survey-derived geography is condensed into a precise administrative reference map.",
+  "image": {
+   "src": "img/display/1893__Deccan__Bartholomew__Section-X-Bombay-Berar.jpg",
+   "alt": "Section X (Bombay and Berar). Plate 31",
+   "width": 1800,
+   "height": 1168,
+   "dzi": "img/dzi/1893__Deccan__Bartholomew__Section-X-Bombay-Berar.dzi"
+  },
+  "thumb": {
+   "alt": "Section X. Bombay, Berar. Plate 31",
+   "width": 700,
+   "height": 454
+  },
+  "room": 4,
+  "deccan": [
+   {
+    "id": "berar-assignment-1853",
+    "label": "The Berar assignment (21 May 1853)"
+   },
+   {
+    "id": "salar-jang-hyderabad",
+    "label": "Salar Jang remakes Hyderabad (1853–1875, ministry to 1883)"
+   },
+   {
+    "id": "cotton-boom-1861",
+    "label": "The cotton boom and bust (1861–1865)"
+   },
+   {
+    "id": "deccan-as-the-company-saw-it",
+    "label": "Coda: the Deccan as the Company saw it (1827–1893)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The atlas system</p><p>Plate 31 forms part of the atlas’s numbered sectional series, which divides India into coherent regional reference sheets.</p><p class=\"subhead\">Bombay and Berar</p><p>Administrative boundaries, settlements, routes, hachures and spot heights organise the region. Inset maps of Aden and Socotra are reminders that the geography of British India was connected to strategic stations beyond the subcontinent.</p><p class=\"subhead\">Survey condensed</p><p>The plate synthesised official and other cartographic work into the compact, consistent visual language of a late-Victorian hand atlas.</p><p class=\"subhead\">The gaze</p><p>Aden and Socotra sit in the corners of a sheet about Bombay and Berar, and the arrangement is telling. For the atlas the province is a unit of reference, so the two stations that guarded the sea route are filed under the same heading as the districts inland, and the hachured interior and the distant outposts share one numbered plate.</p>",
+  "meta": [
+   [
+    "Full title",
+    "Section X (Bombay and Berar). Plate 31"
+   ],
+   [
+    "Author",
+    "John George Bartholomew"
+   ],
+   [
+    "Date",
+    "1893"
+   ],
+   [
+    "Published in",
+    "<em>Constable’s Hand Atlas of India</em>"
+   ],
+   [
+    "Plate",
+    "31"
+   ],
+   [
+    "Type",
+    "Regional atlas map"
+   ],
+   [
+    "Publisher",
+    "Archibald Constable & Co."
+   ],
+   [
+    "Place",
+    "Westminster"
+   ],
+   [
+    "Dimensions",
+    "17 × 22 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:5,500,000"
+   ],
+   [
+    "Prepared at",
+    "Edinburgh Geographical Institute"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 11794.036"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/view/all/where/India/Bombay%2B%28Mumbai%2C%2BIndia%29/when/1893?sort=author%2Cpub_list_no\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1893__India__Bartholomew__Density-of-Population",
+  "year": 1893,
+  "approx": false,
+  "region": "India",
+  "maker": "Bartholomew",
+  "date_label": "1893",
+  "title": "Density of Population of the Indian Empire",
+  "short": "Density of Population of the Indian Empire",
+  "byline": "Bartholomew, John George · 1893",
+  "brief": "A thematic population-density map from <em>Constable’s Hand Atlas of India</em>. Administrative divisions and cities remain, but graded colour turns the subcontinent into a statistical surface.",
+  "image": {
+   "src": "img/display/1893__India__Bartholomew__Density-of-Population.jpg",
+   "alt": "Density of Population of the Indian Empire. Plate 8",
+   "width": 1800,
+   "height": 1214,
+   "dzi": "img/dzi/1893__India__Bartholomew__Density-of-Population.dzi"
+  },
+  "thumb": {
+   "alt": "Density of population of the Indian Empire. Plate 8",
+   "width": 700,
+   "height": 472
+  },
+  "room": 5,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">The thematic plate</p><p>On Plate 8 a colour key classifies density while the base map retains administrative divisions and major settlements.</p><p class=\"subhead\">Colour as quantity</p><p>The map is a choropleth: colour represents the intensity of a measured variable rather than political possession or physical relief. Millions of people are abstracted into zones that can be compared.</p><p class=\"subhead\">Statistics and government</p><p>The sheet belongs to a wider nineteenth-century culture of census, tabulation and comparative administration. The map shows how census data was made spatial: a society rendered as graded bands of colour.</p><p class=\"subhead\">The gaze</p><p>Density is a ratio, and a ratio needs a denominator. Every band on this plate depends on the boundary drawn beneath it, so census figure and administrative division are fused: a unit is coloured by its average, and whatever varies inside it disappears.</p>",
+  "meta": [
+   [
+    "Full title",
+    "Density of Population of the Indian Empire. Plate 8"
+   ],
+   [
+    "Author",
+    "John George Bartholomew"
+   ],
+   [
+    "Date",
+    "1893"
+   ],
+   [
+    "Published in",
+    "<em>Constable’s Hand Atlas of India</em>"
+   ],
+   [
+    "Plate",
+    "8"
+   ],
+   [
+    "Type",
+    "Thematic population map"
+   ],
+   [
+    "Publisher",
+    "Archibald Constable & Co."
+   ],
+   [
+    "Place",
+    "Westminster"
+   ],
+   [
+    "Dimensions",
+    "17 × 22 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:20,000,000"
+   ],
+   [
+    "Prepared at",
+    "Edinburgh Geographical Institute"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 11794.013"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/view/all/what/National%2BAtlas/Atlas%2BMap/where/India?sort=Date%2CDate\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1893__India__Bartholomew__Land-Surface-Features",
+  "year": 1893,
+  "approx": false,
+  "region": "India",
+  "maker": "Bartholomew",
+  "date_label": "1893",
+  "title": "India: Land-Surface Features",
+  "short": "India: Land-Surface Features",
+  "byline": "Bartholomew, John George · 1893",
+  "brief": "A physical-geography plate from <em>Constable’s Hand Atlas of India</em>, using coded colour to classify land-surface and vegetation features. The subcontinent is analysed as a set of natural systems.",
+  "image": {
+   "src": "img/display/1893__India__Bartholomew__Land-Surface-Features.jpg",
+   "alt": "India: Land-Surface Features. Plate 4",
+   "width": 1240,
+   "height": 1800,
+   "dzi": "img/dzi/1893__India__Bartholomew__Land-Surface-Features.dzi"
+  },
+  "thumb": {
+   "alt": "India : Land surface features. Plate 4",
+   "width": 482,
+   "height": 700
+  },
+  "room": 5,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">The physical plate</p><p>Plate 4 reduces political detail in favour of a thematic key and an inset continuation, allowing land-surface and vegetation patterns to dominate.</p><p class=\"subhead\">Nature classified</p><p>Relief, surface type and plant cover are separated from the general map and represented as their own layer of knowledge. The method reflects a scientific geography increasingly concerned with distribution, comparison and causal relation.</p><p class=\"subhead\">An atlas of layers</p><p>Viewed beside the population-density plate, the map reveals the organising ambition of the atlas. India can be decomposed into distinct thematic subjects – physical form, vegetation, people, products and administration – and reassembled through a sequence of plates.</p><p class=\"subhead\">The gaze</p><p>Whether a reader needed to know where scrub gave way to forest is doubtful; the plate exists because the scheme of the atlas required it. Once India had been split into layers, each layer had to be supplied, and the land surface was given its own key and colour so that the set would be complete.</p>",
+  "meta": [
+   [
+    "Full title",
+    "India: Land-Surface Features. Plate 4"
+   ],
+   [
+    "Author",
+    "John George Bartholomew"
+   ],
+   [
+    "Date",
+    "1893"
+   ],
+   [
+    "Published in",
+    "<em>Constable’s Hand Atlas of India</em>"
+   ],
+   [
+    "Plate",
+    "4"
+   ],
+   [
+    "Type",
+    "Thematic physical-geography map"
+   ],
+   [
+    "Publisher",
+    "Archibald Constable & Co."
+   ],
+   [
+    "Place",
+    "Westminster"
+   ],
+   [
+    "Dimensions",
+    "22 × 17 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:17,000,000"
+   ],
+   [
+    "Prepared at",
+    "Edinburgh Geographical Institute"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 11794.009"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~312760~90082005%3AIndia---Land-surface-features--Plat\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1901__India__Cram-Murray-Aaron__Historical-Map-of-British-India",
+  "year": 1901,
+  "approx": false,
+  "region": "India",
+  "maker": "Cram Murray Aaron",
+  "date_label": "1901",
+  "title": "Historical Map of British India since A.D. 1751",
+  "short": "Historical Map of British India since A.D. 1751",
+  "byline": "Clare, I. S.; G. F. Cram atlas · 1901",
+  "brief": "An American historical-atlas plate presenting British India retrospectively from 1751. Colour distinguishes European possessions and converts imperial acquisition into an ordered historical geography.",
+  "image": {
+   "src": "img/display/1901__India__Cram-Murray-Aaron__Historical-Map-of-British-India.jpg",
+   "alt": "Historical Map of British India since A.D. 1751",
+   "width": 1548,
+   "height": 1800,
+   "dzi": "img/dzi/1901__India__Cram-Murray-Aaron__Historical-Map-of-British-India.dzi"
+  },
+  "thumb": {
+   "alt": "Historical map of British India. Since A.D. 1751",
+   "width": 602,
+   "height": 700
+  },
+  "room": 5,
+  "deccan": [
+   {
+    "id": "ranade-and-the-first-histories",
+    "label": "Ranade and the first histories (1870–1900)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">Authorship and atlas</p><p>The map was compiled by the popular historian Israel Smith Clare for G. F. Cram’s world atlas, where it appeared from 1891; this impression is from the 1901 “new census edition” edited by Eugene Murray-Aaron.</p><p class=\"subhead\">History made spatial</p><p>The title selects 1751 as the beginning of its narrative frame. European possessions and the extent of British India are presented as the outcome of a historical process that can be surveyed retrospectively on one sheet.</p><p class=\"subhead\">A finished imperial story</p><p>For an American atlas reader in 1901, British domination could appear as a completed chapter of world history. The conflicts, negotiations and varied sovereignties through which it emerged are compressed into a stable coloured result.</p><p class=\"subhead\">The gaze</p><p>Dated from 1751, the plate asks its reader to begin with Europeans already present, so the story it tells has no chapter in which India is not contested between them. An American household atlas could offer British rule as something to be looked up like a treaty date, with the colours standing in for the verdict.</p>",
+  "meta": [
+   [
+    "Author",
+    "Israel Smith Clare"
+   ],
+   [
+    "Date",
+    "1901 issue (plate in use from 1891)"
+   ],
+   [
+    "Type",
+    "Historical atlas map"
+   ],
+   [
+    "Publisher",
+    "George Franklin Cram, Chicago; edited by Eugene Murray-Aaron"
+   ],
+   [
+    "Place",
+    "New York and Chicago"
+   ],
+   [
+    "Dimensions",
+    "31 × 24 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:12,000,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 1910.232"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~273952~90047207%3AHistorical-map-of-British-India--Si\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ],
+  "ld": {
+   "temporalCoverage": "1901 issue (plate in use from 1891)",
+   "publisher": {
+    "@type": "Organization",
+    "name": "George Franklin Cram; Eugene Murray-Aaron; G. F. Cram"
+   }
+  }
+ },
+ {
+  "id": "1911__Deccan__Murray-Handbook__Hampi-Ruins-of-Vijayanagar",
+  "year": 1911,
+  "approx": false,
+  "region": "Deccan",
+  "maker": "Murray Handbook",
+  "date_label": "1911",
+  "title": "Hampi: Ruins of Vijayanagar",
+  "short": "Hampi: Ruins of Vijayanagar",
+  "byline": "John Murray, <em>A Handbook for Travellers in India, Burma and Ceylon</em> · London, 1911",
+  "brief": "A coloured plan of the ruins of Vijayanagara, printed for the railway-age visitor in the eighth edition of Murray’s Indian handbook. The scale is in yards; the walls are red, the river green; and the capital that Domingos Paes had compared to Rome is laid out as a morning’s walk between temples.",
+  "image": {
+   "src": "img/display/1911__Deccan__Murray-Handbook__Hampi-Ruins-of-Vijayanagar.jpg",
+   "alt": "Hampi: Ruins of Vijayanagar",
+   "width": 1346,
+   "height": 1796
+  },
+  "thumb": {
+   "alt": "Hampi: Ruins of Vijayanagar",
+   "width": 525,
+   "height": 700
+  },
+  "room": 4,
+  "deccan": [
+   {
+    "id": "founding-of-vijayanagara-1336",
+    "label": "The founding of Vijayanagara (c. 1336–1346)"
+   },
+   {
+    "id": "hampi-virupaksha",
+    "label": "Virupaksha and the sacred centre (before 1500)"
+   },
+   {
+    "id": "vijayanagara-city",
+    "label": "Vijayanagara, the city (c. 1500)"
+   },
+   {
+    "id": "domingos-paes",
+    "label": "Domingos Paes describes Vijayanagara (c. 1520–1522)"
+   },
+   {
+    "id": "talikota-1565",
+    "label": "Talikota, 1565 (January 1565)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The handbook</p><p>John Murray’s <em>Handbook for Travellers in India, Burma and Ceylon</em> descended from the Murray Indian handbooks begun in 1859, took its combined title in 1891 and ran through editions to the 1970s, and by 1911 it was the standard English guide to the subcontinent: a thick red volume arranged by railway route, with a plan for every city and site the traveller was expected to see. Hampi was reached from Hospet on the Madras and Southern Mahratta Railway. The plan shows what the Handbook’s text walks through: the Virupaksha, here ‘Pampapatiswami’, temple and the Hampi bazaar on the river at the left; the Vitthala temple with its stone car to the north-east; the Krishna temple and Krishnapuram; the Hazara Rama temple inside the royal enclosure, with the Zenana, the Elephant Stables and the Mahanavami Dibba beside it; and the modern villages of Kamalapuram and Anegundi at the edges. The great enclosure walls, in red, thread through the whole sheet.</p><p class=\"subhead\">A city surveyed as ruins</p><p>The plan rests on government work rather than the publisher’s own. Vijayanagara had been measured by the Madras Survey in the nineteenth century and studied by the Archaeological Survey in the decade before this edition; Robert Sewell’s <em>A Forgotten Empire</em> (1900), which translated the Portuguese accounts of Paes and Nunes and carried a plan of the site, had made Hampi a place that an educated visitor was expected to know. The Handbook’s cartographer reduced that survey to what a walker needed: names, paths, the river, the walls and a bar of yards. The names are the Anglo-Indian forms of the time, ‘Talarigattu’ and ‘Achutharayaswami’, fixed by the Survey and repeated by every guide since.</p><p class=\"subhead\">Scale</p><p>This is the closest the collection comes to the ground: a scale bar of 880 yards where the Vandermaelen sheets of Room 04 manage a province and the Bartholomew plates a presidency. At this scale a map can only be of a place already known to its readers, and the place was known as a ruin. No European map in the collection shows Vijayanagara as a living city; the sixteenth-century plates of Room 01 carry ‘Bisnagar’ or ‘Narsinga’ as a name, and by the time the scale reaches a temple the empire had been gone for three and a half centuries.</p><p class=\"subhead\">The gaze</p><p>The handbook’s eye is the tourist’s, which is also the antiquary’s. It looks at the Deccan as a sequence of sites connected by railway, each with a plan, a route and a list of things to be seen; and it sees Vijayanagara, as Sewell’s title had taught it to, as a forgotten empire, something to be recovered from ruins rather than remembered from rule. The walls are drawn in red because they are the most visible thing on the ground, not because anyone still held them. The plan is the last of the collection’s Deccan maps in date and the smallest in extent, and it closes the room on the site where the Deccan timeline opens.</p>",
+  "meta": [
+   [
+    "Author",
+    "John Murray (publisher); plan after the Madras and Archaeological Surveys"
+   ],
+   [
+    "Date",
+    "1911"
+   ],
+   [
+    "Type",
+    "Guidebook site plan, colour-printed"
+   ],
+   [
+    "Publisher",
+    "John Murray"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Work",
+    "<em>A Handbook for Travellers in India, Burma and Ceylon</em>, eighth edition"
+   ],
+   [
+    "Scale",
+    "bar of 880 yards; approximately 1:20,000"
+   ],
+   [
+    "Dimensions",
+    "approximately 17 × 12 cm (page; not measured)"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://commons.wikimedia.org/wiki/File:Hampi_Ruins_of_Vijaynagar_India_Map_1911.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Wikimedia Commons</a> (public domain), scanned from the copy on the <a href=\"https://archive.org/details/handbooktravelle00john/handbooktravelle00john/page/n586/mode/1up\" target=\"_blank\" rel=\"noopener noreferrer\">Internet Archive</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1922__CentralAsia-Tibet__Hedin__Central-Asia-and-Tibet",
+  "year": 1922,
+  "approx": false,
+  "region": "CentralAsia-Tibet",
+  "maker": "Hedin",
+  "date_label": "1922",
+  "title": "General Map of Central Asia and Tibet",
+  "short": "General Map of Central Asia and Tibet",
+  "byline": "Hedin, Sven; Kjellström, Otto; Byström, H. · 1922",
+  "brief": "A general synthesis map from Sven Hedin’s multi-volume <em>Southern Tibet</em>. It gathers exploratory measurement and cartographic compilation across Central Asia and Tibet, the strategic highland beyond British India’s northern frontier.",
+  "image": {
+   "src": "img/display/1922__CentralAsia-Tibet__Hedin__Central-Asia-and-Tibet.jpg",
+   "alt": "General Map of Central Asia and Tibet",
+   "width": 1800,
+   "height": 1186,
+   "dzi": "img/dzi/1922__CentralAsia-Tibet__Hedin__Central-Asia-and-Tibet.dzi"
+  },
+  "thumb": {
+   "alt": "General Map of Central Asia and Tibet",
+   "width": 700,
+   "height": 461
+  },
+  "room": 7,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">The published synthesis</p><p>The map was produced for Hedin’s <em>Southern Tibet</em> project with cartographic work by Otto Kjellström, H. Byström and the lithographic institute of the Swedish General Staff. It condenses a much larger corpus of route surveys, observations, sketches and specialist maps into one regional overview.</p><p class=\"subhead\">Exploration and compilation</p><p>Hedin’s expeditions supplied substantial new measurements, but the general map is an institutional publication combining field observation, drafting, calculation, lithography and existing geographic knowledge.</p><p class=\"subhead\">A strategic highland</p><p>Central Asia and Tibet mattered to European science and to the strategic imagination surrounding India’s northern approaches. The sheet sits at the intersection of exploration, physical geography and the geopolitics of frontiers.</p><p class=\"subhead\">The gaze</p><p>Hedin’s name stands above those of the draughtsmen who drew the sheet, and the hierarchy of the title is the hierarchy of credit for the region. Tibet enters European geography as territory traversed by one man and calculated by others, and in 1922 that division of labour still looked natural.</p>",
+  "meta": [
+   [
+    "Author",
+    "Sven Hedin"
+   ],
+   [
+    "Contributors",
+    "Otto Kjellström; H. Byström"
+   ],
+   [
+    "Date",
+    "1922"
+   ],
+   [
+    "Published in",
+    "<em>Southern Tibet</em> (<a href=\"https://catalog.hathitrust.org/Record/001258783\" target=\"_blank\" rel=\"noopener noreferrer\">HathiTrust</a>)"
+   ],
+   [
+    "Type",
+    "Book map / regional synthesis"
+   ],
+   [
+    "Publisher",
+    "Lithographic Institute of the General Staff of the Swedish Army"
+   ],
+   [
+    "Place",
+    "Stockholm"
+   ],
+   [
+    "Dimensions",
+    "38 × 58 cm"
+   ],
+   [
+    "Scale",
+    "approximately 1:7,500,000"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 16894.005"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~376644~90142789%3AGeneral-Map-of-Central-Asia-and-Tib?sort=sortid%2Cpub_list_no%2Cseries_no%2Cseries_no\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1922__India__Survey-of-India__GTS-Index",
+  "year": 1922,
+  "approx": false,
+  "region": "India",
+  "maker": "Survey of India",
+  "date_label": "1922",
+  "title": "Index to the Great Trigonometrical Survey of India",
+  "short": "Index to the Great Trigonometrical Survey of India",
+  "byline": "Survey of India · 1922",
+  "brief": "An index map from the Survey of India’s 1921–22 report, showing the framework of the Great Trigonometrical Survey. It maps the survey system itself: series, triangulation and longitude work rather than ordinary landscape.",
+  "image": {
+   "src": "img/display/1922__India__Survey-of-India__GTS-Index.jpg",
+   "alt": "Index to the Great Trigonometrical Survey of India",
+   "width": 1800,
+   "height": 1440,
+   "dzi": "img/dzi/1922__India__Survey-of-India__GTS-Index.dzi"
+  },
+  "thumb": {
+   "alt": "GTS Index",
+   "width": 700,
+   "height": 560
+  },
+  "room": 3,
+  "deccan": [
+   {
+    "id": "lambton-gts-1802",
+    "label": "Lambton and the Great Trigonometrical Survey (10 April 1802)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">An institutional index</p><p>The scan identifies the source as the <em>Report of the Survey of India for 1921–22</em>. The map is an administrative diagram embedded in the Survey’s own annual reporting.</p><p class=\"subhead\">The network behind the map</p><p>The one-degree grid and survey symbols organise the country by the operations through which positions were established. Triangulation chains and other geodetic work appear as an infrastructure of measurement laid across the subcontinent.</p><p class=\"subhead\">From Lambton to institution</p><p>Placed at the end of the Survey Turn, the index functions as a retrospective epilogue rather than the next chronological step after the 1831 Walker map. The experimental and hazardous early triangulations have become, by 1922, a mature bureaucratic system capable of diagramming its own coverage.</p><p class=\"subhead\">The gaze</p><p>Nothing on this sheet was meant for the public; it was drawn so that the Survey could see itself. The lattice it records underlies every other modern map in the collection, and its authors evidently thought the coverage worth displaying as an achievement in its own right – the work begun under Lambton now reckoned by the one-degree square, with no surveyor’s name attached.</p>",
+  "meta": [
+   [
+    "Author",
+    "Survey of India, Government of India"
+   ],
+   [
+    "Date",
+    "1922"
+   ],
+   [
+    "Published in",
+    "<em>Report of the Survey of India for 1921–22</em>"
+   ],
+   [
+    "Type",
+    "Survey index / geodetic network map"
+   ],
+   [
+    "Rights",
+    "Public domain"
+   ],
+   [
+    "Archive identifier",
+    "Wikimedia Commons, <em>1922_Index_of_Great_Trigonometrical_Survey_of_India.jpg</em>"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://commons.wikimedia.org/wiki/File:1922_Index_of_Great_Trigonometrical_Survey_of_India.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Wikimedia Commons</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1942__India__Mercier__LInde-Newspaper-Map",
+  "year": 1942,
+  "approx": false,
+  "region": "India",
+  "maker": "Mercier",
+  "date_label": "1942",
+  "title": "L’Inde",
+  "short": "L’Inde",
+  "byline": "Jacques Mercier · c.1942",
+  "brief": "<p>A French pictorial map of India by the commercial artist Jacques Mercier, made for an illustrated wartime map series. India becomes modern current-affairs geography: a complex subcontinent compressed into an immediately legible image for the European mass public.</p>",
+  "image": {
+   "src": "img/display/1942__India__Mercier__LInde-Newspaper-Map.jpg",
+   "alt": "Jacques Mercier’s pictorial map L’Inde",
+   "width": 1800,
+   "height": 1319,
+   "dzi": "img/dzi/1942__India__Mercier__LInde-Newspaper-Map.dzi"
+  },
+  "thumb": {
+   "alt": "L’Inde. Jac Mercier. Dessinateur",
+   "width": 700,
+   "height": 513
+  },
+  "room": 7,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">The object</p>\n<p><em>L’Inde</em> was drawn by Jacques Mercier, a French commercial artist, and printed in Paris by Desfossés-Néogravure as part of an illustrated map series. The sheet is undated; internal evidence places it at about 1942.</p>\n<p class=\"subhead\">A map for the mass public</p>\n<p>This is popular journalistic cartography – a pictorial, accessible map made for readers following a distant theatre of world affairs. Its purpose is speed of comprehension. Selection, emblem and graphic hierarchy replace the slower density of the survey sheet.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Who bought this sheet matters more than who drew it. A Paris reader in 1942 was offered British India as a piece of the war’s geography, a possession whose political future was contested, reduced to emblems that could be absorbed between news pages. The survey tradition behind the earlier sheets supplies the outline; everything else has been replaced by pictures.</p>",
+  "meta": [
+   [
+    "Full title",
+    "L’Inde. Jac Mercier, dessinateur"
+   ],
+   [
+    "Author",
+    "Jacques Mercier"
+   ],
+   [
+    "Date",
+    "c.1942; estimated by source catalogue"
+   ],
+   [
+    "Type",
+    "Pictorial newspaper map"
+   ],
+   [
+    "Printer",
+    "Desfossés-Néogravure"
+   ],
+   [
+    "Place",
+    "Paris"
+   ],
+   [
+    "Dimensions",
+    "41 × 56 cm"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 15804.001"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/view/all/what/Newspaper%2BMap/\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ],
+  "ld": {
+   "temporalCoverage": "c.1942; estimated by source catalogue"
+  },
+  "title_date": "c.1942"
+ },
+ {
+  "id": "1946__India__GSGS__Pakistan-Boundaries-Partition-Plan",
+  "year": 1946,
+  "approx": false,
+  "region": "India",
+  "maker": "GSGS",
+  "date_label": "1946",
+  "title": "India Showing Civil Divisions – Boundaries of Pakistan (Case A / Case B)",
+  "short": "India Showing Civil Divisions – Boundaries of Pakistan (Case A / Case B)",
+  "byline": "Great Britain. War Office. General Staff, Geographical Section (G.S.G.S.) · 1946",
+  "brief": "<p>A Top Secret British staff map from the planning that preceded Partition – a standard <em>India Showing Civil Divisions</em> base sheet overprinted with two proposed boundary schemes for a future Pakistan. These are alternatives under examination in 1946, not the Radcliffe boundary ultimately announced in August 1947.</p>",
+  "image": {
+   "src": "img/display/1946__India__GSGS__Pakistan-Boundaries-Partition-Plan.jpg",
+   "alt": "India Showing Civil Divisions – Boundaries of Pakistan (Case A / Case B)",
+   "width": 1280,
+   "height": 1116,
+   "dzi": "img/dzi/1946__India__GSGS__Pakistan-Boundaries-Partition-Plan.dzi"
+  },
+  "thumb": {
+   "alt": "India Showing Civil Divisions – Boundaries of Pakistan (Case A / Case B)",
+   "width": 700,
+   "height": 610
+  },
+  "room": 7,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">The object</p>\n<p>The base is a standard <em>India Showing Civil Divisions</em> sheet reproduced by the Geographical Section, General Staff (G.S.G.S.), the British War Office’s mapping body, at one inch to one hundred miles. It is overprinted as “Annexure ‘A’ to JPC(46)3” and stamped TOP SECRET. A heavy line marks the “Boundaries of Pakistan in Case A,” with a dotted line for “Modifications for Case B.” The sheet belongs to classified official planning; the committee referenced as JPC is not identified on the sheet itself.</p>\n<p class=\"subhead\">A contingency, not yet a border</p>\n<p>The map sets out alternative schemes for a possible Pakistan in the north-west and north-east. The definitive Punjab and Bengal boundaries emerged from a different commission and were announced only after independence in August 1947.</p>\n<p class=\"subhead\">The gaze</p>\n<p>A line on a staff map could be moved with a pencil, and Case B exists because Case A was negotiable. Few objects in the collection show so plainly that official cartography was a form of decision-making: provinces and populations are sorted into cases, and the departing power treats the boundary as a variable in its own planning for defence, administration and settlement. The compressed timetable that followed would be borne on the ground by millions.</p>",
+  "meta": [
+   [
+    "Author",
+    "Great Britain. War Office. General Staff, Geographical Section (G.S.G.S.)"
+   ],
+   [
+    "Date",
+    "1946"
+   ],
+   [
+    "Type",
+    "Classified staff map; printed base with overprinted alternatives"
+   ],
+   [
+    "Publisher",
+    "Geographical Section, General Staff, War Office"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Scale",
+    "1:6,336,000"
+   ],
+   [
+    "Reference on sheet",
+    "Annexure “A” to JPC(46)3"
+   ]
+  ]
+ },
+ {
+  "id": "1946__Ministerio-das-Colonias__Goa-Daman-Diu",
+  "year": 1946,
+  "approx": false,
+  "region": "Goa",
+  "maker": "Ministerio das Colonias",
+  "date_label": "1946",
+  "title": "Carta demográfica do Estado da Índia – Goa, Damão and Diu",
+  "short": "Carta demográfica do Estado da Índia – Goa, Damão and Diu",
+  "byline": "Portugal, Ministério das Colónias and Junta de Investigações Coloniais · map dated 1946",
+  "brief": "<p>Three demographic maps of Goa, Daman and Diu – the remaining Portuguese enclaves in India – engraved in 1946 and published in the 1948 <em>Atlas de Portugal Ultramarino</em>. The four-century European sequence closes where it began, with Portugal, its once-vast claim reduced to a few administered coastal territories.</p>",
+  "image": {
+   "src": "img/display/1946__Ministerio-das-Colonias__Goa-Daman-Diu.jpg",
+   "alt": "Portuguese demographic maps of Goa, Daman and Diu",
+   "width": 1800,
+   "height": 1342,
+   "dzi": "img/dzi/1946__Ministerio-das-Colonias__Goa-Daman-Diu.dzi"
+  },
+  "thumb": {
+   "alt": "Carta demográfica do Estado da Índia – Distrito de Goa",
+   "width": 700,
+   "height": 522
+  },
+  "room": 7,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">The object</p>\n<p>The sheet was produced for Portugal’s Ministério das Colónias and Junta de Investigações Coloniais and engraved and printed at the Instituto Geográfico e Cadastral in Lisbon in 1946. It was published in 1948 in the <em>Atlas de Portugal Ultramarino e das Grandes Viagens Portuguesas de Descobrimento e Expansão</em>. The three maps show Goa, Damão and Diu through population, boundaries, settlements, water and physical features; the Rumsey record notes that the individual scales differ, with the principal statement approximately 1:500,000.</p>\n<p class=\"subhead\">The colonial state’s self-portrait</p>\n<p>The atlas was an intellectual production of the Portuguese colonial research apparatus – a systematic portrait of “overseas Portugal” that joined modern demographic and administrative mapping to a commemorative narrative of discovery and expansion. These sheets apply the census-and-boundary logic of the twentieth-century state to the surviving fragments of Portuguese India.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Population is the subject here, and that is the change. The 1519 royal atlas that opens the collection imagined command of an ocean; the 1946 sheet counts inhabitants and fixes boundaries around three small territories, the work of a colonial research institute rather than a court cartographer. India would become independent the following year, while Portuguese rule in the enclaves continued until 1961 – long enough for this census portrait to remain current.</p>",
+  "meta": [
+   [
+    "Author",
+    "Portugal. Ministério das Colónias; Portugal. Junta de Investigações Coloniais"
+   ],
+   [
+    "Date",
+    "1946"
+   ],
+   [
+    "Published in",
+    "1948"
+   ],
+   [
+    "Type",
+    "Demographic atlas maps; coloured lithograph"
+   ],
+   [
+    "Publisher",
+    "Instituto Geográfico e Cadastral"
+   ],
+   [
+    "Place",
+    "Lisbon"
+   ],
+   [
+    "Dimensions",
+    "25 × 34 cm together, on a larger sheet"
+   ],
+   [
+    "Scale",
+    "approximately 1:500,000; scales differ"
+   ],
+   [
+    "Archive identifier",
+    "David Rumsey List No. 14369.095"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~342697~90110812%3ACarta-demografica-do-Estado-da-Indi?sort=pub_list_no%2Cpub_list_no%2Cpub_list_no\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Collection</a>"
+   ]
+  ]
+ },
+ {
+  "id": "1947__Punjab__Home-Sphere__Punjab-Partition-Panorama",
+  "year": 1947,
+  "approx": false,
+  "region": "Punjab",
+  "maker": "Home Sphere",
+  "date_label": "1947 · Epilogue",
+  "title": "Where Pakistan and India Come Face to Face – the Punjab",
+  "short": "Where Pakistan and India Come Face to Face – the Punjab",
+  "byline": "Home, Percy (artist); The Sphere · 1947",
+  "brief": "<p>A coloured bird’s-eye panorama of the newly partitioned Punjab, drawn by Percy Home for the British weekly <em>The Sphere</em> in September 1947. It converts boundary, migration routes and sites of violence into a single dramatic prospect for metropolitan readers – the collection’s 1947 epilogue.</p>",
+  "image": {
+   "src": "img/display/1947__Punjab__Home-Sphere__Punjab-Partition-Panorama.jpg",
+   "alt": "Where Pakistan and India Come Face to Face – the Punjab",
+   "width": 1000,
+   "height": 625,
+   "dzi": "img/dzi/1947__Punjab__Home-Sphere__Punjab-Partition-Panorama.dzi"
+  },
+  "thumb": {
+   "alt": "Where Pakistan and India Come Face to Face – the Punjab",
+   "width": 700,
+   "height": 438
+  },
+  "room": 7,
+  "deccan": [],
+  "prose": "<p class=\"subhead\">The object</p>\n<p>A panoramic view drawn by the artist Percy Home and published in <em>The Sphere</em> in London on 13 September 1947, barely a month after partition and independence. It formed the cartographic element of an illustrated feature, “The Two-Way Exodus in the Punjab.” The photographs and captions surrounding the panorama on the original page are not reproduced here.</p>\n<p class=\"subhead\">A map in dramatic perspective</p>\n<p>Rather than a plan, Home adopts a low, tilted viewpoint looking north-east across the Punjab plains toward Kashmir, so the land recedes in theatrical depth. Rivers, trunk road and railway become the arteries of flight. The broken boundary separates “Pakistan Area” from “India (Hindoo &amp; Sikh Area),” while Lahore and Amritsar are labelled through communal identity and notes of violence are fixed to particular routes.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Home’s viewpoint is one no refugee had. The tilted prospect lets a reader in London take in Lahore, Amritsar and the roads between them in a single look, with the violence reduced to captions pinned to points along the route, while the people on those roads could see only the next mile. A British magazine thus made the catastrophe of a partition its own government had rushed through into an absorbing illustration. Set beside the 1946 staff map the contrast is exact: there the line was a planning variable; here its consequences are the scenery.</p>\n<p class=\"subhead\">Epilogue</p>\n<p>The formal collection ends in 1946. This image follows as an epilogue because it shows what the imperial archive generally withholds: the metropolitan act of looking at the upheaval after the line had entered lived space. The collection begins with India imagined from the deck of a ship and ends with Punjab viewed from an impossible aerial distance.</p>\n<p class=\"subhead\">Source</p>\n<p>Percy Home, panorama for “The Two-Way Exodus in the Punjab,” <em>The Sphere</em>, London, 13 September 1947, p. 330. A scan of the full page is held on Wikimedia Commons.</p>",
+  "meta": [
+   [
+    "Author",
+    "Percy Home"
+   ],
+   [
+    "Date",
+    "13 September 1947"
+   ],
+   [
+    "Edition",
+    "1947 epilogue"
+   ],
+   [
+    "Published in",
+    "<em>The Sphere</em>"
+   ],
+   [
+    "Type",
+    "Magazine panorama; bird’s-eye view"
+   ],
+   [
+    "Subject",
+    "“The Two-Way Exodus in the Punjab”"
+   ],
+   [
+    "Place",
+    "London"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://commons.wikimedia.org/wiki/File:Reporting_of_the_partition_of_Punjab,_showing_the_aftermath_of_Sikh_jathas_ravaging_from_an_aerial_perspective,_The_Sphere,_13_September_1947_(page_no._330).jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Wikimedia Commons (page 330 scan)</a>"
+   ]
+  ],
+  "ld": {
+   "temporalCoverage": "13 September 1947"
+  },
+  "title_date": "1947"
+ },
+ {
+  "id": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches",
+  "year": 1820,
+  "approx": true,
+  "region": "SouthIndia",
+  "maker": "Lambton GTS",
+  "date_label": "1808",
+  "title": "Triangulation across the Indian Peninsula",
+  "short": "Triangulation across the Indian Peninsula",
+  "byline": "William Lambton · 1808, reprinted 1811",
+  "brief": "<p>Published with William Lambton’s account of the trigonometrical operations connecting Fort St George and Mangalore, this plate turns southern India into a chain of measured triangles. It is an early visual statement of the survey system that would develop into the Great Trigonometrical Survey.</p>",
+  "image": {
+   "src": "img/display/c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.jpg",
+   "alt": "Lambton’s triangulation network across the Indian peninsula",
+   "width": 1800,
+   "height": 760,
+   "dzi": "img/dzi/c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.dzi"
+  },
+  "thumb": {
+   "alt": "Peninsula Triangulation Asiatic Researches",
+   "width": 700,
+   "height": 296
+  },
+  "room": 3,
+  "deccan": [
+   {
+    "id": "lambton-gts-1802",
+    "label": "Lambton and the Great Trigonometrical Survey (10 April 1802)"
+   }
+  ],
+  "prose": "<p class=\"subhead\">The object</p>\n<p>The plate accompanied Lambton’s “An Account of the Trigonometrical Operations in crossing the Peninsula of India, and connecting Fort St. George with Mangalore,” published in volume 10 of <em>Asiatic Researches</em> (Calcutta, 1808; London reprint, 1811). The paper reported work begun with the Madras baseline of 1802 and carried from the Coromandel coast to the Malabar coast, a measured connection of about 360 miles across the peninsula.</p>\n<p class=\"subhead\">Geometry over terrain</p>\n<p>The governing image is a network: stations joined into principal triangles, long sides checked against measured baselines, and east–west and meridional chains made to support one another. Hills and coasts matter because they provide stations and termini. The plate reduces the country to relationships among observed points.</p>\n<p class=\"subhead\">The work hidden by the line</p>\n<p>The clean geometry hides the expedition behind it: chains laid and re-laid, signal flags raised on distant hills, a half-ton theodolite hauled over the Ghats, and an establishment of Indian assistants, lascars and guides whose names the plate omits. The named European surveyor occupies the title; the labour and local knowledge on which the operation depended disappear into the finished line.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Triangles have no content. A plate whose subject is stations and the lines between them has little use for the towns, roads and boundaries that every other map here relies on to say what India is, and that absence is the claim: the country is to be known first as positions. Everything the later Survey drew would hang on lines like these, and the reader of <em>Asiatic Researches</em> was being shown the scaffold before the building.</p>",
+  "meta": [
+   [
+    "Author",
+    "William Lambton"
+   ],
+   [
+    "Date",
+    "1808 (London reprint 1811)"
+   ],
+   [
+    "Published in",
+    "<em>Asiatic Researches</em>, vol. 10"
+   ],
+   [
+    "Type",
+    "Journal plate; trigonometrical survey"
+   ],
+   [
+    "Subject",
+    "Operations connecting Fort St George and Mangalore"
+   ],
+   [
+    "Source record",
+    "<a href=\"https://commons.wikimedia.org/wiki/File:GTS_Peninsula_Asiatic_Researches.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Wikimedia Commons, <em>GTS_Peninsula_Asiatic_Researches.jpg</em> (public domain)</a>"
+   ]
+  ],
+  "ld": {
+   "temporalCoverage": "1808 (London reprint 1811)",
+   "datePublished": "1808"
+  }
+ }
+];
