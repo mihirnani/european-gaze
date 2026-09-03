@@ -3234,7 +3234,7 @@ window.GAZE_MAPS = [
    },
    {
     "id": "ahmadnagar-nizam-shahis",
-    "label": "Ahmadnagar (1490–1565)"
+    "label": "Ahmadnagar (1494–1565)"
    },
    {
     "id": "chand-bibi-1595",
@@ -5249,7 +5249,7 @@ window.GAZE_MAPS = [
   },
   "room": 7,
   "deccan": [],
-  "prose": "<p class=\"subhead\">The object</p>\n<p>The base is a standard <em>India Showing Civil Divisions</em> sheet reproduced by the Geographical Section, General Staff (G.S.G.S.), the British War Office’s mapping body, at one inch to one hundred miles. It is overprinted as “Annexure ‘A’ to JPC(46)3” and stamped TOP SECRET. A heavy line marks the “Boundaries of Pakistan in Case A,” with a dotted line for “Modifications for Case B.” The sheet belongs to classified official planning; the committee referenced as JPC is not identified on the sheet itself.</p>\n<p class=\"subhead\">A contingency, not yet a border</p>\n<p>The map sets out alternative schemes for a possible Pakistan in the north-west and north-east. The definitive Punjab and Bengal boundaries emerged from a different commission and were announced only after independence in August 1947.</p>\n<p class=\"subhead\">The gaze</p>\n<p>A line on a staff map could be moved with a pencil, and Case B exists because Case A was negotiable. Few objects in the collection show so plainly that official cartography was a form of decision-making: provinces and populations are sorted into cases, and the departing power treats the boundary as a variable in its own planning for defence, administration and settlement. The compressed timetable that followed would be borne on the ground by millions.</p>",
+  "prose": "<p class=\"subhead\">The object</p>\n<p>The base is a standard <em>India Showing Civil Divisions</em> sheet reproduced by the Geographical Section, General Staff (G.S.G.S.), the British War Office’s mapping body, at one inch to one hundred miles. It is overprinted as “Annexure ‘A’ to JPC(46)3” and stamped TOP SECRET. A heavy line marks the “Boundaries of Pakistan in Case A,” with a dotted line for “Modifications for Case B.” The sheet belongs to classified official planning: it accompanied a Top Secret report of 1946 on the economic and military implications of a Pakistan state, and was shown with that report in the British Library’s <em>Secret Maps</em> exhibition of 2025–26. The committee behind the initials JPC is not identified on the sheet itself.</p>\n<p class=\"subhead\">A contingency, not yet a border</p>\n<p>The map sets out alternative schemes for a possible Pakistan in the north-west and north-east. The definitive Punjab and Bengal boundaries emerged from a different commission and were announced only after independence in August 1947.</p>\n<p class=\"subhead\">The gaze</p>\n<p>A line on a staff map could be moved with a pencil, and Case B exists because Case A was negotiable. Few objects in the collection show so plainly that official cartography was a form of decision-making: provinces and populations are sorted into cases, and the departing power treats the boundary as a variable in its own planning for defence, administration and settlement. The compressed timetable that followed would be borne on the ground by millions.</p>",
   "meta": [
    [
     "Author",
@@ -5280,8 +5280,12 @@ window.GAZE_MAPS = [
     "Annexure “A” to JPC(46)3"
    ],
    [
+    "Repository",
+    "British Library, India Office Records (shelfmark to be confirmed)"
+   ],
+   [
     "Source record",
-    "Under identification – the archive holding this sheet is being traced, and the reference will be added here when it is confirmed."
+    "Shown in the British Library’s exhibition <em>Secret Maps</em> (24 October 2025 – 18 January 2026) as the map accompanying a Top Secret 1946 report on the economic and military implications of a Pakistan state – the JPC(46)3 to which the overprint refers. The Library’s catalogue reference will be added when confirmed."
    ]
   ]
  },
