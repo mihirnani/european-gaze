@@ -83,8 +83,9 @@ PWA = ('<link href="european-gaze.webmanifest" rel="manifest"/>'
 MASTHEAD = ('<div class="masthead"><a class="site" href="index.html">%s</a>\n'
             '<span class="yrs">%s</span>\n'
             '<span class="nav-break" aria-hidden="true"></span>\n'
-            '<a class="navlink home" href="%s/">Curiosities</a>\n'
-            '%s%s'
+            '<nav class="nav-family" aria-label="Curiosities"><a class="navlink home" href="%s/">Curiosities</a>\n'
+            '%s</nav>\n'
+            '<nav class="nav-local" aria-label="This collection">%s</nav>\n'
             '<button class="theme-toggle" id="themeBtn" type="button" aria-label="Switch to dark theme">Dark</button></div>'
             ) % (COLLECTION, TAGLINE, SITE,
                  "".join('<a class="navlink" href="%s">%s</a>\n' % (href, label) for label, href in SECTIONS),
