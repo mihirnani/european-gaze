@@ -230,6 +230,10 @@ def map_page(m, rooms, links):
         prose += ('<p class="subhead">In the Deccan timeline</p><p>%s</p>'
                   % " · ".join('<a href="%s/deccan/#%s">%s</a>' % (SITE, esc(d["id"]), d["label"])
                                for d in m["deccan"]))
+    if m.get("basalt"):
+        prose += ('<p class="subhead">In Basalt and Laterite</p><p>%s</p>'
+                  % " · ".join('<a href="%s/basalt-and-laterite/#%s">%s</a>' % (SITE, esc(d["id"]), d["label"])
+                               for d in m["basalt"]))
     rows = "\n".join("<dt>%s</dt><dd>%s</dd>" % (k, v) for k, v in m["meta"])
     if any("davidrumsey.com" in v for k, v in m["meta"]):
         rows += "\n" + RUMSEY_CREDIT

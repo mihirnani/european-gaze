@@ -1183,6 +1183,16 @@ window.GAZE_MAPS = [
     "label": "Papadu (c. 1695–1710)"
    }
   ],
+  "basalt": [
+   {
+    "id": "wajrakarur-kimberlites",
+    "label": "The kimberlites of Wajrakarur (c. 1,100 Ma)"
+   },
+   {
+    "id": "krishna-gravels",
+    "label": "The diamond gravels of the Krishna (washed to c. AD 1700)"
+   }
+  ],
   "prose": "<p class=\"subhead\">A publisher’s India</p>\n<p>Pieter van der Aa of Leiden was the most industrious map publisher of his generation, and the least original. Between 1706 and 1708 he issued the <em>Naaukeurige versameling der gedenk-waardigste zee en land-reysen</em>, a collection of voyages in twenty-eight volumes in which each narrative, old or new, received a small engraved map in a uniform style. This sheet, numbered ‘Pag. 1’ in its corner, opened the volume containing Methold. The signature ‘William Methold’ at the lower right is not a cartographer’s credit but a label: the map belongs to his text.</p>\n<p class=\"subhead\">Methold at Masulipatnam</p>\n<p>William Methold was an East India Company factor on the Coromandel coast from 1618 to 1622, based at Masulipatnam, the Qutb Shahi port through which the Company bought the painted cottons it sold in the spice islands. His <em>Relations of the Kingdome of Golchonda, and other neighbouring nations within the Gulfe of Bengala</em> was printed in the fourth edition of Samuel Purchas’s <em>Purchas his Pilgrimage</em> in 1626 and is the earliest detailed English description of the Golconda state: the sultan Muhammad Qutb Shah, the fortress and the new city of Hyderabad, the diamond mines of the Krishna valley, the coinage, the caste order of the coast and the administration of the port. The map follows the text’s horizon. ‘Golcondæ Regn.’ is given its coast from Masulipatnam to Bellum Cunda; the mines appear; and the remaining kingdoms of the title – Tenasserim, Pegu and Arakan – are the other shores of the same gulf, visited by the same Company ships.</p>\n<p class=\"subhead\">What the plate knows</p>\n<p>The interior is a century behind the date. ‘Bisnagariæ Regn.’ still fills the south, with Bisnagar and Narsinga as its cities, although Vijayanagara had been sacked in 1565 and the Aravidu line had retreated to Chandragiri before Methold wrote. ‘Decan’ and ‘Visiapour’ stand for Bijapur; ‘Magni Mogolis Imperium’ stops at the Tapti. And by 1706 Golconda itself had been a Mughal province for nineteen years. None of this is an error so much as a method: van der Aa drew what the voyages said, and the voyages were old. The vignette at the centre, a palanquin and a river boat under a palm, is the same stock scene of eastern travel that decorated his other plates.</p>\n<p class=\"subhead\">The gaze</p>\n<p>The collection’s argument is that a map records who is looking. Here two eyes are superimposed. Methold’s was a factor’s: he looked at Golconda as a market, noted what sold, what was taxed and who governed the port, and his notice of the mines is among the fullest of the early European notices of Golconda’s diamonds – Garcia da Orta, Cesare Federici and Ralph Fitch had written of the Deccan’s diamonds before him. Van der Aa’s was a bookseller’s: he looked at Methold as a property to be packaged, and gave it a map whose purpose was uniformity with the other twenty-seven volumes rather than accuracy about the Deccan. The sheet is the Dutch book trade’s view of the English Company’s view of the Qutb Shahi state – and a reminder that, in Europe, what was known about the Deccan in 1706 was often what had been known in 1620.</p>",
   "meta": [
    [
@@ -1404,6 +1414,16 @@ window.GAZE_MAPS = [
     "label": "Tarabai (1675–1761)"
    }
   ],
+  "basalt": [
+   {
+    "id": "wajrakarur-kimberlites",
+    "label": "The kimberlites of Wajrakarur (c. 1,100 Ma)"
+   },
+   {
+    "id": "krishna-gravels",
+    "label": "The diamond gravels of the Krishna (washed to c. AD 1700)"
+   }
+  ],
   "prose": "<p class=\"subhead\">The complete sheet</p>\n<p>The full title extends beyond the map itself: it promises remarks, a table of principal towns and an account of the trading posts held by the Dutch. The object is therefore designed as a combined map and reference page.</p>\n<p class=\"subhead\">The coast of the companies</p>\n<p>Konkan, Canara, Malabar, Madurai and Coromandel are the coasts along which European companies maintained ports, factories and alliances. The table converts that shoreline into an inventory of establishments. Political and cultural regions are reorganised around points of commercial access.</p>\n<p class=\"subhead\">Information as comparison</p>\n<p>The reader can move between map, remarks and table, comparing settlements and company presence. This is characteristic of the <em>Atlas Historique</em>: geography expanded into an encyclopaedic apparatus that makes distant places available for systematic consultation.</p>\n<p class=\"subhead\">On the sheet</p>\n<p>The Ghats run down the sheet as one continuous range, <em>Les Montagnes de Gatte ou Balle Gatte</em>, and the kingdoms are arranged against them: Visapour and Cucan at the top, <em>Le Royaume de Bisnagar</em> with ‘Bisnagar, la résidence du Roy’ still marked as a royal seat, Carnate, Golconde, Gingy, Tangeor and Madure, and La Côte de Malabar and La Côte de Coromandel down the two shores. The two <em>Remarques historiques</em> tell the reader that the Portuguese reached Calicut in 1498 and the Dutch followed in the 1590s, and that the peninsula’s wealth is the diamonds of Golconde and Visapour and the pearls fished in the strait of Manaar. The table at the right lists the kingdoms with their capitals and the Company’s <em>comptoirs</em> beside them. The scale bars are <em>Lieues d’Allemagne ou Danois de 15 dans un degré</em> and <em>Lieues de France ou une heure de chemin de 20 dans un degré</em> – the French league defined as an hour’s walk.</p>\n<p class=\"subhead\">The gaze</p>\n<p>The table of Dutch posts is the sheet’s real index. A reader consults the coast by establishment – which company holds what, and where – and the kingdoms of the interior appear as the hinterland of those points. Chatelain’s southern India is arranged the way a factor would arrange it.</p>",
   "meta": [
    [
@@ -1615,6 +1635,16 @@ window.GAZE_MAPS = [
    {
     "id": "carnatic-wars-arcot-1751",
     "label": "The Carnatic wars (1746–1763)"
+   }
+  ],
+  "basalt": [
+   {
+    "id": "wajrakarur-kimberlites",
+    "label": "The kimberlites of Wajrakarur (c. 1,100 Ma)"
+   },
+   {
+    "id": "krishna-gravels",
+    "label": "The diamond gravels of the Krishna (washed to c. AD 1700)"
    }
   ],
   "prose": "<p class=\"subhead\">The object</p>\n<p>The sheet is dated 1733 and belongs to the Nuremberg publishing tradition associated with Johann Baptist Homann and continued by his heirs after his death. Its Latin title – <em>Peninsula Indiae citra Gangem … Malabar &amp; Coromandel … Ceylon</em> – announces the peninsula through the two coasts best known to European trade, with Ceylon set alongside it. The Rumsey copy is a coloured engraving measuring approximately 55 by 48 centimetres, at about 1:3,000,000.</p>\n<p class=\"subhead\">Two commercial coasts</p>\n<p>The map’s conceptual axis is maritime. “Malabar” and “Coromandel” are the trading fronts by which European companies encountered the peninsula: pepper and ports on the west, textiles and settlements on the east. Inland kingdoms, rivers and towns fill the space between them, but the shape of knowledge remains strongest where ships, merchants and printed sources had travelled.</p>\n<p class=\"subhead\">Ornament as atlas argument</p>\n<p>Colour separates territories and an elaborate title cartouche converts the map into a visual commodity. The ornament tells the purchaser how to see the sheet: distant places made abundant, picturesque and available for learned inspection. The figures and emblems belong to European conventions of representing Asia rather than to neutral ethnographic description.</p>\n<p class=\"subhead\">On the sheet</p>\n<p>The cartouche says <em>secundum prototypon Del’Islianum</em> – after Delisle’s prototype – so the Nuremberg sheet is a French map re-dressed, and the dressing is what the buyer paid for: an elephant, turbaned merchants weighing bales, a European in armour seated above them with a drawn sword. Four scale bars are stacked at the right: French marine miles at twenty to the degree, German at fifteen, <em>Milliaria Indica communia Kosses dicta</em> at forty, and Malabar and Coromandel miles at ten – the kos and the local mile admitted to a European sheet beside its own units. An <em>Explicatio signorum</em> keys the coast by owner, A. Angli, D. Dani, G. Galli, H. Hollandi, P. Portugalli, and the letters follow the port names: Madraspatan et Fort S. George A., Pondichery G., Tranquebar D., Cochin H. Inland, a note beside Raolconda reports the diamond pits ‘where the purest in all the world are found’, and the kingdoms – Visapour, Golconda, Bisnagar vel Carnate, Madure, Maissour, Tanschaur, Gingi – are separated by wash.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Homann’s heirs sold the peninsula as a picture. The cartouche, the colour and the two famous coast-names promise the reader abundance, and the interior is filled rather than left honest. Set beside d’Anville’s austere sheet of nineteen years later, this is what the atlas market wanted before criticism became a selling point.</p>",
@@ -2559,6 +2589,12 @@ window.GAZE_MAPS = [
     "label": "Assaye, 1803 (23 September 1803)"
    }
   ],
+  "basalt": [
+   {
+    "id": "great-escarpment",
+    "label": "The Great Escarpment (c. 65 Ma – present)"
+   }
+  ],
   "prose": "<p class=\"subhead\">A third edition, not a different map</p>\n<p>The full title retains the original date MDCCXCII but the imprint identifies this as the third edition, printed on 10 May 1800. Benjamin Baker revised the two sheets. It is a later state of the map shown in the 1792–93 issue.</p>\n<p class=\"subhead\">After Seringapatam</p>\n<p>Between the first issue and this edition, the Fourth Anglo-Mysore War ended with the fall of Seringapatam in 1799 and a major redistribution of territory. The map’s continued publication shows how survey geography born amid conflict settled rapidly into standard atlas knowledge.</p>\n<p class=\"subhead\">On the sheet</p>\n<p>The sheet dates its own boundaries. Along the edges of the coloured territories the engraver has printed ‘1792’ and ‘1799’ – the years of the two partition treaties that dismembered Mysore – so that a reader can see which line was drawn after the Third war and which after Seringapatam. The Explanation at the foot gives the colours: the British dominions red, the Rajah of Mysore purple, the Mahratta dominions green, the Nizam’s yellow, Travancore blue, with ‘the acquisitions of Great Britain and her allies the Nizam and the Mahrattas by the partition treaties in 1792 and 1799’ distinguished in the same tints. Mysore is the small purple heart of the peninsula and the red around it is the Company’s. A note explains the ‘Ghauts or Passes through the Western Chain of Mountains’, the Laccadives are said to belong to the ‘Bebee or Queen of Cannanore’, and the compilation credits Sir Archibald Campbell’s papers and the surveys of Kelly, Pringle and Allan.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Nothing on the sheet announces the fall of Seringapatam. The date in the title is still MDCCXCII, and only the imprint records that Baker reworked the plates after the war. Survey knowledge produced in a campaign is passed on here in the quietest possible form, as a revised edition inside a general atlas.</p>",
   "meta": [
    [
@@ -2735,6 +2771,12 @@ window.GAZE_MAPS = [
     "label": "Lambton and the Great Trigonometrical Survey (10 April 1802)"
    }
   ],
+  "basalt": [
+   {
+    "id": "reading-the-rock",
+    "label": "Reading the rock (1819–1900)"
+   }
+  ],
   "prose": "<p class=\"subhead\">The object</p>\n<p>The plate accompanied Lambton’s “An Account of the Trigonometrical Operations in crossing the Peninsula of India, and connecting Fort St. George with Mangalore,” published in volume 10 of <em>Asiatic Researches</em> (Calcutta, 1808; London reprint, 1811). The paper reported work begun with the Madras baseline of 1802 and carried from the Coromandel coast to the Malabar coast, a measured connection of about 360 miles across the peninsula.</p>\n<p class=\"subhead\">Geometry over terrain</p>\n<p>The governing image is a network: stations joined into principal triangles, long sides checked against measured baselines, and east–west and meridional chains made to support one another. Hills and coasts matter because they provide stations and termini. The plate reduces the country to relationships among observed points.</p>\n<p class=\"subhead\">The work hidden by the line</p>\n<p>The clean geometry hides the expedition behind it: chains laid and re-laid, signal flags raised on distant hills, a half-ton theodolite hauled over the Ghats, and an establishment of Indian assistants, lascars and guides whose names the plate omits. The named European surveyor occupies the title; the labour and local knowledge on which the operation depended disappear into the finished line.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Triangles have no content. A plate whose subject is stations and the lines between them has little use for the towns, roads and boundaries that every other map here relies on to say what India is, and that absence is the claim: the country is to be known first as positions. Everything the later Survey drew would hang on lines like these, and the reader of <em>Asiatic Researches</em> was being shown the scaffold before the building.</p>",
   "meta": [
    [
@@ -2792,6 +2834,12 @@ window.GAZE_MAPS = [
   },
   "room": 3,
   "deccan": [],
+  "basalt": [
+   {
+    "id": "great-escarpment",
+    "label": "The Great Escarpment (c. 65 Ma – present)"
+   }
+  ],
   "prose": "<p class=\"subhead\">A separately issued map</p>\n<p>Arrowsmith published this large, separately issued map in 1809 rather than as an ordinary atlas plate. The three sheets bring together recent military and regional surveys of the Company’s Malabar province, covering much of northern present-day Kerala at a density previously unavailable in print.</p>\n<p class=\"subhead\">Conquest, resistance and survey</p>\n<p>The province had been assembled after the Anglo-Mysore wars and remained a site of resistance to Company rule. Roads, settlements, rivers, passes and administrative divisions therefore had immediate practical value. The map served the army and civil service and later supplied material for Arrowsmith’s general map of India.</p>\n<p class=\"subhead\">Compilation and hidden labour</p>\n<p>‘Drawn from various surveys’ is both a claim of authority and an admission of collective production. The finished sheet carries Arrowsmith’s name, but its information was generated by officers, survey parties, guides, local officials and informants working across the region.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Separate issue is itself a signal. A map of one province, at this scale and sold on its own, had a particular buyer in mind: the officer or collector who needed the passes and taluks of Malabar rather than a view of India. Its generality is that of the survey grid, which renders roads, rivers and divisions in the same notation whatever the administration intends to do with them.</p>",
   "meta": [
    [
@@ -3219,6 +3267,12 @@ window.GAZE_MAPS = [
    {
     "id": "deccan-as-the-company-saw-it",
     "label": "Coda: the Deccan as the Company saw it (1827–1893)"
+   }
+  ],
+  "basalt": [
+   {
+    "id": "east-flowing-rivers",
+    "label": "Rivers that turn their backs on the sea (c. 60 Ma – present)"
    }
   ],
   "prose": "<p class=\"subhead\">A universal scale</p>\n<p>Vandermaelen’s six-part <em>Atlas Universel</em> mapped the entire world at the common scale of 1:1,641,836. Its sheets could theoretically be assembled into a globe almost eight metres in diameter. This plate, Asia no. 102, covers the Bijapur region and was lithographed by Henri Ode; a geographical note by A. Delavault continues across adjoining sheets.</p>\n<p class=\"subhead\">The grid determines the region</p>\n<p>The boundaries of the sheet are produced by the atlas grid rather than by any kingdom, province or natural region. Bijapur is therefore encountered as a segment of a continuous mathematical surface, designed to join seamlessly to neighbouring segments.</p>\n<p class=\"subhead\">Lithography and systematic geography</p>\n<p>The atlas was also among the earliest monumental cartographic projects produced by lithography. The method supported an ambitious programme of standardised reproduction: different places, however unequal the underlying information, could be issued in an identical visual and dimensional system.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Uniform scale is a promise about evidence that the evidence could not always keep. Bijapur at 1:1,641,836 occupies as much paper as any sheet of Europe and is drawn in the same conventions, whatever the quality of the sources behind it. Delavault’s note running across the sheet edge is the one place where the tile admits that it belongs to a text as well as a grid.</p>",
@@ -4864,6 +4918,16 @@ window.GAZE_MAPS = [
   },
   "room": 5,
   "deccan": [],
+  "basalt": [
+   {
+    "id": "regur-black-soil",
+    "label": "Regur, the black cotton soil (Quaternary)"
+   },
+   {
+    "id": "laterite",
+    "label": "Laterite (Cenozoic; named 1807)"
+   }
+  ],
   "prose": "<p class=\"subhead\">The physical plate</p>\n<p>Plate 4 reduces political detail in favour of a thematic key and an inset continuation, allowing land-surface and vegetation patterns to dominate.</p>\n<p class=\"subhead\">Nature classified</p>\n<p>Relief, surface type and plant cover are separated from the general map and represented as their own layer of knowledge. The method reflects a scientific geography increasingly concerned with distribution, comparison and causal relation.</p>\n<p class=\"subhead\">An atlas of layers</p>\n<p>Viewed beside the population-density plate, the map reveals the organising ambition of the atlas. India can be decomposed into distinct thematic subjects – physical form, vegetation, people, products and administration – and reassembled through a sequence of plates.</p>\n<p class=\"subhead\">On the sheet</p>\n<p>The key has six classes – Forests, Bush and Small Wood, Cultivated Lands, Grassland, Steppes, Sandy Deserts and Barren Lands – and on the map the Western Ghats appear as a single green thread from the Gulf of Cambay to Cape Comorin, forest on the scarp and a paler cultivated wash on the plateau behind it. The Thar is pink, the Sundarbans brown, and Burma and Assam are carried on an inset in the lower right. The plate is numbered 4, near the front of the atlas, before the political sections begin.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Whether a reader needed to know where scrub gave way to forest is doubtful; the plate exists because the scheme of the atlas required it. Once India had been split into layers, each layer had to be supplied, and the land surface was given its own key and colour so that the set would be complete.</p>",
   "meta": [
    [
@@ -5042,6 +5106,12 @@ window.GAZE_MAPS = [
     "label": "Talikota, 1565 (January 1565)"
    }
   ],
+  "basalt": [
+   {
+    "id": "stones-of-the-forts",
+    "label": "The stones of the forts (c. AD 1100–1700)"
+   }
+  ],
   "prose": "<p class=\"subhead\">The handbook</p>\n<p>John Murray’s <em>Handbook for Travellers in India, Burma and Ceylon</em> descended from the Murray Indian handbooks begun in 1859, took its combined title in 1891 and ran through editions to the 1970s, and by 1911 it was the standard English guide to the subcontinent: a thick red volume arranged by railway route, with a plan for every city and site the traveller was expected to see. Hampi was reached from Hospet on the Madras and Southern Mahratta Railway. The plan shows what the Handbook’s text walks through: the Virupaksha, here ‘Pampapatiswami’, temple and the Hampi bazaar on the river at the left; the Vitthala temple with its stone car to the north-east; the Krishna temple and Krishnapuram; the Hazara Rama temple inside the royal enclosure, with the Zenana, the Elephant Stables and the Mahanavami Dibba beside it; and the modern villages of Kamalapuram and Anegundi at the edges. The great enclosure walls, in red, thread through the whole sheet.</p>\n<p class=\"subhead\">A city surveyed as ruins</p>\n<p>The plan rests on government work rather than the publisher’s own. Vijayanagara had been measured by the Madras Survey in the nineteenth century and studied by the Archaeological Survey in the decade before this edition; Robert Sewell’s <em>A Forgotten Empire</em> (1900), which translated the Portuguese accounts of Paes and Nunes and carried a plan of the site, had made Hampi a place that an educated visitor was expected to know. The Handbook’s cartographer reduced that survey to what a walker needed: names, paths, the river, the walls and a bar of yards. The names are the Anglo-Indian forms of the time, ‘Talarigattu’ and ‘Achutharayaswami’, fixed by the Survey and repeated by every guide since.</p>\n<p class=\"subhead\">Scale</p>\n<p>This is the closest the collection comes to the ground: a scale bar of 880 yards where the Vandermaelen sheets of Room 04 manage a province and the Bartholomew plates a presidency. At this scale a map can only be of a place already known to its readers, and the place was known as a ruin. No European map in the collection shows Vijayanagara as a living city; the sixteenth-century plates of Room 01 carry ‘Bisnagar’ or ‘Narsinga’ as a name, and by the time the scale reaches a temple the empire had been gone for three and a half centuries.</p>\n<p class=\"subhead\">The gaze</p>\n<p>The handbook’s eye is the tourist’s, which is also the antiquary’s. It looks at the Deccan as a sequence of sites connected by railway, each with a plan, a route and a list of things to be seen; and it sees Vijayanagara, as Sewell’s title had taught it to, as a forgotten empire, something to be recovered from ruins rather than remembered from rule. The walls are drawn in red because they are the most visible thing on the ground, not because anyone still held them. The plan is the last of the collection’s Deccan maps in date and the smallest in extent, and it closes the room on the site where the Deccan timeline opens.</p>",
   "meta": [
    [
@@ -5183,6 +5253,12 @@ window.GAZE_MAPS = [
    {
     "id": "lambton-gts-1802",
     "label": "Lambton and the Great Trigonometrical Survey (10 April 1802)"
+   }
+  ],
+  "basalt": [
+   {
+    "id": "reading-the-rock",
+    "label": "Reading the rock (1819–1900)"
    }
   ],
   "prose": "<p class=\"subhead\">An institutional index</p>\n<p>The scan identifies the source as the <em>Report of the Survey of India for 1921–22</em>. The map is an administrative diagram embedded in the Survey’s own annual reporting.</p>\n<p class=\"subhead\">The network behind the map</p>\n<p>The one-degree grid and survey symbols organise the country by the operations through which positions were established. Triangulation chains and other geodetic work appear as an infrastructure of measurement laid across the subcontinent.</p>\n<p class=\"subhead\">From Lambton to institution</p>\n<p>Placed at the end of the Survey Turn, the index functions as a retrospective epilogue rather than the next chronological step after the 1831 Walker map. The experimental and hazardous early triangulations have become, by 1922, a mature bureaucratic system capable of diagramming its own coverage.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Nothing on this sheet was meant for the public; it was drawn so that the Survey could see itself. The lattice it records underlies every other modern map in the collection, and its authors evidently thought the coverage worth displaying as an achievement in its own right – the work begun under Lambton now reckoned by the one-degree square, with no surveyor’s name attached.</p>",
