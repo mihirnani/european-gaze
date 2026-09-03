@@ -24,6 +24,11 @@ Every Rumsey image carries the credit its CC BY-NC-SA 3.0 licence asks for; the
 build adds that row from the source record. Type is self-hosted from
 `/assets/fonts/` in the sister repository, so no page calls a third party.
 
+## Adding a map
+
+The step-by-step recipe (images, tiles, the record, the room, the sitemap, the service
+worker) is in `mihirnani.github.io/MAINTAINING.md`, with the other routines for the site.
+
 ## Building
 
     python3 build.py
