@@ -113,14 +113,6 @@ THEME_SCRIPT = """<script>(function(){
   sync();
 })();</script>"""
 
-SW_SCRIPT = """<script>if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function () {
-    navigator.serviceWorker.register('european-gaze-sw.js', {scope:'./'}).catch(function(error){
-      console.error('Service worker registration failed:', error);
-    });
-  });
-}</script>"""
-
 ARROW_SCRIPT = """<script>(function(){var p=document.querySelector('.mapnav .prev'),n=document.querySelector('.mapnav .next');document.addEventListener('keydown',function(e){var active=document.activeElement;if(active && active!==document.body && active!==document.documentElement) return;if(e.key==='ArrowLeft'&&p)location.href=p.getAttribute('href');if(e.key==='ArrowRight'&&n)location.href=n.getAttribute('href');});})();</script>"""
 
 VIEWER = '<script src="js/openseadragon.min.js"></script><script src="js/plate-viewer.js"></script>'
@@ -142,7 +134,7 @@ def head(page_title, desc, url, og_image, card="summary_large_image", og_type="a
 
 def page(rel, head_html, body_html, viewer=False):
     doc = ("<!DOCTYPE html>\n<html lang=\"en\">" + head_html + "<body>\n" + MASTHEAD + "\n" + body_html + "\n"
-           + FOOTER + "\n" + MAIL_SCRIPT + "\n" + THEME_SCRIPT + SW_SCRIPT
+           + FOOTER + "\n" + MAIL_SCRIPT + "\n" + THEME_SCRIPT
            + (VIEWER if viewer else "") + "</body></html>\n")
     open(os.path.join(ROOT, rel), "w", encoding="utf-8").write(doc)
     return rel
