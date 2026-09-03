@@ -450,7 +450,7 @@ window.GAZE_PLACES = [
   ],
   "maps": [
    {
-    "file": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
+    "file": "1808__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
     "title": "Triangulation across the Indian Peninsula",
     "year": 1808,
     "date": "1808 (London reprint 1811)",
@@ -990,7 +990,7 @@ window.GAZE_PLACES = [
   ],
   "maps": [
    {
-    "file": "1595__India-Arabia__Linschoten__Southwest-Asia.html",
+    "file": "1596__India-Arabia__Linschoten__Southwest-Asia.html",
     "title": "South-west Asia: Arabia, the Red Sea and India",
     "year": 1596,
     "date": "1596",
@@ -1881,7 +1881,7 @@ window.GAZE_PLACES = [
     ]
    },
    {
-    "file": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
+    "file": "1808__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
     "title": "Triangulation across the Indian Peninsula",
     "year": 1808,
     "date": "1808 (London reprint 1811)",
@@ -3463,7 +3463,7 @@ window.GAZE_PLACES = [
     "matched": []
    },
    {
-    "file": "1595__India-Arabia__Linschoten__Southwest-Asia.html",
+    "file": "1596__India-Arabia__Linschoten__Southwest-Asia.html",
     "title": "South-west Asia: Arabia, the Red Sea and India",
     "year": 1596,
     "date": "1596",
@@ -5121,7 +5121,7 @@ window.GAZE_PLACES = [
     "matched": []
    },
    {
-    "file": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
+    "file": "1808__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
     "title": "Triangulation across the Indian Peninsula",
     "year": 1808,
     "date": "1808 (London reprint 1811)",
@@ -5506,7 +5506,7 @@ window.GAZE_PLACES = [
     ]
    },
    {
-    "file": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
+    "file": "1808__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
     "title": "Triangulation across the Indian Peninsula",
     "year": 1808,
     "date": "1808 (London reprint 1811)",
@@ -5698,7 +5698,7 @@ window.GAZE_PLACES = [
     "matched": []
    },
    {
-    "file": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
+    "file": "1808__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
     "title": "Triangulation across the Indian Peninsula",
     "year": 1808,
     "date": "1808 (London reprint 1811)",
@@ -5986,7 +5986,7 @@ window.GAZE_PLACES = [
     "matched": []
    },
    {
-    "file": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
+    "file": "1808__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
     "title": "Triangulation across the Indian Peninsula",
     "year": 1808,
     "date": "1808 (London reprint 1811)",
@@ -6716,7 +6716,7 @@ window.GAZE_PLACES = [
     "matched": []
    },
    {
-    "file": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
+    "file": "1808__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
     "title": "Triangulation across the Indian Peninsula",
     "year": 1808,
     "date": "1808 (London reprint 1811)",
@@ -7357,7 +7357,7 @@ window.GAZE_PLACES = [
     ]
    },
    {
-    "file": "c1820__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
+    "file": "1808__SouthIndia__Lambton-GTS__Peninsula-Triangulation-Asiatic-Researches.html",
     "title": "Triangulation across the Indian Peninsula",
     "year": 1808,
     "date": "1808 (London reprint 1811)",

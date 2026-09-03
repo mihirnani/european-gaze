@@ -126,6 +126,11 @@ ARROW_SCRIPT = """<script>(function(){var p=document.querySelector('.mapnav .pre
 
 VIEWER = '<script src="js/openseadragon.min.js"></script><script src="js/plate-viewer.js"></script>'
 
+# The attribution the Rumsey licence asks for, on every page whose image is theirs.
+RUMSEY_CREDIT = ('<dt>Image</dt><dd>David Rumsey Map Collection, David Rumsey Map Center, Stanford University '
+                 'Libraries · <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" '
+                 'rel="noopener noreferrer">CC BY-NC-SA 3.0</a></dd>')
+
 def head(page_title, desc, url, og_image, card="summary_large_image", og_type="article", extra=""):
     return """<head>
 <meta charset="utf-8"/><meta content="width=device-width,initial-scale=1.0" name="viewport"/><meta content="{desc}" name="description"/>
@@ -234,6 +239,8 @@ def map_page(m, rooms, links):
                   % " · ".join('<a href="%s/deccan/#%s">%s</a>' % (SITE, esc(d["id"]), d["label"])
                                for d in m["deccan"]))
     rows = "\n".join("<dt>%s</dt><dd>%s</dd>" % (k, v) for k, v in m["meta"])
+    if any("davidrumsey.com" in v for k, v in m["meta"]):
+        rows += "\n" + RUMSEY_CREDIT
     ld = json.dumps(structured(m), ensure_ascii=False, separators=(",", ":"))
     body = """<div class="wrap">
 <p><a class="back" href="%s">← %s</a></p>
@@ -264,9 +271,9 @@ def room_page(r, rooms, by_id):
         m = by_id[mid]
         plates.append('<a class="plate" href="%s.html"><span class="mat"><img alt="%s" loading="lazy" '
                       'src="img/thumb/%s.jpg" width="%d" height="%d"/></span><span class="cap">'
-                      '<span class="t">%s</span><span class="d">%s</span></span></a>'
+                      '<span class="t">%s</span><span class="by">%s</span><span class="d">%s</span></span></a>'
                       % (mid, esc(m["thumb"]["alt"]), mid, m["thumb"]["width"], m["thumb"]["height"],
-                         m["short"], m["date_label"]))
+                         m["short"], m["byline"], m["date_label"]))
     prev = (rooms[r["n"] - 1]["file"], "← Previous room", room_title(r["n"] - 1, rooms)) if r["n"] - 1 in rooms else None
     nxt = (rooms[r["n"] + 1]["file"], "Next room →", room_title(r["n"] + 1, rooms)) if r["n"] + 1 in rooms else None
     page_title = "%s – %s" % (r["file"][3:-5].replace("-", " "), COLLECTION)
