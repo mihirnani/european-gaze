@@ -15,6 +15,15 @@ These two files are the collection. Everything else about a map page — the hea
 the structured data, the masthead, the previous/next walk through the rooms, the
 footer, the scripts — is derived.
 
+## Images and type
+
+`img/display` and `img/thumb` are what the pages show; `img/dzi` holds the deep-zoom
+tiles. The full-resolution masters live in `img/` on the maintainer's machine only
+and are ignored by git (the deployed site has to stay under GitHub Pages' 1 GB).
+Every Rumsey image carries the credit its CC BY-NC-SA 3.0 licence asks for; the
+build adds that row from the source record. Type is self-hosted from
+`/assets/fonts/` in the sister repository, so no page calls a third party.
+
 ## Building
 
     python3 build.py

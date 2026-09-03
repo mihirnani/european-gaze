@@ -84,8 +84,7 @@ MASTHEAD = ('<div class="masthead"><a class="site" href="index.html">%s</a>\n'
             '<span class="nav-break" aria-hidden="true"></span>\n'
             '<a class="navlink home" href="%s/">Curiosities</a>\n'
             '%s%s'
-            '<button aria-label="Toggle light or dark theme" aria-pressed="true" class="theme-toggle" '
-            'id="themeBtn" type="button">Theme</button></div>'
+            '<button class="theme-toggle" id="themeBtn" type="button" aria-label="Switch to dark theme">Dark</button></div>'
             ) % (COLLECTION, TAGLINE, SITE,
                  "".join('<a class="navlink" href="%s">%s</a>\n' % (href, label) for label, href in SECTIONS),
                  "".join('<a class="navlink" href="%s">%s</a>\n' % (href, label) for label, href in LOCAL_NAV))
@@ -103,7 +102,7 @@ THEME_SCRIPT = """<script>(function(){
   function sync(){
     var dark=document.documentElement.getAttribute('data-theme')==='dark';
     b.textContent=dark?'Light':'Dark';
-    b.setAttribute('aria-pressed',String(dark));
+    b.setAttribute('aria-label',dark?'Switch to light theme':'Switch to dark theme');
   }
   b.addEventListener('click',function(){
     var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
