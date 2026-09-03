@@ -5,13 +5,18 @@ collection of European maps of India, 1519–1946, arranged in seven rooms.
 
 ## Where the content lives
 
+The text is Markdown in the `curiosities-text` repository beside this one:
+`maps/<id>.md`, one per map (catalogue metadata in the front matter, then the
+brief and the commentary), and `maps/rooms/`, the seven rooms with their
+introductions and hanging order. The build assembles them into
+
     data/maps.js     one record per map: title, byline, brief, prose, the
                      catalogue metadata as an ordered list of rows, the image,
                      the links into the Deccan timeline, and the room it hangs in
     data/rooms.js    the seven rooms, their intros, and the maps in each, in
                      hanging order
 
-These two files are the collection. Everything else about a map page — the head,
+which are generated and not edited by hand. Everything else about a map page — the head,
 the structured data, the masthead, the previous/next walk through the rooms, the
 footer, the scripts — is derived.
 
@@ -37,9 +42,9 @@ writes all 68 map pages and all 7 room pages, and refreshes the shared masthead
 on the four hand-written pages (`index`, `reading`, `places`, `about`), which
 keep their own heads, scripts and bodies.
 
-**The map and room pages are generated. Do not edit them.** To change a map, edit
-its record in `data/maps.js` and run the build. To add a map, add a record and
-list its id in the right room in `data/rooms.js`.
+**The map and room pages and the data files are generated. Do not edit them.** To
+change a map, edit `../curiosities-text/maps/<id>.md` and run the build. To add a
+map, add a file there and list its id in the right room in `maps/rooms/`.
 
 `tools/extract.py` is the one-time script that lifted the data out of the pages
 in August 2026, kept for provenance; it is not run again.

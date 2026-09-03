@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """The European Gaze on India — page builder.  Run from anywhere:  python3 build.py
 
-The collection's content lives in data/maps.js and data/rooms.js, in the same
-shape as the other Curiosities collections' entries.js: JSON behind a
-`window.NAME =` wrapper, so a browser can also read it as a script.  This script
-writes every map page and every room page from that data.
+The collection's text lives as Markdown in the curiosities-text repository beside
+this one (maps/<id>.md and maps/rooms/), and data/maps.js and data/rooms.js are
+built from it – JSON behind a `window.NAME =` wrapper, so a browser can also read
+it as a script.  This script assembles that data and writes every map page and
+every room page from it.
 
     data/maps.js    one record per map: title, byline, brief, prose, the
                     catalogue metadata as an ordered list of rows, the image,
@@ -299,7 +300,16 @@ def refresh_masthead(rel):
 
 HAND_WRITTEN = ["index.html", "reading.html", "places.html", "about.html"]
 
+def assemble():
+    """The data files are built from the Markdown in ../curiosities-text when it is there."""
+    script = os.path.join(ROOT, "..", "curiosities-text", "tools", "assemble.py")
+    if os.path.exists(script):
+        import subprocess
+        if subprocess.run([sys.executable, script, "gaze"]).returncode:
+            raise SystemExit("curiosities-text: assemble failed")
+
 def main():
+    assemble()
     maps = load("maps.js", "GAZE_MAPS")
     rooms = {r["n"]: r for r in load("rooms.js", "GAZE_ROOMS")}
     by_id = {m["id"]: m for m in maps}
