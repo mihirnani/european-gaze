@@ -92,7 +92,7 @@ MASTHEAD = ('<div class="masthead"><a class="site" href="index.html">%s</a>\n'
                  "".join('<a class="navlink" href="%s">%s</a>\n' % (href, label) for label, href in SECTIONS),
                  "".join('<a class="navlink" href="%s">%s</a>\n' % (href, label) for label, href in LOCAL_NAV))
 
-FOOTER = ('<footer><span class="foot-line">Part of <a href="%s/">A Fragmented Peninsula</a>. A non-commercial study '
+FOOTER = ('<footer><span class="foot-line">Part of <a href="%s/"><em>A Fragmented Peninsula</em></a>. A non-commercial study '
           'collection.</span> <span class="foot-line">Errors may be pointed out by writing to '
           '<a class="mail" href="#" data-u="mihir" data-d="naniwadekar.in">mihir [at] naniwadekar [dot] in</a>.'
           '</span></footer>') % SITE
