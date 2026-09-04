@@ -4,7 +4,7 @@
 /* ---- LIGHT (paper) is the default ---- */
 :root, [data-theme="light"]{
   --ink:#ece3d1; --ink-2:#e4d9c2; --panel:rgba(70,50,25,.05);
-  --paper:#2b2420; --paper-dim:#4d4338; --muted:#8a7c66;
+  --paper:#2b2420; --paper-dim:#4d4338; --muted:#6b5f4d;   /* 4.9:1 on --ink; the old #8a7c66 was 3.2:1 */
   --accent:#9e5b2b; --accent-bright:#b3683a; --line:rgba(60,45,25,.18);
   --mat:#fbf6ea; --glow:#f6efdf; --bar:rgba(236,227,209,.8);
   --link-hover:#7c441e; --shadow:rgba(60,40,15,.18);
