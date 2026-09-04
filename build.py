@@ -23,7 +23,7 @@ this script only refreshes their head, masthead and footer.
 
 No dependencies beyond the standard library.
 """
-import html, json, os, re, sys
+import html, json, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = "https://naniwadekar.com"
@@ -309,9 +309,32 @@ def assemble():
     """The data files are built from the Markdown in ../curiosities-text when it is there."""
     script = os.path.join(ROOT, "..", "curiosities-text", "tools", "assemble.py")
     if os.path.exists(script):
-        import subprocess
         if subprocess.run([sys.executable, script, "gaze"]).returncode:
             raise SystemExit("curiosities-text: assemble failed")
+
+def git_date(*rels):
+    """The date of the last commit that touched any of these files, YYYY-MM-DD, or None.
+    The sitemap's lastmod, so that a rebuild does not claim every page changed today."""
+    try:
+        out = subprocess.run(["git", "log", "-1", "--format=%cs", "--"] + list(rels),
+                             cwd=ROOT, capture_output=True, text=True, timeout=30)
+        d = out.stdout.strip()
+        return d if re.match(r"^\d{4}-\d{2}-\d{2}$", d) else None
+    except Exception:
+        return None
+
+def write_sitemap(maps, rooms):
+    """sitemap.xml: the hand-written pages, the rooms, the maps.  A generated page's lastmod is
+    the last commit that changed it; a hand-written page's, the last commit to it or the build."""
+    rels = HAND_WRITTEN + [r["file"] for n, r in sorted(rooms.items())] + [m["id"] + ".html" for m in maps]
+    rows = []
+    for rel in rels:
+        d = git_date(rel, "build.py", "style.css") if rel in HAND_WRITTEN else git_date(rel)
+        loc = BASE if rel == "index.html" else BASE + rel
+        rows.append("  <url><loc>%s</loc>%s</url>\n" % (loc, ("<lastmod>%s</lastmod>" % d) if d else ""))
+    with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n'
+                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n%s</urlset>\n' % "".join(rows))
 
 def main():
     assemble()
@@ -330,6 +353,7 @@ def main():
         room_page(r, rooms, by_id)
     touched = [rel for rel in HAND_WRITTEN
                if os.path.exists(os.path.join(ROOT, rel)) and refresh_masthead(rel)]
+    write_sitemap(maps, rooms)
     print("european gaze: %d map pages, %d room pages written; mastheads refreshed on %d hand-written pages"
           % (len(maps), len(rooms), len(touched)))
 

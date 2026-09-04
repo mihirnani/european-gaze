@@ -46,9 +46,10 @@ keep their own heads, scripts and bodies.
 change a map, edit `../curiosities-text/maps/<id>.md` and run the build. To add a
 map, add a file there and list its id in the right room in `maps/rooms/`.
 
-`tools/extract.py` is the one-time script that lifted the data out of the pages
-in August 2026, kept for provenance; it is not run again.
+The data was lifted out of the hand-written pages in August 2026 (commit `9c39139`,
+which holds the one-time script that did it) and moved on to the Markdown repository
+in September.
 
 The sister repository's atlas reads `data/maps.js` directly
-(`mihirnani.github.io/atlas/tools/make_gaze.py`), so the map layer of the atlas
+(`mihirnani.github.io/tools/atlas_gaze.py`), so the map layer of the atlas
 now comes from this data rather than from parsing these pages.

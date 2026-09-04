@@ -1,5 +1,4 @@
 .DS_Store
-**/.DS_Store
 __pycache__/
 
 # full-resolution masters stay local; the site uses img/display and img/dzi
