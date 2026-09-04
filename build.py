@@ -84,7 +84,7 @@ PWA = ('<link href="european-gaze.webmanifest" rel="manifest"/>'
 MASTHEAD = ('<div class="masthead"><a class="site" href="index.html">%s</a>\n'
             '<span class="yrs">%s</span>\n'
             '<span class="nav-break" aria-hidden="true"></span>\n'
-            '<nav class="nav-family" aria-label="Curiosities"><a class="navlink home" href="%s/">Curiosities</a>\n'
+            '<nav class="nav-family" aria-label="A Fragmented Peninsula"><a class="navlink home" href="%s/">Peninsula</a>\n'
             '%s</nav>\n'
             '<nav class="nav-local" aria-label="This collection">%s</nav>\n'
             '<button class="theme-toggle" id="themeBtn" type="button" aria-label="Switch to dark theme">Dark</button></div>'
@@ -92,7 +92,7 @@ MASTHEAD = ('<div class="masthead"><a class="site" href="index.html">%s</a>\n'
                  "".join('<a class="navlink" href="%s">%s</a>\n' % (href, label) for label, href in SECTIONS),
                  "".join('<a class="navlink" href="%s">%s</a>\n' % (href, label) for label, href in LOCAL_NAV))
 
-FOOTER = ('<footer><span class="foot-line">Part of <a href="%s/">Curiosities</a>. A non-commercial study '
+FOOTER = ('<footer><span class="foot-line">Part of <a href="%s/">A Fragmented Peninsula</a>. A non-commercial study '
           'collection.</span> <span class="foot-line">Errors may be pointed out by writing to '
           '<a class="mail" href="#" data-u="mihir" data-d="naniwadekar.in">mihir [at] naniwadekar [dot] in</a>.'
           '</span></footer>') % SITE
@@ -131,7 +131,7 @@ def head(page_title, desc, url, og_image, card="summary_large_image", og_type="a
 <meta content="light dark" name="color-scheme"/>
 <title>{title}</title>
 {boot}<link href="style.css" rel="stylesheet"/>
-{pwa}<link href="{url}" rel="canonical"/><meta content="{title}" property="og:title"/><meta name="twitter:card" content="{card}"><meta property="og:site_name" content="Curiosities"><meta content="{desc}" property="og:description"/><meta content="{type}" property="og:type"/><meta content="{url}" property="og:url"/><meta content="{img}" property="og:image"/>{extra}
+{pwa}<link href="{url}" rel="canonical"/><meta content="{title}" property="og:title"/><meta name="twitter:card" content="{card}"><meta property="og:site_name" content="A Fragmented Peninsula"><meta content="{desc}" property="og:description"/><meta content="{type}" property="og:type"/><meta content="{url}" property="og:url"/><meta content="{img}" property="og:image"/>{extra}
 </head>""".format(desc=esc(desc), title=esc(page_title), boot=THEME_BOOT, pwa=PWA, url=url,
                   card=card, type=og_type, img=og_image, extra=extra)
 

@@ -1,5 +1,5 @@
 
-@import url('/assets/fonts/fonts.css'); /* self-hosted Cormorant Garamond and Spectral (SIL OFL), served from the Curiosities root */
+@import url('/assets/fonts/fonts.css'); /* self-hosted Cormorant Garamond and Spectral (SIL OFL), served from the site root */
 
 /* ---- LIGHT (paper) is the default ---- */
 :root, [data-theme="light"]{
@@ -148,7 +148,7 @@ footer{border-top:1px solid var(--line); margin-top:5rem; padding:2.5rem clamp(1
   font-size:.8rem; color:var(--muted); text-align:center; max-width:50em; margin-left:auto; margin-right:auto}
 
 
-/* Between phone and wide desktop the shared row of links (Curiosities, Deccan, Maps,
+/* Between phone and wide desktop the shared row of links (Peninsula, Deccan, Maps,
    Basalt, Birds, Atlas, then the collection's own) is too long to share a line with
    the title without squeezing it: keep the title on one line and let the links
    wrap beneath it instead. */
@@ -448,7 +448,7 @@ footer{border-top:1px solid var(--line); margin-top:5rem; padding:2.5rem clamp(1
 .place .sheets .src{color:var(--accent)}
 @media (max-width:520px){ .place h3 .modern{display:block; margin-left:0} }
 
-/* Site footer, shared across Curiosities: centred, small, two lines that never
+/* Site footer, shared across the site: centred, small, two lines that never
    break mid-sentence. */
 .foot-line { display: block; white-space: nowrap; }
 @media (max-width: 360px) { .foot-line { white-space: normal; } }

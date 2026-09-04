@@ -1,6 +1,6 @@
 # The European Gaze on India
 
-Part of [Curiosities](https://naniwadekar.com/). A non-commercial study
+Part of [A Fragmented Peninsula](https://naniwadekar.com/). A non-commercial study
 collection of European maps of India, 1519–1946, arranged in seven rooms.
 
 ## Where the content lives
