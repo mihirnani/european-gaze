@@ -32,7 +32,8 @@ COLLECTION = "The European Gaze on India"
 TAGLINE = "India through foreign eyes"
 
 SECTIONS = [("Deccan", SITE + "/deccan/"), ("Basalt", SITE + "/basalt-and-laterite/"),
-            ("Birds", SITE + "/sahyadri-birds/"), ("Atlas", SITE + "/atlas/"),
+          # ("Birds", SITE + "/sahyadri-birds/"),   # hidden until the guide is ready — uncomment to restore Birds
+            ("Atlas", SITE + "/atlas/"),
             ("Text", SITE + "/text/")]
 LOCAL_NAV = [("Reading", "reading.html"), ("Places", "places.html"), ("About", "about.html")]
 
