@@ -32,7 +32,7 @@ COLLECTION = "The European Gaze on India"
 TAGLINE = "India through foreign eyes"
 
 SECTIONS = [("Deccan", SITE + "/deccan/"), ("Basalt", SITE + "/basalt-and-laterite/"),
-          # ("Birds", SITE + "/sahyadri-birds/"),   # hidden until the guide is ready — uncomment to restore Birds
+            ("Birds", SITE + "/sahyadri-birds/"),
             ("Atlas", SITE + "/atlas/"),
             ("Text", SITE + "/text/")]
 LOCAL_NAV = [("Reading", "reading.html"), ("Places", "places.html"), ("About", "about.html")]
@@ -81,7 +81,7 @@ PWA = ('<link href="european-gaze.webmanifest" rel="manifest"/>'
        '<meta content="European Gaze" name="apple-mobile-web-app-title"/>'
        '<link href="european-gaze-icon-192.png" rel="icon" sizes="192x192" type="image/png"/>')
 
-MASTHEAD = ('<div class="masthead"><a class="site" href="index.html">%s</a>\n'
+MASTHEAD = ('<a class="skip" href="#main">Skip to content</a>\n<div class="masthead"><a class="site" href="index.html">%s</a>\n'
             '<span class="yrs">%s</span>\n'
             '<span class="nav-break" aria-hidden="true"></span>\n'
             '<nav class="nav-family" aria-label="A Fragmented Peninsula"><a class="navlink home" href="%s/">Peninsula</a>\n'
@@ -240,7 +240,7 @@ def map_page(m, rooms, links):
     if any("davidrumsey.com" in v for k, v in m["meta"]):
         rows += "\n" + RUMSEY_CREDIT
     ld = json.dumps(structured(m), ensure_ascii=False, separators=(",", ":"))
-    body = """<div class="wrap">
+    body = """<main class="wrap" id="main" tabindex="-1">
 <p><a class="back" href="%s">← %s</a></p>
 <div class="detail">
 %s
@@ -255,7 +255,7 @@ def map_page(m, rooms, links):
 </div>
 </div>
 %s
-</div>
+</main>
 %s""" % (room["file"], esc(room["title"]), plate, m["title"], m["byline"], m["brief"], prose, rows,
          nav(*links[m["id"]]), ARROW_SCRIPT)
     return page(m["id"] + ".html",
@@ -275,7 +275,7 @@ def room_page(r, rooms, by_id):
     prev = (rooms[r["n"] - 1]["file"], "← Previous room", room_title(r["n"] - 1, rooms)) if r["n"] - 1 in rooms else None
     nxt = (rooms[r["n"] + 1]["file"], "Next room →", room_title(r["n"] + 1, rooms)) if r["n"] + 1 in rooms else None
     page_title = "%s – %s" % (r["file"][3:-5].replace("-", " "), COLLECTION)
-    body = """<div class="wrap">
+    body = """<main class="wrap" id="main" tabindex="-1">
 <p><a class="back" href="index.html">← All rooms</a></p>
 <div class="chapter-head measure">
 <p class="eyebrow">%s</p>
@@ -284,7 +284,7 @@ def room_page(r, rooms, by_id):
 </div>
 <div class="grid">%s</div>
 %s
-</div>""" % (r.get("eyebrow", "Room %02d" % r["n"]), r["title"], r["intro"], " ".join(plates),
+</main>""" % (r.get("eyebrow", "Room %02d" % r["n"]), r["title"], r["intro"], " ".join(plates),
              nav(prev, nxt, " roomnav"))
     first = by_id[r["maps"][0]]
     return page(r["file"], head(page_title, r["description"], BASE + r["file"],
@@ -296,7 +296,7 @@ def refresh_masthead(rel):
     masthead is written from here, so a change to SECTIONS reaches every page."""
     path = os.path.join(ROOT, rel)
     text = original = open(path, encoding="utf-8").read()
-    text, n = re.subn(r'<div class="masthead">.*?</div>', lambda m: MASTHEAD, text, count=1, flags=re.S)
+    text, n = re.subn(r'(?:<a class="skip"[^>]*>[^<]*</a>\n)?<div class="masthead">.*?</div>', lambda m: MASTHEAD, text, count=1, flags=re.S)
     if n != 1:
         raise SystemExit("%s: could not find the masthead to replace" % rel)
     if text != original:
@@ -305,6 +305,36 @@ def refresh_masthead(rel):
     return False
 
 HAND_WRITTEN = ["index.html", "reading.html", "places.html", "about.html"]
+
+STRIP_N = 4   # thumbnails shown for each room on the front page
+
+def refresh_room_strips(rel, rooms, by_id):
+    """The front page's room list is hand-written, but each row carries a strip of the
+    room's first few plates, written from the data so that it follows the hanging order.
+    The strip is the last thing inside the row's middle cell, before "Enter"; an old strip
+    is replaced, so the routine is idempotent."""
+    path = os.path.join(ROOT, rel)
+    text = original = open(path, encoding="utf-8").read()
+    text = re.sub(r'<span class="strip">.*?</span>(?=</span><span class="enter">)', "", text, flags=re.S)
+    by_file = dict((r["file"], r) for r in rooms.values())
+    def strip(m):
+        room = by_file.get(m.group(1))
+        if not room:
+            return m.group(0)
+        imgs = []
+        for mid in room["maps"][:STRIP_N]:
+            mp = by_id[mid]
+            imgs.append('<img alt="" loading="lazy" src="img/thumb/%s.jpg" width="%d" height="%d"/>'
+                        % (mid, mp["thumb"]["width"], mp["thumb"]["height"]))
+        head = m.group(0)[:-len('</span><span class="enter">')]
+        return head + '<span class="strip">' + "".join(imgs) + '</span></span><span class="enter">'
+    text, n = re.subn(r'<a class="room-row" href="([^"]+)">.*?</span><span class="enter">', strip, text, flags=re.S)
+    if n != len(rooms):
+        raise SystemExit("%s: expected %d room rows, found %d" % (rel, len(rooms), n))
+    if text != original:
+        open(path, "w", encoding="utf-8").write(text)
+        return True
+    return False
 
 def assemble():
     """The data files are built from the Markdown in ../curiosities-text when it is there."""
@@ -354,6 +384,7 @@ def main():
         room_page(r, rooms, by_id)
     touched = [rel for rel in HAND_WRITTEN
                if os.path.exists(os.path.join(ROOT, rel)) and refresh_masthead(rel)]
+    refresh_room_strips("index.html", rooms, by_id)
     write_sitemap(maps, rooms)
     print("european gaze: %d map pages, %d room pages written; mastheads refreshed on %d hand-written pages"
           % (len(maps), len(rooms), len(touched)))

@@ -34,6 +34,10 @@ a{color:var(--accent-bright); text-decoration:none}
 a:hover{color:var(--link-hover)}
 
 /* ---- masthead ---- */
+/* skip link: the first thing the Tab key reaches, invisible until then */
+.skip{position:absolute; left:-999em; top:.6rem; z-index:100; padding:.5rem .9rem; background:var(--accent);
+  color:var(--ink); font-size:.72rem; letter-spacing:.2em; text-transform:uppercase; text-decoration:none}
+.skip:focus{left:.6rem; outline:2px solid var(--paper); outline-offset:2px}
 .masthead{
   position:sticky; top:0; z-index:20; backdrop-filter:blur(8px);
   background:var(--bar); border-bottom:1px solid var(--line);
@@ -84,6 +88,11 @@ a:hover{color:var(--link-hover)}
 .room-row .ttl{font-family:'Cormorant Garamond',serif; font-size:1.7rem; font-weight:500; color:var(--paper)}
 .room-row .desc{display:block; font-size:.95rem; color:var(--muted); max-width:46em; margin-top:.25rem}
 .room-row .enter{font-size:.7rem; letter-spacing:.22em; text-transform:uppercase; color:var(--accent); white-space:nowrap}
+/* the first plates of each room, small, in hanging order – the front page's only pictures */
+.room-row .strip{display:flex; gap:.45rem; margin-top:.9rem; overflow:hidden}
+.room-row .strip img{display:block; height:66px; width:auto; max-width:108px; object-fit:cover; object-position:center;
+  border:1px solid var(--line); background:var(--mat); padding:2px; opacity:.85; transition:opacity .2s}
+.room-row:hover .strip img{opacity:1}
 
 /* foyer aside, under the room list */
 .hero .aside{margin:1.6rem .4rem 0; font-size:.95rem; color:var(--muted); max-width:46em}
@@ -209,7 +218,7 @@ footer{border-top:1px solid var(--line); margin-top:5rem; padding:2.5rem clamp(1
   .masthead .navlink {
     order: 5;
     margin-left: 0;
-    margin-right: .2rem;
+    margin-right: .85rem;
     font-size: .66rem;
     letter-spacing: .16em;
     line-height: 1.9;
@@ -233,8 +242,10 @@ footer{border-top:1px solid var(--line); margin-top:5rem; padding:2.5rem clamp(1
   }
   .masthead .nav-family .navlink {
     font-size: .6rem;
-    letter-spacing: .14em;
+    letter-spacing: .12em;
+    margin-right: .85rem;
   }
+  .masthead .nav-family .navlink:last-child { margin-right: 0; }
 
   .wrap {
     padding: 2.25rem 1rem;
@@ -282,6 +293,12 @@ footer{border-top:1px solid var(--line); margin-top:5rem; padding:2.5rem clamp(1
     margin-top: .65rem;
     font-size: .68rem;
     letter-spacing: .18em;
+  }
+
+  .room-row .strip img {
+    height: 56px;
+    width: calc(25% - .35rem);
+    max-width: 88px;
   }
 
   .grid {
@@ -350,7 +367,7 @@ footer{border-top:1px solid var(--line); margin-top:5rem; padding:2.5rem clamp(1
 
   .masthead .navlink {
     margin-left: 0;
-    margin-right: .15rem;
+    margin-right: .6rem;
     min-height: 2.1rem;
     display: inline-flex;
     align-items: center;
@@ -419,11 +436,12 @@ footer{border-top:1px solid var(--line); margin-top:5rem; padding:2.5rem clamp(1
 }
 
 /* ---- deep-zoom plate viewer ---- */
-.plateview .osd-box{width:100%; max-height:78vh; background:var(--mat); touch-action:none}
+.plateview .osd-box{width:100%; max-height:78vh; background:var(--mat); touch-action:pan-y; cursor:zoom-in}
+.plateview .osd-box.awake{touch-action:none; cursor:grab; outline:1px solid var(--accent); outline-offset:2px}
 .plateview .osd-box:focus{outline:1px solid var(--accent)}
 
 /* on small screens the wrapped masthead is tall; let it scroll away rather than cover the page */
-@media (max-width:520px){ .masthead{position:static} }
+@media (max-width:820px){ .masthead{position:static} }
 
 /* ---- places index ---- */
 .places-count{font-size:.72rem; letter-spacing:.2em; text-transform:uppercase; color:var(--muted); margin:2.4rem 0 .6rem}
