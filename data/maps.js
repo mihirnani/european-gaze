@@ -1181,6 +1181,10 @@ window.GAZE_MAPS = [
    {
     "id": "papadu-revolt",
     "label": "Papadu (c. 1695–1710)"
+   },
+   {
+    "id": "doab-from-below",
+    "label": "The doab from below (c. 1350–1565)"
    }
   ],
   "basalt": [
@@ -1977,6 +1981,12 @@ window.GAZE_MAPS = [
    {
     "id": "wadgaon-salbai",
     "label": "Wadgaon and Salbai (1779–1782)"
+   }
+  ],
+  "basalt": [
+   {
+    "id": "rift-coast-and-the-ports",
+    "label": "The rift coast and the ports (c. 65 Ma; ports since antiquity)"
    }
   ],
   "prose": "<p class=\"subhead\">The chart</p>\n<p>Bellin was engineer and hydrographer to the French naval establishment. His 1764 <em>Petit Atlas Maritime</em> gathered hundreds of coastal charts and harbour plans. This plate, engraved by J. Arrivet, shows Bombay with pictorial relief, settlements and depth soundings.</p>\n<p class=\"subhead\">A harbour rather than a country</p>\n<p>The navigational problem determines what is included. Water depth, approach and anchorage matter more than inland political geography. Bombay is represented as an island harbour to be entered and used.</p>\n<p class=\"subhead\">Knowledge of a rival possession</p>\n<p>Bombay was British, but a French maritime atlas had every reason to record it. Hydrographic knowledge crossed political boundaries because rival navies and merchants needed to understand the same ports. The map belongs to a European archive of strategic observation rather than to a single imperial administration.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Bombay enters this collection by its soundings. Bellin measured a British harbour for French captains, and what he recorded – depths, islands, the anchorage – is exactly what a rival would want to know. The first close look at the city is a look at its water.</p>",
@@ -2978,6 +2988,12 @@ window.GAZE_MAPS = [
    {
     "id": "treaty-of-bassein-1802",
     "label": "Poona and the Treaty of Bassein (25 October – 31 December 1802)"
+   }
+  ],
+  "basalt": [
+   {
+    "id": "rift-coast-and-the-ports",
+    "label": "The rift coast and the ports (c. 65 Ma; ports since antiquity)"
    }
   ],
   "prose": "<p class=\"subhead\">A posthumously maintained chart</p>\n<p>Jean-Baptiste d’Après de Mannevillette’s <em>Neptune Oriental</em> first appeared in 1745 and was enlarged in 1775. After his death, the French naval hydrographic office continued to update and reissue its charts. The impression shown is the Dépôt Général de la Marine’s issue of 1810, not a chart newly drawn in that year.</p>\n<p class=\"subhead\">The harbour as measured water</p>\n<p>The plan is organised by the needs of navigation: soundings, shoals, channels, anchorages, coastal forms and explanatory remarks. Bombay’s urban and territorial significance is secondary to the safe movement of a ship through its approaches.</p>\n<p class=\"subhead\">The gaze</p>\n<p>A French naval office kept a plan of a British port in print through the Napoleonic wars, which says something about how hydrographic knowledge moved. Soundings taken by one navy served whichever ship next entered the approaches, and the Dépôt evidently thought Bombay worth reissuing in 1810. Of the city itself the plan records only what a pilot needs: the shape of the shore and the depth of water before it.</p>",
@@ -4028,6 +4044,12 @@ window.GAZE_MAPS = [
     "label": "Coda: the Deccan as the Company saw it (1827–1893)"
    }
   ],
+  "basalt": [
+   {
+    "id": "the-passes",
+    "label": "The passes (1st century BC – 1863)"
+   }
+  ],
   "prose": "<p class=\"subhead\">The revised atlas</p>\n<p>The Society for the Diffusion of Useful Knowledge had issued regional maps of India as part of its programme of inexpensive education. John Walker revised the series, and J. & C. Walker engraved the sheets sold by Edward Stanford in the 1856 atlas. The date therefore identifies this revised issue, not necessarily the first appearance of every underlying plate.</p>\n<p class=\"subhead\">A presidency at regional scale</p>\n<p>The map isolates Bombay as one numbered component of a larger sheet system. Administrative boundaries, settlements, routes and hachured relief present the presidency without the ornament of the Tallis maps or the scale of a military case map.</p>\n<p class=\"subhead\">Useful knowledge and empire</p>\n<p>The SDUK’s educational mission was liberal and public-minded, but the knowledge it diffused was also the geography of British rule. Breaking India into numbered regional sheets naturalised the presidency and province as the basic units through which the country was to be known.</p>\n<p class=\"subhead\">The gaze</p>\n<p>The number in the title, III, is the most telling thing on the sheet. Bombay was to be learned as one of a set, in the order the atlas fixed, by readers who would never need a road through the Ghats. Stanford’s cheap issue, the Society’s name and the Walkers’ engraving together made the presidency a unit of schoolroom geography.</p>",
   "meta": [
    [
@@ -4917,7 +4939,12 @@ window.GAZE_MAPS = [
    "height": 700
   },
   "room": 5,
-  "deccan": [],
+  "deccan": [
+   {
+    "id": "black-soil-and-the-bonds",
+    "label": "Black soil and the bonds (1847–1875)"
+   }
+  ],
   "basalt": [
    {
     "id": "regur-black-soil",
@@ -4926,6 +4953,10 @@ window.GAZE_MAPS = [
    {
     "id": "laterite",
     "label": "Laterite (Cenozoic; named 1807)"
+   },
+   {
+    "id": "rain-shadow-and-famines",
+    "label": "The rain shadow and the famines (monsoon; famines of 1630, 1791 and 1876)"
    }
   ],
   "prose": "<p class=\"subhead\">The physical plate</p>\n<p>Plate 4 reduces political detail in favour of a thematic key and an inset continuation, allowing land-surface and vegetation patterns to dominate.</p>\n<p class=\"subhead\">Nature classified</p>\n<p>Relief, surface type and plant cover are separated from the general map and represented as their own layer of knowledge. The method reflects a scientific geography increasingly concerned with distribution, comparison and causal relation.</p>\n<p class=\"subhead\">An atlas of layers</p>\n<p>Viewed beside the population-density plate, the map reveals the organising ambition of the atlas. India can be decomposed into distinct thematic subjects – physical form, vegetation, people, products and administration – and reassembled through a sequence of plates.</p>\n<p class=\"subhead\">On the sheet</p>\n<p>The key has six classes – Forests, Bush and Small Wood, Cultivated Lands, Grassland, Steppes, Sandy Deserts and Barren Lands – and on the map the Western Ghats appear as a single green thread from the Gulf of Cambay to Cape Comorin, forest on the scarp and a paler cultivated wash on the plateau behind it. The Thar is pink, the Sundarbans brown, and Burma and Assam are carried on an inset in the lower right. The plate is numbered 4, near the front of the atlas, before the political sections begin.</p>\n<p class=\"subhead\">The gaze</p>\n<p>Whether a reader needed to know where scrub gave way to forest is doubtful; the plate exists because the scheme of the atlas required it. Once India had been split into layers, each layer had to be supplied, and the land surface was given its own key and colour so that the set would be complete.</p>",
